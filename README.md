@@ -46,6 +46,8 @@ hearing-painting/
 └─ docs/         결정 문서, 리서치 보고서
 ```
 
+**저장소는 짧은 경로에 받으세요** (예: `C:\dev\hearing-painting`). Unity 프로젝트 경로(`…\hearing-painting\unity`)가 131자를 넘으면 Android 빌드의 CMake 단계가 실패합니다(147자 경로에서 실제로 실패, 40자 경로에서 성공 확인).
+
 `pipeline/`과 `unity/`는 서로 옆 폴더에 있어야 합니다. 파이프라인은 `../unity`에 결과를 넣고, Unity 창은 `../pipeline`을 찾습니다. 다른 곳에 두려면 환경 변수 `HP_UNITY`로 Unity 폴더를 지정하고, Unity 창에서 파이프라인 폴더를 직접 입력합니다.
 
 ## 실행 환경
@@ -106,6 +108,8 @@ copy .env.example .env
 | `GEMINI_API_KEY` | 선택 | 답지 만들기·품질 채점용 ([Google AI Studio](https://aistudio.google.com/apikey)). 없으면 채점 없이 소리 묶음만 만듭니다 |
 
 **모델은 처음 실행할 때 자동으로 내려받습니다**(Hugging Face 캐시). Qwen3.5-9B, Depth Anything 3(ONNX)·V2-Large, Stable Audio 3 medium, big-lama입니다. 수십 GB의 디스크 여유가 필요합니다(정확한 합계는 재지 않았음).
+
+**무시해도 되는 경고**: 소리 생성 중 `No module named 'triton'`, `flash_attn not installed`가 나옵니다. Windows에는 triton이 없어 Stable Audio 3의 `torch.compile`이 일반 실행으로 바뀌는 것이고, 소리는 정상적으로 만들어집니다.
 
 **ARCore 인식 점수**: 파이프라인은 인식용 이미지의 ARCore 점수를 `arcoreimg.exe`로 잽니다. 이 도구는 Unity가 패키지를 받을 때 `unity/Library/PackageCache/com.unity.xr.arcore@*/Tools~/Windows/`에 생기므로, **Unity로 프로젝트를 한 번 연 뒤에** 파이프라인을 돌리세요. 없으면 점수만 건너뜁니다(환경 변수 `ARCOREIMG`로 경로 지정 가능).
 
