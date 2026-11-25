@@ -1,0 +1,33 @@
+{
+ "hash": "17c69881959b",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 5
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Dogs are in the snow and could bark or growl, unlike A1's panting and paws."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "A bird is flying in the sky and would flap its wings, unlike A4's cawing."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 5}, {\"model\": 3, \"answer\": 3}, {\"model\": 4, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Dogs are in the snow and could bark or growl, unlike A1's panting and paws.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"A bird is flying in the sky and would flap its wings, unlike A4's cawing.\"}]}"
+}

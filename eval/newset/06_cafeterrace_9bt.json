@@ -1,0 +1,40 @@
+{
+ "painting": "06_cafeterrace",
+ "seconds": 27.3,
+ "parsed": {
+  "title_guess": "밤의 카페 테라스",
+  "sources": [
+   {
+    "id": "people_talking",
+    "object_en": "people sitting at tables",
+    "x": 350,
+    "y": 650,
+    "label_ko": "사람들 대화",
+    "type": "people",
+    "description_ko": "테라스에 앉아 있는 사람들이 서로 이야기하는 소리가 들린다.",
+    "prompt_en": "soft murmuring voices of people sitting at outdoor cafe tables at night, field recording"
+   },
+   {
+    "id": "people_walking",
+    "object_en": "people walking on street",
+    "x": 750,
+    "y": 600,
+    "label_ko": "사람들 걸음",
+    "type": "people",
+    "description_ko": "거리 위를 걷는 사람들의 발걸음 소리가 들린다.",
+    "prompt_en": "footsteps of people walking on cobblestone street at night, field recording"
+   },
+   {
+    "id": "wind_stars",
+    "object_en": "night sky with stars",
+    "x": 500,
+    "y": 100,
+    "label_ko": "바람 별빛",
+    "type": "nature",
+    "description_ko": "밤하늘의 바람과 별빛이 만들어내는 은은한 소리가 배경에 퍼져 있다.",
+    "prompt_en": "gentle wind rustling through trees and shimmering night sky with stars, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"밤의 카페 테라스\",\n  \"sources\": [\n    {\n      \"id\": \"people_talking\",\n      \"object_en\": \"people sitting at tables\",\n      \"x\": 350,\n      \"y\": 650,\n      \"label_ko\": \"사람들 대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"테라스에 앉아 있는 사람들이 서로 이야기하는 소리가 들린다.\",\n      \"prompt_en\": \"soft murmuring voices of people sitting at outdoor cafe tables at night, field recording\"\n    },\n    {\n      \"id\": \"people_walking\",\n      \"object_en\": \"people walking on street\",\n      \"x\": 750,\n      \"y\": 600,\n      \"label_ko\": \"사람들 걸음\",\n      \"type\": \"people\",\n      \"description_ko\": \"거리 위를 걷는 사람들의 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"footsteps of people walking on cobblestone street at night, field recording\"\n    },\n    {\n      \"id\": \"wind_stars\",\n      \"object_en\": \"night sky with stars\",\n      \"x\": 500,\n      \"y\": 100,\n      \"label_ko\": \"바람 별빛\",\n      \"type\": \"nature\",\n      \"description_ko\": \"밤하늘의 바람과 별빛이 만들어내는 은은한 소리가 배경에 퍼져 있다.\",\n      \"prompt_en\": \"gentle wind rustling through trees and shimmering night sky with stars, field recording\"\n    }\n  ]\n}\n"
+}

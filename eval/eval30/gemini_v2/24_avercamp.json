@@ -1,0 +1,50 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "24_avercamp",
+ "seconds": 62.3,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "스케이트 지치는 소리와 마을 사람들의 웅성거림",
+    "prompt_en": "ice skates scraping and villagers chattering on the frozen canal",
+    "object_en": "skaters and villagers on the frozen canal",
+    "x": 970,
+    "y": 820
+   },
+   {
+    "label_ko": "까마귀 울음소리와 날갯짓 소리",
+    "prompt_en": "crows cawing and flapping their wings",
+    "object_en": "crows in the sky, bare trees, and on the roof",
+    "x": 217,
+    "y": 10
+   },
+   {
+    "label_ko": "차가운 겨울바람 소리",
+    "prompt_en": "cold winter wind blowing through bare tree branches",
+    "object_en": "wintry sky and bare trees"
+   },
+   {
+    "label_ko": "강아지 짖는 소리",
+    "prompt_en": "small dog barking on the snow",
+    "object_en": "small dog running on the snow",
+    "x": 580,
+    "y": 910
+   },
+   {
+    "label_ko": "도르래 삐걱거리는 소리와 물 긷는 소리",
+    "prompt_en": "wooden pulley creaking and water splashing from a bucket",
+    "object_en": "hanging bucket and pulley over the ice hole",
+    "x": 506,
+    "y": 768
+   }
+  ]
+ },
+ "raw": ""
+}

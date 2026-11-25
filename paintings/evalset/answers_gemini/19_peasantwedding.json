@@ -1,0 +1,191 @@
+{
+ "model": "gemini-4-neon",
+ "file": "19_peasantwedding.jpg",
+ "seconds": 43.0,
+ "parsed": {
+  "title_guess": "The Peasant Wedding (Pieter Bruegel the Elder)",
+  "sources": [
+   {
+    "label_ko": "백파이프 연주 소리",
+    "sound_en": "bagpipe music playing",
+    "ground_phrase_en": "two bagpipe players standing on the left",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      275,
+      370
+     ],
+     [
+      215,
+      270
+     ]
+    ]
+   },
+   {
+    "label_ko": "주전자에 술 따르는 소리",
+    "sound_en": "ale pouring from a large jug into a clay pitcher",
+    "ground_phrase_en": "man pouring drink into a pitcher at bottom left",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      95,
+      705
+     ]
+    ]
+   },
+   {
+    "label_ko": "하객들의 시끌벅적한 대화 소리",
+    "sound_en": "lively crowd chatter and wedding guests conversing",
+    "ground_phrase_en": "wedding guests seated along the table and crowded in the doorway",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      65,
+      290
+     ],
+     [
+      380,
+      355
+     ],
+     [
+      515,
+      355
+     ],
+     [
+      755,
+      365
+     ],
+     [
+      930,
+      400
+     ]
+    ]
+   },
+   {
+    "label_ko": "음식 그릇 달그락거리는 소리",
+    "sound_en": "ceramic bowls and plates clattering while being carried and served",
+    "ground_phrase_en": "bowls of food on the wooden carrying plank and being passed to the table",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      730,
+      675
+     ],
+     [
+      630,
+      450
+     ]
+    ]
+   },
+   {
+    "label_ko": "음식 먹고 숟가락 부딪히는 소리",
+    "sound_en": "eating, sipping, and spoons clinking against ceramic bowls",
+    "ground_phrase_en": "guests eating and drinking at the banquet table",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      340,
+      370
+     ],
+     [
+      460,
+      345
+     ],
+     [
+      485,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "접시 핥아 먹는 아이 소리",
+    "sound_en": "child licking a plate and smacking lips",
+    "ground_phrase_en": "child sitting on the floor licking a plate",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      350,
+      815
+     ]
+    ]
+   },
+   {
+    "label_ko": "흙바닥을 걷는 발걸음 소리",
+    "sound_en": "heavy footsteps walking across the earthen barn floor",
+    "ground_phrase_en": "walking feet of the two food servers in the foreground",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      615,
+      895
+     ],
+     [
+      840,
+      825
+     ]
+    ]
+   },
+   {
+    "label_ko": "식탁 밑 개의 킁킁거리는 소리",
+    "sound_en": "dog sniffing and panting under the table",
+    "ground_phrase_en": "dog peeking out from under the tablecloth on the right",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      895,
+      540
+     ]
+    ]
+   },
+   {
+    "label_ko": "나무 벤치 삐걱거리는 소리",
+    "sound_en": "wooden benches creaking under the weight of seated guests",
+    "ground_phrase_en": "wooden benches along the banquet table",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      330,
+      585
+     ],
+     [
+      930,
+      585
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Peasant Wedding (Pieter Bruegel the Elder)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"백파이프 연주 소리\",\n      \"sound_en\": \"bagpipe music playing\",\n      \"ground_phrase_en\": \"two bagpipe players standing on the left\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [275, 370],\n        [215, 270]\n      ]\n    },\n    {\n      \"label_ko\": \"주전자에 술 따르는 소리\",\n      \"sound_en\": \"ale pouring from a large jug into a clay pitcher\",\n      \"ground_phrase_en\": \"man pouring drink into a pitcher at bottom left\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [95, 705]\n      ]\n    },\n    {\n      \"label_ko\": \"하객들의 시끌벅적한 대화 소리\",\n      \"sound_en\": \"lively crowd chatter and wedding guests conversing\",\n      \"ground_phrase_en\": \"wedding guests seated along the table and crowded in the doorway\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [65, 290],\n        [380, 355],\n        [515, 355],\n        [755, 365],\n        [930, 400]\n      ]\n    },\n    {\n      \"label_ko\": \"음식 그릇 달그락거리는 소리\",\n      \"sound_en\": \"ceramic bowls and plates clattering while being carried and served\",\n      \"ground_phrase_en\": \"bowls of food on the wooden carrying plank and being passed to the table\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [730, 675],\n        [630, 450]\n      ]\n    },\n    {\n      \"label_ko\": \"음식 먹고 숟가락 부딪히는 소리\",\n      \"sound_en\": \"eating, sipping, and spoons clinking against ceramic bowls\",\n      \"ground_phrase_en\": \"guests eating and drinking at the banquet table\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [340, 370],\n        [460, 345],\n        [485, 415]\n      ]\n    },\n    {\n      \"label_ko\": \"접시 핥아 먹는 아이 소리\",\n      \"sound_en\": \"child licking a plate and smacking lips\",\n      \"ground_phrase_en\": \"child sitting on the floor licking a plate\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [350, 815]\n      ]\n    },\n    {\n      \"label_ko\": \"흙바닥을 걷는 발걸음 소리\",\n      \"sound_en\": \"heavy footsteps walking across the earthen barn floor\",\n      \"ground_phrase_en\": \"walking feet of the two food servers in the foreground\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [615, 895],\n        [840, 825]\n      ]\n    },\n    {\n      \"label_ko\": \"식탁 밑 개의 킁킁거리는 소리\",\n      \"sound_en\": \"dog sniffing and panting under the table\",\n      \"ground_phrase_en\": \"dog peeking out from under the tablecloth on the right\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [895, 540]\n      ]\n    },\n    {\n      \"label_ko\": \"나무 벤치 삐걱거리는 소리\",\n      \"sound_en\": \"wooden benches creaking under the weight of seated guests\",\n      \"ground_phrase_en\": \"wooden benches along the banquet table\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [330, 585],\n        [930, 585]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 1060,
+  "totalTokenCount": 6093,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1060
+   }
+  ],
+  "thoughtsTokenCount": 3448,
+  "serviceTier": "standard"
+ }
+}

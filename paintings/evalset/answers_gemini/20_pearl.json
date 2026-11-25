@@ -1,0 +1,60 @@
+{
+ "model": "gemini-4-neon",
+ "file": "20_pearl.jpg",
+ "seconds": 21.0,
+ "parsed": {
+  "title_guess": "Girl with a Pearl Earring",
+  "sources": [
+   {
+    "label_ko": "부드러운 숨소리",
+    "sound_en": "soft breathing from slightly parted lips",
+    "ground_phrase_en": "girl's slightly parted lips",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      385,
+      525
+     ]
+    ]
+   },
+   {
+    "label_ko": "옷자락 스치는 소리",
+    "sound_en": "subtle rustling of fabric as she turns",
+    "ground_phrase_en": "girl's yellow jacket",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      585,
+      790
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\"title_guess\": \"Girl with a Pearl Earring\", \"sources\": [{\"label_ko\": \"부드러운 숨소리\", \"sound_en\": \"soft breathing from slightly parted lips\", \"ground_phrase_en\": \"girl's slightly parted lips\", \"source_type\": \"point\", \"grade\": \"allowed\", \"points\": [[385, 525]]}, {\"label_ko\": \"옷자락 스치는 소리\", \"sound_en\": \"subtle rustling of fabric as she turns\", \"ground_phrase_en\": \"girl's yellow jacket\", \"source_type\": \"point\", \"grade\": \"allowed\", \"points\": [[585, 790]]}]}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 154,
+  "totalTokenCount": 3394,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 154
+   }
+  ],
+  "thoughtsTokenCount": 1655,
+  "serviceTier": "standard"
+ }
+}

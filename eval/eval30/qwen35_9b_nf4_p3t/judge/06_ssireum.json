@@ -1,0 +1,29 @@
+{
+ "hash": "be674c896ec9",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Visible spectators can gasp or exclaim."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "The visible tray-carrier can make movement and footstep sounds."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 1\n    },\n    {\n      \"model\": 2,\n      \"answer\": 2\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 3,\n      \"verdict\": \"plausible\",\n      \"why\": \"Visible spectators can gasp or exclaim.\"\n    },\n    {\n      \"model\": 4,\n      \"verdict\": \"plausible\",\n      \"why\": \"The visible tray-carrier can make movement and footstep sounds.\"\n    }\n  ]\n}"
+}

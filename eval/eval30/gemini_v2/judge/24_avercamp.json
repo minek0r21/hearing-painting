@@ -1,0 +1,33 @@
+{
+ "hash": "fdc354bc8f97",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Bare trees are visible and wind through branches is plausible."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "A small dog is visible on the snow and can bark."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}, {\"model\": 5, \"answer\": 4}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Bare trees are visible and wind through branches is plausible.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"A small dog is visible on the snow and can bark.\"}]}"
+}

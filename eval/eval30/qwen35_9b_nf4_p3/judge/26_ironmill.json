@@ -1,0 +1,33 @@
+{
+ "hash": "be766ac5652e",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Glowing furnace is visible in the background."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Workers are visible moving and working."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 3}, {\"model\": 4, \"answer\": 1}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Glowing furnace is visible in the background.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Workers are visible moving and working.\"}]}"
+}

@@ -1,0 +1,33 @@
+{
+ "hash": "0d0b85bff7d9",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 3,
+    "answer": 5
+   },
+   {
+    "model": 4,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Hunting dogs are visible and could bark."
+   },
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "No hunting horns appear in the painting."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 3, \"answer\": 5}, {\"model\": 4, \"answer\": 3}, {\"model\": 5, \"answer\": 4}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Hunting dogs are visible and could bark.\"}, {\"model\": 2, \"verdict\": \"not_visible\", \"why\": \"No hunting horns appear in the painting.\"}]}"
+}

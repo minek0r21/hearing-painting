@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "29_ninthwave",
+ "seconds": 24.9,
+ "peak_vram_gb": 8.92,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "아홉 번째 파도",
+  "sources": [
+   {
+    "id": "people_in_raft",
+    "object_en": "people in a small raft",
+    "x": 420,
+    "y": 850,
+    "label_ko": "사람들의 외침",
+    "type": "people",
+    "description_ko": "작은 보트에 타고 있는 사람들이 비명을 지르고 있다.",
+    "prompt_en": "people screaming in a small raft on turbulent sea, field recording"
+   },
+   {
+    "id": "crashing_waves",
+    "object_en": "crashing ocean waves",
+    "x": 350,
+    "y": 700,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "거대한 파도가 부서지며 거친 소리를 낸다.",
+    "prompt_en": "massive ocean waves crashing with loud roar, field recording"
+   },
+   {
+    "id": "wind_in_sea",
+    "object_en": "wind over the sea surface",
+    "x": 500,
+    "y": 600,
+    "label_ko": "바다 바람 소리",
+    "type": "nature",
+    "description_ko": "폭풍우가 몰아치는 바다 위로 강하게 부는 바람 소리가 들린다.",
+    "prompt_en": "howling wind over turbulent sea surface, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"아홉 번째 파도\",\n  \"sources\": [\n    {\n      \"id\": \"people_in_raft\",\n      \"object_en\": \"people in a small raft\",\n      \"x\": 420,\n      \"y\": 850,\n      \"label_ko\": \"사람들의 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"작은 보트에 타고 있는 사람들이 비명을 지르고 있다.\",\n      \"prompt_en\": \"people screaming in a small raft on turbulent sea, field recording\"\n    },\n    {\n      \"id\": \"crashing_waves\",\n      \"object_en\": \"crashing ocean waves\",\n      \"x\": 350,\n      \"y\": 700,\n      \"label_ko\": \"파도 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거대한 파도가 부서지며 거친 소리를 낸다.\",\n      \"prompt_en\": \"massive ocean waves crashing with loud roar, field recording\"\n    },\n    {\n      \"id\": \"wind_in_sea\",\n      \"object_en\": \"wind over the sea surface\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"바다 바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭풍우가 몰아치는 바다 위로 강하게 부는 바람 소리가 들린다.\",\n      \"prompt_en\": \"howling wind over turbulent sea surface, field recording\"\n    }\n  ]\n}\n"
+}

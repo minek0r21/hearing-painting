@@ -1,0 +1,71 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "26_ironmill",
+ "seconds": 51.7,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 8
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "압연기 쇠 압착과 불꽃 튀는 소리",
+    "prompt_en": "heavy iron rolling mill grinding, crushing, and crackling sparks from incandescent metal",
+    "object_en": "iron rolling mill pressing glowing hot metal slab",
+    "x": 590,
+    "y": 560
+   },
+   {
+    "label_ko": "노동자 고함과 쇠집게 부딪히는 소리",
+    "prompt_en": "steelworkers shouting, grunting, and clanging long iron tongs",
+    "object_en": "steelworkers wielding long iron tongs",
+    "x": 240,
+    "y": 530
+   },
+   {
+    "label_ko": "거대한 톱니바퀴와 기계 돌아가는 소리",
+    "prompt_en": "massive flywheels, gears, and overhead drive shafts rumbling and clanking",
+    "object_en": "large factory flywheels, gears, and overhead shafts",
+    "x": 365,
+    "y": 290
+   },
+   {
+    "label_ko": "용광로 불길 타오르는 소리",
+    "prompt_en": "roaring flames from smelting furnaces",
+    "object_en": "glowing smelting furnaces in the background",
+    "x": 100,
+    "y": 385
+   },
+   {
+    "label_ko": "증기 새는 소리와 공장 울림",
+    "prompt_en": "hissing steam and booming industrial reverberation throughout the mill",
+    "object_en": "steamy, smoky ironworks interior"
+   },
+   {
+    "label_ko": "철제 수레 바퀴 굴러가는 소리",
+    "prompt_en": "heavy iron cart wheels creaking and rattling under the glowing slab",
+    "object_en": "wheeled iron trolley beneath the hot metal",
+    "x": 545,
+    "y": 705
+   },
+   {
+    "label_ko": "휴식하는 노동자 말소리와 식기 소리",
+    "prompt_en": "resting workers murmuring and clinking metal lunch vessels",
+    "object_en": "workers resting, eating, and drinking on the right",
+    "x": 835,
+    "y": 735
+   },
+   {
+    "label_ko": "노동자들이 몸을 씻는 물소리",
+    "prompt_en": "water splashing as workers wash themselves",
+    "object_en": "shirtless workers washing up on the far left",
+    "x": 35,
+    "y": 550
+   }
+  ]
+ },
+ "raw": ""
+}

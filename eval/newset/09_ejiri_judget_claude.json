@@ -1,0 +1,19 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 3
+  },
+  {
+   "model": 2,
+   "answer": 4
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 3,
+   "verdict": "not_visible",
+   "why": "No kites in the painting; they are flying papers and a hat."
+  }
+ ]
+}

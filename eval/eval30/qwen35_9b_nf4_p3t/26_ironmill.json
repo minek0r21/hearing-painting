@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "26_ironmill",
+ "seconds": 47.6,
+ "peak_vram_gb": 8.9,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Iron Rolling Mill",
+  "sources": [
+   {
+    "id": "iron_mill_machinery",
+    "object_en": "large iron rolling mill machinery with gears and rollers",
+    "x": 650,
+    "y": 450,
+    "label_ko": "철 압연기",
+    "type": "vehicle",
+    "description_ko": "거대한 철 압연기 기어가 돌아가며 금속을 압연하는 기계의 소리가 들린다.",
+    "prompt_en": "heavy industrial machinery grinding and clanking, large gears turning, metal being rolled under pressure, deep mechanical rumble, field recording"
+   },
+   {
+    "id": "workers_shouting",
+    "object_en": "group of workers in the center and left foreground",
+    "x": 300,
+    "y": 550,
+    "label_ko": "노동자 외침",
+    "type": "people",
+    "description_ko": "중심에 있는 노동자들이 뜨거운 철을 다루며 서로 외치고 지시하는 목소리가 난무한다.",
+    "prompt_en": "men shouting and giving commands in a crowded factory, rough male voices overlapping, urgent and loud, field recording"
+   },
+   {
+    "id": "workers_hammering",
+    "object_en": "workers in the foreground using hammers on metal",
+    "x": 400,
+    "y": 650,
+    "label_ko": "망치 두드림",
+    "type": "people",
+    "description_ko": "앞쪽 노동자들이 망치로 철을 두드리는 격렬한 타격 소리가 반복된다.",
+    "prompt_en": "heavy metal hammers striking hot iron repeatedly, sharp metallic clanging, rhythmic and forceful, field recording"
+   },
+   {
+    "id": "fire_and_heat",
+    "object_en": "glowing hot metal and furnace area in the background",
+    "x": 500,
+    "y": 350,
+    "label_ko": "불꽃 소리",
+    "type": "nature",
+    "description_ko": "불타는 철과 고온의 가마에서 나는 열기와 불꽃의 크르르거리는 소리가 배경에 깔려 있다.",
+    "prompt_en": "crackling fire and intense heat from a glowing furnace, roaring flames, ambient industrial heat sound, field recording"
+   },
+   {
+    "id": "crowd_movement",
+    "object_en": "dense crowd of workers moving and working throughout the scene",
+    "x": 250,
+    "y": 600,
+    "label_ko": "노동자 소음",
+    "type": "people",
+    "description_ko": "밀집된 공장 노동자들의 발걸음, 옷자락 소리, 몸짓 소리가 뒤섞인 혼란스러운 소음이다.",
+    "prompt_en": "crowd of people moving and working in a chaotic factory, footsteps, rustling clothes, general industrial noise, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Iron Rolling Mill\",\n  \"sources\": [\n    {\n      \"id\": \"iron_mill_machinery\",\n      \"object_en\": \"large iron rolling mill machinery with gears and rollers\",\n      \"x\": 650,\n      \"y\": 450,\n      \"label_ko\": \"철 압연기\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"거대한 철 압연기 기어가 돌아가며 금속을 압연하는 기계의 소리가 들린다.\",\n      \"prompt_en\": \"heavy industrial machinery grinding and clanking, large gears turning, metal being rolled under pressure, deep mechanical rumble, field recording\"\n    },\n    {\n      \"id\": \"workers_shouting\",\n      \"object_en\": \"group of workers in the center and left foreground\",\n      \"x\": 300,\n      \"y\": 550,\n      \"label_ko\": \"노동자 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"중심에 있는 노동자들이 뜨거운 철을 다루며 서로 외치고 지시하는 목소리가 난무한다.\",\n      \"prompt_en\": \"men shouting and giving commands in a crowded factory, rough male voices overlapping, urgent and loud, field recording\"\n    },\n    {\n      \"id\": \"workers_hammering\",\n      \"object_en\": \"workers in the foreground using hammers on metal\",\n      \"x\": 400,\n      \"y\": 650,\n      \"label_ko\": \"망치 두드림\",\n      \"type\": \"people\",\n      \"description_ko\": \"앞쪽 노동자들이 망치로 철을 두드리는 격렬한 타격 소리가 반복된다.\",\n      \"prompt_en\": \"heavy metal hammers striking hot iron repeatedly, sharp metallic clanging, rhythmic and forceful, field recording\"\n    },\n    {\n      \"id\": \"fire_and_heat\",\n      \"object_en\": \"glowing hot metal and furnace area in the background\",\n      \"x\": 500,\n      \"y\": 350,\n      \"label_ko\": \"불꽃 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"불타는 철과 고온의 가마에서 나는 열기와 불꽃의 크르르거리는 소리가 배경에 깔려 있다.\",\n      \"prompt_en\": \"crackling fire and intense heat from a glowing furnace, roaring flames, ambient industrial heat sound, field recording\"\n    },\n    {\n      \"id\": \"crowd_movement\",\n      \"object_en\": \"dense crowd of workers moving and working throughout the scene\",\n      \"x\": 250,\n      \"y\": 600,\n      \"label_ko\": \"노동자 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"밀집된 공장 노동자들의 발걸음, 옷자락 소리, 몸짓 소리가 뒤섞인 혼란스러운 소음이다.\",\n      \"prompt_en\": \"crowd of people moving and working in a chaotic factory, footsteps, rustling clothes, general industrial noise, field recording\"\n    }\n  ]\n}\n"
+}

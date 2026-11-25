@@ -1,0 +1,71 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "01_hunters",
+ "seconds": 42.7,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 8
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "눈 밟는 사냥꾼 발소리",
+    "prompt_en": "hunters' heavy footsteps crunching in deep snow",
+    "object_en": "hunters walking in snow",
+    "x": 275,
+    "y": 650
+   },
+   {
+    "label_ko": "사냥개 헐떡이고 짖는 소리",
+    "prompt_en": "hunting dogs panting, whining, and padding through snow",
+    "object_en": "pack of hunting dogs",
+    "x": 92,
+    "y": 755
+   },
+   {
+    "label_ko": "장작불 타닥거리는 소리",
+    "prompt_en": "crackling and roaring of an outdoor wood fire",
+    "object_en": "outdoor wood fire",
+    "x": 120,
+    "y": 608
+   },
+   {
+    "label_ko": "얼음 위 스케이트와 사람들 웅성거림",
+    "prompt_en": "distant skaters' shouts and blades scraping on ice",
+    "object_en": "people skating on frozen ponds",
+    "x": 722,
+    "y": 592
+   },
+   {
+    "label_ko": "까마귀 울음소리",
+    "prompt_en": "crows cawing and flapping wings",
+    "object_en": "crows in trees and sky",
+    "x": 236,
+    "y": 74
+   },
+   {
+    "label_ko": "차가운 겨울 바람 소리",
+    "prompt_en": "cold winter wind blowing through bare trees",
+    "object_en": "winter valley and bare trees"
+   },
+   {
+    "label_ko": "여관 앞 사람들 대화 소리",
+    "prompt_en": "villagers talking and bustling around the fire",
+    "object_en": "villagers gathered around the fire",
+    "x": 95,
+    "y": 615
+   },
+   {
+    "label_ko": "멀리서 들리는 마차 소리",
+    "prompt_en": "distant horse-drawn cart creaking along the road",
+    "object_en": "horse-drawn cart near the pond",
+    "x": 625,
+    "y": 560
+   }
+  ]
+ },
+ "raw": ""
+}

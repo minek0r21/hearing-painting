@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "11_shower",
+ "seconds": 28.4,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rainy Evening at Ohashi Bridge",
+  "sources": [
+   {
+    "id": "people_walking_rain",
+    "object_en": "people walking on bridge with umbrellas",
+    "x": 500,
+    "y": 650,
+    "label_ko": "비 내리는 다리",
+    "type": "people",
+    "description_ko": "우산을 쓴 사람들이 비를 피하며 다리를 건너는 걸음소리와 숨소리가 들린다.",
+    "prompt_en": "soft footsteps and breathing sounds of people walking under umbrellas in heavy rain, field recording"
+   },
+   {
+    "id": "rain_heavy",
+    "object_en": "falling rain over the scene",
+    "x": 300,
+    "y": 200,
+    "label_ko": "쏟아지는 비",
+    "type": "nature",
+    "description_ko": "강하게 내리는 비의 소리가 전체 장면을 감싸고 있다.",
+    "prompt_en": "heavy rain falling continuously, rhythmic pattering on surfaces, field recording"
+   },
+   {
+    "id": "man_on_raft",
+    "object_en": "man paddling a flat raft",
+    "x": 200,
+    "y": 520,
+    "label_ko": "보에 있는 남자",
+    "type": "people",
+    "description_ko": "평평한 보에 앉아 노를 저어가는 남자의 노 젓는 소리와 물에 닿는 소리.",
+    "prompt_en": "gentle rhythmic sound of a man paddling a flat raft on calm water, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rainy Evening at Ohashi Bridge\",\n  \"sources\": [\n    {\n      \"id\": \"people_walking_rain\",\n      \"object_en\": \"people walking on bridge with umbrellas\",\n      \"x\": 500,\n      \"y\": 650,\n      \"label_ko\": \"비 내리는 다리\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산을 쓴 사람들이 비를 피하며 다리를 건너는 걸음소리와 숨소리가 들린다.\",\n      \"prompt_en\": \"soft footsteps and breathing sounds of people walking under umbrellas in heavy rain, field recording\"\n    },\n    {\n      \"id\": \"rain_heavy\",\n      \"object_en\": \"falling rain over the scene\",\n      \"x\": 300,\n      \"y\": 200,\n      \"label_ko\": \"쏟아지는 비\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강하게 내리는 비의 소리가 전체 장면을 감싸고 있다.\",\n      \"prompt_en\": \"heavy rain falling continuously, rhythmic pattering on surfaces, field recording\"\n    },\n    {\n      \"id\": \"man_on_raft\",\n      \"object_en\": \"man paddling a flat raft\",\n      \"x\": 200,\n      \"y\": 520,\n      \"label_ko\": \"보에 있는 남자\",\n      \"type\": \"people\",\n      \"description_ko\": \"평평한 보에 앉아 노를 저어가는 남자의 노 젓는 소리와 물에 닿는 소리.\",\n      \"prompt_en\": \"gentle rhythmic sound of a man paddling a flat raft on calm water, field recording\"\n    }\n  ]\n}\n"
+}

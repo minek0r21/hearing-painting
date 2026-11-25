@@ -1,0 +1,34 @@
+{
+ "hash": "7919bee15e54",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "silent",
+    "why": "Fog produces no sound."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Shop light makes no sound."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Explicitly describes silent masts."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 1}, {\"model\": 3, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"silent\", \"why\": \"Fog produces no sound.\"}, {\"model\": 4, \"verdict\": \"silent\", \"why\": \"Shop light makes no sound.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Explicitly describes silent masts.\"}]}"
+}

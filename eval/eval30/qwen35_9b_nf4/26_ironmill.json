@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "26_ironmill",
+ "seconds": 80.9,
+ "peak_vram_gb": 8.59,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Iron Rolling Mill",
+  "sources": [
+   {
+    "id": "rolling_mill",
+    "object_en": "rolling mill machine",
+    "x": 600,
+    "y": 500,
+    "label_ko": "철제 롤링 밀",
+    "type": "vehicle",
+    "description_ko": "거대한 철제 롤링 밀이 돌아가며 금속을 압축하는 소리가 진동한다.",
+    "prompt_en": "heavy industrial rolling mill grinding and clanking metal sounds, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "worker_hammer",
+    "object_en": "worker with hammer",
+    "x": 350,
+    "y": 600,
+    "label_ko": "망치질하는 노동자",
+    "type": "people",
+    "description_ko": "노동자가 망치로 뜨거운 철을 두드리는 격렬한 타격 소리가 반복된다.",
+    "prompt_en": "worker hammering hot iron with heavy rhythmic strikes, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of workers",
+    "x": 400,
+    "y": 550,
+    "label_ko": "노동자들의 목소리",
+    "type": "people",
+    "description_ko": "많은 노동자들이 함께 일하며发出的 낮은 목소리와 숨소리가 섞여 있다.",
+    "prompt_en": "low murmur of many workers breathing and talking in a crowded factory, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "steam_whistle",
+    "object_en": "steam pipe or valve",
+    "x": 700,
+    "y": 300,
+    "label_ko": "증기 밸브",
+    "type": "vehicle",
+    "description_ko": "증기 파이프에서 periodically 불리우는 날카로운 휘슬 소리가 들린다.",
+    "prompt_en": "sharp steam whistle blowing intermittently from industrial pipe, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "metal_clang",
+    "object_en": "hot metal being moved",
+    "x": 550,
+    "y": 550,
+    "label_ko": "뜨거운 금속 이동",
+    "type": "vehicle",
+    "description_ko": "뜨거운 금속이 운반대 위에서 끌려가며 발생하는 거친 금속 마찰 소리가 난다.",
+    "prompt_en": "rough clanging and scraping of hot metal being dragged across a cart, field recording",
+    "volume": 0.75
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Iron Rolling Mill\",\n  \"sources\": [\n    {\n      \"id\": \"rolling_mill\",\n      \"object_en\": \"rolling mill machine\",\n      \"x\": 600,\n      \"y\": 500,\n      \"label_ko\": \"철제 롤링 밀\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"거대한 철제 롤링 밀이 돌아가며 금속을 압축하는 소리가 진동한다.\",\n      \"prompt_en\": \"heavy industrial rolling mill grinding and clanking metal sounds, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"worker_hammer\",\n      \"object_en\": \"worker with hammer\",\n      \"x\": 350,\n      \"y\": 600,\n      \"label_ko\": \"망치질하는 노동자\",\n      \"type\": \"people\",\n      \"description_ko\": \"노동자가 망치로 뜨거운 철을 두드리는 격렬한 타격 소리가 반복된다.\",\n      \"prompt_en\": \"worker hammering hot iron with heavy rhythmic strikes, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of workers\",\n      \"x\": 400,\n      \"y\": 550,\n      \"label_ko\": \"노동자들의 목소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 노동자들이 함께 일하며发出的 낮은 목소리와 숨소리가 섞여 있다.\",\n      \"prompt_en\": \"low murmur of many workers breathing and talking in a crowded factory, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"steam_whistle\",\n      \"object_en\": \"steam pipe or valve\",\n      \"x\": 700,\n      \"y\": 300,\n      \"label_ko\": \"증기 밸브\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"증기 파이프에서 periodically 불리우는 날카로운 휘슬 소리가 들린다.\",\n      \"prompt_en\": \"sharp steam whistle blowing intermittently from industrial pipe, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"metal_clang\",\n      \"object_en\": \"hot metal being moved\",\n      \"x\": 550,\n      \"y\": 550,\n      \"label_ko\": \"뜨거운 금속 이동\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"뜨거운 금속이 운반대 위에서 끌려가며 발생하는 거친 금속 마찰 소리가 난다.\",\n      \"prompt_en\": \"rough clanging and scraping of hot metal being dragged across a cart, field recording\",\n      \"volume\": 0.75\n    }\n  ]\n}\n"
+}

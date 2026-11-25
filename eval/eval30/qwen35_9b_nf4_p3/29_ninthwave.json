@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "29_ninthwave",
+ "seconds": 31.6,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 3,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Raft of the Medusa",
+  "sources": [
+   {
+    "id": "raft_creaking",
+    "object_en": "wooden raft",
+    "x": 420,
+    "y": 850,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "파도 속에서 흔들리는 나무 배가 삐걱거리는 소리",
+    "prompt_en": "creaking wooden raft in rough sea, field recording"
+   },
+   {
+    "id": "people_shouting",
+    "object_en": "people on raft",
+    "x": 410,
+    "y": 840,
+    "label_ko": "крик",
+    "type": "people",
+    "description_ko": "배에 있는 사람들이 절망적으로 외치는 목소리",
+    "prompt_en": "desperate human voices shouting in distress, field recording"
+   },
+   {
+    "id": "waves_crashing",
+    "object_en": "ocean waves",
+    "x": 300,
+    "y": 700,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "거대한 파도가 부서지며 폭포처럼 쏟아지는 소음",
+    "prompt_en": "massive crashing ocean waves, turbulent sea, field recording"
+   },
+   {
+    "id": "wind_howling",
+    "object_en": "stormy sky and sea surface",
+    "x": 500,
+    "y": 300,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "폭풍우가 몰아치는 하늘과 바다에서 불어오는 거친 바람 소리",
+    "prompt_en": "howling storm wind over turbulent sea and fiery sky, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Raft of the Medusa\",\n  \"sources\": [\n    {\n      \"id\": \"raft_creaking\",\n      \"object_en\": \"wooden raft\",\n      \"x\": 420,\n      \"y\": 850,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 속에서 흔들리는 나무 배가 삐걱거리는 소리\",\n      \"prompt_en\": \"creaking wooden raft in rough sea, field recording\"\n    },\n    {\n      \"id\": \"people_shouting\",\n      \"object_en\": \"people on raft\",\n      \"x\": 410,\n      \"y\": 840,\n      \"label_ko\": \"крик\",\n      \"type\": \"people\",\n      \"description_ko\": \"배에 있는 사람들이 절망적으로 외치는 목소리\",\n      \"prompt_en\": \"desperate human voices shouting in distress, field recording\"\n    },\n    {\n      \"id\": \"waves_crashing\",\n      \"object_en\": \"ocean waves\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"파도 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거대한 파도가 부서지며 폭포처럼 쏟아지는 소음\",\n      \"prompt_en\": \"massive crashing ocean waves, turbulent sea, field recording\"\n    },\n    {\n      \"id\": \"wind_howling\",\n      \"object_en\": \"stormy sky and sea surface\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭풍우가 몰아치는 하늘과 바다에서 불어오는 거친 바람 소리\",\n      \"prompt_en\": \"howling storm wind over turbulent sea and fiery sky, field recording\"\n    }\n  ]\n}\n"
+}

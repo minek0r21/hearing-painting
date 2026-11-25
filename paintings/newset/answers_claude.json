@@ -1,0 +1,56 @@
+{
+ "01_nightwatch": {"title": "야경", "sources": [
+  {"label_ko": "북 소리", "sound_en": "militia drummer beating a large drum", "ground_phrase_en": "drummer with drum", "source_type": "point", "grade": "required", "points": [[950, 760]], "by": "claude-new"},
+  {"label_ko": "대장의 명령", "sound_en": "captain giving loud marching orders", "ground_phrase_en": "captain in black with red sash", "source_type": "point", "grade": "required", "points": [[480, 460]], "by": "claude-new"},
+  {"label_ko": "머스킷 장전과 발사", "sound_en": "musket being loaded and fired, gunpowder shot", "ground_phrase_en": "musketeers with muskets", "source_type": "clustered", "grade": "required", "points": [[210, 470], [440, 430], [730, 480]], "by": "claude-new"},
+  {"label_ko": "개 짖는 소리", "sound_en": "small dog barking", "ground_phrase_en": "dog", "source_type": "point", "grade": "required", "points": [[820, 860]], "by": "claude-new"},
+  {"label_ko": "대원들의 웅성임과 발소리", "sound_en": "militia company murmuring and marching footsteps", "ground_phrase_en": "group of militiamen", "source_type": "clustered", "grade": "required", "points": [[330, 400], [600, 470], [930, 450]], "by": "claude-new"},
+  {"label_ko": "창이 부딪히는 소리", "sound_en": "long pikes and halberds clattering", "ground_phrase_en": "raised pikes", "source_type": "clustered", "grade": "allowed", "points": [[850, 300], [650, 350]], "by": "claude-new"}
+ ]},
+ "02_liberty": {"title": "민중을 이끄는 자유의 여신", "sources": [
+  {"label_ko": "군중의 함성", "sound_en": "revolutionary crowd shouting and cheering", "ground_phrase_en": "armed insurgents", "source_type": "clustered", "grade": "required", "points": [[560, 140], [250, 270], [750, 290], [60, 300]], "by": "claude-new"},
+  {"label_ko": "멀리 총성", "sound_en": "distant gunfire and cannon in smoky streets", "ground_phrase_en": "smoke of battle", "source_type": "ambient", "grade": "required", "points": [], "by": "claude-new"},
+  {"label_ko": "깃발 펄럭임", "sound_en": "large flag flapping in the wind", "ground_phrase_en": "tricolor flag", "source_type": "point", "grade": "allowed", "points": [[430, 80]], "by": "claude-new"},
+  {"label_ko": "부상자의 신음", "sound_en": "wounded man groaning", "ground_phrase_en": "wounded man looking up", "source_type": "point", "grade": "allowed", "points": [[420, 440]], "by": "claude-new"},
+  {"label_ko": "잔해를 밟는 발소리", "sound_en": "footsteps over rubble of the barricade", "ground_phrase_en": "feet on barricade rubble", "source_type": "clustered", "grade": "allowed", "points": [[580, 640], [720, 600]], "by": "claude-new"}
+ ]},
+ "03_gleaners": {"title": "이삭 줍는 여인들", "sources": [
+  {"label_ko": "이삭 줍는 바스락임", "sound_en": "hands gathering dry wheat stalks, rustling straw", "ground_phrase_en": "women gleaning wheat", "source_type": "clustered", "grade": "required", "points": [[190, 700], [380, 770], [690, 430]], "by": "claude-new"},
+  {"label_ko": "멀리 수확하는 일꾼들", "sound_en": "distant harvest workers, horse cart and voices", "ground_phrase_en": "distant harvesters and cart", "source_type": "clustered", "grade": "allowed", "points": [[380, 240], [520, 240], [870, 235]], "by": "claude-new"},
+  {"label_ko": "들판의 바람", "sound_en": "gentle wind over a wide open field", "ground_phrase_en": "open field", "source_type": "ambient", "grade": "allowed", "points": [], "by": "claude-new"}
+ ]},
+ "04_saintlazare": {"title": "생라자르 역", "sources": [
+  {"label_ko": "증기기관차", "sound_en": "steam locomotives hissing and chugging", "ground_phrase_en": "steam locomotive", "source_type": "clustered", "grade": "required", "points": [[480, 720], [260, 640]], "by": "claude-new"},
+  {"label_ko": "역 안의 울림", "sound_en": "reverberant train station hall", "ground_phrase_en": "station hall", "source_type": "ambient", "grade": "allowed", "points": [], "by": "claude-new"},
+  {"label_ko": "승강장 사람들", "sound_en": "people walking and talking on the platform", "ground_phrase_en": "people on platform", "source_type": "clustered", "grade": "allowed", "points": [[730, 900], [800, 810], [860, 810]], "by": "claude-new"}
+ ]},
+ "05_swing": {"title": "그네", "sources": [
+  {"label_ko": "그네 삐걱임", "sound_en": "rope swing creaking as it swings", "ground_phrase_en": "swing", "source_type": "point", "grade": "required", "points": [[470, 680]], "by": "claude-new"},
+  {"label_ko": "여인의 웃음", "sound_en": "young woman laughing on a swing", "ground_phrase_en": "woman on swing", "source_type": "point", "grade": "allowed", "points": [[430, 530]], "by": "claude-new"},
+  {"label_ko": "숲의 나뭇잎", "sound_en": "leaves rustling in a garden grove", "ground_phrase_en": "trees", "source_type": "ambient", "grade": "allowed", "points": [], "by": "claude-new"}
+ ]},
+ "06_cafeterrace": {"title": "밤의 카페 테라스", "sources": [
+  {"label_ko": "카페 손님들의 대화", "sound_en": "cafe patrons chatting at outdoor tables", "ground_phrase_en": "people sitting at cafe tables", "source_type": "clustered", "grade": "required", "points": [[300, 640], [420, 630], [240, 660]], "by": "claude-new"},
+  {"label_ko": "잔과 식기 소리", "sound_en": "glasses and dishes clinking, waiter serving", "ground_phrase_en": "waiter at tables", "source_type": "point", "grade": "allowed", "points": [[440, 600]], "by": "claude-new"},
+  {"label_ko": "돌길 위 발소리", "sound_en": "footsteps on cobblestone street at night", "ground_phrase_en": "people walking in the street", "source_type": "clustered", "grade": "allowed", "points": [[670, 620], [750, 590]], "by": "claude-new"}
+ ]},
+ "07_scream": {"title": "절규", "sources": [
+  {"label_ko": "비명", "sound_en": "a person screaming in anguish", "ground_phrase_en": "screaming figure", "source_type": "point", "grade": "required", "points": [[420, 610]], "by": "claude-new"},
+  {"label_ko": "다리 위 두 사람 발소리", "sound_en": "two people walking away on a wooden bridge", "ground_phrase_en": "two figures on the bridge", "source_type": "clustered", "grade": "allowed", "points": [[30, 420], [75, 430]], "by": "claude-new"},
+  {"label_ko": "피오르의 물결", "sound_en": "water of a fjord lapping below", "ground_phrase_en": "fjord", "source_type": "ambient", "grade": "allowed", "points": [], "by": "claude-new"}
+ ]},
+ "08_pajeokdo": {"title": "파적도", "sources": [
+  {"label_ko": "어미 닭의 울음과 날갯짓", "sound_en": "hen squawking and flapping wings in panic", "ground_phrase_en": "hen", "source_type": "point", "grade": "required", "points": [[290, 650]], "by": "claude-new"},
+  {"label_ko": "병아리 삐약임", "sound_en": "chicks peeping and scattering", "ground_phrase_en": "chicks", "source_type": "clustered", "grade": "required", "points": [[430, 700], [100, 930], [390, 920]], "by": "claude-new"},
+  {"label_ko": "영감의 고함과 넘어지는 소리", "sound_en": "old man shouting and falling off the porch", "ground_phrase_en": "man lunging with a long pipe", "source_type": "point", "grade": "required", "points": [[530, 420]], "by": "claude-new"},
+  {"label_ko": "고양이 달아나는 소리", "sound_en": "cat running off with a chick, hissing", "ground_phrase_en": "cat", "source_type": "point", "grade": "allowed", "points": [[120, 600]], "by": "claude-new"},
+  {"label_ko": "아내의 외침", "sound_en": "woman crying out and rushing from the house", "ground_phrase_en": "woman on the porch", "source_type": "point", "grade": "allowed", "points": [[760, 180]], "by": "claude-new"},
+  {"label_ko": "자리틀 넘어지는 소리", "sound_en": "wooden weaving frame toppling over", "ground_phrase_en": "mat weaving frame", "source_type": "point", "grade": "allowed", "points": [[620, 700]], "by": "claude-new"}
+ ]},
+ "09_ejiri": {"title": "스루가의 에지리", "sources": [
+  {"label_ko": "거센 바람", "sound_en": "strong sudden gust of wind over a marsh", "ground_phrase_en": "wind bending reeds and trees", "source_type": "ambient", "grade": "required", "points": [], "by": "claude-new"},
+  {"label_ko": "날리는 종이", "sound_en": "sheets of paper fluttering in the wind", "ground_phrase_en": "flying papers", "source_type": "clustered", "grade": "required", "points": [[620, 300], [790, 160], [480, 470]], "by": "claude-new"},
+  {"label_ko": "여행객들의 외침과 발소리", "sound_en": "travelers struggling against the wind, shouting", "ground_phrase_en": "travelers on the path", "source_type": "clustered", "grade": "required", "points": [[190, 700], [400, 750], [550, 700], [760, 630]], "by": "claude-new"},
+  {"label_ko": "나뭇잎 흔들림", "sound_en": "leaves of tall trees thrashing in the wind", "ground_phrase_en": "tall trees", "source_type": "clustered", "grade": "allowed", "points": [[380, 100], [530, 100]], "by": "claude-new"}
+ ]}
+}

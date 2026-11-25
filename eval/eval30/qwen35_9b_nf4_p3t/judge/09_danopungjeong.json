@@ -1,0 +1,32 @@
+{
+ "hash": "c903e9beee14",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   },
+   {
+    "model": 4,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Figures behind rock could make stone footsteps and rustling."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 2}, {\"model\": 4, \"answer\": 3}, {\"model\": 5, \"answer\": 5}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Figures behind rock could make stone footsteps and rustling.\"}]}"
+}

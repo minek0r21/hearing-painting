@@ -1,0 +1,29 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "10_inwang",
+ "seconds": 26.0,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 2
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "산골짜기 폭포 소리",
+    "prompt_en": "mountain waterfalls cascading down rocky cliffs",
+    "object_en": "waterfalls on the rocky mountainside",
+    "x": 243,
+    "y": 345
+   },
+   {
+    "label_ko": "소나무 숲을 스치는 산바람 소리",
+    "prompt_en": "mountain breeze rustling through pine trees",
+    "object_en": "misty pine forest and mountain slopes"
+   }
+  ]
+ },
+ "raw": ""
+}

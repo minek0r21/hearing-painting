@@ -1,0 +1,84 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "02_rainy_day",
+ "seconds": 49.0,
+ "peak_vram_gb": 8.97,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "id": "rain_street_ambient",
+    "object_en": "rain falling on cobblestone street",
+    "x": 500,
+    "y": 600,
+    "label_ko": "비 내리는 거리",
+    "type": "nature",
+    "description_ko": "비가 내리는 거리의 물방울 소리가 배경에 퍼져 있다.",
+    "prompt_en": "soft continuous rain falling on wet cobblestone street, field recording"
+   },
+   {
+    "id": "man_walking_footsteps",
+    "object_en": "man in top hat walking on sidewalk",
+    "x": 600,
+    "y": 750,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "모자를 쓴 남자가 인도 위를 걸으며 발소리를 낸다.",
+    "prompt_en": "man walking on wet sidewalk with umbrella, footsteps on cobblestone, field recording"
+   },
+   {
+    "id": "woman_walking_footsteps",
+    "object_en": "woman in dark dress walking beside man",
+    "x": 750,
+    "y": 780,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "여자가 남자 옆을 따라 걸으며 발소리를 낸다.",
+    "prompt_en": "woman walking on wet sidewalk with umbrella, footsteps on cobblestone, field recording"
+   },
+   {
+    "id": "man_left_footsteps",
+    "object_en": "man with umbrella on left side walking",
+    "x": 50,
+    "y": 700,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "왼쪽에서 우산을 들고 걷는 남자의 발소리가 들린다.",
+    "prompt_en": "man walking on wet cobblestone street with umbrella, footsteps, field recording"
+   },
+   {
+    "id": "man_center_footsteps",
+    "object_en": "man in center walking toward right",
+    "x": 380,
+    "y": 650,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "중앙에서 오른쪽으로 걸어가는 남자의 발소리가 들린다.",
+    "prompt_en": "man walking on wet cobblestone street with umbrella, footsteps, field recording"
+   },
+   {
+    "id": "horse_car_movement",
+    "object_en": "horse-drawn carriage in background",
+    "x": 330,
+    "y": 450,
+    "label_ko": "마차 소리",
+    "type": "vehicle",
+    "description_ko": "배경에서 마차가 움직이며 마의 발소리와 바퀴 소리가 들린다.",
+    "prompt_en": "horse-drawn carriage moving on cobblestone street, hooves and wheels, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"id\": \"rain_street_ambient\",\n      \"object_en\": \"rain falling on cobblestone street\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"비 내리는 거리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"비가 내리는 거리의 물방울 소리가 배경에 퍼져 있다.\",\n      \"prompt_en\": \"soft continuous rain falling on wet cobblestone street, field recording\"\n    },\n    {\n      \"id\": \"man_walking_footsteps\",\n      \"object_en\": \"man in top hat walking on sidewalk\",\n      \"x\": 600,\n      \"y\": 750,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"모자를 쓴 남자가 인도 위를 걸으며 발소리를 낸다.\",\n      \"prompt_en\": \"man walking on wet sidewalk with umbrella, footsteps on cobblestone, field recording\"\n    },\n   \n    {\n      \"id\": \"woman_walking_footsteps\",\n      \"object_en\": \"woman in dark dress walking beside man\",\n      \"x\": 750,\n      \"y\": 780,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 남자 옆을 따라 걸으며 발소리를 낸다.\",\n      \"prompt_en\": \"woman walking on wet sidewalk with umbrella, footsteps on cobblestone, field recording\"\n    },\n    {\n      \"id\": \"man_left_footsteps\",\n      \"object_en\": \"man with umbrella on left side walking\",\n      \"x\": 50,\n      \"y\": 700,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽에서 우산을 들고 걷는 남자의 발소리가 들린다.\",\n      \"prompt_en\": \"man walking on wet cobblestone street with umbrella, footsteps, field recording\"\n    },\n    {\n      \"id\": \"man_center_footsteps\",\n      \"object_en\": \"man in center walking toward right\",\n      \"x\": 380,\n      \"y\": 650,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에서 오른쪽으로 걸어가는 남자의 발소리가 들린다.\",\n      \"prompt_en\": \"man walking on wet cobblestone street with umbrella, footsteps, field recording\"\n    },\n    {\n      \"id\": \"horse_car_movement\",\n      \"object_en\": \"horse-drawn carriage in background\",\n      \"x\": 330,\n      \"y\": 450,\n      \"label_ko\": \"마차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"배경에서 마차가 움직이며 마의 발소리와 바퀴 소리가 들린다.\",\n      \"prompt_en\": \"horse-drawn carriage moving on cobblestone street, hooves and wheels, field recording\"\n    }\n  ]\n}\n"
+}

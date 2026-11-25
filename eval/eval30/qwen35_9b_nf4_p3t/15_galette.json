@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "15_galette",
+ "seconds": 26.7,
+ "peak_vram_gb": 8.99,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "무도회",
+  "sources": [
+   {
+    "id": "waltz_dance",
+    "object_en": "dancing couple",
+    "x": 200,
+    "y": 450,
+    "label_ko": "왈츠",
+    "type": "music",
+    "description_ko": "남자와 여자가 왈츠 춤을 추며 발을 빠르게 움직이는 소리.",
+    "prompt_en": "waltz dance music and rhythmic footsteps of a couple dancing in a crowded ballroom, field recording"
+   },
+   {
+    "id": "crowd_talk",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 400,
+    "label_ko": "소란",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 대화하고 웃으며 떠드는 소음.",
+    "prompt_en": "loud chatter and laughter of a dense crowd of people at an outdoor cafe, field recording"
+   },
+   {
+    "id": "drinking_glass",
+    "object_en": "drinking glass",
+    "x": 880,
+    "y": 680,
+    "label_ko": "잔소리",
+    "type": "people",
+    "description_ko": "남자가 입에 대고 음료를 마시거나 잔을 들며 하는 소리.",
+    "prompt_en": "sound of a man drinking from a glass at a table, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"무도회\",\n  \"sources\": [\n    {\n      \"id\": \"waltz_dance\",\n      \"object_en\": \"dancing couple\",\n      \"x\": 200,\n      \"y\": 450,\n      \"label_ko\": \"왈츠\",\n      \"type\": \"music\",\n      \"description_ko\": \"남자와 여자가 왈츠 춤을 추며 발을 빠르게 움직이는 소리.\",\n      \"prompt_en\": \"waltz dance music and rhythmic footsteps of a couple dancing in a crowded ballroom, field recording\"\n    },\n    {\n      \"id\": \"crowd_talk\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"소란\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 대화하고 웃으며 떠드는 소음.\",\n      \"prompt_en\": \"loud chatter and laughter of a dense crowd of people at an outdoor cafe, field recording\"\n    },\n    {\n      \"id\": \"drinking_glass\",\n      \"object_en\": \"drinking glass\",\n      \"x\": 880,\n      \"y\": 680,\n      \"label_ko\": \"잔소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 입에 대고 음료를 마시거나 잔을 들며 하는 소리.\",\n      \"prompt_en\": \"sound of a man drinking from a glass at a table, field recording\"\n    }\n  ]\n}\n```\n"
+}

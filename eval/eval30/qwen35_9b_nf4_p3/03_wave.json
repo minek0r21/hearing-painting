@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "03_wave",
+ "seconds": 41.6,
+ "peak_vram_gb": 8.9,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Great Wave off Kanagawa",
+  "sources": [
+   {
+    "id": "wave_crash",
+    "object_en": "crashing sea wave",
+    "x": 300,
+    "y": 300,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "거대한 파도가 부서지며 거친 소리를 내며 부서진다.",
+    "prompt_en": "massive crashing ocean wave with foamy white crests and deep blue water, field recording"
+   },
+   {
+    "id": "boat_creak",
+    "object_en": "fishing boat",
+    "x": 150,
+    "y": 650,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "파도 속에서 흔들리는 낚시배가 비명을 지르며 울부짖는다.",
+    "prompt_en": "wooden fishing boat being tossed by violent waves, creaking and groaning under stress, field recording"
+   },
+   {
+    "id": "boat_creak_2",
+    "object_en": "fishing boat",
+    "x": 700,
+    "y": 700,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "파도 속에서 기울어지는 낚시배가 비명을 지르며 울부짖는다.",
+    "prompt_en": "wooden fishing boat being tossed by violent waves, creaking and groaning under stress, field recording"
+   },
+   {
+    "id": "boat_creak_3",
+    "object_en": "fishing boat",
+    "x": 500,
+    "y": 850,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "파도 속에서 기울어지는 낚시배가 비명을 지르며 울부짖는다.",
+    "prompt_en": "wooden fishing boat being tossed by violent waves, creaking and groaning under stress, field recording"
+   },
+   {
+    "id": "wind_howl",
+    "object_en": "wind over sea",
+    "x": 500,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "강한 바람이 바다 위를 불어 지나며 소리를 낸다.",
+    "prompt_en": "howling wind over turbulent sea surface, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Wave off Kanagawa\",\n  \"sources\": [\n    {\n      \"id\": \"wave_crash\",\n      \"object_en\": \"crashing sea wave\",\n      \"x\": 300,\n      \"y\": 300,\n      \"label_ko\": \"파도 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거대한 파도가 부서지며 거친 소리를 내며 부서진다.\",\n      \"prompt_en\": \"massive crashing ocean wave with foamy white crests and deep blue water, field recording\"\n    },\n    {\n      \"id\": \"boat_creak\",\n      \"object_en\": \"fishing boat\",\n      \"x\": 150,\n      \"y\": 650,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 속에서 흔들리는 낚시배가 비명을 지르며 울부짖는다.\",\n      \"prompt_en\": \"wooden fishing boat being tossed by violent waves, creaking and groaning under stress, field recording\"\n    },\n    {\n      \"id\": \"boat_creak_2\",\n      \"object_en\": \"fishing boat\",\n      \"x\": 700,\n      \"y\": 700,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 속에서 기울어지는 낚시배가 비명을 지르며 울부짖는다.\",\n      \"prompt_en\": \"wooden fishing boat being tossed by violent waves, creaking and groaning under stress, field recording\"\n    },\n    {\n      \"id\": \"boat_creak_3\",\n      \"object_en\": \"fishing boat\",\n      \"x\": 500,\n      \"y\": 850,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 속에서 기울어지는 낚시배가 비명을 지르며 울부짖는다.\",\n      \"prompt_en\": \"wooden fishing boat being tossed by violent waves, creaking and groaning under stress, field recording\"\n    },\n    {\n      \"id\": \"wind_howl\",\n      \"object_en\": \"wind over sea\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강한 바람이 바다 위를 불어 지나며 소리를 낸다.\",\n      \"prompt_en\": \"howling wind over turbulent sea surface, field recording\"\n    }\n  ]\n}\n"
+}

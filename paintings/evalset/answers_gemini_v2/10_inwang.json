@@ -1,0 +1,59 @@
+{
+ "model": "gemini-4-neon",
+ "file": "10_inwang.jpg",
+ "seconds": 26.0,
+ "parsed": {
+  "title_guess": "Clearing after Rain on Mount Inwang (Inwang jesaekdo)",
+  "sources": [
+   {
+    "label_ko": "산골짜기 폭포 소리",
+    "sound_en": "mountain waterfalls cascading down rocky cliffs",
+    "ground_phrase_en": "waterfalls on the rocky mountainside",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      243,
+      345
+     ],
+     [
+      648,
+      268
+     ]
+    ]
+   },
+   {
+    "label_ko": "소나무 숲을 스치는 산바람 소리",
+    "sound_en": "mountain breeze rustling through pine trees",
+    "ground_phrase_en": "misty pine forest and mountain slopes",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Clearing after Rain on Mount Inwang (Inwang jesaekdo)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"산골짜기 폭포 소리\",\n      \"sound_en\": \"mountain waterfalls cascading down rocky cliffs\",\n      \"ground_phrase_en\": \"waterfalls on the rocky mountainside\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [243, 345],\n        [648, 268]\n      ]\n    },\n    {\n      \"label_ko\": \"소나무 숲을 스치는 산바람 소리\",\n      \"sound_en\": \"mountain breeze rustling through pine trees\",\n      \"ground_phrase_en\": \"misty pine forest and mountain slopes\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1810,
+  "candidatesTokenCount": 228,
+  "totalTokenCount": 4309,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1075
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 228
+   }
+  ],
+  "thoughtsTokenCount": 2271,
+  "serviceTier": "standard"
+ }
+}

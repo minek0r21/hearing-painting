@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "15_galette",
+ "seconds": 45.6,
+ "peak_vram_gb": 8.75,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Dance at the Moulin de la Galette",
+  "sources": [
+   {
+    "id": "waltz_music",
+    "object_en": "waltzing couple in foreground",
+    "x": 250,
+    "y": 450,
+    "label_ko": "왈츠",
+    "type": "music",
+    "description_ko": "앞쪽에서 왈츠를 추는 커플의 리듬감 있는 춤소리와 음악이 들린다.",
+    "prompt_en": "waltz music played by a live band in an outdoor café, lively and rhythmic, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people in background",
+    "x": 500,
+    "y": 300,
+    "label_ko": "인파 소음",
+    "type": "people",
+    "description_ko": "뒤쪽 사람들로 가득 찬 공간에서 낮고 지속적인 대화와 움직임의 소리가 난다.",
+    "prompt_en": "distant murmur of a large crowd in a bustling outdoor café, soft chatter and footsteps, field recording"
+   },
+   {
+    "id": "glass_clink",
+    "object_en": "drinking man at table",
+    "x": 850,
+    "y": 700,
+    "label_ko": "잔 부딪힘",
+    "type": "people",
+    "description_ko": "오른쪽 테이블에서 술을 마시는 남자가 잔을 부딪히거나 음료를 마시는 소리가 들린다.",
+    "prompt_en": "soft clinking of glass and sipping sound from a man drinking at a café table, field recording"
+   },
+   {
+    "id": "fan_flap",
+    "object_en": "woman holding fan",
+    "x": 450,
+    "y": 600,
+    "label_ko": "선풍 소리",
+    "type": "people",
+    "description_ko": "중앙에 있는 여인이 손에 든 선풍을 흔들며 바람을 만드는 부드러운 소리가 들린다.",
+    "prompt_en": "gentle rustling sound of a hand-held fan being waved by a woman in a summer café, field recording"
+   },
+   {
+    "id": "chandelier_rattle",
+    "object_en": "chandelier above dance floor",
+    "x": 300,
+    "y": 100,
+    "label_ko": "등 흔들림",
+    "type": "people",
+    "description_ko": "춤추는 공간 위의 샹들리에가 바람에 살짝 흔들리며 미세한 금속 소리가 난다.",
+    "prompt_en": "subtle metallic rattle of a chandelier gently swaying in a breeze over a dance floor, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Dance at the Moulin de la Galette\",\n  \"sources\": [\n    {\n      \"id\": \"waltz_music\",\n      \"object_en\": \"waltzing couple in foreground\",\n      \"x\": 250,\n      \"y\": 450,\n      \"label_ko\": \"왈츠\",\n      \"type\": \"music\",\n      \"description_ko\": \"앞쪽에서 왈츠를 추는 커플의 리듬감 있는 춤소리와 음악이 들린다.\",\n      \"prompt_en\": \"waltz music played by a live band in an outdoor café, lively and rhythmic, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people in background\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"인파 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"뒤쪽 사람들로 가득 찬 공간에서 낮고 지속적인 대화와 움직임의 소리가 난다.\",\n      \"prompt_en\": \"distant murmur of a large crowd in a bustling outdoor café, soft chatter and footsteps, field recording\"\n    },\n    {\n      \"id\": \"glass_clink\",\n      \"object_en\": \"drinking man at table\",\n      \"x\": 850,\n      \"y\": 700,\n      \"label_ko\": \"잔 부딪힘\",\n      \"type\": \"people\",\n      \"description_ko\": \"오른쪽 테이블에서 술을 마시는 남자가 잔을 부딪히거나 음료를 마시는 소리가 들린다.\",\n      \"prompt_en\": \"soft clinking of glass and sipping sound from a man drinking at a café table, field recording\"\n    },\n    {\n      \"id\": \"fan_flap\",\n      \"object_en\": \"woman holding fan\",\n      \"x\": 450,\n      \"y\": 600,\n      \"label_ko\": \"선풍 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에 있는 여인이 손에 든 선풍을 흔들며 바람을 만드는 부드러운 소리가 들린다.\",\n      \"prompt_en\": \"gentle rustling sound of a hand-held fan being waved by a woman in a summer café, field recording\"\n    },\n    {\n      \"id\": \"chandelier_rattle\",\n      \"object_en\": \"chandelier above dance floor\",\n      \"x\": 300,\n      \"y\": 100,\n      \"label_ko\": \"등 흔들림\",\n      \"type\": \"people\",\n      \"description_ko\": \"춤추는 공간 위의 샹들리에가 바람에 살짝 흔들리며 미세한 금속 소리가 난다.\",\n      \"prompt_en\": \"subtle metallic rattle of a chandelier gently swaying in a breeze over a dance floor, field recording\"\n    }\n  ]\n}\n"
+}

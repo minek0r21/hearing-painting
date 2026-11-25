@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "03_wave",
+ "seconds": 26.3,
+ "peak_vram_gb": 8.94,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Great Wave off Kanagawa",
+  "sources": [
+   {
+    "id": "wave_crashing",
+    "object_en": "crashing sea waves",
+    "x": 300,
+    "y": 500,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "거대한 파도가 부서지며 거친 물소리가 들립니다.",
+    "prompt_en": "massive crashing ocean waves with white foam and deep blue water, loud roaring sound, field recording"
+   },
+   {
+    "id": "boat_splashing",
+    "object_en": "fishing boats in water",
+    "x": 600,
+    "y": 800,
+    "label_ko": "배의 물소리",
+    "type": "nature",
+    "description_ko": "파도 사이로 헤매는 배들이 물에 닿으며 튀는 소리가 납니다.",
+    "prompt_en": "wooden fishing boats bobbing in turbulent water, splashing sounds, field recording"
+   },
+   {
+    "id": "people_screaming",
+    "object_en": "people in boat",
+    "x": 700,
+    "y": 850,
+    "label_ko": "사람들의 외침",
+    "type": "people",
+    "description_ko": "파도 속에서 공포에 질린 사람들이 비명을 지르는 소리가 납니다.",
+    "prompt_en": "people screaming in terror inside a small boat, panicked shouting, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"The Great Wave off Kanagawa\",\n\"sources\": [\n  {\n    \"id\": \"wave_crashing\",\n    \"object_en\": \"crashing sea waves\",\n    \"x\": 300,\n    \"y\": 500,\n    \"label_ko\": \"파도 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"거대한 파도가 부서지며 거친 물소리가 들립니다.\",\n    \"prompt_en\": \"massive crashing ocean waves with white foam and deep blue water, loud roaring sound, field recording\"\n  },\n  {\n    \"id\": \"boat_splashing\",\n    \"object_en\": \"fishing boats in water\",\n    \"x\": 600,\n    \"y\": 800,\n    \"label_ko\": \"배의 물소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"파도 사이로 헤매는 배들이 물에 닿으며 튀는 소리가 납니다.\",\n    \"prompt_en\": \"wooden fishing boats bobbing in turbulent water, splashing sounds, field recording\"\n  },\n  {\n    \"id\": \"people_screaming\",\n    \"object_en\": \"people in boat\",\n    \"x\": 700,\n    \"y\": 850,\n    \"label_ko\": \"사람들의 외침\",\n    \"type\": \"people\",\n    \"description_ko\": \"파도 속에서 공포에 질린 사람들이 비명을 지르는 소리가 납니다.\",\n    \"prompt_en\": \"people screaming in terror inside a small boat, panicked shouting, field recording\"\n  }\n]\n}\n```\n"
+}

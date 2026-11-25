@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "17_rainsteam",
+ "seconds": 24.3,
+ "peak_vram_gb": 8.95,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rain, Steam and Speed - The Great Western Railway",
+  "sources": [
+   {
+    "id": "train_chug",
+    "object_en": "steam locomotive",
+    "x": 650,
+    "y": 600,
+    "label_ko": "기차 소리",
+    "type": "vehicle",
+    "description_ko": "증기 기관차가 철도를 따라 빠르게 지나가는 소리가 들립니다.",
+    "prompt_en": "loud chugging sound of a steam train moving fast on tracks, field recording"
+   },
+   {
+    "id": "river_flow",
+    "object_en": "river",
+    "x": 200,
+    "y": 750,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "강물이 흐르는 소리가 배경에 깔려 있습니다.",
+    "prompt_en": "gentle flowing water sound from a river, field recording"
+   },
+   {
+    "id": "rain_fall",
+    "object_en": "rain",
+    "x": 500,
+    "y": 300,
+    "label_ko": "비소리",
+    "type": "nature",
+    "description_ko": "천천히 내리는 비의 소리가 전체 장면을 감싸고 있습니다.",
+    "prompt_en": "soft continuous rain falling sound, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rain, Steam and Speed - The Great Western Railway\",\n  \"sources\": [\n    {\n      \"id\": \"train_chug\",\n      \"object_en\": \"steam locomotive\",\n      \"x\": 650,\n      \"y\": 600,\n      \"label_ko\": \"기차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"증기 기관차가 철도를 따라 빠르게 지나가는 소리가 들립니다.\",\n      \"prompt_en\": \"loud chugging sound of a steam train moving fast on tracks, field recording\"\n    },\n    {\n      \"id\": \"river_flow\",\n      \"object_en\": \"river\",\n      \"x\": 200,\n      \"y\": 750,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강물이 흐르는 소리가 배경에 깔려 있습니다.\",\n      \"prompt_en\": \"gentle flowing water sound from a river, field recording\"\n    },\n    {\n      \"id\": \"rain_fall\",\n      \"object_en\": \"rain\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"비소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"천천히 내리는 비의 소리가 전체 장면을 감싸고 있습니다.\",\n      \"prompt_en\": \"soft continuous rain falling sound, field recording\"\n    }\n  ]\n}\n"
+}

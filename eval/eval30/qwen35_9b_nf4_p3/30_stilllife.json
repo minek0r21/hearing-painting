@@ -1,0 +1,23 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "30_stilllife",
+ "seconds": 3.8,
+ "peak_vram_gb": 8.97,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 0,
+  "count_ok": false,
+  "korean_label": 0,
+  "korean_desc": 0,
+  "type_ok": 0,
+  "prompt_ok": 0,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Still Life with Oysters and Silverware",
+  "sources": []
+ },
+ "raw": "{\n  \"title_guess\": \"Still Life with Oysters and Silverware\",\n  \"sources\": []\n}\n"
+}

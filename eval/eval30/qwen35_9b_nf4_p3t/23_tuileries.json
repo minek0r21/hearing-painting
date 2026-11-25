@@ -1,0 +1,44 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "23_tuileries",
+ "seconds": 17.8,
+ "peak_vram_gb": 8.9,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 2,
+  "count_ok": false,
+  "korean_label": 2,
+  "korean_desc": 2,
+  "type_ok": 2,
+  "prompt_ok": 2,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Concert in the Tuileries",
+  "sources": [
+   {
+    "id": "crowd_talking",
+    "object_en": "crowd of people standing and sitting",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들의 목소리",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 서로 대화하고 있는 소리가 난다.",
+    "prompt_en": "crowd of people talking and laughing in a park, field recording"
+   },
+   {
+    "id": "music_playing",
+    "object_en": "man playing a string instrument",
+    "x": 620,
+    "y": 500,
+    "label_ko": "악기 소리",
+    "type": "music",
+    "description_ko": "남자가 현악기를 연주하는 소리가 들린다.",
+    "prompt_en": "man playing a string instrument in a park, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Concert in the Tuileries\",\n\"sources\": [\n  {\n    \"id\": \"crowd_talking\",\n    \"object_en\": \"crowd of people standing and sitting\",\n    \"x\": 500,\n    \"y\": 500,\n    \"label_ko\": \"사람들의 목소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"많은 사람들이 모여서 서로 대화하고 있는 소리가 난다.\",\n    \"prompt_en\": \"crowd of people talking and laughing in a park, field recording\"\n  },\n  {\n    \"id\": \"music_playing\",\n    \"object_en\": \"man playing a string instrument\",\n    \"x\": 620,\n    \"y\": 500,\n    \"label_ko\": \"악기 소리\",\n    \"type\": \"music\",\n    \"description_ko\": \"남자가 현악기를 연주하는 소리가 들린다.\",\n    \"prompt_en\": \"man playing a string instrument in a park, field recording\"\n  }\n]\n}\n```\n"
+}

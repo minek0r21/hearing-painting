@@ -1,0 +1,28 @@
+{
+ "hash": "4621ac4790ca",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 5
+   },
+   {
+    "model": 4,
+    "answer": 7
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Dogs are visible and can bark, though not shown fighting."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 3}, {\"model\": 3, \"answer\": 5}, {\"model\": 4, \"answer\": 7}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Dogs are visible and can bark, though not shown fighting.\"}]}"
+}

@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "28_railwaystation",
+ "seconds": 40.7,
+ "peak_vram_gb": 8.79,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "기차역",
+  "sources": [
+   {
+    "id": "crowd_noise",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 600,
+    "label_ko": "사람들의 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 떠들고, 짐을 들고, 서로 말하며 떠나는 역의 소란스러운 목소리.",
+    "prompt_en": "loud bustling crowd noise, people talking and shouting in a busy train station, field recording"
+   },
+   {
+    "id": "footsteps",
+    "object_en": "people walking",
+    "x": 400,
+    "y": 800,
+    "label_ko": "발소리",
+    "type": "people",
+    "description_ko": "바닥을 밟으며 걸어가는 많은 사람들의 발걸음 소리.",
+    "prompt_en": "rhythmic footsteps of people walking on a hard floor, field recording"
+   },
+   {
+    "id": "train_arrival",
+    "object_en": "steam train",
+    "x": 150,
+    "y": 500,
+    "label_ko": "기차 소리",
+    "type": "vehicle",
+    "description_ko": "역 밖에서 접근하는 증기 기관차의 증기 분출과 기관차의 웅장한 소음.",
+    "prompt_en": "loud steam train whistle and chugging engine sound, field recording"
+   },
+   {
+    "id": "luggage_drop",
+    "object_en": "man dropping luggage",
+    "x": 620,
+    "y": 850,
+    "label_ko": "짐 떨어지는 소리",
+    "type": "people",
+    "description_ko": "남자가 바닥에 짐을 내려놓을 때 나는 묵직한 타격 소리.",
+    "prompt_en": "heavy luggage being dropped on the ground, field recording"
+   },
+   {
+    "id": "train_departure",
+    "object_en": "steam train",
+    "x": 150,
+    "y": 500,
+    "label_ko": "기차 출발 소리",
+    "type": "vehicle",
+    "description_ko": "기차가 역을 떠나며 나는 증기 기관차의 증기 분출과 기관차의 웅장한 소음.",
+    "prompt_en": "loud steam train whistle and chugging engine sound, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"기차역\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_noise\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"사람들의 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 떠들고, 짐을 들고, 서로 말하며 떠나는 역의 소란스러운 목소리.\",\n      \"prompt_en\": \"loud bustling crowd noise, people talking and shouting in a busy train station, field recording\"\n    },\n    {\n      \"id\": \"footsteps\",\n      \"object_en\": \"people walking\",\n      \"x\": 400,\n      \"y\": 800,\n      \"label_ko\": \"발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"바닥을 밟으며 걸어가는 많은 사람들의 발걸음 소리.\",\n      \"prompt_en\": \"rhythmic footsteps of people walking on a hard floor, field recording\"\n    },\n    {\n      \"id\": \"train_arrival\",\n      \"object_en\": \"steam train\",\n      \"x\": 150,\n      \"y\": 500,\n      \"label_ko\": \"기차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"역 밖에서 접근하는 증기 기관차의 증기 분출과 기관차의 웅장한 소음.\",\n      \"prompt_en\": \"loud steam train whistle and chugging engine sound, field recording\"\n    },\n    {\n      \"id\": \"luggage_drop\",\n      \"object_en\": \"man dropping luggage\",\n      \"x\": 620,\n      \"y\": 850,\n      \"label_ko\": \"짐 떨어지는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 바닥에 짐을 내려놓을 때 나는 묵직한 타격 소리.\",\n      \"prompt_en\": \"heavy luggage being dropped on the ground, field recording\"\n    },\n    {\n      \"id\": \"train_departure\",\n      \"object_en\": \"steam train\",\n      \"x\": 150,\n      \"y\": 500,\n      \"label_ko\": \"기차 출발 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"기차가 역을 떠나며 나는 증기 기관차의 증기 분출과 기관차의 웅장한 소음.\",\n      \"prompt_en\": \"loud steam train whistle and chugging engine sound, field recording\"\n    }\n  ]\n}\n```\n"
+}

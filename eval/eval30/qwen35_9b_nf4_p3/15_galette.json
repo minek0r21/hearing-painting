@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "15_galette",
+ "seconds": 28.8,
+ "peak_vram_gb": 8.95,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Dance at the Moulin de la Galette",
+  "sources": [
+   {
+    "id": "couples_dancing",
+    "object_en": "couples dancing in the foreground and midground",
+    "x": 250,
+    "y": 450,
+    "label_ko": "춤추는 사람들",
+    "type": "people",
+    "description_ko": "춤추는 커플들의 발걸음과 웃음소리가 들립니다.",
+    "prompt_en": "soft shuffling footsteps and light laughter from couples dancing in a crowded outdoor garden, field recording"
+   },
+   {
+    "id": "man_smoking_cigar",
+    "object_en": "man in top hat smoking a cigar on the right",
+    "x": 880,
+    "y": 480,
+    "label_ko": "담배 피우는 남자",
+    "type": "people",
+    "description_ko": "남자가 담배를 피우는 연기가 나고, 담배 연기와 흡연 소리가 들립니다.",
+    "prompt_en": "gentle puffing sound of a man smoking a cigar in an outdoor café setting, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "dense crowd of people standing and mingling in the background",
+    "x": 400,
+    "y": 300,
+    "label_ko": "사람들의 속삭임",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 대화하고 있는 낮은 목소리들이 섞인 소음입니다.",
+    "prompt_en": "low murmuring voices from a large crowd mingling in a bustling outdoor garden party, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Dance at the Moulin de la Galette\",\n  \"sources\": [\n    {\n      \"id\": \"couples_dancing\",\n      \"object_en\": \"couples dancing in the foreground and midground\",\n      \"x\": 250,\n      \"y\": 450,\n      \"label_ko\": \"춤추는 사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"춤추는 커플들의 발걸음과 웃음소리가 들립니다.\",\n      \"prompt_en\": \"soft shuffling footsteps and light laughter from couples dancing in a crowded outdoor garden, field recording\"\n    },\n    {\n      \"id\": \"man_smoking_cigar\",\n      \"object_en\": \"man in top hat smoking a cigar on the right\",\n      \"x\": 880,\n      \"y\": 480,\n      \"label_ko\": \"담배 피우는 남자\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 담배를 피우는 연기가 나고, 담배 연기와 흡연 소리가 들립니다.\",\n      \"prompt_en\": \"gentle puffing sound of a man smoking a cigar in an outdoor café setting, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"dense crowd of people standing and mingling in the background\",\n      \"x\": 400,\n      \"y\": 300,\n      \"label_ko\": \"사람들의 속삭임\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 대화하고 있는 낮은 목소리들이 섞인 소음입니다.\",\n      \"prompt_en\": \"low murmuring voices from a large crowd mingling in a bustling outdoor garden party, field recording\"\n    }\n  ]\n}\n"
+}

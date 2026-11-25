@@ -1,0 +1,33 @@
+{
+ "hash": "334570b6b3a4",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 4
+   },
+   {
+    "model": 4,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Visible umbrella can make sound in the rain, but A2 is already matched."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "The street lamp is unlit in daytime and cannot flicker."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 2},\n    {\"model\": 3, \"answer\": 4},\n    {\"model\": 4, \"answer\": 6}\n  ],\n  \"unpaired\": [\n    {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Visible umbrella can make sound in the rain, but A2 is already matched.\"},\n    {\"model\": 5, \"verdict\": \"silent\", \"why\": \"The street lamp is unlit in daytime and cannot flicker.\"}\n  ]\n}"
+}

@@ -1,0 +1,122 @@
+{
+ "model": "gemini-4-neon",
+ "file": "05_boulevard.jpg",
+ "seconds": 43.0,
+ "parsed": {
+  "title_guess": "Outside the Théâtre des Variétés (Jean Béraud)",
+  "sources": [
+   {
+    "label_ko": "인도를 걷는 사람들의 발소리",
+    "sound_en": "footsteps of pedestrians walking along the boulevard sidewalk",
+    "ground_phrase_en": "pedestrians strolling on the sidewalk",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      452,
+      635
+     ],
+     [
+      282,
+      620
+     ],
+     [
+      348,
+      605
+     ],
+     [
+      185,
+      605
+     ],
+     [
+      512,
+      585
+     ]
+    ]
+   },
+   {
+    "label_ko": "거리에서 대화하는 사람들의 말소리",
+    "sound_en": "men conversing on the sidewalk in front of the theater",
+    "ground_phrase_en": "men in hats standing and talking",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      578,
+      575
+     ],
+     [
+      632,
+      580
+     ],
+     [
+      698,
+      555
+     ],
+     [
+      740,
+      560
+     ]
+    ]
+   },
+   {
+    "label_ko": "신문팔이의 외침 소리",
+    "sound_en": "newspaper vendor calling out papers to passersby",
+    "ground_phrase_en": "newspaper vendor holding newspapers",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      778,
+      615
+     ]
+    ]
+   },
+   {
+    "label_ko": "파리 대로의 웅성거리는 소음",
+    "sound_en": "ambient murmur and bustle of a Parisian boulevard",
+    "ground_phrase_en": "Parisian boulevard street scene",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "노천 카페 테이블 정리 소리",
+    "sound_en": "clatter of a waiter tending a sidewalk café table",
+    "ground_phrase_en": "waiter leaning over a sidewalk café table",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      950,
+      595
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Outside the Théâtre des Variétés (Jean Béraud)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"인도를 걷는 사람들의 발소리\",\n      \"sound_en\": \"footsteps of pedestrians walking along the boulevard sidewalk\",\n      \"ground_phrase_en\": \"pedestrians strolling on the sidewalk\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [452, 635],\n        [282, 620],\n        [348, 605],\n        [185, 605],\n        [512, 585]\n      ]\n    },\n    {\n      \"label_ko\": \"거리에서 대화하는 사람들의 말소리\",\n      \"sound_en\": \"men conversing on the sidewalk in front of the theater\",\n      \"ground_phrase_en\": \"men in hats standing and talking\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [578, 575],\n        [632, 580],\n        [698, 555],\n        [740, 560]\n      ]\n    },\n    {\n      \"label_ko\": \"신문팔이의 외침 소리\",\n      \"sound_en\": \"newspaper vendor calling out papers to passersby\",\n      \"ground_phrase_en\": \"newspaper vendor holding newspapers\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [778, 615]\n      ]\n    },\n    {\n      \"label_ko\": \"파리 대로의 웅성거리는 소음\",\n      \"sound_en\": \"ambient murmur and bustle of a Parisian boulevard\",\n      \"ground_phrase_en\": \"Parisian boulevard street scene\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"노천 카페 테이블 정리 소리\",\n      \"sound_en\": \"clatter of a waiter tending a sidewalk café table\",\n      \"ground_phrase_en\": \"waiter leaning over a sidewalk café table\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [950, 595]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 583,
+  "totalTokenCount": 6431,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 583
+   }
+  ],
+  "thoughtsTokenCount": 4033,
+  "serviceTier": "standard"
+ }
+}

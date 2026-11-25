@@ -1,0 +1,60 @@
+{
+ "painting": "08_pajeokdo",
+ "seconds": 38.4,
+ "parsed": {
+  "title_guess": "The Cat and the Man",
+  "sources": [
+   {
+    "id": "man_speaking",
+    "object_en": "man's mouth",
+    "x": 550,
+    "y": 480,
+    "label_ko": "말하기",
+    "type": "people",
+    "description_ko": "남자가 고양이를 쫓으며 소리를 지르고 있다.",
+    "prompt_en": "a man shouting while chasing a cat, field recording"
+   },
+   {
+    "id": "cat_running",
+    "object_en": "running cat",
+    "x": 120,
+    "y": 620,
+    "label_ko": "달리는 고양이",
+    "type": "animal",
+    "description_ko": "고양이가 빠르게 달리고 발소리가 들린다.",
+    "prompt_en": "a black cat running quickly across the ground, field recording"
+   },
+   {
+    "id": "bird_flying",
+    "object_en": "flying bird",
+    "x": 280,
+    "y": 750,
+    "label_ko": "날아다니는 새",
+    "type": "animal",
+    "description_ko": "새가 날개를 펴고 날아가며 날갯짓 소리가 난다.",
+    "prompt_en": "a bird flying with wings spread, flapping sound, field recording"
+   },
+   {
+    "id": "chicks_chirping",
+    "object_en": "group of chicks",
+    "x": 400,
+    "y": 900,
+    "label_ko": "새끼닭 울음",
+    "type": "animal",
+    "description_ko": "새끼닭들이 모여서 작은 소리로 울고 있다.",
+    "prompt_en": "several small chicks chirping together, field recording"
+   },
+   {
+    "id": "woman_shouting",
+    "object_en": "woman's mouth",
+    "x": 780,
+    "y": 220,
+    "label_ko": "여자가 외치다",
+    "type": "people",
+    "description_ko": "여자가 남자를 향해 소리를 지르고 있다.",
+    "prompt_en": "a woman shouting at a man, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Cat and the Man\",\n  \"sources\": [\n    {\n      \"id\": \"man_speaking\",\n      \"object_en\": \"man's mouth\",\n      \"x\": 550,\n      \"y\": 480,\n      \"label_ko\": \"말하기\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 고양이를 쫓으며 소리를 지르고 있다.\",\n      \"prompt_en\": \"a man shouting while chasing a cat, field recording\"\n    },\n    {\n      \"id\": \"cat_running\",\n      \"object_en\": \"running cat\",\n      \"x\": 120,\n      \"y\": 620,\n      \"label_ko\": \"달리는 고양이\",\n      \"type\": \"animal\",\n      \"description_ko\": \"고양이가 빠르게 달리고 발소리가 들린다.\",\n      \"prompt_en\": \"a black cat running quickly across the ground, field recording\"\n    },\n    {\n      \"id\": \"bird_flying\",\n      \"object_en\": \"flying bird\",\n      \"x\": 280,\n      \"y\": 750,\n      \"label_ko\": \"날아다니는 새\",\n      \"type\": \"animal\",\n      \"description_ko\": \"새가 날개를 펴고 날아가며 날갯짓 소리가 난다.\",\n      \"prompt_en\": \"a bird flying with wings spread, flapping sound, field recording\"\n    },\n    {\n      \"id\": \"chicks_chirping\",\n      \"object_en\": \"group of chicks\",\n      \"x\": 400,\n      \"y\": 900,\n      \"label_ko\": \"새끼닭 울음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"새끼닭들이 모여서 작은 소리로 울고 있다.\",\n      \"prompt_en\": \"several small chicks chirping together, field recording\"\n    },\n    {\n      \"id\": \"woman_shouting\",\n      \"object_en\": \"woman's mouth\",\n      \"x\": 780,\n      \"y\": 220,\n      \"label_ko\": \"여자가 외치다\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 남자를 향해 소리를 지르고 있다.\",\n      \"prompt_en\": \"a woman shouting at a man, field recording\"\n    }\n  ]\n}\n"
+}

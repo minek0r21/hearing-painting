@@ -1,0 +1,40 @@
+{
+ "painting": "03_gleaners",
+ "seconds": 28.5,
+ "parsed": {
+  "title_guess": "The Gleaners",
+  "sources": [
+   {
+    "id": "gleaning_women_bending",
+    "object_en": "three women bending over to gather grain stalks",
+    "x": 450,
+    "y": 600,
+    "label_ko": "곡수줍음",
+    "type": "people",
+    "description_ko": "세 명의 여성이 곡식을 줍는 소리와 숨소리",
+    "prompt_en": "soft rustling of dry wheat stalks being gathered by hand, low murmuring voices of tired women working in a field, field recording"
+   },
+   {
+    "id": "distant_oxen_team",
+    "object_en": "team of oxen pulling a cart in the background",
+    "x": 350,
+    "y": 300,
+    "label_ko": "소끌음",
+    "type": "animal",
+    "description_ko": "멀리서 들리는 소들이 끄는 수레의 끄는 소리",
+    "prompt_en": "slow creaking of wooden cart wheels on dirt, low mooing of oxen, distant farm sounds, field recording"
+   },
+   {
+    "id": "wind_in_grass",
+    "object_en": "wind moving through the harvested field",
+    "x": 500,
+    "y": 700,
+    "label_ko": "바람소리",
+    "type": "nature",
+    "description_ko": "바람이 황금빛 들판을 스치는 소리",
+    "prompt_en": "gentle rustling of dry grass and stubble in a breeze, subtle ambient field sound, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Gleaners\",\n  \"sources\": [\n    {\n      \"id\": \"gleaning_women_bending\",\n      \"object_en\": \"three women bending over to gather grain stalks\",\n      \"x\": 450,\n      \"y\": 600,\n      \"label_ko\": \"곡수줍음\",\n      \"type\": \"people\",\n      \"description_ko\": \"세 명의 여성이 곡식을 줍는 소리와 숨소리\",\n      \"prompt_en\": \"soft rustling of dry wheat stalks being gathered by hand, low murmuring voices of tired women working in a field, field recording\"\n    },\n    {\n      \"id\": \"distant_oxen_team\",\n      \"object_en\": \"team of oxen pulling a cart in the background\",\n      \"x\": 350,\n      \"y\": 300,\n      \"label_ko\": \"소끌음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"멀리서 들리는 소들이 끄는 수레의 끄는 소리\",\n      \"prompt_en\": \"slow creaking of wooden cart wheels on dirt, low mooing of oxen, distant farm sounds, field recording\"\n    },\n    {\n      \"id\": \"wind_in_grass\",\n      \"object_en\": \"wind moving through the harvested field\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"바람소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 황금빛 들판을 스치는 소리\",\n      \"prompt_en\": \"gentle rustling of dry grass and stubble in a breeze, subtle ambient field sound, field recording\"\n    }\n  ]\n}\n"
+}

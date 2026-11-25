@@ -1,0 +1,140 @@
+{
+ "model": "gemini-4-neon",
+ "file": "06_ssireum.jpg",
+ "seconds": 36.9,
+ "parsed": {
+  "title_guess": "Ssireum (Korean Wrestling) by Kim Hong-do",
+  "sources": [
+   {
+    "label_ko": "씨름꾼들의 기합과 힘쓰는 소리",
+    "sound_en": "grunts and heavy breathing of the wrestlers",
+    "ground_phrase_en": "two men wrestling in the center",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      555,
+      450
+     ]
+    ]
+   },
+   {
+    "label_ko": "땅을 딛는 발소리와 옷 스치는 소리",
+    "sound_en": "feet scuffing the ground and clothes rustling during grappling",
+    "ground_phrase_en": "legs and feet of the wrestling men",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      575,
+      660
+     ]
+    ]
+   },
+   {
+    "label_ko": "구경꾼들의 환호와 웅성거림",
+    "sound_en": "crowd cheering, chatter, and excited murmurs",
+    "ground_phrase_en": "circle of spectators watching the wrestling match",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      170,
+      170
+     ],
+     [
+      360,
+      95
+     ],
+     [
+      780,
+      105
+     ],
+     [
+      160,
+      860
+     ],
+     [
+      875,
+      770
+     ]
+    ]
+   },
+   {
+    "label_ko": "구경꾼들의 큰 웃음소리",
+    "sound_en": "loud hearty laughter of spectators",
+    "ground_phrase_en": "two laughing spectators in the bottom right",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      895,
+      735
+     ]
+    ]
+   },
+   {
+    "label_ko": "부채질 소리",
+    "sound_en": "soft swishing of folding fans",
+    "ground_phrase_en": "spectators holding folding fans",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      270,
+      150
+     ],
+     [
+      415,
+      950
+     ],
+     [
+      175,
+      780
+     ],
+     [
+      960,
+      60
+     ]
+    ]
+   },
+   {
+    "label_ko": "엿판과 엿가위가 달그락거리는 소리",
+    "sound_en": "soft clinking of shears on the taffy vendor's wooden tray",
+    "ground_phrase_en": "wooden tray with shears carried by the taffy vendor",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      130,
+      580
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Ssireum (Korean Wrestling) by Kim Hong-do\",\n  \"sources\": [\n    {\n      \"label_ko\": \"씨름꾼들의 기합과 힘쓰는 소리\",\n      \"sound_en\": \"grunts and heavy breathing of the wrestlers\",\n      \"ground_phrase_en\": \"two men wrestling in the center\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[555, 450]]\n    },\n    {\n      \"label_ko\": \"땅을 딛는 발소리와 옷 스치는 소리\",\n      \"sound_en\": \"feet scuffing the ground and clothes rustling during grappling\",\n      \"ground_phrase_en\": \"legs and feet of the wrestling men\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[575, 660]]\n    },\n    {\n      \"label_ko\": \"구경꾼들의 환호와 웅성거림\",\n      \"sound_en\": \"crowd cheering, chatter, and excited murmurs\",\n      \"ground_phrase_en\": \"circle of spectators watching the wrestling match\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[170, 170], [360, 95], [780, 105], [160, 860], [875, 770]]\n    },\n    {\n      \"label_ko\": \"구경꾼들의 큰 웃음소리\",\n      \"sound_en\": \"loud hearty laughter of spectators\",\n      \"ground_phrase_en\": \"two laughing spectators in the bottom right\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[895, 735]]\n    },\n    {\n      \"label_ko\": \"부채질 소리\",\n      \"sound_en\": \"soft swishing of folding fans\",\n      \"ground_phrase_en\": \"spectators holding folding fans\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[270, 150], [415, 950], [175, 780], [960, 60]]\n    },\n    {\n      \"label_ko\": \"엿판과 엿가위가 달그락거리는 소리\",\n      \"sound_en\": \"soft clinking of shears on the taffy vendor's wooden tray\",\n      \"ground_phrase_en\": \"wooden tray with shears carried by the taffy vendor\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[130, 580]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 665,
+  "totalTokenCount": 5657,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 665
+   }
+  ],
+  "thoughtsTokenCount": 3407,
+  "serviceTier": "standard"
+ }
+}

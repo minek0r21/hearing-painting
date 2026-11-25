@@ -1,0 +1,40 @@
+{
+ "hash": "a8987c283606",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "silent",
+    "why": "Still oysters and platter make no sound."
+   },
+   {
+    "model": 2,
+    "verdict": "silent",
+    "why": "Stationary glass makes no sound."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Still lemon peel makes no sound."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Stationary pitcher makes no sound."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Still bread makes no sound."
+   },
+   {
+    "model": 6,
+    "verdict": "silent",
+    "why": "Background room tone is silent."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [], \"unpaired\": [{\"model\": 1, \"verdict\": \"silent\", \"why\": \"Still oysters and platter make no sound.\"}, {\"model\": 2, \"verdict\": \"silent\", \"why\": \"Stationary glass makes no sound.\"}, {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Still lemon peel makes no sound.\"}, {\"model\": 4, \"verdict\": \"silent\", \"why\": \"Stationary pitcher makes no sound.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Still bread makes no sound.\"}, {\"model\": 6, \"verdict\": \"silent\", \"why\": \"Background room tone is silent.\"}]}"
+}

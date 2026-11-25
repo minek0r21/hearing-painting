@@ -1,0 +1,63 @@
+{
+ "title_guess": "La Gare Saint-Lazare by Claude Monet",
+ "sources": [
+  {
+   "label_ko": "증기기관차의 증기 뿜는 소리와 철로 주행음",
+   "sound_en": "steam locomotives hissing, chugging, and clattering along the iron tracks",
+   "ground_phrase_en": "steam locomotives and trains on the tracks",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     482,
+     760
+    ],
+    [
+     258,
+     750
+    ],
+    [
+     576,
+     778
+    ]
+   ]
+  },
+  {
+   "label_ko": "승객과 역무원들의 웅성거림과 발소리",
+   "sound_en": "passengers and railway workers murmuring and walking along the platform and tracks",
+   "ground_phrase_en": "railway worker and crowd of passengers on the right platform",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     730,
+     895
+    ],
+    [
+     788,
+     845
+    ],
+    [
+     835,
+     825
+    ],
+    [
+     885,
+     835
+    ],
+    [
+     685,
+     815
+    ]
+   ]
+  },
+  {
+   "label_ko": "역 바깥 도시의 먼 소음",
+   "sound_en": "distant city street hum drifting into the open train shed",
+   "ground_phrase_en": "Parisian buildings outside the train station",
+   "source_type": "ambient",
+   "grade": "allowed",
+   "points": []
+  }
+ ]
+}

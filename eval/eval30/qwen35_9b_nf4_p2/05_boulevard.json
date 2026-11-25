@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "05_boulevard",
+ "seconds": 33.2,
+ "peak_vram_gb": 8.81,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "group of people standing and talking on the street",
+    "x": 500,
+    "y": 600,
+    "label_ko": "사람들 소음",
+    "type": "people",
+    "description_ko": "거리에서 여러 사람이 모여서 대화하고 있는 소리가 배경에 깔려 있다.",
+    "prompt_en": "soft murmuring voices of a small crowd in an urban street, field recording"
+   },
+   {
+    "id": "newspaper_crinkle",
+    "object_en": "man holding and unfolding a newspaper",
+    "x": 800,
+    "y": 650,
+    "label_ko": "신문 소리",
+    "type": "people",
+    "description_ko": "남자가 신문을 펼쳐보며 종이 마찰 소리가 들린다.",
+    "prompt_en": "crinkling sound of paper being unfolded by hand, field recording"
+   },
+   {
+    "id": "footsteps",
+    "object_en": "people walking on the cobblestone street",
+    "x": 400,
+    "y": 700,
+    "label_ko": "걸음소리",
+    "type": "people",
+    "description_ko": "사람들이 돌길 위를 걸어가는 발걸음 소리가 멀리서 들린다.",
+    "prompt_en": "soft rhythmic footsteps on wet cobblestones, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees swaying gently in the breeze",
+    "x": 200,
+    "y": 300,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "나무 가지들이 바람에 흔들리며 살랑거리는 소리가 배경에 흐른다.",
+    "prompt_en": "gentle rustling of tree leaves in a light breeze, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"group of people standing and talking on the street\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"사람들 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"거리에서 여러 사람이 모여서 대화하고 있는 소리가 배경에 깔려 있다.\",\n      \"prompt_en\": \"soft murmuring voices of a small crowd in an urban street, field recording\"\n    },\n    {\n      \"id\": \"newspaper_crinkle\",\n      \"object_en\": \"man holding and unfolding a newspaper\",\n      \"x\": 800,\n      \"y\": 650,\n      \"label_ko\": \"신문 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 신문을 펼쳐보며 종이 마찰 소리가 들린다.\",\n      \"prompt_en\": \"crinkling sound of paper being unfolded by hand, field recording\"\n    },\n    {\n      \"id\": \"footsteps\",\n      \"object_en\": \"people walking on the cobblestone street\",\n      \"x\": 400,\n      \"y\": 700,\n      \"label_ko\": \"걸음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람들이 돌길 위를 걸어가는 발걸음 소리가 멀리서 들린다.\",\n      \"prompt_en\": \"soft rhythmic footsteps on wet cobblestones, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees swaying gently in the breeze\",\n      \"x\": 200,\n      \"y\": 300,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무 가지들이 바람에 흔들리며 살랑거리는 소리가 배경에 흐른다.\",\n      \"prompt_en\": \"gentle rustling of tree leaves in a light breeze, field recording\"\n    }\n  ]\n}\n"
+}

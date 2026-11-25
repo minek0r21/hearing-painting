@@ -1,0 +1,96 @@
+{
+ "model": "gemini-4-neon",
+ "file": "10_inwang.jpg",
+ "seconds": 23.9,
+ "parsed": {
+  "title_guess": "Inwangjesaekdo (Clearing after Rain on Mount Inwang)",
+  "sources": [
+   {
+    "label_ko": "산골짜기 폭포수 흐르는 소리",
+    "sound_en": "waterfalls rushing down rocky mountain cliffs",
+    "ground_phrase_en": "white waterfalls cascading down dark rocky cliffs",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      245,
+      345
+     ],
+     [
+      652,
+      275
+     ]
+    ]
+   },
+   {
+    "label_ko": "소나무와 숲이 바람에 스치는 소리",
+    "sound_en": "wind rustling through pine groves and willow trees",
+    "ground_phrase_en": "groves of pine trees and weeping willows",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      135,
+      575
+     ],
+     [
+      425,
+      650
+     ],
+     [
+      710,
+      580
+     ],
+     [
+      405,
+      935
+     ],
+     [
+      710,
+      915
+     ]
+    ]
+   },
+   {
+    "label_ko": "안개 낀 산바람 소리",
+    "sound_en": "gentle mountain wind blowing across the misty peaks",
+    "ground_phrase_en": "mist-shrouded mountain peaks and valleys",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "비 갠 뒤 바위와 나뭇잎에서 물방울 떨어지는 소리",
+    "sound_en": "water dripping from rain-soaked rocks and foliage",
+    "ground_phrase_en": "wet ink-dark rocks and damp mountain foliage",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Inwangjesaekdo (Clearing after Rain on Mount Inwang)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"산골짜기 폭포수 흐르는 소리\",\n      \"sound_en\": \"waterfalls rushing down rocky mountain cliffs\",\n      \"ground_phrase_en\": \"white waterfalls cascading down dark rocky cliffs\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [245, 345],\n        [652, 275]\n      ]\n    },\n    {\n      \"label_ko\": \"소나무와 숲이 바람에 스치는 소리\",\n      \"sound_en\": \"wind rustling through pine groves and willow trees\",\n      \"ground_phrase_en\": \"groves of pine trees and weeping willows\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [135, 575],\n        [425, 650],\n        [710, 580],\n        [405, 935],\n        [710, 915]\n      ]\n    },\n    {\n      \"label_ko\": \"안개 낀 산바람 소리\",\n      \"sound_en\": \"gentle mountain wind blowing across the misty peaks\",\n      \"ground_phrase_en\": \"mist-shrouded mountain peaks and valleys\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"비 갠 뒤 바위와 나뭇잎에서 물방울 떨어지는 소리\",\n      \"sound_en\": \"water dripping from rain-soaked rocks and foliage\",\n      \"ground_phrase_en\": \"wet ink-dark rocks and damp mountain foliage\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1580,
+  "candidatesTokenCount": 473,
+  "totalTokenCount": 3888,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1075
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 473
+   }
+  ],
+  "thoughtsTokenCount": 1835,
+  "serviceTier": "standard"
+ }
+}

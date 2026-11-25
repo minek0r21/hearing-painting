@@ -1,0 +1,38 @@
+{
+ "hash": "a23e3c74f8ff",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 4,
+    "answer": 3
+   },
+   {
+    "model": 6,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Visible walking man; footsteps already paired."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Visible walking woman; footsteps already paired."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Visible walking man; footsteps already paired."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 4, \"answer\": 3}, {\"model\": 6, \"answer\": 4}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Visible walking man; footsteps already paired.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Visible walking woman; footsteps already paired.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Visible walking man; footsteps already paired.\"}]}"
+}

@@ -1,0 +1,24 @@
+{
+ "hash": "42b70a37e859",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "River is visible and flows."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"River is visible and flows.\"}]}"
+}

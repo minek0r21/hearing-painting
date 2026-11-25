@@ -1,0 +1,29 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 5,
+   "answer": 3
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 2,
+   "verdict": "plausible",
+   "why": "Man operating the swing is visible and can make movement sounds."
+  },
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Man lying in bushes is visible and can breathe or rustle."
+  },
+  {
+   "model": 4,
+   "verdict": "plausible",
+   "why": "Flowering branches are visible; rustling sound already matched by M5."
+  }
+ ]
+}

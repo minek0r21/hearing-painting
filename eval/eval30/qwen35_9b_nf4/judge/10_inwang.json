@@ -1,0 +1,39 @@
+{
+ "hash": "118ff461c2f9",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No birds are visible."
+   },
+   {
+    "model": 4,
+    "verdict": "not_visible",
+    "why": "No temple bell is shown."
+   },
+   {
+    "model": 5,
+    "verdict": "not_visible",
+    "why": "No person is visible to make footsteps."
+   },
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Wind across the mountain landscape is plausible."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 2},\n    {\"model\": 2, \"answer\": 1}\n  ],\n  \"unpaired\": [\n    {\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No birds are visible.\"},\n    {\"model\": 4, \"verdict\": \"not_visible\", \"why\": \"No temple bell is shown.\"},\n    {\"model\": 5, \"verdict\": \"not_visible\", \"why\": \"No person is visible to make footsteps.\"},\n    {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Wind across the mountain landscape is plausible.\"}\n  ]\n}"
+}

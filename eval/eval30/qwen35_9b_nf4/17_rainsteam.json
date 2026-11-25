@@ -1,0 +1,89 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "17_rainsteam",
+ "seconds": 70.6,
+ "peak_vram_gb": 8.65,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rain, Steam and Speed - The Great Western Railway",
+  "sources": [
+   {
+    "id": "train_engine",
+    "object_en": "steam train",
+    "x": 650,
+    "y": 600,
+    "label_ko": "기차",
+    "type": "vehicle",
+    "description_ko": "기차가 철도를 따라 빠르게 지나가는 소리가 들립니다.",
+    "prompt_en": "steam train chugging along railway tracks with rhythmic whistle and clatter, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "river_water",
+    "object_en": "river",
+    "x": 200,
+    "y": 800,
+    "label_ko": "강물",
+    "type": "nature",
+    "description_ko": "강물이 흐르는 부드러운 물소리가 배경에 깔려 있습니다.",
+    "prompt_en": "gentle flowing river water with soft lapping sounds, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "bridge_arches",
+    "object_en": "stone bridge",
+    "x": 100,
+    "y": 650,
+    "label_ko": "다리",
+    "type": "nature",
+    "description_ko": "바람이 다리의 아치 구조를 스치며 미세한 진동 소리가 납니다.",
+    "prompt_en": "wind rustling through stone bridge arches with subtle creaking, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "steam_plume",
+    "object_en": "steam plume",
+    "x": 680,
+    "y": 550,
+    "label_ko": "증기",
+    "type": "nature",
+    "description_ko": "기차에서 뿜어져 나오는 뜨거운 증기가 바람에 흩어지는 소리.",
+    "prompt_en": "hot steam hissing and dispersing in wind, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "distant_boats",
+    "object_en": "small boats",
+    "x": 150,
+    "y": 780,
+    "label_ko": "보트",
+    "type": "vehicle",
+    "description_ko": "강 위 작은 보트들이 멀리서 조용히 떠다니는 소리.",
+    "prompt_en": "distant small boats gently bobbing on river with faint oar splashes, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "wind_over_landscape",
+    "object_en": "wind",
+    "x": 500,
+    "y": 300,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "폭우와 안개 사이로 불어오는 강렬한 바람 소리가 전체 장면을 감싸고 있습니다.",
+    "prompt_en": "heavy wind howling through misty landscape with rain and fog, field recording",
+    "volume": 0.8
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rain, Steam and Speed - The Great Western Railway\",\n  \"sources\": [\n    {\n      \"id\": \"train_engine\",\n      \"object_en\": \"steam train\",\n      \"x\": 650,\n      \"y\": 600,\n      \"label_ko\": \"기차\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"기차가 철도를 따라 빠르게 지나가는 소리가 들립니다.\",\n      \"prompt_en\": \"steam train chugging along railway tracks with rhythmic whistle and clatter, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"river_water\",\n      \"object_en\": \"river\",\n      \"x\": 200,\n      \"y\": 800,\n      \"label_ko\": \"강물\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강물이 흐르는 부드러운 물소리가 배경에 깔려 있습니다.\",\n      \"prompt_en\": \"gentle flowing river water with soft lapping sounds, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"bridge_arches\",\n      \"object_en\": \"stone bridge\",\n      \"x\": 100,\n      \"y\": 650,\n      \"label_ko\": \"다리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 다리의 아치 구조를 스치며 미세한 진동 소리가 납니다.\",\n      \"prompt_en\": \"wind rustling through stone bridge arches with subtle creaking, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"steam_plume\",\n      \"object_en\": \"steam plume\",\n      \"x\": 680,\n      \"y\": 550,\n      \"label_ko\": \"증기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"기차에서 뿜어져 나오는 뜨거운 증기가 바람에 흩어지는 소리.\",\n      \"prompt_en\": \"hot steam hissing and dispersing in wind, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"distant_boats\",\n      \"object_en\": \"small boats\",\n      \"x\": 150,\n      \"y\": 780,\n      \"label_ko\": \"보트\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"강 위 작은 보트들이 멀리서 조용히 떠다니는 소리.\",\n      \"prompt_en\": \"distant small boats gently bobbing on river with faint oar splashes, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"wind_over_landscape\",\n      \"object_en\": \"wind\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭우와 안개 사이로 불어오는 강렬한 바람 소리가 전체 장면을 감싸고 있습니다.\",\n      \"prompt_en\": \"heavy wind howling through misty landscape with rain and fog, field recording\",\n      \"volume\": 0.8\n    }\n  ]\n}\n"
+}

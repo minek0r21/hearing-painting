@@ -1,0 +1,28 @@
+{
+ "hash": "98f51ebc351d",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Leafy trees are visible and can rustle outdoors."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Leafy trees are visible and can rustle outdoors.\"}]}"
+}

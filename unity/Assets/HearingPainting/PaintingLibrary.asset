@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: PaintingLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5707846887162964740
+  m_GuidHigh: 15282168143386274184
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5061433294737805534
+      m_GuidHigh: 1376247274475923643
+    m_SerializedTextureGuid:
+      m_GuidLow: 10048692022779722993
+      m_GuidHigh: 1101344975491275898
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: rainy_day
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5421931913705332091
+      m_GuidHigh: 18191806417654795917
+    m_SerializedTextureGuid:
+      m_GuidLow: 4751017188864988426
+      m_GuidHigh: 14916074770370648486
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: hunters
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4947591898104588974
+      m_GuidHigh: 6285339537180395422
+    m_SerializedTextureGuid:
+      m_GuidLow: 8238269460580847163
+      m_GuidHigh: 2904704021505048249
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: p002
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5585758518981878235
+      m_GuidHigh: 1796177071000739764
+    m_SerializedTextureGuid:
+      m_GuidLow: 1154169623341723838
+      m_GuidHigh: 8073929196018540617
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: p003
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4769140029104433925
+      m_GuidHigh: 7260371353006925235
+    m_SerializedTextureGuid:
+      m_GuidLow: 55187755491266128
+      m_GuidHigh: 10418626711483790185
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: p004
+    m_Texture: {fileID: 0}

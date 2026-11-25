@@ -1,0 +1,97 @@
+{
+ "model": "gemini-4-neon",
+ "file": "17_rainsteam.jpg",
+ "seconds": 30.2,
+ "parsed": {
+  "title_guess": "Rain, Steam and Speed – The Great Western Railway",
+  "sources": [
+   {
+    "label_ko": "증기기관차 달리는 소리",
+    "sound_en": "steam train chugging, hissing steam, and rumbling over the tracks",
+    "ground_phrase_en": "steam locomotive crossing the bridge",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      660,
+      610
+     ]
+    ]
+   },
+   {
+    "label_ko": "빗소리",
+    "sound_en": "heavy rain falling",
+    "ground_phrase_en": "rainy stormy atmosphere",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "바람 소리",
+    "sound_en": "wind blowing across the open landscape",
+    "ground_phrase_en": "stormy sky and mist",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "sound_en": "river water flowing beneath the bridges",
+    "ground_phrase_en": "river on the left",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "노 젓는 소리",
+    "sound_en": "oars splashing softly in the river",
+    "ground_phrase_en": "small rowboat on the river",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      145,
+      792
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 들리는 사람들 소리",
+    "sound_en": "distant voices of people on the riverbank",
+    "ground_phrase_en": "small group of figures on the riverbank",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      328,
+      745
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rain, Steam and Speed – The Great Western Railway\",\n  \"sources\": [\n    {\n      \"label_ko\": \"증기기관차 달리는 소리\",\n      \"sound_en\": \"steam train chugging, hissing steam, and rumbling over the tracks\",\n      \"ground_phrase_en\": \"steam locomotive crossing the bridge\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[660, 610]]\n    },\n    {\n      \"label_ko\": \"빗소리\",\n      \"sound_en\": \"heavy rain falling\",\n      \"ground_phrase_en\": \"rainy stormy atmosphere\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"바람 소리\",\n      \"sound_en\": \"wind blowing across the open landscape\",\n      \"ground_phrase_en\": \"stormy sky and mist\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"강물 흐르는 소리\",\n      \"sound_en\": \"river water flowing beneath the bridges\",\n      \"ground_phrase_en\": \"river on the left\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"노 젓는 소리\",\n      \"sound_en\": \"oars splashing softly in the river\",\n      \"ground_phrase_en\": \"small rowboat on the river\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[145, 792]]\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 사람들 소리\",\n      \"sound_en\": \"distant voices of people on the riverbank\",\n      \"ground_phrase_en\": \"small group of figures on the riverbank\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[328, 745]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1569,
+  "candidatesTokenCount": 521,
+  "totalTokenCount": 4350,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1064
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 521
+   }
+  ],
+  "thoughtsTokenCount": 2260,
+  "serviceTier": "standard"
+ }
+}

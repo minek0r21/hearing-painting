@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "23_tuileries",
+ "seconds": 33.9,
+ "peak_vram_gb": 8.68,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Le Déjeuner sur l'herbe",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people talking",
+    "x": 500,
+    "y": 500,
+    "label_ko": "인파 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 대화하고 있는 소리가 배경에 퍼져 있다.",
+    "prompt_en": "soft murmuring of a large crowd in a park, field recording"
+   },
+   {
+    "id": "fan_flap",
+    "object_en": "woman holding a fan",
+    "x": 280,
+    "y": 650,
+    "label_ko": "선풍 소리",
+    "type": "people",
+    "description_ko": "여성이 손에 들고 있는 선풍을 살짝 흔들며 만드는 바람 소리.",
+    "prompt_en": "gentle rustling sound of a hand-held fan being slightly moved, field recording"
+   },
+   {
+    "id": "children_play",
+    "object_en": "two small children playing",
+    "x": 520,
+    "y": 850,
+    "label_ko": "아이들 놀음",
+    "type": "people",
+    "description_ko": "두 아이가 땅에 무언가를 가지고 놀며 가볍게 웃고 떠드는 소리.",
+    "prompt_en": "light giggles and soft movements of two small children playing on the ground, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees in background",
+    "x": 300,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "나무 사이로 불어오는 바람이 잎사귀를 흔들며 만드는 조용한 바람 소리.",
+    "prompt_en": "gentle breeze rustling through tall trees in a park, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Le Déjeuner sur l'herbe\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people talking\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"인파 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 대화하고 있는 소리가 배경에 퍼져 있다.\",\n      \"prompt_en\": \"soft murmuring of a large crowd in a park, field recording\"\n    },\n    {\n      \"id\": \"fan_flap\",\n      \"object_en\": \"woman holding a fan\",\n      \"x\": 280,\n      \"y\": 650,\n      \"label_ko\": \"선풍 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"여성이 손에 들고 있는 선풍을 살짝 흔들며 만드는 바람 소리.\",\n      \"prompt_en\": \"gentle rustling sound of a hand-held fan being slightly moved, field recording\"\n    },\n    {\n      \"id\": \"children_play\",\n      \"object_en\": \"two small children playing\",\n      \"x\": 520,\n      \"y\": 850,\n      \"label_ko\": \"아이들 놀음\",\n      \"type\": \"people\",\n      \"description_ko\": \"두 아이가 땅에 무언가를 가지고 놀며 가볍게 웃고 떠드는 소리.\",\n      \"prompt_en\": \"light giggles and soft movements of two small children playing on the ground, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees in background\",\n      \"x\": 300,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무 사이로 불어오는 바람이 잎사귀를 흔들며 만드는 조용한 바람 소리.\",\n      \"prompt_en\": \"gentle breeze rustling through tall trees in a park, field recording\"\n    }\n  ]\n}\n"
+}

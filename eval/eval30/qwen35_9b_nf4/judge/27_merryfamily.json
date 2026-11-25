@@ -1,0 +1,38 @@
+{
+ "hash": "b49cbadd8197",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 7
+   },
+   {
+    "model": 5,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "not_visible",
+    "why": "Violin shown, not a lute."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Boy holds a horn, though not blowing it."
+   },
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Lively group present; chatter differs from singing."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 2, \"answer\": 3},\n    {\"model\": 4, \"answer\": 7},\n    {\"model\": 5, \"answer\": 6}\n  ],\n  \"unpaired\": [\n    {\"model\": 1, \"verdict\": \"not_visible\", \"why\": \"Violin shown, not a lute.\"},\n    {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Boy holds a horn, though not blowing it.\"},\n    {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Lively group present; chatter differs from singing.\"}\n  ]\n}"
+}

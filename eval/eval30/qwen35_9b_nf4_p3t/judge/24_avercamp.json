@@ -1,0 +1,34 @@
+{
+ "hash": "6bfe94b49819",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "No men holding or shaking nets appear; only a stationary hanging net is visible."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Bare trees are visible and can make wind sounds."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Chimney smoke is visible, implying a crackling fire inside."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 2}], \"unpaired\": [{\"model\": 2, \"verdict\": \"not_visible\", \"why\": \"No men holding or shaking nets appear; only a stationary hanging net is visible.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Bare trees are visible and can make wind sounds.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Chimney smoke is visible, implying a crackling fire inside.\"}]}"
+}

@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "14_tage",
+ "seconds": 27.3,
+ "peak_vram_gb": 8.9,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Bamboo Forest with Three Men",
+  "sources": [
+   {
+    "id": "men_climbing_bamboo",
+    "object_en": "three men climbing bamboo stalks",
+    "x": 250,
+    "y": 700,
+    "label_ko": "등산하는 사람들",
+    "type": "people",
+    "description_ko": "세 명의 남자가 바구니를 들고 바위를 타고 올라가는 소리와 발걸음 소리",
+    "prompt_en": "three men climbing a rocky slope with baskets on their backs, footsteps on stone, light breathing, field recording"
+   },
+   {
+    "id": "bamboo_sway",
+    "object_en": "bamboo branches swaying in wind",
+    "x": 400,
+    "y": 300,
+    "label_ko": "바람에 흔들리는 대나무",
+    "type": "nature",
+    "description_ko": "바람에 의해 흔들리는 대나무 가지에서 나는 살랑거리는 소리",
+    "prompt_en": "bamboo leaves rustling gently in a soft breeze, field recording"
+   },
+   {
+    "id": "man_with_flute",
+    "object_en": "man playing transverse flute",
+    "x": 600,
+    "y": 650,
+    "label_ko": "피아노를 부는 사람",
+    "type": "music",
+    "description_ko": "대나무 피아노를 부는 남자의 피아노 소리와 숨소리",
+    "prompt_en": "man playing a transverse bamboo flute, soft breathy notes, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Bamboo Forest with Three Men\",\n  \"sources\": [\n    {\n      \"id\": \"men_climbing_bamboo\",\n      \"object_en\": \"three men climbing bamboo stalks\",\n      \"x\": 250,\n      \"y\": 700,\n      \"label_ko\": \"등산하는 사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"세 명의 남자가 바구니를 들고 바위를 타고 올라가는 소리와 발걸음 소리\",\n      \"prompt_en\": \"three men climbing a rocky slope with baskets on their backs, footsteps on stone, light breathing, field recording\"\n    },\n    {\n      \"id\": \"bamboo_sway\",\n      \"object_en\": \"bamboo branches swaying in wind\",\n      \"x\": 400,\n      \"y\": 300,\n      \"label_ko\": \"바람에 흔들리는 대나무\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람에 의해 흔들리는 대나무 가지에서 나는 살랑거리는 소리\",\n      \"prompt_en\": \"bamboo leaves rustling gently in a soft breeze, field recording\"\n    },\n    {\n      \"id\": \"man_with_flute\",\n      \"object_en\": \"man playing transverse flute\",\n      \"x\": 600,\n      \"y\": 650,\n      \"label_ko\": \"피아노를 부는 사람\",\n      \"type\": \"music\",\n      \"description_ko\": \"대나무 피아노를 부는 남자의 피아노 소리와 숨소리\",\n      \"prompt_en\": \"man playing a transverse bamboo flute, soft breathy notes, field recording\"\n    }\n  ]\n}\n"
+}

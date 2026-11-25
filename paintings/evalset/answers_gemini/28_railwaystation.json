@@ -1,0 +1,198 @@
+{
+ "model": "gemini-4-neon",
+ "file": "28_railwaystation.jpg",
+ "seconds": 29.6,
+ "parsed": {
+  "title_guess": "The Railway Station",
+  "sources": [
+   {
+    "label_ko": "기차역 대합실의 울리는 공간음",
+    "sound_en": "echoing bustle and reverberation inside the vaulted railway station",
+    "ground_phrase_en": "vaulted iron-and-glass railway station interior",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "승객들의 웅성거림과 대화 소리",
+    "sound_en": "crowd chatter, greetings, and conversations among passengers",
+    "ground_phrase_en": "crowded passengers on the platform",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      100,
+      620
+     ],
+     [
+      380,
+      650
+     ],
+     [
+      525,
+      620
+     ],
+     [
+      695,
+      660
+     ],
+     [
+      875,
+      630
+     ]
+    ]
+   },
+   {
+    "label_ko": "증기 기관차의 증기 빠지는 소리",
+    "sound_en": "steam locomotive hissing and chugging",
+    "ground_phrase_en": "steam locomotive engine",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      170,
+      520
+     ]
+    ]
+   },
+   {
+    "label_ko": "플랫폼 위를 걷고 뛰는 발소리",
+    "sound_en": "footsteps walking and hurrying across the station platform",
+    "ground_phrase_en": "people walking and running on the platform",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      125,
+      810
+     ],
+     [
+      210,
+      860
+     ],
+     [
+      495,
+      920
+     ],
+     [
+      885,
+      880
+     ]
+    ]
+   },
+   {
+    "label_ko": "짐을 옮기고 열차 위에 싣는 소리",
+    "sound_en": "heavy trunks and luggage thudding and scraping as porters load them",
+    "ground_phrase_en": "porters loading luggage onto train roof and platform",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      685,
+      380
+     ],
+     [
+      655,
+      450
+     ],
+     [
+      625,
+      895
+     ]
+    ]
+   },
+   {
+    "label_ko": "아이들의 말소리와 웃음소리",
+    "sound_en": "children's voices and excited chatter",
+    "ground_phrase_en": "children on the station platform",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      130,
+      720
+     ],
+     [
+      385,
+      730
+     ],
+     [
+      510,
+      800
+     ],
+     [
+      775,
+      760
+     ]
+    ]
+   },
+   {
+    "label_ko": "개 짖는 소리나 낑낑거리는 소리",
+    "sound_en": "dogs barking or whimpering",
+    "ground_phrase_en": "two dogs at the bottom left",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      45,
+      870
+     ]
+    ]
+   },
+   {
+    "label_ko": "열차 객실 문 여닫는 소리",
+    "sound_en": "wooden train carriage doors creaking and closing",
+    "ground_phrase_en": "train carriage compartments on the right",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      925,
+      660
+     ],
+     [
+      975,
+      580
+     ]
+    ]
+   },
+   {
+    "label_ko": "방수포가 펄럭이고 스치는 소리",
+    "sound_en": "heavy tarpaulin rustling and flapping over luggage",
+    "ground_phrase_en": "blue tarpaulin on top of the train",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      585,
+      395
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Railway Station\",\n  \"sources\": [\n    {\n      \"label_ko\": \"기차역 대합실의 울리는 공간음\",\n      \"sound_en\": \"echoing bustle and reverberation inside the vaulted railway station\",\n      \"ground_phrase_en\": \"vaulted iron-and-glass railway station interior\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"승객들의 웅성거림과 대화 소리\",\n      \"sound_en\": \"crowd chatter, greetings, and conversations among passengers\",\n      \"ground_phrase_en\": \"crowded passengers on the platform\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [100, 620],\n        [380, 650],\n        [525, 620],\n        [695, 660],\n        [875, 630]\n      ]\n    },\n    {\n      \"label_ko\": \"증기 기관차의 증기 빠지는 소리\",\n      \"sound_en\": \"steam locomotive hissing and chugging\",\n      \"ground_phrase_en\": \"steam locomotive engine\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [170, 520]\n      ]\n    },\n    {\n      \"label_ko\": \"플랫폼 위를 걷고 뛰는 발소리\",\n      \"sound_en\": \"footsteps walking and hurrying across the station platform\",\n      \"ground_phrase_en\": \"people walking and running on the platform\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [125, 810],\n        [210, 860],\n        [495, 920],\n        [885, 880]\n      ]\n    },\n    {\n      \"label_ko\": \"짐을 옮기고 열차 위에 싣는 소리\",\n      \"sound_en\": \"heavy trunks and luggage thudding and scraping as porters load them\",\n      \"ground_phrase_en\": \"porters loading luggage onto train roof and platform\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [685, 380],\n        [655, 450],\n        [625, 895]\n      ]\n    },\n    {\n      \"label_ko\": \"아이들의 말소리와 웃음소리\",\n      \"sound_en\": \"children's voices and excited chatter\",\n      \"ground_phrase_en\": \"children on the station platform\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [130, 720],\n        [385, 730],\n        [510, 800],\n        [775, 760]\n      ]\n    },\n    {\n      \"label_ko\": \"개 짖는 소리나 낑낑거리는 소리\",\n      \"sound_en\": \"dogs barking or whimpering\",\n      \"ground_phrase_en\": \"two dogs at the bottom left\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [45, 870]\n      ]\n    },\n    {\n      \"label_ko\": \"열차 객실 문 여닫는 소리\",\n      \"sound_en\": \"wooden train carriage doors creaking and closing\",\n      \"ground_phrase_en\": \"train carriage compartments on the right\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [925, 660],\n        [975, 580]\n      ]\n    },\n    {\n      \"label_ko\": \"방수포가 펄럭이고 스치는 소리\",\n      \"sound_en\": \"heavy tarpaulin rustling and flapping over luggage\",\n      \"ground_phrase_en\": \"blue tarpaulin on top of the train\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [585, 395]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1586,
+  "candidatesTokenCount": 1066,
+  "totalTokenCount": 4688,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1081
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1066
+   }
+  ],
+  "thoughtsTokenCount": 2036,
+  "serviceTier": "standard"
+ }
+}

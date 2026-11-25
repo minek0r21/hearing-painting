@@ -1,0 +1,35 @@
+{
+ "hash": "f4c4a49caa1f",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "silent",
+    "why": "Still hanging basket indoors."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Still bread basket on table."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Still jug making no sound."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Still wooden box on floor."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}], \"unpaired\": [{\"model\": 2, \"verdict\": \"silent\", \"why\": \"Still hanging basket indoors.\"}, {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Still bread basket on table.\"}, {\"model\": 4, \"verdict\": \"silent\", \"why\": \"Still jug making no sound.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Still wooden box on floor.\"}]}"
+}

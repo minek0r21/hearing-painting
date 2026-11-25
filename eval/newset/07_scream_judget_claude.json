@@ -1,0 +1,15 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 2,
+   "verdict": "plausible",
+   "why": "Swirling sky suggests wind."
+  }
+ ]
+}

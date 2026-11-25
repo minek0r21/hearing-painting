@@ -1,0 +1,23 @@
+# 들리는 그림 AI 파이프라인 — Python 3.11, Windows, NVIDIA GPU (VRAM 12GB에서 확인)
+# 설치 순서 (README "AI 파이프라인 설치" 참고):
+#   1) PyTorch (CUDA 11.8)
+#      pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+#   2) pip install -r requirements.txt
+#   3) Stable Audio 3 (PyPI에 없음, 확인한 커밋으로 고정)
+#      pip install "stable-audio-3 @ git+https://github.com/Stability-AI/stable-audio-3@790793b89ddceea612be9ce42ff6830d18f6fa57"
+transformers==5.10.1
+accelerate==1.16.0
+bitsandbytes==0.50.2        # Qwen3.5-9B 4bit(NF4)
+diffusers==0.43.0           # Stable Audio Open 1.0 (--audio sao1일 때만)
+huggingface_hub==1.33.0
+safetensors==0.8.0
+onnxruntime==1.32.0         # Depth Anything 3 (ONNX, CPU)
+opencv-python-headless==5.1.0.95
+numpy==2.4.6
+pillow==12.2.0
+scipy==1.17.1
+matplotlib==3.11.2
+soundfile==0.14.0
+pyloudnorm==0.2.0
+httpx==0.28.1               # Gemini API (답지·채점, 선택)
+einops==0.8.2

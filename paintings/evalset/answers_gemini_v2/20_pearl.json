@@ -1,0 +1,33 @@
+{
+ "model": "gemini-4-neon",
+ "file": "20_pearl.jpg",
+ "seconds": 10.3,
+ "parsed": {
+  "title_guess": "Girl with a Pearl Earring",
+  "sources": []
+ },
+ "raw": "{\"title_guess\": \"Girl with a Pearl Earring\", \"sources\": []}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 17,
+  "totalTokenCount": 2484,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 17
+   }
+  ],
+  "thoughtsTokenCount": 652,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "model": "gemini-4-neon",
+ "file": "03_wave.jpg",
+ "seconds": 52.5,
+ "parsed": {
+  "title_guess": "The Great Wave off Kanagawa",
+  "sources": [
+   {
+    "label_ko": "거센 바다의 파도 소리",
+    "sound_en": "roaring ocean waves and churning surf",
+    "ground_phrase_en": "turbulent ocean waves",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "거대한 파도가 부서지는 소리",
+    "sound_en": "massive wave crest crashing and foaming",
+    "ground_phrase_en": "giant curling wave crest",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      410,
+      240
+     ]
+    ]
+   },
+   {
+    "label_ko": "나무배가 삐걱거리고 파도에 부딪히는 소리",
+    "sound_en": "wooden boat hulls creaking and slapping against waves",
+    "ground_phrase_en": "wooden fishing boats",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      145,
+      660
+     ],
+     [
+      585,
+      905
+     ],
+     [
+      740,
+      715
+     ]
+    ]
+   },
+   {
+    "label_ko": "거센 바닷바람 소리",
+    "sound_en": "howling sea wind",
+    "ground_phrase_en": "wind-whipped sea spray and stormy sky",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "뱃사공들의 외침과 기합 소리",
+    "sound_en": "fishermen shouting and grunting as they brace in the boats",
+    "ground_phrase_en": "crouching fishermen in wooden boats",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      202,
+      695
+     ],
+     [
+      745,
+      895
+     ],
+     [
+      835,
+      615
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Wave off Kanagawa\",\n  \"sources\": [\n    {\n      \"label_ko\": \"거센 바다의 파도 소리\",\n      \"sound_en\": \"roaring ocean waves and churning surf\",\n      \"ground_phrase_en\": \"turbulent ocean waves\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"거대한 파도가 부서지는 소리\",\n      \"sound_en\": \"massive wave crest crashing and foaming\",\n      \"ground_phrase_en\": \"giant curling wave crest\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [410, 240]\n      ]\n    },\n    {\n      \"label_ko\": \"나무배가 삐걱거리고 파도에 부딪히는 소리\",\n      \"sound_en\": \"wooden boat hulls creaking and slapping against waves\",\n      \"ground_phrase_en\": \"wooden fishing boats\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [145, 660],\n        [585, 905],\n        [740, 715]\n      ]\n    },\n    {\n      \"label_ko\": \"거센 바닷바람 소리\",\n      \"sound_en\": \"howling sea wind\",\n      \"ground_phrase_en\": \"wind-whipped sea spray and stormy sky\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"뱃사공들의 외침과 기합 소리\",\n      \"sound_en\": \"fishermen shouting and grunting as they brace in the boats\",\n      \"ground_phrase_en\": \"crouching fishermen in wooden boats\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [202, 695],\n        [745, 895],\n        [835, 615]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 526,
+  "totalTokenCount": 6513,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 526
+   }
+  ],
+  "thoughtsTokenCount": 4402,
+  "serviceTier": "standard"
+ }
+}

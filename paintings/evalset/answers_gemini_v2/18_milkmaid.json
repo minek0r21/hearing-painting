@@ -1,0 +1,47 @@
+{
+ "model": "gemini-4-neon",
+ "file": "18_milkmaid.jpg",
+ "seconds": 8.8,
+ "parsed": {
+  "title_guess": "The Milkmaid",
+  "sources": [
+   {
+    "label_ko": "우유 따르는 소리",
+    "sound_en": "milk pouring into an earthenware bowl",
+    "ground_phrase_en": "stream of milk pouring into a bowl",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      337,
+      600
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Milkmaid\",\n  \"sources\": [\n    {\n      \"label_ko\": \"우유 따르는 소리\",\n      \"sound_en\": \"milk pouring into an earthenware bowl\",\n      \"ground_phrase_en\": \"stream of milk pouring into a bowl\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [337, 600]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1820,
+  "candidatesTokenCount": 117,
+  "totalTokenCount": 2651,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1085
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 117
+   }
+  ],
+  "thoughtsTokenCount": 714,
+  "serviceTier": "standard"
+ }
+}

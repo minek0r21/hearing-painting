@@ -1,0 +1,33 @@
+{
+ "hash": "6b5297ca3f7e",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 5
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Bare trees are visible and can make wind sounds."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "The boat is frozen on ice and stationary."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 5}, {\"model\": 2, \"answer\": 3}, {\"model\": 3, \"answer\": 2}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Bare trees are visible and can make wind sounds.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"The boat is frozen on ice and stationary.\"}]}"
+}

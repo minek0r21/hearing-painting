@@ -1,0 +1,60 @@
+{
+ "title_guess": "Cafe Terrace at Night",
+ "sources": [
+  {
+   "label_ko": "카페 손님들의 대화와 식기 소리",
+   "sound_en": "cafe patrons chatting and clinking glasses",
+   "ground_phrase_en": "people seated at cafe terrace tables and waiter",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     370,
+     625
+    ],
+    [
+     445,
+     600
+    ],
+    [
+     505,
+     635
+    ]
+   ]
+  },
+  {
+   "label_ko": "자갈길을 걷는 행인들의 발소리",
+   "sound_en": "pedestrians' footsteps on cobblestones and quiet conversation",
+   "ground_phrase_en": "pedestrians walking on cobblestone street",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     675,
+     625
+    ],
+    [
+     785,
+     595
+    ],
+    [
+     710,
+     565
+    ]
+   ]
+  },
+  {
+   "label_ko": "자갈길 위 마차 바퀴와 말발굽 소리",
+   "sound_en": "distant horse hooves and carriage wheels on cobblestones",
+   "ground_phrase_en": "horse-drawn carriage down the street",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     580,
+     555
+    ]
+   ]
+  }
+ ]
+}

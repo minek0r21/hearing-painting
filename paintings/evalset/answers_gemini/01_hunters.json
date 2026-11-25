@@ -1,0 +1,210 @@
+{
+ "model": "gemini-4-neon",
+ "file": "01_hunters.jpg",
+ "seconds": 39.1,
+ "parsed": {
+  "title_guess": "The Hunters in the Snow",
+  "sources": [
+   {
+    "label_ko": "눈 밟는 발자국 소리",
+    "sound_en": "crunching footsteps of hunters walking through deep snow",
+    "ground_phrase_en": "hunters walking in snow",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      275,
+      665
+     ],
+     [
+      330,
+      785
+     ],
+     [
+      400,
+      710
+     ]
+    ]
+   },
+   {
+    "label_ko": "사냥개 헐떡임과 눈 밟는 소리",
+    "sound_en": "hunting dogs panting, whimpering, and padding through the snow",
+    "ground_phrase_en": "pack of hunting dogs",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      92,
+      752
+     ],
+     [
+      152,
+      822
+     ],
+     [
+      140,
+      918
+     ],
+     [
+      60,
+      935
+     ],
+     [
+      252,
+      758
+     ]
+    ]
+   },
+   {
+    "label_ko": "모닥불 타닥거리는 소리",
+    "sound_en": "crackling flames of the bonfire outside the inn",
+    "ground_phrase_en": "bonfire outside the inn",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      115,
+      605
+     ]
+    ]
+   },
+   {
+    "label_ko": "얼음판 위 스케이트 소리와 먼 웅성거림",
+    "sound_en": "distant shouts, laughter, and skates scraping on the frozen ponds",
+    "ground_phrase_en": "villagers skating and playing on frozen ponds",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      722,
+      592
+     ],
+     [
+      825,
+      585
+     ],
+     [
+      880,
+      560
+     ],
+     [
+      698,
+      660
+     ],
+     [
+      792,
+      656
+     ],
+     [
+      860,
+      948
+     ]
+    ]
+   },
+   {
+    "label_ko": "까마귀 울음소리와 날갯짓",
+    "sound_en": "cawing and flapping wings of crows in the trees and sky",
+    "ground_phrase_en": "black birds in trees and sky",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      236,
+      76
+     ],
+     [
+      568,
+      190
+     ],
+     [
+      705,
+      260
+     ],
+     [
+      498,
+      595
+     ]
+    ]
+   },
+   {
+    "label_ko": "차가운 겨울바람 소리",
+    "sound_en": "cold winter wind blowing through bare tree branches across the valley",
+    "ground_phrase_en": "winter wind through bare trees and snowy landscape",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "모닥불 주변 사람들의 대화 소리",
+    "sound_en": "murmured voices and bustling sounds of villagers tending the fire",
+    "ground_phrase_en": "people working around the fire",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      50,
+      610
+     ],
+     [
+      95,
+      615
+     ],
+     [
+      142,
+      588
+     ]
+    ]
+   },
+   {
+    "label_ko": "나무 간판 삐걱거리는 소리",
+    "sound_en": "broken wooden tavern sign creaking slightly in the wind",
+    "ground_phrase_en": "hanging tavern sign",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      104,
+      382
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 들리는 마차 소리",
+    "sound_en": "distant creaking wagon wheels and horse hooves near the village",
+    "ground_phrase_en": "horse-drawn cart near the frozen pond",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      626,
+      560
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Hunters in the Snow\",\n  \"sources\": [\n    {\n      \"label_ko\": \"눈 밟는 발자국 소리\",\n      \"sound_en\": \"crunching footsteps of hunters walking through deep snow\",\n      \"ground_phrase_en\": \"hunters walking in snow\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [275, 665],\n        [330, 785],\n        [400, 710]\n      ]\n    },\n    {\n      \"label_ko\": \"사냥개 헐떡임과 눈 밟는 소리\",\n      \"sound_en\": \"hunting dogs panting, whimpering, and padding through the snow\",\n      \"ground_phrase_en\": \"pack of hunting dogs\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [92, 752],\n        [152, 822],\n        [140, 918],\n        [60, 935],\n        [252, 758]\n      ]\n    },\n    {\n      \"label_ko\": \"모닥불 타닥거리는 소리\",\n      \"sound_en\": \"crackling flames of the bonfire outside the inn\",\n      \"ground_phrase_en\": \"bonfire outside the inn\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [115, 605]\n      ]\n    },\n    {\n      \"label_ko\": \"얼음판 위 스케이트 소리와 먼 웅성거림\",\n      \"sound_en\": \"distant shouts, laughter, and skates scraping on the frozen ponds\",\n      \"ground_phrase_en\": \"villagers skating and playing on frozen ponds\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [722, 592],\n        [825, 585],\n        [880, 560],\n        [698, 660],\n        [792, 656],\n        [860, 948]\n      ]\n    },\n    {\n      \"label_ko\": \"까마귀 울음소리와 날갯짓\",\n      \"sound_en\": \"cawing and flapping wings of crows in the trees and sky\",\n      \"ground_phrase_en\": \"black birds in trees and sky\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [236, 76],\n        [568, 190],\n        [705, 260],\n        [498, 595]\n      ]\n    },\n    {\n      \"label_ko\": \"차가운 겨울바람 소리\",\n      \"sound_en\": \"cold winter wind blowing through bare tree branches across the valley\",\n      \"ground_phrase_en\": \"winter wind through bare trees and snowy landscape\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"모닥불 주변 사람들의 대화 소리\",\n      \"sound_en\": \"murmured voices and bustling sounds of villagers tending the fire\",\n      \"ground_phrase_en\": \"people working around the fire\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [50, 610],\n        [95, 615],\n        [142, 588]\n      ]\n    },\n    {\n      \"label_ko\": \"나무 간판 삐걱거리는 소리\",\n      \"sound_en\": \"broken wooden tavern sign creaking slightly in the wind\",\n      \"ground_phrase_en\": \"hanging tavern sign\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [104, 382]\n      ]\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 마차 소리\",\n      \"sound_en\": \"distant creaking wagon wheels and horse hooves near the village\",\n      \"ground_phrase_en\": \"horse-drawn cart near the frozen pond\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [626, 560]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1597,
+  "candidatesTokenCount": 1099,
+  "totalTokenCount": 5419,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1092
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1099
+   }
+  ],
+  "thoughtsTokenCount": 2723,
+  "serviceTier": "standard"
+ }
+}

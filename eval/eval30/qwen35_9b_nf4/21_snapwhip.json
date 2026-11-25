@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "21_snapwhip",
+ "seconds": 88.5,
+ "peak_vram_gb": 8.57,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Barefoot Boys",
+  "sources": [
+   {
+    "id": "boys_running",
+    "object_en": "group of boys running",
+    "x": 500,
+    "y": 600,
+    "label_ko": "달리는 소년들",
+    "type": "people",
+    "description_ko": "발이 맨발인 소년들이 손을 잡고 달리고 있는 소리가 들립니다.",
+    "prompt_en": "barefoot boys running together holding hands, energetic footsteps on grass, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "boy_falling",
+    "object_en": "boy falling on grass",
+    "x": 120,
+    "y": 650,
+    "label_ko": "넘어가는 소년",
+    "type": "people",
+    "description_ko": "한 소년이 넘어지며 땅에 떨어지는 소리가 들립니다.",
+    "prompt_en": "boy falling onto grass, soft thud and rustle, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "boys_playing_background",
+    "object_en": "group of boys playing in background",
+    "x": 80,
+    "y": 550,
+    "label_ko": "배경에서 놀고 있는 소년들",
+    "type": "people",
+    "description_ko": "배경에서 다른 소년들이 놀고 있는 웃음소리와 소리가 들립니다.",
+    "prompt_en": "children playing in distance, laughter and chatter, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees on hillside",
+    "x": 300,
+    "y": 200,
+    "label_ko": "바람 부는 나무들",
+    "type": "nature",
+    "description_ko": "산사이에 불어오는 바람이 나무들을 흔들며 소리를 냅니다.",
+    "prompt_en": "gentle wind rustling through forest trees, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "birds_in_trees",
+    "object_en": "birds in trees",
+    "x": 400,
+    "y": 150,
+    "label_ko": "나무에 있는 새들",
+    "type": "animal",
+    "description_ko": "나무 위 새들이 지저귀는 소리가 들립니다.",
+    "prompt_en": "birds chirping in trees, natural forest sounds, field recording",
+    "volume": 0.4
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Barefoot Boys\",\n  \"sources\": [\n    {\n      \"id\": \"boys_running\",\n      \"object_en\": \"group of boys running\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년들\",\n      \"type\": \"people\",\n      \"description_ko\": \"발이 맨발인 소년들이 손을 잡고 달리고 있는 소리가 들립니다.\",\n      \"prompt_en\": \"barefoot boys running together holding hands, energetic footsteps on grass, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"boy_falling\",\n      \"object_en\": \"boy falling on grass\",\n      \"x\": 120,\n      \"y\": 650,\n      \"label_ko\": \"넘어가는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 소년이 넘어지며 땅에 떨어지는 소리가 들립니다.\",\n      \"prompt_en\": \"boy falling onto grass, soft thud and rustle, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"boys_playing_background\",\n      \"object_en\": \"group of boys playing in background\",\n      \"x\": 80,\n      \"y\": 550,\n      \"label_ko\": \"배경에서 놀고 있는 소년들\",\n      \"type\": \"people\",\n      \"description_ko\": \"배경에서 다른 소년들이 놀고 있는 웃음소리와 소리가 들립니다.\",\n      \"prompt_en\": \"children playing in distance, laughter and chatter, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees on hillside\",\n      \"x\": 300,\n      \"y\": 200,\n      \"label_ko\": \"바람 부는 나무들\",\n      \"type\": \"nature\",\n      \"description_ko\": \"산사이에 불어오는 바람이 나무들을 흔들며 소리를 냅니다.\",\n      \"prompt_en\": \"gentle wind rustling through forest trees, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"birds_in_trees\",\n      \"object_en\": \"birds in trees\",\n      \"x\": 400,\n      \"y\": 150,\n      \"label_ko\": \"나무에 있는 새들\",\n      \"type\": \"animal\",\n      \"description_ko\": \"나무 위 새들이 지저귀는 소리가 들립니다.\",\n      \"prompt_en\": \"birds chirping in trees, natural forest sounds, field recording\",\n      \"volume\": 0.4\n    }\n  ]\n}\n"
+}

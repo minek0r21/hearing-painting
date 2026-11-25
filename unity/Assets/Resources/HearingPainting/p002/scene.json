@@ -1,0 +1,163 @@
+{
+  "title": "단오풍정",
+  "artist": "신윤복",
+  "year": "",
+  "caption": "VLM 제목 추정: 단오풍정",
+  "depth_model": "DA3 Mono-L",
+  "depth_agreement": 0.963,
+  "audio_model": "sa3m",
+  "quality": {
+    "gemini": {
+      "required_found": 1.0,
+      "required": "3/3",
+      "invented": 0.0,
+      "invented_n": "0/5",
+      "missed": [],
+      "invented_items": [],
+      "judge": "gemini-4-neon"
+    }
+  },
+  "dropped": [],
+  "name_warnings": [],
+  "arcore_score": 100,
+  "arcore": {
+    "score": 100,
+    "picked": "original.jpg",
+    "candidates": {
+      "original.jpg": 100,
+      "q95.jpg": 100,
+      "q100.jpg": 100
+    },
+    "tool": true
+  },
+  "layers": {
+    "count": 4,
+    "size": [
+      1024,
+      816
+    ],
+    "files": [
+      "layer0",
+      "layer1",
+      "layer2",
+      "layer3"
+    ],
+    "map": "layers",
+    "layers": [
+      {
+        "index": 0,
+        "area": 0.25,
+        "visible": 0.257
+      },
+      {
+        "index": 1,
+        "area": 0.25,
+        "visible": 0.445
+      },
+      {
+        "index": 2,
+        "area": 0.25,
+        "visible": 0.551
+      },
+      {
+        "index": 3,
+        "area": 0.25,
+        "visible": 1.0
+      }
+    ],
+    "hole_dilate": 0.04,
+    "margin": 0.18
+  },
+  "sources": [
+    {
+      "id": "swinging_girl",
+      "label": "그네",
+      "type": "people",
+      "u": 0.63,
+      "v": 0.28,
+      "depth": 0.601,
+      "file": "swinging_girl",
+      "volume": 0.8,
+      "description": "나무에 매달린 매듭에 매달려 흔들리는 소녀의 움직임에서 나는 소리.",
+      "prompt": "sound of a girl swinging on a rope swing, creaking and swaying, field recording",
+      "source_type": "point",
+      "object_en": "girl on a swing",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.0,
+      "quiet": false
+    },
+    {
+      "id": "climbing_man",
+      "label": "엿보는 아이들",
+      "type": "people",
+      "u": 0.18,
+      "v": 0.24,
+      "depth": 0.9,
+      "file": "climbing_man",
+      "volume": 0.8,
+      "description": "바위 위에 올라가는 남자의 발걸음과 숨소리.",
+      "prompt": "sound of a man climbing a rock, footsteps and breathing, field recording",
+      "source_type": "point",
+      "object_en": "man climbing a rock",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.2,
+      "quiet": false
+    },
+    {
+      "id": "stream_water",
+      "label": "물소리",
+      "type": "nature",
+      "u": 0.3,
+      "v": 0.8,
+      "depth": 0.151,
+      "file": "stream_water",
+      "volume": 0.8,
+      "description": "바위 사이로 흐르는 작은 강물의 물소리.",
+      "prompt": "sound of a small stream flowing over rocks, bubbling water, field recording",
+      "source_type": "point",
+      "object_en": "stream",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.0,
+      "quiet": false
+    },
+    {
+      "id": "bathing_women",
+      "label": "물놀이",
+      "type": "people",
+      "u": 0.3,
+      "v": 0.85,
+      "depth": 0.128,
+      "file": "bathing_women",
+      "volume": 0.8,
+      "description": "물에서 놀고 있는 여자들의 웃음소리와 물소리.",
+      "prompt": "sound of women bathing in a stream, splashing water and laughter, field recording",
+      "source_type": "point",
+      "object_en": "women bathing",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.1,
+      "quiet": false
+    },
+    {
+      "id": "walking_man",
+      "label": "걸음걸이",
+      "type": "people",
+      "u": 0.88,
+      "v": 0.6,
+      "depth": 0.1,
+      "file": "walking_man",
+      "volume": 0.8,
+      "description": "산책하는 남자의 발걸음 소리.",
+      "prompt": "sound of a man walking on a path, footsteps, field recording",
+      "source_type": "point",
+      "object_en": "man walking",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.3,
+      "quiet": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "hash": "5a7b0d186dbb",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No flute is shown; the man carries a stick with a gourd."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No flute is shown; the man carries a stick with a gourd.\"}]}"
+}

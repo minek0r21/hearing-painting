@@ -1,0 +1,67 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "20_pearl",
+ "seconds": 54.4,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Girl with a Pearl Earring",
+  "sources": [
+   {
+    "id": "pearl_earring",
+    "object_en": "pearl earring",
+    "x": 620,
+    "y": 520,
+    "label_ko": "진주 귀걸이",
+    "type": "people",
+    "description_ko": "귀에 걸린 진주가 반짝이며 미세한 클릭 소리를 낸다.",
+    "prompt_en": "soft metallic click of a pearl earring being touched or adjusted, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "headscarf",
+    "object_en": "blue headscarf",
+    "x": 500,
+    "y": 300,
+    "label_ko": "파란 머리띠",
+    "type": "people",
+    "description_ko": "머리띠가 바람에 살짝 흔들리며 천이 마찰하는 소리.",
+    "prompt_en": "soft rustling of silk fabric as headscarf moves slightly in breeze, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "shoulder_clothing",
+    "object_en": "yellow shoulder garment",
+    "x": 550,
+    "y": 700,
+    "label_ko": "노란 옷 어깨",
+    "type": "people",
+    "description_ko": "옷감이 바람에 살짝 움직이며 천이 마찰하는 소리.",
+    "prompt_en": "gentle rustle of yellow fabric on shoulder as cloth shifts slightly, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "ambient_breeze",
+    "object_en": "dark background",
+    "x": 200,
+    "y": 500,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "어두운 배경에서 은은한 바람이 불어오는 듯한 소리.",
+    "prompt_en": "subtle ambient breeze sound, like air moving through a quiet room, field recording",
+    "volume": 0.3
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Girl with a Pearl Earring\",\n  \"sources\": [\n    {\n      \"id\": \"pearl_earring\",\n      \"object_en\": \"pearl earring\",\n      \"x\": 620,\n      \"y\": 520,\n      \"label_ko\": \"진주 귀걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"귀에 걸린 진주가 반짝이며 미세한 클릭 소리를 낸다.\",\n      \"prompt_en\": \"soft metallic click of a pearl earring being touched or adjusted, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"headscarf\",\n      \"object_en\": \"blue headscarf\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"파란 머리띠\",\n      \"type\": \"people\",\n      \"description_ko\": \"머리띠가 바람에 살짝 흔들리며 천이 마찰하는 소리.\",\n      \"prompt_en\": \"soft rustling of silk fabric as headscarf moves slightly in breeze, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"shoulder_clothing\",\n      \"object_en\": \"yellow shoulder garment\",\n      \"x\": 550,\n      \"y\": 700,\n      \"label_ko\": \"노란 옷 어깨\",\n      \"type\": \"people\",\n      \"description_ko\": \"옷감이 바람에 살짝 움직이며 천이 마찰하는 소리.\",\n      \"prompt_en\": \"gentle rustle of yellow fabric on shoulder as cloth shifts slightly, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"ambient_breeze\",\n      \"object_en\": \"dark background\",\n      \"x\": 200,\n      \"y\": 500,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"어두운 배경에서 은은한 바람이 불어오는 듯한 소리.\",\n      \"prompt_en\": \"subtle ambient breeze sound, like air moving through a quiet room, field recording\",\n      \"volume\": 0.3\n    }\n  ]\n}\n"
+}

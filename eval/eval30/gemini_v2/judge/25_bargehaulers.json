@@ -1,0 +1,33 @@
+{
+ "hash": "69cf61c0c06a",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 4
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Fluttering flag shows wind on the riverbank."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Distant smoking steamboat is visible on the right."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 4}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Fluttering flag shows wind on the riverbank.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Distant smoking steamboat is visible on the right.\"}]}"
+}

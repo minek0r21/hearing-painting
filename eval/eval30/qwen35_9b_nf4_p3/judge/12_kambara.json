@@ -1,0 +1,24 @@
+{
+ "hash": "8b97b143af88",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Additional traveler walking in snow."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 1}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Additional traveler walking in snow.\"}]}"
+}

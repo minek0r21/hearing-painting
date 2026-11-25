@@ -1,0 +1,180 @@
+{
+ "model": "gemini-4-neon",
+ "file": "25_bargehaulers.jpg",
+ "seconds": 37.9,
+ "parsed": {
+  "title_guess": "Barge Haulers on the Volga",
+  "sources": [
+   {
+    "label_ko": "모래밭을 끄는 무거운 발소리",
+    "sound_en": "heavy trudging footsteps shuffling through sand",
+    "ground_phrase_en": "barge haulers' feet in sand",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      212,
+      785
+     ],
+     [
+      270,
+      795
+     ],
+     [
+      372,
+      762
+     ],
+     [
+      455,
+      720
+     ],
+     [
+      510,
+      715
+     ],
+     [
+      575,
+      690
+     ]
+    ]
+   },
+   {
+    "label_ko": "인부들의 거친 숨소리와 신음 소리",
+    "sound_en": "strained breathing, grunts, and weary groans of men pulling",
+    "ground_phrase_en": "barge haulers",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      148,
+      420
+     ],
+     [
+      212,
+      385
+     ],
+     [
+      310,
+      455
+     ],
+     [
+      435,
+      340
+     ],
+     [
+      472,
+      395
+     ],
+     [
+      545,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "팽팽하게 당겨진 밧줄과 멜빵 삐걱거리는 소리",
+    "sound_en": "creaking and straining of heavy tow ropes and leather straps",
+    "ground_phrase_en": "tow straps and rope",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      235,
+      438
+     ],
+     [
+      345,
+      495
+     ],
+     [
+      585,
+      412
+     ],
+     [
+      670,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "강물이 기슭에 잔잔히 부딪히는 소리",
+    "sound_en": "gentle river water flowing and lapping along the sandy shore",
+    "ground_phrase_en": "wide river water",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "나무 배가 물살을 가르며 삐걱거리는 소리",
+    "sound_en": "water splashing against the wooden barge hull and timber creaking",
+    "ground_phrase_en": "wooden barge",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      765,
+      480
+     ]
+    ]
+   },
+   {
+    "label_ko": "넓은 강 위로 부는 바람 소리",
+    "sound_en": "steady warm breeze blowing across the open river",
+    "ground_phrase_en": "open river sky and wind",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "돛대 깃발이 바람에 펄럭이는 소리",
+    "sound_en": "flag fluttering in the wind atop the mast",
+    "ground_phrase_en": "flag at the top of the mast",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      792,
+      70
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 들리는 증기선 엔진 소리",
+    "sound_en": "faint distant chugging of a steamboat on the river",
+    "ground_phrase_en": "distant steamboat with smoke",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      921,
+      463
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Barge Haulers on the Volga\",\n  \"sources\": [\n    {\n      \"label_ko\": \"모래밭을 끄는 무거운 발소리\",\n      \"sound_en\": \"heavy trudging footsteps shuffling through sand\",\n      \"ground_phrase_en\": \"barge haulers' feet in sand\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [212, 785],\n        [270, 795],\n        [372, 762],\n        [455, 720],\n        [510, 715],\n        [575, 690]\n      ]\n    },\n    {\n      \"label_ko\": \"인부들의 거친 숨소리와 신음 소리\",\n      \"sound_en\": \"strained breathing, grunts, and weary groans of men pulling\",\n      \"ground_phrase_en\": \"barge haulers\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [148, 420],\n        [212, 385],\n        [310, 455],\n        [435, 340],\n        [472, 395],\n        [545, 415]\n      ]\n    },\n    {\n      \"label_ko\": \"팽팽하게 당겨진 밧줄과 멜빵 삐걱거리는 소리\",\n      \"sound_en\": \"creaking and straining of heavy tow ropes and leather straps\",\n      \"ground_phrase_en\": \"tow straps and rope\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [235, 438],\n        [345, 495],\n        [585, 412],\n        [670, 415]\n      ]\n    },\n    {\n      \"label_ko\": \"강물이 기슭에 잔잔히 부딪히는 소리\",\n      \"sound_en\": \"gentle river water flowing and lapping along the sandy shore\",\n      \"ground_phrase_en\": \"wide river water\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"나무 배가 물살을 가르며 삐걱거리는 소리\",\n      \"sound_en\": \"water splashing against the wooden barge hull and timber creaking\",\n      \"ground_phrase_en\": \"wooden barge\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [765, 480]\n      ]\n    },\n    {\n      \"label_ko\": \"넓은 강 위로 부는 바람 소리\",\n      \"sound_en\": \"steady warm breeze blowing across the open river\",\n      \"ground_phrase_en\": \"open river sky and wind\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"돛대 깃발이 바람에 펄럭이는 소리\",\n      \"sound_en\": \"flag fluttering in the wind atop the mast\",\n      \"ground_phrase_en\": \"flag at the top of the mast\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [792, 70]\n      ]\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 증기선 엔진 소리\",\n      \"sound_en\": \"faint distant chugging of a steamboat on the river\",\n      \"ground_phrase_en\": \"distant steamboat with smoke\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [921, 463]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1583,
+  "candidatesTokenCount": 962,
+  "totalTokenCount": 5022,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1078
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 962
+   }
+  ],
+  "thoughtsTokenCount": 2477,
+  "serviceTier": "standard"
+ }
+}

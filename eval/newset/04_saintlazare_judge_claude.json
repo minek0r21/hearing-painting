@@ -1,0 +1,19 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 2,
+   "answer": 3
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Trains and tracks are visible and can make rolling sounds."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "title_guess": "The Swing",
+ "sources": [
+  {
+   "label_ko": "그네 줄 삐걱거리며 흔들리는 소리",
+   "sound_en": "creaking rope swing swooshing through the air",
+   "ground_phrase_en": "woman swinging on a rope swing",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     505,
+     635
+    ]
+   ]
+  },
+  {
+   "label_ko": "바람에 나뭇잎 스치는 소리",
+   "sound_en": "gentle breeze rustling through dense garden foliage",
+   "ground_phrase_en": "dense overhanging garden trees and foliage",
+   "source_type": "ambient",
+   "grade": "required",
+   "points": []
+  },
+  {
+   "label_ko": "작은 개 짖는 소리",
+   "sound_en": "small dog yapping",
+   "ground_phrase_en": "small white dog near the flowers",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     768,
+     925
+    ]
+   ]
+  }
+ ]
+}

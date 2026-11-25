@@ -1,0 +1,41 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "03_wave",
+ "seconds": 40.5,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "거센 파도가 부서지는 소리",
+    "prompt_en": "roaring and crashing ocean waves with heavy spray",
+    "object_en": "giant breaking ocean waves"
+   },
+   {
+    "label_ko": "나무배가 파도에 부딪히고 삐걱거리는 소리",
+    "prompt_en": "wooden boats creaking and slapping against the waves",
+    "object_en": "wooden fishing boats in the waves",
+    "x": 150,
+    "y": 665
+   },
+   {
+    "label_ko": "거센 바닷바람 소리",
+    "prompt_en": "strong howling sea wind",
+    "object_en": "stormy open sea and sky"
+   },
+   {
+    "label_ko": "배 위 어부들의 외침 소리",
+    "prompt_en": "fishermen shouting over the storm",
+    "object_en": "huddled rowers inside the wooden boats",
+    "x": 207,
+    "y": 690
+   }
+  ]
+ },
+ "raw": ""
+}

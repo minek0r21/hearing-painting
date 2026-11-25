@@ -1,0 +1,48 @@
+{
+ "hash": "85d3977e9314",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 1
+   },
+   {
+    "model": 8,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Woman walking on sand is visible."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Describes silence and standing still."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Describes a quiet atmosphere."
+   },
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Dogs are visible and could run on sand."
+   },
+   {
+    "model": 7,
+    "verdict": "silent",
+    "why": "Describes a dog lying quietly."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 3},\n    {\"model\": 5, \"answer\": 1},\n    {\"model\": 8, \"answer\": 4}\n  ],\n  \"unpaired\": [\n    {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Woman walking on sand is visible.\"},\n    {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Describes silence and standing still.\"},\n    {\"model\": 4, \"verdict\": \"silent\", \"why\": \"Describes a quiet atmosphere.\"},\n    {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Dogs are visible and could run on sand.\"},\n    {\"model\": 7, \"verdict\": \"silent\", \"why\": \"Describes a dog lying quietly.\"}\n  ]\n}"
+}

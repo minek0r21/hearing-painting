@@ -1,0 +1,34 @@
+{
+ "hash": "d184f003926f",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No drum or drummer in the painting."
+   },
+   {
+    "model": 4,
+    "verdict": "not_visible",
+    "why": "No meat cutting shown."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Servers are walking across the floor."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 4}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No drum or drummer in the painting.\"}, {\"model\": 4, \"verdict\": \"not_visible\", \"why\": \"No meat cutting shown.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Servers are walking across the floor.\"}]}"
+}

@@ -1,0 +1,92 @@
+{
+ "model": "gemini-4-neon",
+ "file": "21_snapwhip.jpg",
+ "seconds": 29.7,
+ "parsed": {
+  "title_guess": "Snap the Whip",
+  "sources": [
+   {
+    "label_ko": "뛰어노는 소년들의 함성과 발소리",
+    "sound_en": "boys shouting, laughing, running barefoot, and tumbling in the grass",
+    "ground_phrase_en": "line of barefoot boys playing Snap the Whip",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      145,
+      650
+     ],
+     [
+      275,
+      620
+     ],
+     [
+      460,
+      600
+     ],
+     [
+      660,
+      620
+     ],
+     [
+      860,
+      620
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 노는 아이들의 목소리",
+    "sound_en": "distant children playing, chattering, and cheering",
+    "ground_phrase_en": "distant children playing in the left background",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      68,
+      570
+     ],
+     [
+      112,
+      540
+     ],
+     [
+      218,
+      548
+     ]
+    ]
+   },
+   {
+    "label_ko": "숲과 들판에 부는 바람 소리",
+    "sound_en": "gentle breeze rustling through the hillside woods and grassy field",
+    "ground_phrase_en": "wooded hillside and grassy meadow",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Snap the Whip\",\n  \"sources\": [\n    {\n      \"label_ko\": \"뛰어노는 소년들의 함성과 발소리\",\n      \"sound_en\": \"boys shouting, laughing, running barefoot, and tumbling in the grass\",\n      \"ground_phrase_en\": \"line of barefoot boys playing Snap the Whip\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [145, 650],\n        [275, 620],\n        [460, 600],\n        [660, 620],\n        [860, 620]\n      ]\n    },\n    {\n      \"label_ko\": \"멀리서 노는 아이들의 목소리\",\n      \"sound_en\": \"distant children playing, chattering, and cheering\",\n      \"ground_phrase_en\": \"distant children playing in the left background\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [68, 570],\n        [112, 540],\n        [218, 548]\n      ]\n    },\n    {\n      \"label_ko\": \"숲과 들판에 부는 바람 소리\",\n      \"sound_en\": \"gentle breeze rustling through the hillside woods and grassy field\",\n      \"ground_phrase_en\": \"wooded hillside and grassy meadow\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1810,
+  "candidatesTokenCount": 386,
+  "totalTokenCount": 4799,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1075
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 386
+   }
+  ],
+  "thoughtsTokenCount": 2603,
+  "serviceTier": "standard"
+ }
+}

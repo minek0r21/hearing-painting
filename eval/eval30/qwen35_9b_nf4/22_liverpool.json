@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "22_liverpool",
+ "seconds": 95.6,
+ "peak_vram_gb": 8.6,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Fog on the Thames",
+  "sources": [
+   {
+    "id": "fog_ambience",
+    "object_en": "foggy sky",
+    "x": 500,
+    "y": 200,
+    "label_ko": "안개",
+    "type": "nature",
+    "description_ko": "안개가 낀 런던의 거리에서 느껴지는 차분하고 습한 바람 소리.",
+    "prompt_en": "misty wind blowing through a foggy city street, low rumble, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "horse_car",
+    "object_en": "horse-drawn carriage",
+    "x": 480,
+    "y": 700,
+    "label_ko": "마차",
+    "type": "vehicle",
+    "description_ko": "거리를 달리는 마차에서 나는 마의 경쾌한 발걸음 소리.",
+    "prompt_en": "horses trotting on cobblestone street, rhythmic hoofbeats, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "street_lamp",
+    "object_en": "street lamp",
+    "x": 680,
+    "y": 650,
+    "label_ko": "가로등",
+    "type": "nature",
+    "description_ko": "비 젖은 거리의 가로등에서 나는 은은한 바람 소리.",
+    "prompt_en": "wind blowing through a gas street lamp, soft whoosh, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "pedestrians",
+    "x": 750,
+    "y": 800,
+    "label_ko": "사람들",
+    "type": "people",
+    "description_ko": "비 오는 밤거리를 걷는 사람들 사이에서 들려오는 낮은 속삭임과 발걸음 소리.",
+    "prompt_en": "muffled crowd murmuring and footsteps on wet pavement, distant city noise, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "ship_masts",
+    "object_en": "ship masts",
+    "x": 100,
+    "y": 400,
+    "label_ko": "돛대",
+    "type": "nature",
+    "description_ko": "안개 낀 강변에 서 있는 배들의 돛대에서 느껴지는 바람 소리.",
+    "prompt_en": "wind whistling through tall wooden ship masts, low hum, field recording",
+    "volume": 0.5
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"Fog on the Thames\",\n  \"sources\": [\n    {\n      \"id\": \"fog_ambience\",\n      \"object_en\": \"foggy sky\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"안개\",\n      \"type\": \"nature\",\n      \"description_ko\": \"안개가 낀 런던의 거리에서 느껴지는 차분하고 습한 바람 소리.\",\n      \"prompt_en\": \"misty wind blowing through a foggy city street, low rumble, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"horse_car\",\n      \"object_en\": \"horse-drawn carriage\",\n      \"x\": 480,\n      \"y\": 700,\n      \"label_ko\": \"마차\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"거리를 달리는 마차에서 나는 마의 경쾌한 발걸음 소리.\",\n      \"prompt_en\": \"horses trotting on cobblestone street, rhythmic hoofbeats, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"street_lamp\",\n      \"object_en\": \"street lamp\",\n      \"x\": 680,\n      \"y\": 650,\n      \"label_ko\": \"가로등\",\n      \"type\": \"nature\",\n      \"description_ko\": \"비 젖은 거리의 가로등에서 나는 은은한 바람 소리.\",\n      \"prompt_en\": \"wind blowing through a gas street lamp, soft whoosh, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"pedestrians\",\n      \"x\": 750,\n      \"y\": 800,\n      \"label_ko\": \"사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"비 오는 밤거리를 걷는 사람들 사이에서 들려오는 낮은 속삭임과 발걸음 소리.\",\n      \"prompt_en\": \"muffled crowd murmuring and footsteps on wet pavement, distant city noise, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"ship_masts\",\n      \"object_en\": \"ship masts\",\n      \"x\": 100,\n      \"y\": 400,\n      \"label_ko\": \"돛대\",\n      \"type\": \"nature\",\n      \"description_ko\": \"안개 낀 강변에 서 있는 배들의 돛대에서 느껴지는 바람 소리.\",\n      \"prompt_en\": \"wind whistling through tall wooden ship masts, low hum, field recording\",\n      \"volume\": 0.5\n    }\n  ]\n}\n```\n"
+}

@@ -1,0 +1,28 @@
+{
+ "hash": "01c8288b755e",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 4,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Visible river can make flowing water sounds."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 1\n    },\n    {\n      \"model\": 2,\n      \"answer\": 2\n    },\n    {\n      \"model\": 4,\n      \"answer\": 3\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 3,\n      \"verdict\": \"plausible\",\n      \"why\": \"Visible river can make flowing water sounds.\"\n    }\n  ]\n}"
+}

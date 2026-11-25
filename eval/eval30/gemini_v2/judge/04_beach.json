@@ -1,0 +1,36 @@
+{
+ "hash": "518a86dfefb6",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 4
+   },
+   {
+    "model": 5,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Bathers are visible in the surf and could splash or call out."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}, {\"model\": 4, \"answer\": 4}, {\"model\": 5, \"answer\": 5}], \"unpaired\": [{\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Bathers are visible in the surf and could splash or call out.\"}]}"
+}

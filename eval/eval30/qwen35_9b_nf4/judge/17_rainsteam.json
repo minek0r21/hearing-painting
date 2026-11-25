@@ -1,0 +1,38 @@
+{
+ "hash": "4d77283bf6fa",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 3
+   },
+   {
+    "model": 6,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "River is visible and makes water sounds."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Stone bridge is a static structure."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Locomotive steam is visible and can hiss."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 1},\n    {\"model\": 5, \"answer\": 3},\n    {\"model\": 6, \"answer\": 2}\n  ],\n  \"unpaired\": [\n    {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"River is visible and makes water sounds.\"},\n    {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Stone bridge is a static structure.\"},\n    {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Locomotive steam is visible and can hiss.\"}\n  ]\n}"
+}

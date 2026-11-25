@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "16_horsefair",
+ "seconds": 32.1,
+ "peak_vram_gb": 8.76,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Horse Fair",
+  "sources": [
+   {
+    "id": "horse_hooves",
+    "object_en": "galloping horses' hooves on dirt",
+    "x": 500,
+    "y": 700,
+    "label_ko": "말 발소리",
+    "type": "animal",
+    "description_ko": "다수의 말이 흙길에서 달리고 있는 발소리가 들립니다.",
+    "prompt_en": "loud rhythmic clattering of horse hooves on dry dirt ground, field recording"
+   },
+   {
+    "id": "men_shouting",
+    "object_en": "men shouting and gesturing",
+    "x": 200,
+    "y": 550,
+    "label_ko": "남자 소리",
+    "type": "people",
+    "description_ko": "남자들이 서로 대화하고 외치는 목소리가 들립니다.",
+    "prompt_en": "men shouting and talking loudly in a busy outdoor scene, field recording"
+   },
+   {
+    "id": "men_horse_whistling",
+    "object_en": "man on horseback whistling",
+    "x": 650,
+    "y": 450,
+    "label_ko": "휘파람",
+    "type": "people",
+    "description_ko": "馬上의 남자가 휘파람을 불고 있습니다.",
+    "prompt_en": "sharp clear whistle sound from a man on horseback, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees swaying in wind",
+    "x": 800,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "나무들이 바람에 흔들리는 소리가 배경에서 들립니다.",
+    "prompt_en": "rustling sound of leaves and branches moving in wind, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Horse Fair\",\n  \"sources\": [\n    {\n      \"id\": \"horse_hooves\",\n      \"object_en\": \"galloping horses' hooves on dirt\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"말 발소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"다수의 말이 흙길에서 달리고 있는 발소리가 들립니다.\",\n      \"prompt_en\": \"loud rhythmic clattering of horse hooves on dry dirt ground, field recording\"\n    },\n    {\n      \"id\": \"men_shouting\",\n      \"object_en\": \"men shouting and gesturing\",\n      \"x\": 200,\n      \"y\": 550,\n      \"label_ko\": \"남자 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자들이 서로 대화하고 외치는 목소리가 들립니다.\",\n      \"prompt_en\": \"men shouting and talking loudly in a busy outdoor scene, field recording\"\n    },\n    {\n      \"id\": \"men_horse_whistling\",\n      \"object_en\": \"man on horseback whistling\",\n      \"x\": 650,\n      \"y\": 450,\n      \"label_ko\": \"휘파람\",\n      \"type\": \"people\",\n      \"description_ko\": \"馬上의 남자가 휘파람을 불고 있습니다.\",\n      \"prompt_en\": \"sharp clear whistle sound from a man on horseback, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees swaying in wind\",\n      \"x\": 800,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무들이 바람에 흔들리는 소리가 배경에서 들립니다.\",\n      \"prompt_en\": \"rustling sound of leaves and branches moving in wind, field recording\"\n    }\n  ]\n}\n"
+}

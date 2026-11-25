@@ -1,0 +1,89 @@
+{
+ "model": "gemini-4-neon",
+ "file": "29_ninthwave.jpg",
+ "seconds": 28.2,
+ "parsed": {
+  "title_guess": "The Ninth Wave",
+  "sources": [
+   {
+    "label_ko": "거칠게 부서지는 파도 소리",
+    "sound_en": "roaring and crashing ocean waves",
+    "ground_phrase_en": "stormy ocean waves",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "휘몰아치는 바닷바람 소리",
+    "sound_en": "howling storm wind over the sea",
+    "ground_phrase_en": "wind-blown sea spray and storm clouds",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "조난자들의 외침 소리",
+    "sound_en": "shipwreck survivors shouting and calling out",
+    "ground_phrase_en": "shipwreck survivors clinging to the mast",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      425,
+      850
+     ]
+    ]
+   },
+   {
+    "label_ko": "부서진 돛대가 삐걱거리는 소리",
+    "sound_en": "creaking and groaning of the floating wooden mast",
+    "ground_phrase_en": "floating wooden ship mast wreckage",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      385,
+      910
+     ]
+    ]
+   },
+   {
+    "label_ko": "잔해에 바닷물이 부딪히고 흘러내리는 소리",
+    "sound_en": "water splashing and streaming off the wooden wreckage",
+    "ground_phrase_en": "seawater washing over the wooden mast",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      340,
+      935
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Ninth Wave\",\n  \"sources\": [\n    {\n      \"label_ko\": \"거칠게 부서지는 파도 소리\",\n      \"sound_en\": \"roaring and crashing ocean waves\",\n      \"ground_phrase_en\": \"stormy ocean waves\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"휘몰아치는 바닷바람 소리\",\n      \"sound_en\": \"howling storm wind over the sea\",\n      \"ground_phrase_en\": \"wind-blown sea spray and storm clouds\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"조난자들의 외침 소리\",\n      \"sound_en\": \"shipwreck survivors shouting and calling out\",\n      \"ground_phrase_en\": \"shipwreck survivors clinging to the mast\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [425, 850]\n      ]\n    },\n    {\n      \"label_ko\": \"부서진 돛대가 삐걱거리는 소리\",\n      \"sound_en\": \"creaking and groaning of the floating wooden mast\",\n      \"ground_phrase_en\": \"floating wooden ship mast wreckage\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [385, 910]\n      ]\n    },\n    {\n      \"label_ko\": \"잔해에 바닷물이 부딪히고 흘러내리는 소리\",\n      \"sound_en\": \"water splashing and streaming off the wooden wreckage\",\n      \"ground_phrase_en\": \"seawater washing over the wooden mast\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [340, 935]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1612,
+  "candidatesTokenCount": 484,
+  "totalTokenCount": 4264,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1107
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 484
+   }
+  ],
+  "thoughtsTokenCount": 2168,
+  "serviceTier": "standard"
+ }
+}

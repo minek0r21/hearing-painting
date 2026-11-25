@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "02_rainy_day",
+ "seconds": 38.7,
+ "peak_vram_gb": 9.01,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "id": "wet_cobblestone_street",
+    "object_en": "wet cobblestone street",
+    "x": 250,
+    "y": 700,
+    "label_ko": "빗소리",
+    "type": "nature",
+    "description_ko": "비 내리는 거리의 물방울 소리가 들린다.",
+    "prompt_en": "sound of rain falling on wet cobblestone street, field recording"
+   },
+   {
+    "id": "walking_couple",
+    "object_en": "walking couple",
+    "x": 650,
+    "y": 750,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "우산을 들고 걷는 부부의 발걸음 소리가 들린다.",
+    "prompt_en": "sound of footsteps walking on wet pavement, field recording"
+   },
+   {
+    "id": "walking_man",
+    "object_en": "walking man",
+    "x": 380,
+    "y": 650,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "우산을 들고 걸어가는 남자의 발걸음 소리가 들린다.",
+    "prompt_en": "sound of footsteps walking on wet pavement, field recording"
+   },
+   {
+    "id": "walking_man_left",
+    "object_en": "walking man",
+    "x": 40,
+    "y": 650,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "우산을 들고 걸어가는 남자의 발걸음 소리가 들린다.",
+    "prompt_en": "sound of footsteps walking on wet pavement, field recording"
+   },
+   {
+    "id": "horse_carriage",
+    "object_en": "horse-drawn carriage",
+    "x": 110,
+    "y": 500,
+    "label_ko": "마차 소리",
+    "type": "vehicle",
+    "description_ko": "마차의 바퀴가 돌며 나는 소리가 들린다.",
+    "prompt_en": "sound of horse-drawn carriage wheels rolling on cobblestones, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Paris Street; Rainy Day\",\n\"sources\": [\n  {\n    \"id\": \"wet_cobblestone_street\",\n    \"object_en\": \"wet cobblestone street\",\n    \"x\": 250,\n    \"y\": 700,\n    \"label_ko\": \"빗소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"비 내리는 거리의 물방울 소리가 들린다.\",\n    \"prompt_en\": \"sound of rain falling on wet cobblestone street, field recording\"\n  },\n  {\n    \"id\": \"walking_couple\",\n    \"object_en\": \"walking couple\",\n    \"x\": 650,\n    \"y\": 750,\n    \"label_ko\": \"걸음걸이\",\n    \"type\": \"people\",\n    \"description_ko\": \"우산을 들고 걷는 부부의 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"sound of footsteps walking on wet pavement, field recording\"\n  },\n  {\n    \"id\": \"walking_man\",\n    \"object_en\": \"walking man\",\n    \"x\": 380,\n    \"y\": 650,\n    \"label_ko\": \"걸음걸이\",\n    \"type\": \"people\",\n    \"description_ko\": \"우산을 들고 걸어가는 남자의 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"sound of footsteps walking on wet pavement, field recording\"\n  },\n  {\n    \"id\": \"walking_man_left\",\n    \"object_en\": \"walking man\",\n    \"x\": 40,\n    \"y\": 650,\n    \"label_ko\": \"걸음걸이\",\n    \"type\": \"people\",\n    \"description_ko\": \"우산을 들고 걸어가는 남자의 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"sound of footsteps walking on wet pavement, field recording\"\n  },\n  {\n    \"id\": \"horse_carriage\",\n    \"object_en\": \"horse-drawn carriage\",\n    \"x\": 110,\n    \"y\": 500,\n    \"label_ko\": \"마차 소리\",\n    \"type\": \"vehicle\",\n    \"description_ko\": \"마차의 바퀴가 돌며 나는 소리가 들린다.\",\n    \"prompt_en\": \"sound of horse-drawn carriage wheels rolling on cobblestones, field recording\"\n  }\n]\n}\n```\n"
+}

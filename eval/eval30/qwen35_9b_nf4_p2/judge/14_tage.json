@@ -1,0 +1,25 @@
+{
+ "hash": "38626c0dcf0d",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Men and bamboo are visible, so footsteps and breathing are plausible."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Men on a rocky path are visible, so footsteps are plausible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Men and bamboo are visible, so footsteps and breathing are plausible.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Men on a rocky path are visible, so footsteps are plausible.\"}]}"
+}

@@ -1,0 +1,43 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "16_horsefair",
+ "seconds": 30.2,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "말발굽과 말 울음소리",
+    "prompt_en": "horses galloping, hooves pounding on dirt, neighing and snorting",
+    "object_en": "herd of running and rearing horses",
+    "x": 140,
+    "y": 580
+   },
+   {
+    "label_ko": "마부들의 고함과 말 모는 소리",
+    "prompt_en": "horse handlers shouting, calling out, and snapping reins",
+    "object_en": "horse handlers and riders",
+    "x": 42,
+    "y": 540
+   },
+   {
+    "label_ko": "구경꾼들의 웅성거림",
+    "prompt_en": "spectator crowd murmuring and chattering",
+    "object_en": "spectators watching from the hillside and roadside",
+    "x": 895,
+    "y": 360
+   },
+   {
+    "label_ko": "나뭇잎 흔들리는 바람 소리",
+    "prompt_en": "wind rustling through tree leaves",
+    "object_en": "leafy trees and cloudy sky"
+   }
+  ]
+ },
+ "raw": ""
+}

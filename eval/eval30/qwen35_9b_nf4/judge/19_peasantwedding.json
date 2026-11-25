@@ -1,0 +1,34 @@
+{
+ "hash": "01830c575747",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 4,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Ceramic jugs and mugs are held by guests and could clink."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Servers and guests are visibly walking in the room."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "A child eating is visible in the foreground."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 4, \"answer\": 3}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Ceramic jugs and mugs are held by guests and could clink.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Servers and guests are visibly walking in the room.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"A child eating is visible in the foreground.\"}]}"
+}

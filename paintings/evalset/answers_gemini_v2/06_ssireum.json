@@ -1,0 +1,85 @@
+{
+ "model": "gemini-4-neon",
+ "file": "06_ssireum.jpg",
+ "seconds": 24.1,
+ "parsed": {
+  "title_guess": "Ssireum (Wrestling) by Kim Hong-do",
+  "sources": [
+   {
+    "label_ko": "씨름꾼들의 기합과 몸싸움 소리",
+    "sound_en": "grunts and scuffling of wrestlers grappling",
+    "ground_phrase_en": "two wrestlers grappling in the center",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      570,
+      505
+     ]
+    ]
+   },
+   {
+    "label_ko": "구경꾼들의 환호와 웃음소리",
+    "sound_en": "cheering, laughter, and chatter of spectators",
+    "ground_phrase_en": "crowd of spectators sitting around the ring",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      230,
+      170
+     ],
+     [
+      800,
+      110
+     ],
+     [
+      180,
+      880
+     ],
+     [
+      860,
+      820
+     ]
+    ]
+   },
+   {
+    "label_ko": "엿장수 외치는 소리",
+    "sound_en": "taffy vendor calling out to the crowd",
+    "ground_phrase_en": "taffy vendor carrying a wooden tray",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      175,
+      580
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Ssireum (Wrestling) by Kim Hong-do\",\n  \"sources\": [\n    {\n      \"label_ko\": \"씨름꾼들의 기합과 몸싸움 소리\",\n      \"sound_en\": \"grunts and scuffling of wrestlers grappling\",\n      \"ground_phrase_en\": \"two wrestlers grappling in the center\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [570, 505]\n      ]\n    },\n    {\n      \"label_ko\": \"구경꾼들의 환호와 웃음소리\",\n      \"sound_en\": \"cheering, laughter, and chatter of spectators\",\n      \"ground_phrase_en\": \"crowd of spectators sitting around the ring\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [230, 170],\n        [800, 110],\n        [180, 880],\n        [860, 820]\n      ]\n    },\n    {\n      \"label_ko\": \"엿장수 외치는 소리\",\n      \"sound_en\": \"taffy vendor calling out to the crowd\",\n      \"ground_phrase_en\": \"taffy vendor carrying a wooden tray\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [175, 580]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 368,
+  "totalTokenCount": 4326,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 368
+   }
+  ],
+  "thoughtsTokenCount": 2143,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "model": "gemini-4-neon",
+ "file": "15_galette.jpg",
+ "seconds": 40.1,
+ "parsed": {
+  "title_guess": "Bal du moulin de la Galette (Pierre-Auguste Renoir)",
+  "sources": [
+   {
+    "label_ko": "무도회장 악단의 춤곡 연주 소리",
+    "sound_en": "live dance band music from the pavilion",
+    "ground_phrase_en": "bandstand under the pavilion",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      310,
+      195
+     ]
+    ]
+   },
+   {
+    "label_ko": "춤추는 커플들의 발소리와 흥겨운 움직임",
+    "sound_en": "footsteps and lively movement of dancing couples",
+    "ground_phrase_en": "dancing couples on the dance floor",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      50,
+      380
+     ],
+     [
+      205,
+      470
+     ],
+     [
+      335,
+      370
+     ],
+     [
+      525,
+      335
+     ]
+    ]
+   },
+   {
+    "label_ko": "앞쪽 테이블과 벤치 사람들의 대화와 웃음소리",
+    "sound_en": "lively conversation and laughter at the foreground table and bench",
+    "ground_phrase_en": "seated people talking in the foreground",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      465,
+      540
+     ],
+     [
+      715,
+      620
+     ],
+     [
+      910,
+      510
+     ]
+    ]
+   },
+   {
+    "label_ko": "정원을 메운 군중의 웅성거림과 말소리",
+    "sound_en": "bustling chatter and murmur of the garden crowd",
+    "ground_phrase_en": "crowd of people mingling across the garden",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      130,
+      290
+     ],
+     [
+      460,
+      240
+     ],
+     [
+      650,
+      330
+     ],
+     [
+      820,
+      330
+     ],
+     [
+      950,
+      310
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 나뭇잎 스치는 소리",
+    "sound_en": "gentle rustling of tree leaves overhead",
+    "ground_phrase_en": "overhead tree canopy",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Bal du moulin de la Galette (Pierre-Auguste Renoir)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"무도회장 악단의 춤곡 연주 소리\",\n      \"sound_en\": \"live dance band music from the pavilion\",\n      \"ground_phrase_en\": \"bandstand under the pavilion\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[310, 195]]\n    },\n    {\n      \"label_ko\": \"춤추는 커플들의 발소리와 흥겨운 움직임\",\n      \"sound_en\": \"footsteps and lively movement of dancing couples\",\n      \"ground_phrase_en\": \"dancing couples on the dance floor\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[50, 380], [205, 470], [335, 370], [525, 335]]\n    },\n    {\n      \"label_ko\": \"앞쪽 테이블과 벤치 사람들의 대화와 웃음소리\",\n      \"sound_en\": \"lively conversation and laughter at the foreground table and bench\",\n      \"ground_phrase_en\": \"seated people talking in the foreground\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[465, 540], [715, 620], [910, 510]]\n    },\n    {\n      \"label_ko\": \"정원을 메운 군중의 웅성거림과 말소리\",\n      \"sound_en\": \"bustling chatter and murmur of the garden crowd\",\n      \"ground_phrase_en\": \"crowd of people mingling across the garden\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[130, 290], [460, 240], [650, 330], [820, 330], [950, 310]]\n    },\n    {\n      \"label_ko\": \"바람에 나뭇잎 스치는 소리\",\n      \"sound_en\": \"gentle rustling of tree leaves overhead\",\n      \"ground_phrase_en\": \"overhead tree canopy\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1799,
+  "candidatesTokenCount": 586,
+  "totalTokenCount": 6111,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1064
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 586
+   }
+  ],
+  "thoughtsTokenCount": 3726,
+  "serviceTier": "standard"
+ }
+}

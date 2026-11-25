@@ -1,0 +1,38 @@
+{
+ "hash": "119da2ff4687",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 4,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Stationary umbrellas are still objects."
+   },
+   {
+    "model": 5,
+    "verdict": "not_visible",
+    "why": "No bird is visible in the trees."
+   },
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Bare trees are visible and can rustle in wind."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 4, \"answer\": 5}], \"unpaired\": [{\"model\": 3, \"verdict\": \"silent\", \"why\": \"Stationary umbrellas are still objects.\"}, {\"model\": 5, \"verdict\": \"not_visible\", \"why\": \"No bird is visible in the trees.\"}, {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Bare trees are visible and can rustle in wind.\"}]}"
+}

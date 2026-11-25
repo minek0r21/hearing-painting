@@ -1,0 +1,130 @@
+{
+  "title": "물랭 드 라 갈레트의 무도회",
+  "artist": "르누아르",
+  "year": "1876",
+  "caption": "VLM 제목 추정: 무도회",
+  "depth_model": "DA3 Mono-L",
+  "depth_agreement": 0.982,
+  "audio_model": "sa3m",
+  "quality": {
+    "gemini": {
+      "required_found": 0.5,
+      "required": "2/4",
+      "invented": 0.0,
+      "invented_n": "0/3",
+      "missed": [
+        "무대 악단의 경쾌한 춤곡 연주",
+        "앞자리 사람들의 대화와 웃음소리"
+      ],
+      "invented_items": [],
+      "judge": "gemini-4-neon"
+    }
+  },
+  "dropped": [],
+  "name_warnings": [],
+  "arcore_score": 100,
+  "arcore": {
+    "score": 100,
+    "picked": "original.jpg",
+    "candidates": {
+      "original.jpg": 100,
+      "q95.jpg": 100,
+      "q100.jpg": 100
+    },
+    "tool": true
+  },
+  "layers": {
+    "count": 4,
+    "size": [
+      1024,
+      760
+    ],
+    "files": [
+      "layer0",
+      "layer1",
+      "layer2",
+      "layer3"
+    ],
+    "map": "layers",
+    "layers": [
+      {
+        "index": 0,
+        "area": 0.25,
+        "visible": 0.259
+      },
+      {
+        "index": 1,
+        "area": 0.25,
+        "visible": 0.497
+      },
+      {
+        "index": 2,
+        "area": 0.25,
+        "visible": 0.585
+      },
+      {
+        "index": 3,
+        "area": 0.25,
+        "visible": 1.0
+      }
+    ],
+    "hole_dilate": 0.04,
+    "margin": 0.18
+  },
+  "sources": [
+    {
+      "id": "waltz_dance",
+      "label": "왈츠",
+      "type": "music",
+      "u": 0.18,
+      "v": 0.45,
+      "depth": 0.9,
+      "file": "waltz_dance",
+      "volume": 0.8,
+      "description": "남자와 여자가 왈츠 춤을 추며 발을 빠르게 움직이는 소리.",
+      "prompt": "waltz dance music and rhythmic footsteps of a couple dancing in a crowded ballroom, field recording",
+      "source_type": "point",
+      "object_en": "dancing couple",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.1,
+      "quiet": false
+    },
+    {
+      "id": "crowd_talk",
+      "label": "소란",
+      "type": "people",
+      "u": 0.5,
+      "v": 0.4,
+      "depth": 0.1,
+      "file": "crowd_talk",
+      "volume": 0.8,
+      "description": "많은 사람들이 모여서 대화하고 웃으며 떠드는 소음.",
+      "prompt": "loud chatter and laughter of a large crowd of people in a busy outdoor cafe, field recording",
+      "source_type": "point",
+      "object_en": "crowd of people",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.0,
+      "quiet": false
+    },
+    {
+      "id": "drinking_glass",
+      "label": "잔 부딪는 소리",
+      "type": "people",
+      "u": 0.88,
+      "v": 0.68,
+      "depth": 0.116,
+      "file": "drinking_glass",
+      "volume": 0.8,
+      "description": "남자가 입에 대고 음료를 마시며 마시는 소리.",
+      "prompt": "sound of a man drinking from a glass, field recording",
+      "source_type": "point",
+      "object_en": "drinking glass",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.1,
+      "quiet": false
+    }
+  ]
+}

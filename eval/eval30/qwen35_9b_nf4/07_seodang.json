@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "07_seodang",
+ "seconds": 44.0,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "",
+  "sources": [
+   {
+    "id": "teacher_reading",
+    "object_en": "teacher",
+    "x": 680,
+    "y": 200,
+    "label_ko": "선생님",
+    "type": "people",
+    "description_ko": "선생님이 책을 읽으며 가르치고 있습니다.",
+    "prompt_en": "soft voice of an elderly man reading classical Korean text in a quiet classroom, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "student_turning_page",
+    "object_en": "open book",
+    "x": 150,
+    "y": 550,
+    "label_ko": "책",
+    "type": "music",
+    "description_ko": "학생이 책을 넘기며 페이지 소리가 나옵니다.",
+    "prompt_en": "crisp paper page turn sound from a traditional Korean book, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "student_yawning",
+    "object_en": "sleeping student",
+    "x": 350,
+    "y": 450,
+    "label_ko": "졸은 학생",
+    "type": "people",
+    "description_ko": "졸린 학생이 하품을 하며 숨소리가 들립니다.",
+    "prompt_en": "soft yawn and shallow breathing of a tired child in a quiet room, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "student_whispering",
+    "object_en": "group of students",
+    "x": 850,
+    "y": 600,
+    "label_ko": "속삭임",
+    "type": "people",
+    "description_ko": "학생들이 속삭이며 웃는 소리가 나옵니다.",
+    "prompt_en": "whispering laughter of children in a traditional Korean classroom, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "ambient_classroom",
+    "object_en": "classroom space",
+    "x": 500,
+    "y": 500,
+    "label_ko": "교실",
+    "type": "nature",
+    "description_ko": "조용한 교실의 배경 소리와 미세한 숨소리가 섞여 있습니다.",
+    "prompt_en": "quiet ambient sound of a traditional Korean classroom with faint rustling and breathing, field recording",
+    "volume": 0.3
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"\",\n  \"sources\": [\n    {\n      \"id\": \"teacher_reading\",\n      \"object_en\": \"teacher\",\n      \"x\": 680,\n      \"y\": 200,\n      \"label_ko\": \"선생님\",\n      \"type\": \"people\",\n      \"description_ko\": \"선생님이 책을 읽으며 가르치고 있습니다.\",\n      \"prompt_en\": \"soft voice of an elderly man reading classical Korean text in a quiet classroom, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"student_turning_page\",\n      \"object_en\": \"open book\",\n      \"x\": 150,\n      \"y\": 550,\n      \"label_ko\": \"책\",\n      \"type\": \"music\",\n      \"description_ko\": \"학생이 책을 넘기며 페이지 소리가 나옵니다.\",\n      \"prompt_en\": \"crisp paper page turn sound from a traditional Korean book, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"student_yawning\",\n      \"object_en\": \"sleeping student\",\n      \"x\": 350,\n      \"y\": 450,\n      \"label_ko\": \"졸은 학생\",\n      \"type\": \"people\",\n      \"description_ko\": \"졸린 학생이 하품을 하며 숨소리가 들립니다.\",\n      \"prompt_en\": \"soft yawn and shallow breathing of a tired child in a quiet room, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"student_whispering\",\n      \"object_en\": \"group of students\",\n      \"x\": 850,\n      \"y\": 600,\n      \"label_ko\": \"속삭임\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생들이 속삭이며 웃는 소리가 나옵니다.\",\n      \"prompt_en\": \"whispering laughter of children in a traditional Korean classroom, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"ambient_classroom\",\n      \"object_en\": \"classroom space\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"교실\",\n      \"type\": \"nature\",\n      \"description_ko\": \"조용한 교실의 배경 소리와 미세한 숨소리가 섞여 있습니다.\",\n      \"prompt_en\": \"quiet ambient sound of a traditional Korean classroom with faint rustling and breathing, field recording\",\n      \"volume\": 0.3\n    }\n  ]\n}\n"
+}

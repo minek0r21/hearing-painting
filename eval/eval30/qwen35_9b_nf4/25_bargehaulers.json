@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "25_bargehaulers",
+ "seconds": 69.7,
+ "peak_vram_gb": 8.52,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Return of the Fishermen",
+  "sources": [
+   {
+    "id": "fishermen_struggle",
+    "object_en": "group of fishermen",
+    "x": 350,
+    "y": 500,
+    "label_ko": "어부들",
+    "type": "people",
+    "description_ko": "어부들이 힘들게 어망을 당겨당겨 올리는 소리가 들린다.",
+    "prompt_en": "heavy laboring sounds of men pulling a net on a beach, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "ship_hull",
+    "object_en": "sailing ship",
+    "x": 750,
+    "y": 300,
+    "label_ko": "배",
+    "type": "vehicle",
+    "description_ko": "배가 물결을 가르며 떠다니는 소리가 멀리서 들린다.",
+    "prompt_en": "gentle creaking of wooden ship hull in water, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "sea_breeze",
+    "object_en": "sea surface",
+    "x": 500,
+    "y": 600,
+    "label_ko": "바다",
+    "type": "nature",
+    "description_ko": "바다 바람이 살랑거리는 소리가 배경에 흐른다.",
+    "prompt_en": "soft sea breeze rustling over calm water, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "sand_crunch",
+    "object_en": "beach sand",
+    "x": 400,
+    "y": 800,
+    "label_ko": "모래",
+    "type": "nature",
+    "description_ko": "바다 모래가 발길에 눌려 갈리는 소리가 들린다.",
+    "prompt_en": "crunching sound of barefoot steps on wet sand, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "group of people",
+    "x": 300,
+    "y": 450,
+    "label_ko": "사람들",
+    "type": "people",
+    "description_ko": "어부들이 서로 대화하며 숨 쉬는 소리가 섞여 있다.",
+    "prompt_en": "low murmur of tired men talking and breathing on a beach, field recording",
+    "volume": 0.6
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Return of the Fishermen\",\n  \"sources\": [\n    {\n      \"id\": \"fishermen_struggle\",\n      \"object_en\": \"group of fishermen\",\n      \"x\": 350,\n      \"y\": 500,\n      \"label_ko\": \"어부들\",\n      \"type\": \"people\",\n      \"description_ko\": \"어부들이 힘들게 어망을 당겨당겨 올리는 소리가 들린다.\",\n      \"prompt_en\": \"heavy laboring sounds of men pulling a net on a beach, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"ship_hull\",\n      \"object_en\": \"sailing ship\",\n      \"x\": 750,\n      \"y\": 300,\n      \"label_ko\": \"배\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"배가 물결을 가르며 떠다니는 소리가 멀리서 들린다.\",\n      \"prompt_en\": \"gentle creaking of wooden ship hull in water, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"sea_breeze\",\n      \"object_en\": \"sea surface\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"바다\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바다 바람이 살랑거리는 소리가 배경에 흐른다.\",\n      \"prompt_en\": \"soft sea breeze rustling over calm water, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"sand_crunch\",\n      \"object_en\": \"beach sand\",\n      \"x\": 400,\n      \"y\": 800,\n      \"label_ko\": \"모래\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바다 모래가 발길에 눌려 갈리는 소리가 들린다.\",\n      \"prompt_en\": \"crunching sound of barefoot steps on wet sand, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"group of people\",\n      \"x\": 300,\n      \"y\": 450,\n      \"label_ko\": \"사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"어부들이 서로 대화하며 숨 쉬는 소리가 섞여 있다.\",\n      \"prompt_en\": \"low murmur of tired men talking and breathing on a beach, field recording\",\n      \"volume\": 0.6\n    }\n  ]\n}\n"
+}

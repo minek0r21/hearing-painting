@@ -1,0 +1,139 @@
+{
+ "model": "gemini-4-neon",
+ "file": "09_danopungjeong.jpg",
+ "seconds": 47.3,
+ "parsed": {
+  "title_guess": "Scenery on Dano Day (Dano-pungjeong) by Shin Yun-bok",
+  "sources": [
+   {
+    "label_ko": "시냇물 흐르는 소리",
+    "sound_en": "gentle flowing stream water",
+    "ground_phrase_en": "shallow mountain stream",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "목욕하며 물장구치는 소리",
+    "sound_en": "water splashing as women wash and bathe in the stream",
+    "ground_phrase_en": "women bathing in the stream",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      180,
+      815
+     ],
+     [
+      310,
+      875
+     ],
+     [
+      415,
+      825
+     ]
+    ]
+   },
+   {
+    "label_ko": "그네 줄 삐걱이는 소리와 치맛자락 스치는 소리",
+    "sound_en": "creaking swing ropes and fluttering skirt cutting through the air",
+    "ground_phrase_en": "woman riding a rope swing",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      640,
+      350
+     ]
+    ]
+   },
+   {
+    "label_ko": "여인들의 담소와 웃음소리",
+    "sound_en": "soft chatting and light laughter of the women",
+    "ground_phrase_en": "women bathing and resting on the hillside",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      180,
+      815
+     ],
+     [
+      310,
+      875
+     ],
+     [
+      415,
+      825
+     ],
+     [
+      795,
+      200
+     ],
+     [
+      910,
+      255
+     ]
+    ]
+   },
+   {
+    "label_ko": "흙길 걷는 발걸음 소리",
+    "sound_en": "soft footsteps on the dirt slope and rustling clothes",
+    "ground_phrase_en": "woman walking uphill carrying a bundle on her head",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      885,
+      625
+     ]
+    ]
+   },
+   {
+    "label_ko": "동자승들의 소곤거리는 소리",
+    "sound_en": "hushed whispering and stifled giggles behind the rock",
+    "ground_phrase_en": "two young monks peeking over a rock",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      175,
+      240
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 나뭇잎과 풀숲 스치는 소리",
+    "sound_en": "light breeze rustling through tree leaves and hillside grass",
+    "ground_phrase_en": "trees and grassy riverbank",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Scenery on Dano Day (Dano-pungjeong) by Shin Yun-bok\",\n  \"sources\": [\n    {\n      \"label_ko\": \"시냇물 흐르는 소리\",\n      \"sound_en\": \"gentle flowing stream water\",\n      \"ground_phrase_en\": \"shallow mountain stream\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"목욕하며 물장구치는 소리\",\n      \"sound_en\": \"water splashing as women wash and bathe in the stream\",\n      \"ground_phrase_en\": \"women bathing in the stream\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [180, 815],\n        [310, 875],\n        [415, 825]\n      ]\n    },\n    {\n      \"label_ko\": \"그네 줄 삐걱이는 소리와 치맛자락 스치는 소리\",\n      \"sound_en\": \"creaking swing ropes and fluttering skirt cutting through the air\",\n      \"ground_phrase_en\": \"woman riding a rope swing\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [640, 350]\n      ]\n    },\n    {\n      \"label_ko\": \"여인들의 담소와 웃음소리\",\n      \"sound_en\": \"soft chatting and light laughter of the women\",\n      \"ground_phrase_en\": \"women bathing and resting on the hillside\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [180, 815],\n        [310, 875],\n        [415, 825],\n        [795, 200],\n        [910, 255]\n      ]\n    },\n    {\n      \"label_ko\": \"흙길 걷는 발걸음 소리\",\n      \"sound_en\": \"soft footsteps on the dirt slope and rustling clothes\",\n      \"ground_phrase_en\": \"woman walking uphill carrying a bundle on her head\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [885, 625]\n      ]\n    },\n    {\n      \"label_ko\": \"동자승들의 소곤거리는 소리\",\n      \"sound_en\": \"hushed whispering and stifled giggles behind the rock\",\n      \"ground_phrase_en\": \"two young monks peeking over a rock\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [175, 240]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 나뭇잎과 풀숲 스치는 소리\",\n      \"sound_en\": \"light breeze rustling through tree leaves and hillside grass\",\n      \"ground_phrase_en\": \"trees and grassy riverbank\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1578,
+  "candidatesTokenCount": 773,
+  "totalTokenCount": 6008,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1073
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 773
+   }
+  ],
+  "thoughtsTokenCount": 3657,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "10_inwang",
+ "seconds": 45.8,
+ "peak_vram_gb": 8.57,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 0,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Hwangu's Landscape",
+  "sources": [
+   {
+    "id": "wind_through_trees",
+    "object_en": "pine trees",
+    "x": 700,
+    "y": 650,
+    "label_ko": "바람",
+    "description_ko": "바람이 소나무 사이를 스쳐 지나가는 소리",
+    "prompt_en": "gentle wind rustling through pine trees, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "waterfall_cascade",
+    "object_en": "waterfall",
+    "x": 450,
+    "y": 250,
+    "label_ko": "폭포",
+    "description_ko": "높은 곳에서 떨어지는 물의 소리가 울려 퍼짐",
+    "prompt_en": "distant waterfall cascading down rocky cliff, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "bird_call",
+    "object_en": "bird",
+    "x": 850,
+    "y": 500,
+    "label_ko": "새소리",
+    "description_ko": "나무 위 새가 날아다니며 내는清脆한 소리",
+    "prompt_en": "clear bird call echoing in mountain forest, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "distant_bell",
+    "object_en": "temple bell",
+    "x": 900,
+    "y": 150,
+    "label_ko": "종소리",
+    "description_ko": "먼 절에서 울리는 맑고 깊은 종소리",
+    "prompt_en": "deep temple bell ringing softly in distance, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "footsteps_on_path",
+    "object_en": "path",
+    "x": 300,
+    "y": 700,
+    "label_ko": "발소리",
+    "description_ko": "산길 위를 걷는 사람의 발걸음 소리",
+    "prompt_en": "soft footsteps crunching on stone path in mountains, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "ambient_wind",
+    "object_en": "mountain air",
+    "x": 500,
+    "y": 500,
+    "label_ko": "바람",
+    "description_ko": "산 전체를 감싸는 차분한 바람 소리",
+    "prompt_en": "gentle ambient wind blowing across mountain landscape, field recording",
+    "volume": 0.6
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Hwangu's Landscape\",\n  \"sources\": [\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"pine trees\",\n      \"x\": 700,\n      \"y\": 650,\n      \"label_ko\": \"바람\",\n      \"description_ko\": \"바람이 소나무 사이를 스쳐 지나가는 소리\",\n      \"prompt_en\": \"gentle wind rustling through pine trees, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"waterfall_cascade\",\n      \"object_en\": \"waterfall\",\n      \"x\": 450,\n      \"y\": 250,\n      \"label_ko\": \"폭포\",\n      \"description_ko\": \"높은 곳에서 떨어지는 물의 소리가 울려 퍼짐\",\n      \"prompt_en\": \"distant waterfall cascading down rocky cliff, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"bird_call\",\n      \"object_en\": \"bird\",\n      \"x\": 850,\n      \"y\": 500,\n      \"label_ko\": \"새소리\",\n      \"description_ko\": \"나무 위 새가 날아다니며 내는清脆한 소리\",\n      \"prompt_en\": \"clear bird call echoing in mountain forest, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"distant_bell\",\n      \"object_en\": \"temple bell\",\n      \"x\": 900,\n      \"y\": 150,\n      \"label_ko\": \"종소리\",\n      \"description_ko\": \"먼 절에서 울리는 맑고 깊은 종소리\",\n      \"prompt_en\": \"deep temple bell ringing softly in distance, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"footsteps_on_path\",\n      \"object_en\": \"path\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"발소리\",\n      \"description_ko\": \"산길 위를 걷는 사람의 발걸음 소리\",\n      \"prompt_en\": \"soft footsteps crunching on stone path in mountains, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"ambient_wind\",\n      \"object_en\": \"mountain air\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"바람\",\n      \"description_ko\": \"산 전체를 감싸는 차분한 바람 소리\",\n      \"prompt_en\": \"gentle ambient wind blowing across mountain landscape, field recording\",\n      \"volume\": 0.6\n    }\n  ]\n}\n"
+}

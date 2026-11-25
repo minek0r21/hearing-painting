@@ -1,0 +1,23 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "20_pearl",
+ "seconds": 4.3,
+ "peak_vram_gb": 9.05,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 0,
+  "count_ok": false,
+  "korean_label": 0,
+  "korean_desc": 0,
+  "type_ok": 0,
+  "prompt_ok": 0,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Girl with a Pearl Earring",
+  "sources": []
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"The Girl with a Pearl Earring\",\n  \"sources\": []\n}\n```\n"
+}

@@ -1,0 +1,15 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "16_horsefair",
+ "seconds": 3.1,
+ "peak_vram_gb": 8.52,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "sources_ok": false
+ },
+ "parsed": {
+  "title_guess": "The Horse Fair"
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"The Horse Fair\"\n}\n```\n"
+}

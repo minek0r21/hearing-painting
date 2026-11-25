@@ -1,0 +1,105 @@
+{
+ "model": "gemini-4-neon",
+ "file": "25_bargehaulers.jpg",
+ "seconds": 22.0,
+ "parsed": {
+  "title_guess": "Barge Haulers on the Volga",
+  "sources": [
+   {
+    "label_ko": "배를 끄는 인부들의 발걸음과 밧줄 소리",
+    "sound_en": "heavy trudging footsteps in sand, straining towropes, and weary groans of barge haulers",
+    "ground_phrase_en": "group of barge haulers",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      220,
+      560
+     ],
+     [
+      340,
+      580
+     ],
+     [
+      430,
+      500
+     ],
+     [
+      540,
+      530
+     ],
+     [
+      650,
+      520
+     ]
+    ]
+   },
+   {
+    "label_ko": "물살을 가르는 목선의 삐걱거리는 소리",
+    "sound_en": "wooden barge hull creaking, rigging straining, and water sloshing against the bow",
+    "ground_phrase_en": "large wooden barge",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      765,
+      445
+     ]
+    ]
+   },
+   {
+    "label_ko": "강물이 강변에 철썩이는 소리",
+    "sound_en": "river water gently lapping against the sandy shore",
+    "ground_phrase_en": "wide river and sandy shore",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "강변에 부는 바람 소리",
+    "sound_en": "steady wind blowing across the open riverbank",
+    "ground_phrase_en": "open riverbank and fluttering flag",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "멀리서 들리는 증기선 엔진 소리",
+    "sound_en": "faint chugging of a distant steamboat on the river",
+    "ground_phrase_en": "distant steamboat",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      921,
+      462
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Barge Haulers on the Volga\",\n  \"sources\": [\n    {\n      \"label_ko\": \"배를 끄는 인부들의 발걸음과 밧줄 소리\",\n      \"sound_en\": \"heavy trudging footsteps in sand, straining towropes, and weary groans of barge haulers\",\n      \"ground_phrase_en\": \"group of barge haulers\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [220, 560],\n        [340, 580],\n        [430, 500],\n        [540, 530],\n        [650, 520]\n      ]\n    },\n    {\n      \"label_ko\": \"물살을 가르는 목선의 삐걱거리는 소리\",\n      \"sound_en\": \"wooden barge hull creaking, rigging straining, and water sloshing against the bow\",\n      \"ground_phrase_en\": \"large wooden barge\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [765, 445]\n      ]\n    },\n    {\n      \"label_ko\": \"강물이 강변에 철썩이는 소리\",\n      \"sound_en\": \"river water gently lapping against the sandy shore\",\n      \"ground_phrase_en\": \"wide river and sandy shore\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"강변에 부는 바람 소리\",\n      \"sound_en\": \"steady wind blowing across the open riverbank\",\n      \"ground_phrase_en\": \"open riverbank and fluttering flag\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 증기선 엔진 소리\",\n      \"sound_en\": \"faint chugging of a distant steamboat on the river\",\n      \"ground_phrase_en\": \"distant steamboat\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [921, 462]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1813,
+  "candidatesTokenCount": 562,
+  "totalTokenCount": 4115,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1078
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 562
+   }
+  ],
+  "thoughtsTokenCount": 1740,
+  "serviceTier": "standard"
+ }
+}

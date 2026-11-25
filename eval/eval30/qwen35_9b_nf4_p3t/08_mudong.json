@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "08_mudong",
+ "seconds": 42.0,
+ "peak_vram_gb": 9.05,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "무동",
+  "sources": [
+   {
+    "id": "drum_beating",
+    "object_en": "barrel drum being struck",
+    "x": 150,
+    "y": 200,
+    "label_ko": "북 치는 소리",
+    "type": "music",
+    "description_ko": "북을 두드리는 소리가 들린다.",
+    "prompt_en": "loud rhythmic drumming sound from a barrel drum being struck with sticks, field recording"
+   },
+   {
+    "id": "hourglass_drum_beating",
+    "object_en": "hourglass drum being played",
+    "x": 450,
+    "y": 250,
+    "label_ko": "장구 치는 소리",
+    "type": "music",
+    "description_ko": "장구를 두드리는 리듬감 있는 소리가 난다.",
+    "prompt_en": "rhythmic hourglass drum beats with hands, traditional Korean janggu sound, field recording"
+   },
+   {
+    "id": "flute_playing",
+    "object_en": "transverse flute being played",
+    "x": 850,
+    "y": 300,
+    "label_ko": "대금 불는 소리",
+    "type": "music",
+    "description_ko": "대금을 불며 나오는 부드러운 바람 소리.",
+    "prompt_en": "soft breathy sound of a transverse flute being played, traditional Korean daegeum, field recording"
+   },
+   {
+    "id": "dancing_movement",
+    "object_en": "dancer moving energetically",
+    "x": 250,
+    "y": 700,
+    "label_ko": "춤추는 소리",
+    "type": "people",
+    "description_ko": "춤추는 사람의 발걸음과 옷자락 스치는 소리가 들린다.",
+    "prompt_en": "light rhythmic footsteps and fabric rustling from a person dancing energetically, field recording"
+   },
+   {
+    "id": "string_instrument_plucked",
+    "object_en": "two-string fiddle being played",
+    "x": 700,
+    "y": 750,
+    "label_ko": "해금 뜯는 소리",
+    "type": "music",
+    "description_ko": "해금을 뜯으며 나는 맑은 현의 소리가 들린다.",
+    "prompt_en": "bright plucked string sound from a two-string fiddle, traditional Korean haegeum, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"무동\",\n  \"sources\": [\n    {\n      \"id\": \"drum_beating\",\n      \"object_en\": \"barrel drum being struck\",\n      \"x\": 150,\n      \"y\": 200,\n      \"label_ko\": \"북 치는 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"북을 두드리는 소리가 들린다.\",\n      \"prompt_en\": \"loud rhythmic drumming sound from a barrel drum being struck with sticks, field recording\"\n    },\n    {\n      \"id\": \"hourglass_drum_beating\",\n      \"object_en\": \"hourglass drum being played\",\n      \"x\": 450,\n      \"y\": 250,\n      \"label_ko\": \"장구 치는 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"장구를 두드리는 리듬감 있는 소리가 난다.\",\n      \"prompt_en\": \"rhythmic hourglass drum beats with hands, traditional Korean janggu sound, field recording\"\n    },\n    {\n      \"id\": \"flute_playing\",\n      \"object_en\": \"transverse flute being played\",\n      \"x\": 850,\n      \"y\": 300,\n      \"label_ko\": \"대금 불는 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"대금을 불며 나오는 부드러운 바람 소리.\",\n      \"prompt_en\": \"soft breathy sound of a transverse flute being played, traditional Korean daegeum, field recording\"\n    },\n    {\n      \"id\": \"dancing_movement\",\n      \"object_en\": \"dancer moving energetically\",\n      \"x\": 250,\n      \"y\": 700,\n      \"label_ko\": \"춤추는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"춤추는 사람의 발걸음과 옷자락 스치는 소리가 들린다.\",\n      \"prompt_en\": \"light rhythmic footsteps and fabric rustling from a person dancing energetically, field recording\"\n    },\n    {\n      \"id\": \"string_instrument_plucked\",\n      \"object_en\": \"two-string fiddle being played\",\n      \"x\": 700,\n      \"y\": 750,\n      \"label_ko\": \"해금 뜯는 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"해금을 뜯으며 나는 맑은 현의 소리가 들린다.\",\n      \"prompt_en\": \"bright plucked string sound from a two-string fiddle, traditional Korean haegeum, field recording\"\n    }\n  ]\n}\n"
+}

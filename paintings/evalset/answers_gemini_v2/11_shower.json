@@ -1,0 +1,96 @@
+{
+ "model": "gemini-4-neon",
+ "file": "11_shower.jpg",
+ "seconds": 29.9,
+ "parsed": {
+  "title_guess": "Sudden Shower over Shin-Ohashi Bridge and Atake",
+  "sources": [
+   {
+    "label_ko": "장대비 쏟아지는 소리",
+    "sound_en": "heavy rain pouring down",
+    "ground_phrase_en": "heavy rain",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "나무 다리 위 급한 발걸음 소리",
+    "sound_en": "hurried footsteps on wet wooden bridge",
+    "ground_phrase_en": "people hurrying across the wooden bridge",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      260,
+      700
+     ],
+     [
+      295,
+      710
+     ],
+     [
+      425,
+      655
+     ],
+     [
+      590,
+      615
+     ],
+     [
+      625,
+      615
+     ],
+     [
+      725,
+      588
+     ]
+    ]
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "sound_en": "river water flowing against wooden bridge pilings",
+    "ground_phrase_en": "river water",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "뗏목 삿대질 소리",
+    "sound_en": "raft pole splashing in river water",
+    "ground_phrase_en": "boatman poling a log raft",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      205,
+      520
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Sudden Shower over Shin-Ohashi Bridge and Atake\",\n  \"sources\": [\n    {\n      \"label_ko\": \"장대비 쏟아지는 소리\",\n      \"sound_en\": \"heavy rain pouring down\",\n      \"ground_phrase_en\": \"heavy rain\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"나무 다리 위 급한 발걸음 소리\",\n      \"sound_en\": \"hurried footsteps on wet wooden bridge\",\n      \"ground_phrase_en\": \"people hurrying across the wooden bridge\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [260, 700],\n        [295, 710],\n        [425, 655],\n        [590, 615],\n        [625, 615],\n        [725, 588]\n      ]\n    },\n    {\n      \"label_ko\": \"강물 흐르는 소리\",\n      \"sound_en\": \"river water flowing against wooden bridge pilings\",\n      \"ground_phrase_en\": \"river water\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"뗏목 삿대질 소리\",\n      \"sound_en\": \"raft pole splashing in river water\",\n      \"ground_phrase_en\": \"boatman poling a log raft\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [205, 520]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1842,
+  "candidatesTokenCount": 432,
+  "totalTokenCount": 5136,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1107
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 432
+   }
+  ],
+  "thoughtsTokenCount": 2862,
+  "serviceTier": "standard"
+ }
+}

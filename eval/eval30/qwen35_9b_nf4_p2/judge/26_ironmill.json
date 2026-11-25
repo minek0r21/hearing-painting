@@ -1,0 +1,34 @@
+{
+ "hash": "f65b304d2b69",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "Workers hold tongs, not hammers."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Pipes and steam are visible in the mill."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Glowing furnaces appear in the background."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 2, \"verdict\": \"not_visible\", \"why\": \"Workers hold tongs, not hammers.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Pipes and steam are visible in the mill.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Glowing furnaces appear in the background.\"}]}"
+}

@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "01_hunters",
+ "seconds": 42.2,
+ "peak_vram_gb": 8.93,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with Skaters and a Dog Fight",
+  "sources": [
+   {
+    "id": "dog_fight",
+    "object_en": "dogs fighting in the snow",
+    "x": 150,
+    "y": 800,
+    "label_ko": "강아지 싸움",
+    "type": "animal",
+    "description_ko": "눈 덮인 땅에서 싸우는 강아지들의 짖는 소리와 발소리가 들립니다.",
+    "prompt_en": "dogs barking and growling while fighting in the snow, field recording"
+   },
+   {
+    "id": "skaters",
+    "object_en": "people skating on frozen river",
+    "x": 700,
+    "y": 600,
+    "label_ko": "스케이트",
+    "type": "people",
+    "description_ko": "얼어붙은 강 위에서 스케이트를 타는 사람들의 발소리와 웃음소리가 들립니다.",
+    "prompt_en": "people skating on a frozen river, creaking ice and light footsteps, field recording"
+   },
+   {
+    "id": "fire",
+    "object_en": "fire burning near the house",
+    "x": 100,
+    "y": 550,
+    "label_ko": "불",
+    "type": "nature",
+    "description_ko": "집 옆에서 타는 불에서 나는 바삭거리는 소리와 열기 소리가 들립니다.",
+    "prompt_en": "crackling fire burning in a winter scene, field recording"
+   },
+   {
+    "id": "hunters",
+    "object_en": "hunters walking with dogs",
+    "x": 300,
+    "y": 700,
+    "label_ko": "사냥꾼",
+    "type": "people",
+    "description_ko": "나무 사이로 걷는 사냥꾼들의 발소리와 짖는 개들의 소리가 들립니다.",
+    "prompt_en": "hunters walking through snow with dogs, crunching snow and barking, field recording"
+   },
+   {
+    "id": "birds",
+    "object_en": "birds flying in the sky",
+    "x": 700,
+    "y": 200,
+    "label_ko": "새",
+    "type": "nature",
+    "description_ko": "하늘을 나는 새들의 날갯짓 소리가 멀리서 들립니다.",
+    "prompt_en": "birds flying overhead in a snowy landscape, flapping wings, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with Skaters and a Dog Fight\",\n  \"sources\": [\n    {\n      \"id\": \"dog_fight\",\n      \"object_en\": \"dogs fighting in the snow\",\n      \"x\": 150,\n      \"y\": 800,\n      \"label_ko\": \"강아지 싸움\",\n      \"type\": \"animal\",\n      \"description_ko\": \"눈 덮인 땅에서 싸우는 강아지들의 짖는 소리와 발소리가 들립니다.\",\n      \"prompt_en\": \"dogs barking and growling while fighting in the snow, field recording\"\n    },\n    {\n      \"id\": \"skaters\",\n      \"object_en\": \"people skating on frozen river\",\n      \"x\": 700,\n      \"y\": 600,\n      \"label_ko\": \"스케이트\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼어붙은 강 위에서 스케이트를 타는 사람들의 발소리와 웃음소리가 들립니다.\",\n      \"prompt_en\": \"people skating on a frozen river, creaking ice and light footsteps, field recording\"\n    },\n    {\n      \"id\": \"fire\",\n      \"object_en\": \"fire burning near the house\",\n      \"x\": 100,\n      \"y\": 550,\n      \"label_ko\": \"불\",\n      \"type\": \"nature\",\n      \"description_ko\": \"집 옆에서 타는 불에서 나는 바삭거리는 소리와 열기 소리가 들립니다.\",\n      \"prompt_en\": \"crackling fire burning in a winter scene, field recording\"\n    },\n    {\n      \"id\": \"hunters\",\n      \"object_en\": \"hunters walking with dogs\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"사냥꾼\",\n      \"type\": \"people\",\n      \"description_ko\": \"나무 사이로 걷는 사냥꾼들의 발소리와 짖는 개들의 소리가 들립니다.\",\n      \"prompt_en\": \"hunters walking through snow with dogs, crunching snow and barking, field recording\"\n    },\n    {\n      \"id\": \"birds\",\n      \"object_en\": \"birds flying in the sky\",\n      \"x\": 700,\n      \"y\": 200,\n      \"label_ko\": \"새\",\n      \"type\": \"nature\",\n      \"description_ko\": \"하늘을 나는 새들의 날갯짓 소리가 멀리서 들립니다.\",\n      \"prompt_en\": \"birds flying overhead in a snowy landscape, flapping wings, field recording\"\n    }\n  ]\n}\n"
+}

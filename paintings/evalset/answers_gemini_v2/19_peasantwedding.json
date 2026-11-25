@@ -1,0 +1,102 @@
+{
+ "model": "gemini-4-neon",
+ "file": "19_peasantwedding.jpg",
+ "seconds": 66.9,
+ "parsed": {
+  "title_guess": "The Peasant Wedding",
+  "sources": [
+   {
+    "label_ko": "하객들의 왁자지껄한 대화와 식사 소리",
+    "sound_en": "lively chatter, laughter, and eating of wedding guests",
+    "ground_phrase_en": "crowd of peasant wedding guests seated at the banquet table and gathered at the doorway",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      55,
+      290
+     ],
+     [
+      345,
+      350
+     ],
+     [
+      475,
+      355
+     ],
+     [
+      665,
+      370
+     ],
+     [
+      935,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "백파이프 연주 소리",
+    "sound_en": "droning folk melody played on bagpipes",
+    "ground_phrase_en": "bagpiper in a red jacket holding bagpipes",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      275,
+      395
+     ]
+    ]
+   },
+   {
+    "label_ko": "항아리에서 술 따르는 소리",
+    "sound_en": "ale pouring from a large jug into a smaller pitcher",
+    "ground_phrase_en": "man pouring drink from a large jug into a pitcher",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      95,
+      710
+     ]
+    ]
+   },
+   {
+    "label_ko": "음식 나르는 발걸음과 그릇 부딪히는 소리",
+    "sound_en": "heavy footsteps and clattering earthenware bowls on a wooden tray",
+    "ground_phrase_en": "servers carrying a makeshift wooden tray loaded with bowls",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      715,
+      650
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Peasant Wedding\",\n  \"sources\": [\n    {\n      \"label_ko\": \"하객들의 왁자지껄한 대화와 식사 소리\",\n      \"sound_en\": \"lively chatter, laughter, and eating of wedding guests\",\n      \"ground_phrase_en\": \"crowd of peasant wedding guests seated at the banquet table and gathered at the doorway\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [55, 290],\n        [345, 350],\n        [475, 355],\n        [665, 370],\n        [935, 415]\n      ]\n    },\n    {\n      \"label_ko\": \"백파이프 연주 소리\",\n      \"sound_en\": \"droning folk melody played on bagpipes\",\n      \"ground_phrase_en\": \"bagpiper in a red jacket holding bagpipes\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [275, 395]\n      ]\n    },\n    {\n      \"label_ko\": \"항아리에서 술 따르는 소리\",\n      \"sound_en\": \"ale pouring from a large jug into a smaller pitcher\",\n      \"ground_phrase_en\": \"man pouring drink from a large jug into a pitcher\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [95, 710]\n      ]\n    },\n    {\n      \"label_ko\": \"음식 나르는 발걸음과 그릇 부딪히는 소리\",\n      \"sound_en\": \"heavy footsteps and clattering earthenware bowls on a wooden tray\",\n      \"ground_phrase_en\": \"servers carrying a makeshift wooden tray loaded with bowls\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [715, 650]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 493,
+  "totalTokenCount": 8319,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 493
+   }
+  ],
+  "thoughtsTokenCount": 6011,
+  "serviceTier": "standard"
+ }
+}

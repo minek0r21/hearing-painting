@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "11_shower",
+ "seconds": 27.3,
+ "peak_vram_gb": 8.92,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "오하시 아타케의 소나기",
+  "sources": [
+   {
+    "id": "people_rain_bridge",
+    "object_en": "people walking on bridge",
+    "x": 500,
+    "y": 650,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "우산과 모자를 쓴 사람들이 다리를 건너는 발걸음 소리가 들린다.",
+    "prompt_en": "people walking on a wooden bridge in heavy rain, footsteps on wood, field recording"
+   },
+   {
+    "id": "people_fisherman",
+    "object_en": "fisherman on raft",
+    "x": 200,
+    "y": 510,
+    "label_ko": "노 저음",
+    "type": "people",
+    "description_ko": "작은 배에서 노를 저어가는 어부의 노 저음 소리가 들린다.",
+    "prompt_en": "fisherman rowing a small raft in heavy rain, oar dipping in water, field recording"
+   },
+   {
+    "id": "nature_rain",
+    "object_en": "rain",
+    "x": 500,
+    "y": 300,
+    "label_ko": "소나기",
+    "type": "nature",
+    "description_ko": "강한 비가 내리는 소리와 빗방울이 물에 떨어지는 소리가 배경에 깔려 있다.",
+    "prompt_en": "heavy rain falling on water and bridge, sound of rain hitting water surface, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"오하시 아타케의 소나기\",\n  \"sources\": [\n    {\n      \"id\": \"people_rain_bridge\",\n      \"object_en\": \"people walking on bridge\",\n      \"x\": 500,\n      \"y\": 650,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산과 모자를 쓴 사람들이 다리를 건너는 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"people walking on a wooden bridge in heavy rain, footsteps on wood, field recording\"\n    },\n    {\n      \"id\": \"people_fisherman\",\n      \"object_en\": \"fisherman on raft\",\n      \"x\": 200,\n      \"y\": 510,\n      \"label_ko\": \"노 저음\",\n      \"type\": \"people\",\n      \"description_ko\": \"작은 배에서 노를 저어가는 어부의 노 저음 소리가 들린다.\",\n      \"prompt_en\": \"fisherman rowing a small raft in heavy rain, oar dipping in water, field recording\"\n    },\n    {\n      \"id\": \"nature_rain\",\n      \"object_en\": \"rain\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"소나기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강한 비가 내리는 소리와 빗방울이 물에 떨어지는 소리가 배경에 깔려 있다.\",\n      \"prompt_en\": \"heavy rain falling on water and bridge, sound of rain hitting water surface, field recording\"\n    }\n  ]\n}\n```\n"
+}

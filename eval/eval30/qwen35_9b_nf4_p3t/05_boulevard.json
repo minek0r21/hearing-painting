@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "05_boulevard",
+ "seconds": 25.7,
+ "peak_vram_gb": 9.05,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Montmartre Boulevard",
+  "sources": [
+   {
+    "id": "people_talking",
+    "object_en": "group of men standing and talking",
+    "x": 650,
+    "y": 550,
+    "label_ko": "사람들의 대화",
+    "type": "people",
+    "description_ko": "남성들이 모여서 서로 이야기를 나누고 있는 소리가 들린다.",
+    "prompt_en": "men talking in a group on a street, casual conversation, field recording"
+   },
+   {
+    "id": "people_reading",
+    "object_en": "man reading a newspaper",
+    "x": 780,
+    "y": 580,
+    "label_ko": "신문 읽는 소리",
+    "type": "people",
+    "description_ko": "남자가 신문을 읽으며 페이지를 넘기는 소리가 들린다.",
+    "prompt_en": "man reading a newspaper, turning pages, field recording"
+   },
+   {
+    "id": "people_walking",
+    "object_en": "people walking on the street",
+    "x": 280,
+    "y": 650,
+    "label_ko": "걸음걸이 소리",
+    "type": "people",
+    "description_ko": "사람들이 거리 위를 걸어다니며 발걸음 소리가 들린다.",
+    "prompt_en": "people walking on a city street, footsteps on pavement, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"Montmartre Boulevard\",\n  \"sources\": [\n    {\n      \"id\": \"people_talking\",\n      \"object_en\": \"group of men standing and talking\",\n      \"x\": 650,\n      \"y\": 550,\n      \"label_ko\": \"사람들의 대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"남성들이 모여서 서로 이야기를 나누고 있는 소리가 들린다.\",\n      \"prompt_en\": \"men talking in a group on a street, casual conversation, field recording\"\n    },\n    {\n      \"id\": \"people_reading\",\n      \"object_en\": \"man reading a newspaper\",\n      \"x\": 780,\n      \"y\": 580,\n      \"label_ko\": \"신문 읽는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 신문을 읽으며 페이지를 넘기는 소리가 들린다.\",\n      \"prompt_en\": \"man reading a newspaper, turning pages, field recording\"\n    },\n    {\n      \"id\": \"people_walking\",\n      \"object_en\": \"people walking on the street\",\n      \"x\": 280,\n      \"y\": 650,\n      \"label_ko\": \"걸음걸이 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람들이 거리 위를 걸어다니며 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"people walking on a city street, footsteps on pavement, field recording\"\n    }\n  ]\n}\n```\n"
+}

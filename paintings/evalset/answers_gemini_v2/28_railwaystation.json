@@ -1,0 +1,114 @@
+{
+ "model": "gemini-4-neon",
+ "file": "28_railwaystation.jpg",
+ "seconds": 52.0,
+ "parsed": {
+  "title_guess": "The Railway Station",
+  "sources": [
+   {
+    "label_ko": "역 안 인파의 웅성거림과 발소리",
+    "sound_en": "bustling crowd chatter and footsteps echoing in the station",
+    "ground_phrase_en": "crowd of passengers on the railway platform",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      225,
+      690
+     ],
+     [
+      380,
+      740
+     ],
+     [
+      525,
+      670
+     ],
+     [
+      710,
+      690
+     ],
+     [
+      865,
+      680
+     ]
+    ]
+   },
+   {
+    "label_ko": "증기기관차의 증기 뿜는 소리와 엔진음",
+    "sound_en": "steam locomotive hissing and chugging",
+    "ground_phrase_en": "steam locomotive in the left background",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      175,
+      525
+     ]
+    ]
+   },
+   {
+    "label_ko": "짐을 싣고 옮기는 둔탁한 소리",
+    "sound_en": "heavy luggage thudding and scraping as porters load it",
+    "ground_phrase_en": "porters loading trunks and luggage onto the train roof and platform",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      700,
+      360
+     ],
+     [
+      655,
+      440
+     ],
+     [
+      625,
+      885
+     ]
+    ]
+   },
+   {
+    "label_ko": "개가 짖거나 낑낑대는 소리",
+    "sound_en": "dogs barking and whining",
+    "ground_phrase_en": "two dogs in the lower left foreground",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      28,
+      855
+     ],
+     [
+      65,
+      875
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Railway Station\",\n  \"sources\": [\n    {\n      \"label_ko\": \"역 안 인파의 웅성거림과 발소리\",\n      \"sound_en\": \"bustling crowd chatter and footsteps echoing in the station\",\n      \"ground_phrase_en\": \"crowd of passengers on the railway platform\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [225, 690],\n        [380, 740],\n        [525, 670],\n        [710, 690],\n        [865, 680]\n      ]\n    },\n    {\n      \"label_ko\": \"증기기관차의 증기 뿜는 소리와 엔진음\",\n      \"sound_en\": \"steam locomotive hissing and chugging\",\n      \"ground_phrase_en\": \"steam locomotive in the left background\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [175, 525]\n      ]\n    },\n    {\n      \"label_ko\": \"짐을 싣고 옮기는 둔탁한 소리\",\n      \"sound_en\": \"heavy luggage thudding and scraping as porters load it\",\n      \"ground_phrase_en\": \"porters loading trunks and luggage onto the train roof and platform\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [700, 360],\n        [655, 440],\n        [625, 885]\n      ]\n    },\n    {\n      \"label_ko\": \"개가 짖거나 낑낑대는 소리\",\n      \"sound_en\": \"dogs barking and whining\",\n      \"ground_phrase_en\": \"two dogs in the lower left foreground\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [28, 855],\n        [65, 875]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1816,
+  "candidatesTokenCount": 514,
+  "totalTokenCount": 7041,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1081
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 514
+   }
+  ],
+  "thoughtsTokenCount": 4711,
+  "serviceTier": "standard"
+ }
+}

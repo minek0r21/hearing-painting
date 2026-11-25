@@ -1,0 +1,103 @@
+{
+ "model": "gemini-4-neon",
+ "file": "27_merryfamily.jpg",
+ "seconds": 51.5,
+ "parsed": {
+  "title_guess": "As the Old Sing, So Pipe the Young (Jan Steen)",
+  "sources": [
+   {
+    "label_ko": "어르신들의 흥겨운 노래 소리",
+    "sound_en": "elderly man and woman singing merrily together",
+    "ground_phrase_en": "singing old man and woman at the table",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      290,
+      392
+     ],
+     [
+      452,
+      382
+     ]
+    ]
+   },
+   {
+    "label_ko": "백파이프 연주 소리",
+    "sound_en": "reedy bagpipes playing loudly",
+    "ground_phrase_en": "man playing bagpipes",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      365,
+      315
+     ]
+    ]
+   },
+   {
+    "label_ko": "플루트 연주 소리",
+    "sound_en": "wooden flute playing a lively melody",
+    "ground_phrase_en": "young man playing a wooden flute",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      740,
+      372
+     ]
+    ]
+   },
+   {
+    "label_ko": "아기의 까르르 웃는 소리",
+    "sound_en": "baby giggling and laughing happily",
+    "ground_phrase_en": "laughing baby on mother's lap",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      638,
+      405
+     ]
+    ]
+   },
+   {
+    "label_ko": "주전자에서 술 따르는 소리",
+    "sound_en": "drink pouring from a metal pitcher into a cup",
+    "ground_phrase_en": "girl pouring drink from a pitcher",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      696,
+      655
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"As the Old Sing, So Pipe the Young (Jan Steen)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"어르신들의 흥겨운 노래 소리\",\n      \"sound_en\": \"elderly man and woman singing merrily together\",\n      \"ground_phrase_en\": \"singing old man and woman at the table\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [290, 392],\n        [452, 382]\n      ]\n    },\n    {\n      \"label_ko\": \"백파이프 연주 소리\",\n      \"sound_en\": \"reedy bagpipes playing loudly\",\n      \"ground_phrase_en\": \"man playing bagpipes\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [365, 315]\n      ]\n    },\n    {\n      \"label_ko\": \"플루트 연주 소리\",\n      \"sound_en\": \"wooden flute playing a lively melody\",\n      \"ground_phrase_en\": \"young man playing a wooden flute\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [740, 372]\n      ]\n    },\n    {\n      \"label_ko\": \"아기의 까르르 웃는 소리\",\n      \"sound_en\": \"baby giggling and laughing happily\",\n      \"ground_phrase_en\": \"laughing baby on mother's lap\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [638, 405]\n      ]\n    },\n    {\n      \"label_ko\": \"주전자에서 술 따르는 소리\",\n      \"sound_en\": \"drink pouring from a metal pitcher into a cup\",\n      \"ground_phrase_en\": \"girl pouring drink from a pitcher\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [696, 655]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1808,
+  "candidatesTokenCount": 519,
+  "totalTokenCount": 6848,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1073
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 519
+   }
+  ],
+  "thoughtsTokenCount": 4521,
+  "serviceTier": "standard"
+ }
+}

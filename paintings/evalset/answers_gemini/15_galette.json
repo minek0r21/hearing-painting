@@ -1,0 +1,126 @@
+{
+ "model": "gemini-4-neon",
+ "file": "15_galette.jpg",
+ "seconds": 29.6,
+ "parsed": {
+  "title_guess": "Bal du moulin de la Galette",
+  "sources": [
+   {
+    "label_ko": "야외 악단의 춤곡 연주 소리",
+    "sound_en": "live dance music played by the outdoor band",
+    "ground_phrase_en": "musicians on the covered bandstand",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      300,
+      195
+     ]
+    ]
+   },
+   {
+    "label_ko": "춤추는 사람들의 발소리와 옷깃 스치는 소리",
+    "sound_en": "shuffling footsteps and rustling dresses of dancing couples",
+    "ground_phrase_en": "dancing couples",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      55,
+      400
+     ],
+     [
+      200,
+      500
+     ],
+     [
+      340,
+      390
+     ],
+     [
+      530,
+      330
+     ]
+    ]
+   },
+   {
+    "label_ko": "테이블과 벤치 주변의 대화와 웃음소리",
+    "sound_en": "lively conversation and laughter among seated and standing friends",
+    "ground_phrase_en": "people talking around the table and bench",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      465,
+      490
+     ],
+     [
+      715,
+      560
+     ],
+     [
+      910,
+      490
+     ],
+     [
+      770,
+      370
+     ]
+    ]
+   },
+   {
+    "label_ko": "무도회장을 가득 채운 군중의 웅성거림",
+    "sound_en": "bustling background crowd chatter and murmur",
+    "ground_phrase_en": "crowded outdoor dance hall",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "유리잔과 병 부딪히는 소리",
+    "sound_en": "occasional clinking of glasses and bottles on the table",
+    "ground_phrase_en": "glasses and bottles on the table",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      860,
+      680
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 나뭇잎 스치는 소리",
+    "sound_en": "gentle rustling of leaves in the trees overhead",
+    "ground_phrase_en": "green tree canopy overhead",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Bal du moulin de la Galette\",\n  \"sources\": [\n    {\n      \"label_ko\": \"야외 악단의 춤곡 연주 소리\",\n      \"sound_en\": \"live dance music played by the outdoor band\",\n      \"ground_phrase_en\": \"musicians on the covered bandstand\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [300, 195]\n      ]\n    },\n    {\n      \"label_ko\": \"춤추는 사람들의 발소리와 옷깃 스치는 소리\",\n      \"sound_en\": \"shuffling footsteps and rustling dresses of dancing couples\",\n      \"ground_phrase_en\": \"dancing couples\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [55, 400],\n        [200, 500],\n        [340, 390],\n        [530, 330]\n      ]\n    },\n    {\n      \"label_ko\": \"테이블과 벤치 주변의 대화와 웃음소리\",\n      \"sound_en\": \"lively conversation and laughter among seated and standing friends\",\n      \"ground_phrase_en\": \"people talking around the table and bench\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [465, 490],\n        [715, 560],\n        [910, 490],\n        [770, 370]\n      ]\n    },\n    {\n      \"label_ko\": \"무도회장을 가득 채운 군중의 웅성거림\",\n      \"sound_en\": \"bustling background crowd chatter and murmur\",\n      \"ground_phrase_en\": \"crowded outdoor dance hall\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"유리잔과 병 부딪히는 소리\",\n      \"sound_en\": \"occasional clinking of glasses and bottles on the table\",\n      \"ground_phrase_en\": \"glasses and bottles on the table\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [860, 680]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 나뭇잎 스치는 소리\",\n      \"sound_en\": \"gentle rustling of leaves in the trees overhead\",\n      \"ground_phrase_en\": \"green tree canopy overhead\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1569,
+  "candidatesTokenCount": 667,
+  "totalTokenCount": 4318,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1064
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 667
+   }
+  ],
+  "thoughtsTokenCount": 2082,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "title_guess": "The Night Watch",
+ "sources": [
+  {
+   "label_ko": "북 치는 소리",
+   "sound_en": "military drum being beaten",
+   "ground_phrase_en": "large military drum",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     955,
+     745
+    ]
+   ]
+  },
+  {
+   "label_ko": "명령을 내리는 목소리",
+   "sound_en": "captain giving spoken marching orders",
+   "ground_phrase_en": "captain in black with red sash",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     485,
+     515
+    ]
+   ]
+  },
+  {
+   "label_ko": "병사들의 행진과 웅성거림",
+   "sound_en": "militia crowd talking, marching footsteps, and clanking armor and weapons",
+   "ground_phrase_en": "militia soldiers",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     205,
+     615
+    ],
+    [
+     335,
+     445
+    ],
+    [
+     520,
+     420
+    ],
+    [
+     615,
+     660
+    ],
+    [
+     735,
+     585
+    ],
+    [
+     910,
+     480
+    ]
+   ]
+  },
+  {
+   "label_ko": "개 짖는 소리",
+   "sound_en": "dog barking excitedly",
+   "ground_phrase_en": "brown dog",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     825,
+     865
+    ]
+   ]
+  },
+  {
+   "label_ko": "머스킷 총성",
+   "sound_en": "musket firing a gunshot",
+   "ground_phrase_en": "firing musket barrel behind the captain",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     555,
+     538
+    ]
+   ]
+  }
+ ]
+}

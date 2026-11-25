@@ -1,0 +1,127 @@
+{
+  "title": "몽마르트르 대로",
+  "artist": "베로",
+  "year": "",
+  "caption": "VLM 제목 추정: 몽마르트르 대로",
+  "depth_model": "DA3 Mono-L",
+  "depth_agreement": 0.813,
+  "audio_model": "sa3m",
+  "quality": {
+    "gemini": {
+      "required_found": 1.0,
+      "required": "2/2",
+      "invented": 0.0,
+      "invented_n": "0/3",
+      "missed": [],
+      "invented_items": [],
+      "judge": "gemini-4-neon"
+    }
+  },
+  "dropped": [],
+  "name_warnings": [],
+  "arcore_score": 100,
+  "arcore": {
+    "score": 100,
+    "picked": "original.jpg",
+    "candidates": {
+      "original.jpg": 100,
+      "q95.jpg": 100,
+      "q100.jpg": 100
+    },
+    "tool": true
+  },
+  "layers": {
+    "count": 4,
+    "size": [
+      1024,
+      856
+    ],
+    "files": [
+      "layer0",
+      "layer1",
+      "layer2",
+      "layer3"
+    ],
+    "map": "layers",
+    "layers": [
+      {
+        "index": 0,
+        "area": 0.25,
+        "visible": 0.261
+      },
+      {
+        "index": 1,
+        "area": 0.25,
+        "visible": 0.506
+      },
+      {
+        "index": 2,
+        "area": 0.25,
+        "visible": 0.649
+      },
+      {
+        "index": 3,
+        "area": 0.25,
+        "visible": 1.0
+      }
+    ],
+    "hole_dilate": 0.04,
+    "margin": 0.18
+  },
+  "sources": [
+    {
+      "id": "people_talking",
+      "label": "사람들의 대화",
+      "type": "people",
+      "u": 0.65,
+      "v": 0.55,
+      "depth": 0.877,
+      "file": "people_talking",
+      "volume": 0.8,
+      "description": "거리에서 서로 이야기하는 사람들의 목소리",
+      "prompt": "soft murmuring voices of people talking in a busy street, field recording",
+      "source_type": "point",
+      "object_en": "men and women standing and talking on the street",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.0,
+      "quiet": false
+    },
+    {
+      "id": "people_walking",
+      "label": "걸음걸이",
+      "type": "people",
+      "u": 0.3,
+      "v": 0.65,
+      "depth": 0.9,
+      "file": "people_walking",
+      "volume": 0.8,
+      "description": "거리에서 걸어가는 사람들의 발걸음 소리",
+      "prompt": "soft footsteps of people walking on a paved street, field recording",
+      "source_type": "point",
+      "object_en": "people walking on the street",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.2,
+      "quiet": false
+    },
+    {
+      "id": "newspaper_reader",
+      "label": "신문 소리",
+      "type": "people",
+      "u": 0.78,
+      "v": 0.6,
+      "depth": 0.1,
+      "file": "newspaper_reader",
+      "volume": 0.8,
+      "description": "신문을 읽는 사람의 페이지 넘기는 소리",
+      "prompt": "crinkling sound of newspaper pages being turned, field recording",
+      "source_type": "point",
+      "object_en": "man reading a newspaper",
+      "by": "qwen35_9b_nf4",
+      "seed": 1234,
+      "lufs": -28.1,
+      "quiet": false
+    }
+  ]
+}

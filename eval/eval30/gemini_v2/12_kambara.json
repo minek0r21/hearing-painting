@@ -1,0 +1,29 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "12_kambara",
+ "seconds": 26.1,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 2
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "눈 밟는 발소리",
+    "prompt_en": "footsteps crunching in deep snow",
+    "object_en": "travelers walking in the snow",
+    "x": 395,
+    "y": 745
+   },
+   {
+    "label_ko": "겨울 밤바람 소리",
+    "prompt_en": "soft cold winter night wind",
+    "object_en": "snowy winter night landscape"
+   }
+  ]
+ },
+ "raw": ""
+}

@@ -1,0 +1,32 @@
+{
+ "hash": "35365235105c",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 5
+   },
+   {
+    "model": 4,
+    "answer": 4
+   },
+   {
+    "model": 5,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "No seagull visible in the sky."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 3}, {\"model\": 3, \"answer\": 5}, {\"model\": 4, \"answer\": 4}, {\"model\": 5, \"answer\": 1}], \"unpaired\": [{\"model\": 2, \"verdict\": \"not_visible\", \"why\": \"No seagull visible in the sky.\"}]}"
+}

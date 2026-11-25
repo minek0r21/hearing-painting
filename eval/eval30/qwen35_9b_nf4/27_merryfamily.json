@@ -1,0 +1,83 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "27_merryfamily",
+ "seconds": 82.4,
+ "peak_vram_gb": 8.67,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of St. Nicholas",
+  "sources": [
+   {
+    "id": "man_playing_lute",
+    "object_en": "lute",
+    "x": 380,
+    "y": 400,
+    "label_ko": "루트 연주",
+    "type": "music",
+    "description_ko": "남자가 루트를 연주하며 웃고 있습니다.",
+    "prompt_en": "man playing lute with cheerful expression, acoustic plucking sound, field recording"
+   },
+   {
+    "id": "boy_flute",
+    "object_en": "flute",
+    "x": 750,
+    "y": 380,
+    "label_ko": "플루트 소리",
+    "type": "music",
+    "description_ko": "소년이 플루트를 불며 연주하고 있습니다.",
+    "prompt_en": "boy playing wooden flute, soft wind instrument melody, field recording"
+   },
+   {
+    "id": "boy_horn",
+    "object_en": "horn",
+    "x": 100,
+    "y": 300,
+    "label_ko": "호프 소리",
+    "type": "music",
+    "description_ko": "창가에 있는 소년이 호프를 불고 있습니다.",
+    "prompt_en": "boy blowing a horn, brass instrument sound, field recording"
+   },
+   {
+    "id": "dog_barking",
+    "object_en": "dog",
+    "x": 450,
+    "y": 750,
+    "label_ko": "강아지 짖음",
+    "type": "animal",
+    "description_ko": "흰색과 갈색 강아지가 바닥에 서 있습니다.",
+    "prompt_en": "small dog barking, barking sound, field recording"
+   },
+   {
+    "id": "woman_pouring",
+    "object_en": "pitcher",
+    "x": 650,
+    "y": 650,
+    "label_ko": "물 부음",
+    "type": "people",
+    "description_ko": "여자가 물병을 들고 물을 부어주고 있습니다.",
+    "prompt_en": "woman pouring liquid from a pitcher, liquid pouring sound, field recording"
+   },
+   {
+    "id": "ambient_murmur",
+    "object_en": "people",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람들 소란",
+    "type": "people",
+    "description_ko": "식사하는 사람들이 떠들며 소란스럽습니다.",
+    "prompt_en": "crowd of people talking and laughing, lively chatter, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"The Feast of St. Nicholas\",\n  \"sources\": [\n    {\n      \"id\": \"man_playing_lute\",\n      \"object_en\": \"lute\",\n      \"x\": 380,\n      \"y\": 400,\n      \"label_ko\": \"루트 연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"남자가 루트를 연주하며 웃고 있습니다.\",\n      \"prompt_en\": \"man playing lute with cheerful expression, acoustic plucking sound, field recording\"\n    },\n    {\n      \"id\": \"boy_flute\",\n      \"object_en\": \"flute\",\n      \"x\": 750,\n      \"y\": 380,\n      \"label_ko\": \"플루트 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"소년이 플루트를 불며 연주하고 있습니다.\",\n      \"prompt_en\": \"boy playing wooden flute, soft wind instrument melody, field recording\"\n    },\n    {\n      \"id\": \"boy_horn\",\n      \"object_en\": \"horn\",\n      \"x\": 100,\n      \"y\": 300,\n      \"label_ko\": \"호프 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"창가에 있는 소년이 호프를 불고 있습니다.\",\n      \"prompt_en\": \"boy blowing a horn, brass instrument sound, field recording\"\n    },\n    {\n      \"id\": \"dog_barking\",\n      \"object_en\": \"dog\",\n      \"x\": 450,\n      \"y\": 750,\n      \"label_ko\": \"강아지 짖음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"흰색과 갈색 강아지가 바닥에 서 있습니다.\",\n      \"prompt_en\": \"small dog barking, barking sound, field recording\"\n    },\n    {\n      \"id\": \"woman_pouring\",\n      \"object_en\": \"pitcher\",\n      \"x\": 650,\n      \"y\": 650,\n      \"label_ko\": \"물 부음\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 물병을 들고 물을 부어주고 있습니다.\",\n      \"prompt_en\": \"woman pouring liquid from a pitcher, liquid pouring sound, field recording\"\n    },\n    {\n      \"id\": \"ambient_murmur\",\n      \"object_en\": \"people\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람들 소란\",\n      \"type\": \"people\",\n      \"description_ko\": \"식사하는 사람들이 떠들며 소란스럽습니다.\",\n      \"prompt_en\": \"crowd of people talking and laughing, lively chatter, field recording\"\n    }\n  ]\n}\n```\n"
+}

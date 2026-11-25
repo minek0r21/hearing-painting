@@ -1,0 +1,151 @@
+{
+ "model": "gemini-4-neon",
+ "file": "13_qingming.jpg",
+ "seconds": 71.0,
+ "parsed": {
+  "title_guess": "Along the River During the Qingming Festival (Rainbow Bridge)",
+  "sources": [
+   {
+    "label_ko": "뱃사공 외침과 노 젓는 소리",
+    "sound_en": "boatmen shouting, oars splashing, and wooden mast creaking",
+    "ground_phrase_en": "large wooden boat passing under the bridge",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      815,
+      320
+     ]
+    ]
+   },
+   {
+    "label_ko": "다리 위 인파의 웅성거림과 발소리",
+    "sound_en": "crowd shouting, chatter, and footsteps on the wooden bridge",
+    "ground_phrase_en": "crowds of people on the arched bridge and street",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      635,
+      145
+     ],
+     [
+      510,
+      245
+     ],
+     [
+      430,
+      450
+     ],
+     [
+      485,
+      625
+     ],
+     [
+      350,
+      605
+     ]
+    ]
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "sound_en": "flowing river water swirling and lapping",
+    "ground_phrase_en": "wide flowing river",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "나무 수레 덜컹거리는 소리",
+    "sound_en": "wooden cart wheels rumbling and creaking",
+    "ground_phrase_en": "loaded wooden carts in the foreground",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      305,
+      765
+     ],
+     [
+      165,
+      795
+     ]
+    ]
+   },
+   {
+    "label_ko": "시장 노점과 찻집의 떠들썩한 소리",
+    "sound_en": "market vendors hawking and teahouse chatter",
+    "ground_phrase_en": "market stalls and riverside shops",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      220,
+      635
+     ],
+     [
+      395,
+      365
+     ],
+     [
+      605,
+      635
+     ],
+     [
+      885,
+      900
+     ],
+     [
+      275,
+      55
+     ]
+    ]
+   },
+   {
+    "label_ko": "말과 당나귀 발굽 소리",
+    "sound_en": "donkey and horse hooves clattering",
+    "ground_phrase_en": "pack donkeys and horse",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      440,
+      690
+     ],
+     [
+      460,
+      420
+     ],
+     [
+      65,
+      925
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Along the River During the Qingming Festival (Rainbow Bridge)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"뱃사공 외침과 노 젓는 소리\",\n      \"sound_en\": \"boatmen shouting, oars splashing, and wooden mast creaking\",\n      \"ground_phrase_en\": \"large wooden boat passing under the bridge\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [815, 320]\n      ]\n    },\n    {\n      \"label_ko\": \"다리 위 인파의 웅성거림과 발소리\",\n      \"sound_en\": \"crowd shouting, chatter, and footsteps on the wooden bridge\",\n      \"ground_phrase_en\": \"crowds of people on the arched bridge and street\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [635, 145],\n        [510, 245],\n        [430, 450],\n        [485, 625],\n        [350, 605]\n      ]\n    },\n    {\n      \"label_ko\": \"강물 흐르는 소리\",\n      \"sound_en\": \"flowing river water swirling and lapping\",\n      \"ground_phrase_en\": \"wide flowing river\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"나무 수레 덜컹거리는 소리\",\n      \"sound_en\": \"wooden cart wheels rumbling and creaking\",\n      \"ground_phrase_en\": \"loaded wooden carts in the foreground\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [305, 765],\n        [165, 795]\n      ]\n    },\n    {\n      \"label_ko\": \"시장 노점과 찻집의 떠들썩한 소리\",\n      \"sound_en\": \"market vendors hawking and teahouse chatter\",\n      \"ground_phrase_en\": \"market stalls and riverside shops\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [220, 635],\n        [395, 365],\n        [605, 635],\n        [885, 900],\n        [275, 55]\n      ]\n    },\n    {\n      \"label_ko\": \"말과 당나귀 발굽 소리\",\n      \"sound_en\": \"donkey and horse hooves clattering\",\n      \"ground_phrase_en\": \"pack donkeys and horse\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [440, 690],\n        [460, 420],\n        [65, 925]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1816,
+  "candidatesTokenCount": 743,
+  "totalTokenCount": 9535,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1081
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 743
+   }
+  ],
+  "thoughtsTokenCount": 6976,
+  "serviceTier": "standard"
+ }
+}

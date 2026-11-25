@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "05_boulevard",
+ "seconds": 34.3,
+ "peak_vram_gb": 9.02,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "id": "people_talking",
+    "object_en": "group of men standing and conversing on the sidewalk",
+    "x": 750,
+    "y": 550,
+    "label_ko": "사람들 대화",
+    "type": "people",
+    "description_ko": "길거리에 서 있는 남자들의 대화 소리가 들린다.",
+    "prompt_en": "soft murmuring voices of men standing in a group on a city sidewalk, field recording"
+   },
+   {
+    "id": "people_walking",
+    "object_en": "woman in long skirt walking down the street",
+    "x": 450,
+    "y": 650,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "길거리를 걷는 여인의 발걸음 소리가 들린다.",
+    "prompt_en": "soft footsteps of a woman walking on a paved city street, field recording"
+   },
+   {
+    "id": "people_reading",
+    "object_en": "man holding and reading a newspaper",
+    "x": 780,
+    "y": 600,
+    "label_ko": "신문 읽기",
+    "type": "people",
+    "description_ko": "신문을 읽고 있는 남자의 페이지 넘기는 소리가 들린다.",
+    "prompt_en": "crisp paper rustling sound of a man turning pages of a newspaper, field recording"
+   },
+   {
+    "id": "people_crowd_noise",
+    "object_en": "crowd of people moving along the sidewalk",
+    "x": 300,
+    "y": 600,
+    "label_ko": "길거리 소음",
+    "type": "people",
+    "description_ko": "바쁜 길거리를 오가는 사람들의 발걸음과 목소리 소리가 섞여 들린다.",
+    "prompt_en": "ambient crowd noise of people walking and talking on a busy city sidewalk, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"id\": \"people_talking\",\n      \"object_en\": \"group of men standing and conversing on the sidewalk\",\n      \"x\": 750,\n      \"y\": 550,\n      \"label_ko\": \"사람들 대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"길거리에 서 있는 남자들의 대화 소리가 들린다.\",\n      \"prompt_en\": \"soft murmuring voices of men standing in a group on a city sidewalk, field recording\"\n    },\n    {\n      \"id\": \"people_walking\",\n      \"object_en\": \"woman in long skirt walking down the street\",\n      \"x\": 450,\n      \"y\": 650,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"길거리를 걷는 여인의 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"soft footsteps of a woman walking on a paved city street, field recording\"\n    },\n    {\n      \"id\": \"people_reading\",\n      \"object_en\": \"man holding and reading a newspaper\",\n      \"x\": 780,\n      \"y\": 600,\n      \"label_ko\": \"신문 읽기\",\n      \"type\": \"people\",\n      \"description_ko\": \"신문을 읽고 있는 남자의 페이지 넘기는 소리가 들린다.\",\n      \"prompt_en\": \"crisp paper rustling sound of a man turning pages of a newspaper, field recording\"\n    },\n    {\n      \"id\": \"people_crowd_noise\",\n      \"object_en\": \"crowd of people moving along the sidewalk\",\n      \"x\": 300,\n      \"y\": 600,\n      \"label_ko\": \"길거리 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"바쁜 길거리를 오가는 사람들의 발걸음과 목소리 소리가 섞여 들린다.\",\n      \"prompt_en\": \"ambient crowd noise of people walking and talking on a busy city sidewalk, field recording\"\n    }\n  ]\n}\n"
+}

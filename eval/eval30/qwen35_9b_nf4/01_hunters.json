@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "01_hunters",
+ "seconds": 51.7,
+ "peak_vram_gb": 8.64,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with Hunters and Skaters",
+  "sources": [
+   {
+    "id": "fire_crackle",
+    "object_en": "fire",
+    "x": 100,
+    "y": 600,
+    "label_ko": "불",
+    "type": "nature",
+    "description_ko": "화덕 옆에서 타는 불에서 크르르거리는 소리가 난다.",
+    "prompt_en": "crackling fire sound in a rustic fireplace, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "dog_bark",
+    "object_en": "dogs",
+    "x": 150,
+    "y": 750,
+    "label_ko": "개",
+    "type": "animal",
+    "description_ko": "나무 아래에서 짖는 개들의 소리가 들린다.",
+    "prompt_en": "barking dogs in a snowy forest, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "skater_squeak",
+    "object_en": "skaters",
+    "x": 700,
+    "y": 600,
+    "label_ko": "스케이트",
+    "type": "people",
+    "description_ko": "얼어붙은 호수에서 스케이트를 타는 사람들의 빙판 소리.",
+    "prompt_en": "skating on frozen lake, creaking ice and footsteps, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "bird_chirp",
+    "object_en": "birds",
+    "x": 700,
+    "y": 250,
+    "label_ko": "새",
+    "type": "nature",
+    "description_ko": "하늘을 나는 새들이 날갯짓하는 소리가 들린다.",
+    "prompt_en": "birds flying in winter sky, flapping wings, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "wind_hush",
+    "object_en": "snow-covered landscape",
+    "x": 500,
+    "y": 500,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "눈 덮인 풍경에서 차가운 바람이 불어오는 소리.",
+    "prompt_en": "soft wind blowing through snow-covered trees, field recording",
+    "volume": 0.5
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with Hunters and Skaters\",\n  \"sources\": [\n    {\n      \"id\": \"fire_crackle\",\n      \"object_en\": \"fire\",\n      \"x\": 100,\n      \"y\": 600,\n      \"label_ko\": \"불\",\n      \"type\": \"nature\",\n      \"description_ko\": \"화덕 옆에서 타는 불에서 크르르거리는 소리가 난다.\",\n      \"prompt_en\": \"crackling fire sound in a rustic fireplace, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"dog_bark\",\n      \"object_en\": \"dogs\",\n      \"x\": 150,\n      \"y\": 750,\n      \"label_ko\": \"개\",\n      \"type\": \"animal\",\n      \"description_ko\": \"나무 아래에서 짖는 개들의 소리가 들린다.\",\n      \"prompt_en\": \"barking dogs in a snowy forest, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"skater_squeak\",\n      \"object_en\": \"skaters\",\n      \"x\": 700,\n      \"y\": 600,\n      \"label_ko\": \"스케이트\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼어붙은 호수에서 스케이트를 타는 사람들의 빙판 소리.\",\n      \"prompt_en\": \"skating on frozen lake, creaking ice and footsteps, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"bird_chirp\",\n      \"object_en\": \"birds\",\n      \"x\": 700,\n      \"y\": 250,\n      \"label_ko\": \"새\",\n      \"type\": \"nature\",\n      \"description_ko\": \"하늘을 나는 새들이 날갯짓하는 소리가 들린다.\",\n      \"prompt_en\": \"birds flying in winter sky, flapping wings, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"wind_hush\",\n      \"object_en\": \"snow-covered landscape\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈 덮인 풍경에서 차가운 바람이 불어오는 소리.\",\n      \"prompt_en\": \"soft wind blowing through snow-covered trees, field recording\",\n      \"volume\": 0.5\n    }\n  ]\n}\n"
+}

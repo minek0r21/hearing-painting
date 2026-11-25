@@ -1,0 +1,55 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "09_danopungjeong",
+ "seconds": 69.6,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "그네 타는 소리",
+    "prompt_en": "creaking ropes and whooshing air of a woman riding a high swing",
+    "object_en": "woman riding a rope swing",
+    "x": 640,
+    "y": 350
+   },
+   {
+    "label_ko": "냇가에서 목욕하며 물장구치는 소리",
+    "prompt_en": "women splashing water and chatting while bathing in the stream",
+    "object_en": "women bathing in the stream",
+    "x": 105,
+    "y": 675
+   },
+   {
+    "label_ko": "시냇물 흐르는 소리",
+    "prompt_en": "gentle babbling stream flowing along the valley",
+    "object_en": "flowing stream"
+   },
+   {
+    "label_ko": "언덕 위 여인들의 대화 소리",
+    "prompt_en": "two women chatting softly while fixing their hair",
+    "object_en": "two women sitting on the hillside",
+    "x": 795,
+    "y": 215
+   },
+   {
+    "label_ko": "바람에 나뭇잎 스치는 소리",
+    "prompt_en": "gentle breeze rustling through the tree leaves",
+    "object_en": "leafy trees"
+   },
+   {
+    "label_ko": "흙길을 걷는 발걸음 소리",
+    "prompt_en": "footsteps of a woman walking up the dirt slope carrying a bundle",
+    "object_en": "woman carrying a bundle on her head",
+    "x": 880,
+    "y": 625
+   }
+  ]
+ },
+ "raw": ""
+}

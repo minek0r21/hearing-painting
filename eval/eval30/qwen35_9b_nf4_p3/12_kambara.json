@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "12_kambara",
+ "seconds": 25.1,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Katsushika Hokusai, The Fifty-Third Station of the Tōkaidō Road: Gōhō",
+  "sources": [
+   {
+    "id": "snow_fall_ambient",
+    "object_en": "falling snow",
+    "x": 500,
+    "y": 300,
+    "label_ko": "눈 내리기",
+    "type": "nature",
+    "description_ko": "눈이 천천히 내리고 있는 소리",
+    "prompt_en": "gentle falling snow sound, quiet winter atmosphere, field recording"
+   },
+   {
+    "id": "footsteps_snow",
+    "object_en": "person walking in snow",
+    "x": 380,
+    "y": 750,
+    "label_ko": "발소리",
+    "type": "people",
+    "description_ko": "눈 위를 걷는 사람의 발소리",
+    "prompt_en": "soft crunching footsteps on snow, person walking, field recording"
+   },
+   {
+    "id": "footsteps_snow_2",
+    "object_en": "person walking in snow",
+    "x": 730,
+    "y": 700,
+    "label_ko": "발소리",
+    "type": "people",
+    "description_ko": "눈 위를 걷는 사람의 발소리",
+    "prompt_en": "soft crunching footsteps on snow, person walking, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Katsushika Hokusai, The Fifty-Third Station of the Tōkaidō Road: Gōhō\",\n  \"sources\": [\n    {\n      \"id\": \"snow_fall_ambient\",\n      \"object_en\": \"falling snow\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"눈 내리기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈이 천천히 내리고 있는 소리\",\n      \"prompt_en\": \"gentle falling snow sound, quiet winter atmosphere, field recording\"\n    },\n    {\n      \"id\": \"footsteps_snow\",\n      \"object_en\": \"person walking in snow\",\n      \"x\": 380,\n      \"y\": 750,\n      \"label_ko\": \"발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"눈 위를 걷는 사람의 발소리\",\n      \"prompt_en\": \"soft crunching footsteps on snow, person walking, field recording\"\n    },\n    {\n      \"id\": \"footsteps_snow_2\",\n      \"object_en\": \"person walking in snow\",\n      \"x\": 730,\n      \"y\": 700,\n      \"label_ko\": \"발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"눈 위를 걷는 사람의 발소리\",\n      \"prompt_en\": \"soft crunching footsteps on snow, person walking, field recording\"\n    }\n  ]\n}\n"
+}

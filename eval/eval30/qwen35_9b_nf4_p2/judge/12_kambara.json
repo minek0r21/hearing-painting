@@ -1,0 +1,29 @@
+{
+ "hash": "7976c97ef30b",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No person carries a bamboo pole."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Trees are visible and can rustle in wind."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 1}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No person carries a bamboo pole.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Trees are visible and can rustle in wind.\"}]}"
+}

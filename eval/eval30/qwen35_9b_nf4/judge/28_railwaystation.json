@@ -1,0 +1,37 @@
+{
+ "hash": "2c58a7bb08c5",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 4,
+    "answer": 3
+   },
+   {
+    "model": 6,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Men moving and bending could make footsteps."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Women's clothing and shawls make no sound here."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 1}, {\"model\": 4, \"answer\": 3}, {\"model\": 6, \"answer\": 5}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Men moving and bending could make footsteps.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Women's clothing and shawls make no sound here.\"}]}"
+}

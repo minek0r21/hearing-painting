@@ -1,0 +1,44 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "18_milkmaid",
+ "seconds": 20.4,
+ "peak_vram_gb": 8.85,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 2,
+  "count_ok": false,
+  "korean_label": 2,
+  "korean_desc": 2,
+  "type_ok": 2,
+  "prompt_ok": 2,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Milkmaid",
+  "sources": [
+   {
+    "id": "woman_pouring_milk",
+    "object_en": "woman pouring milk from jug",
+    "x": 520,
+    "y": 480,
+    "label_ko": "우유 부는 소리",
+    "type": "people",
+    "description_ko": "여자가 항아리에서 우유를 부을 때 나는 맑고 부드러운 액체 흐르는 소리",
+    "prompt_en": "soft liquid pouring sound from ceramic jug into bowl, gentle splash and trickle, field recording"
+   },
+   {
+    "id": "room_tone",
+    "object_en": "interior room space",
+    "x": 500,
+    "y": 500,
+    "label_ko": "방의 정적",
+    "type": "nature",
+    "description_ko": "조용한 실내 공간에서 느껴지는 미세한 공기 흐름과 벽면의 잔향",
+    "prompt_en": "quiet indoor room tone with subtle air movement and wall reverb, no echoes, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Milkmaid\",\n  \"sources\": [\n    {\n      \"id\": \"woman_pouring_milk\",\n      \"object_en\": \"woman pouring milk from jug\",\n      \"x\": 520,\n      \"y\": 480,\n      \"label_ko\": \"우유 부는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 항아리에서 우유를 부을 때 나는 맑고 부드러운 액체 흐르는 소리\",\n      \"prompt_en\": \"soft liquid pouring sound from ceramic jug into bowl, gentle splash and trickle, field recording\"\n    },\n    {\n      \"id\": \"room_tone\",\n      \"object_en\": \"interior room space\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"방의 정적\",\n      \"type\": \"nature\",\n      \"description_ko\": \"조용한 실내 공간에서 느껴지는 미세한 공기 흐름과 벽면의 잔향\",\n      \"prompt_en\": \"quiet indoor room tone with subtle air movement and wall reverb, no echoes, field recording\"\n    }\n  ]\n}\n"
+}

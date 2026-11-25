@@ -1,0 +1,89 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "13_qingming",
+ "seconds": 52.4,
+ "peak_vram_gb": 8.53,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Along the River During the Qingming Festival",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 다리 위에서 오가는 소리가 들립니다.",
+    "prompt_en": "dense crowd murmuring and footsteps on a stone bridge, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "boat_oars",
+    "object_en": "boats with oars",
+    "x": 800,
+    "y": 250,
+    "label_ko": "배 노 소리",
+    "type": "vehicle",
+    "description_ko": "강 위를 노를 저어가는 배들의 노 소리가 들립니다.",
+    "prompt_en": "wooden oars splashing water in a river, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "umbrella_rattle",
+    "object_en": "umbrellas",
+    "x": 300,
+    "y": 600,
+    "label_ko": "산산 소리",
+    "type": "people",
+    "description_ko": "우산을 들고 있는 사람들이 바람에 우산이 흔들리는 소리가 납니다.",
+    "prompt_en": "paper umbrellas rustling in light wind, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "cart_wheel",
+    "object_en": "wheelbarrow",
+    "x": 200,
+    "y": 750,
+    "label_ko": "수레 바퀴 소리",
+    "type": "vehicle",
+    "description_ko": "사람이 밀고 있는 수레 바퀴가 돌며 나는 소리가 들립니다.",
+    "prompt_en": "wooden wheelbarrow rolling on cobblestone street, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "bird_call",
+    "object_en": "bird in tree",
+    "x": 950,
+    "y": 300,
+    "label_ko": "새 소리",
+    "type": "nature",
+    "description_ko": "나무에 앉아 있는 새가 날아오며 지저귀는 소리가 들립니다.",
+    "prompt_en": "small bird chirping and flying away from a bare tree, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "bare trees",
+    "x": 900,
+    "y": 400,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "가을 바람이 나뭇가지 사이를 스쳐가는 소리가 들립니다.",
+    "prompt_en": "gentle wind rustling through bare tree branches, field recording",
+    "volume": 0.5
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Along the River During the Qingming Festival\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 다리 위에서 오가는 소리가 들립니다.\",\n      \"prompt_en\": \"dense crowd murmuring and footsteps on a stone bridge, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"boat_oars\",\n      \"object_en\": \"boats with oars\",\n      \"x\": 800,\n      \"y\": 250,\n      \"label_ko\": \"배 노 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"강 위를 노를 저어가는 배들의 노 소리가 들립니다.\",\n      \"prompt_en\": \"wooden oars splashing water in a river, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"umbrella_rattle\",\n      \"object_en\": \"umbrellas\",\n      \"x\": 300,\n      \"y\": 600,\n      \"label_ko\": \"산산 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산을 들고 있는 사람들이 바람에 우산이 흔들리는 소리가 납니다.\",\n      \"prompt_en\": \"paper umbrellas rustling in light wind, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"cart_wheel\",\n      \"object_en\": \"wheelbarrow\",\n      \"x\": 200,\n      \"y\": 750,\n      \"label_ko\": \"수레 바퀴 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"사람이 밀고 있는 수레 바퀴가 돌며 나는 소리가 들립니다.\",\n      \"prompt_en\": \"wooden wheelbarrow rolling on cobblestone street, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"bird_call\",\n      \"object_en\": \"bird in tree\",\n      \"x\": 950,\n      \"y\": 300,\n      \"label_ko\": \"새 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무에 앉아 있는 새가 날아오며 지저귀는 소리가 들립니다.\",\n      \"prompt_en\": \"small bird chirping and flying away from a bare tree, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"bare trees\",\n      \"x\": 900,\n      \"y\": 400,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"가을 바람이 나뭇가지 사이를 스쳐가는 소리가 들립니다.\",\n      \"prompt_en\": \"gentle wind rustling through bare tree branches, field recording\",\n      \"volume\": 0.5\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,36 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "21_snapwhip",
+ "seconds": 29.7,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "뛰어노는 소년들의 함성과 발소리",
+    "prompt_en": "boys shouting, laughing, running barefoot, and tumbling in the grass",
+    "object_en": "line of barefoot boys playing Snap the Whip",
+    "x": 145,
+    "y": 650
+   },
+   {
+    "label_ko": "멀리서 노는 아이들의 목소리",
+    "prompt_en": "distant children playing, chattering, and cheering",
+    "object_en": "distant children playing in the left background",
+    "x": 68,
+    "y": 570
+   },
+   {
+    "label_ko": "숲과 들판에 부는 바람 소리",
+    "prompt_en": "gentle breeze rustling through the hillside woods and grassy field",
+    "object_en": "wooded hillside and grassy meadow"
+   }
+  ]
+ },
+ "raw": ""
+}

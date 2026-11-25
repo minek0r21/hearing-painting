@@ -1,0 +1,37 @@
+{
+ "hash": "3bcaf37398f9",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 6,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Boys on rocks can make footsteps and breathing."
+   },
+   {
+    "model": 5,
+    "verdict": "not_visible",
+    "why": "No walking child is shown."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}, {\"model\": 6, \"answer\": 6}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Boys on rocks can make footsteps and breathing.\"}, {\"model\": 5, \"verdict\": \"not_visible\", \"why\": \"No walking child is shown.\"}]}"
+}

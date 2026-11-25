@@ -1,0 +1,48 @@
+{
+ "hash": "9cf7d09ad607",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Glowing furnaces are visible in the left background."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Steam is visibly rising from the mill machinery."
+   },
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "An iron wheeled trolley sits directly under the hot metal."
+   },
+   {
+    "model": 7,
+    "verdict": "plausible",
+    "why": "Workers are shown eating and drinking on the lower right."
+   },
+   {
+    "model": 8,
+    "verdict": "plausible",
+    "why": "Shirtless workers are visibly washing up on the far left."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}, {\"model\": 3, \"answer\": 2}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Glowing furnaces are visible in the left background.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Steam is visibly rising from the mill machinery.\"}, {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"An iron wheeled trolley sits directly under the hot metal.\"}, {\"model\": 7, \"verdict\": \"plausible\", \"why\": \"Workers are shown eating and drinking on the lower right.\"}, {\"model\": 8, \"verdict\": \"plausible\", \"why\": \"Shirtless workers are visibly washing up on the far left.\"}]}"
+}

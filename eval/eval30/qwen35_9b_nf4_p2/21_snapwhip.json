@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "21_snapwhip",
+ "seconds": 34.4,
+ "peak_vram_gb": 8.66,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Barefoot Boys",
+  "sources": [
+   {
+    "id": "boys_running",
+    "object_en": "group of barefoot boys running hand-in-hand",
+    "x": 500,
+    "y": 600,
+    "label_ko": "달리는 소년들",
+    "type": "people",
+    "description_ko": "발이 맨발인 소년들이 손을 잡고 달리고 있는 소리가 들린다.",
+    "prompt_en": "barefoot boys running hand-in-hand across a grassy field, energetic footsteps and light laughter, field recording"
+   },
+   {
+    "id": "boy_falling",
+    "object_en": "boy falling to the ground",
+    "x": 120,
+    "y": 650,
+    "label_ko": "넘어가는 소년",
+    "type": "people",
+    "description_ko": "한 소년이 넘어지며 땅에 떨어지는 소리가 들린다.",
+    "prompt_en": "young boy falling onto grass, soft thud and slight grunt, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees on the hillside",
+    "x": 300,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "산의 나무 사이로 불어오는 바람 소리가 들린다.",
+    "prompt_en": "gentle wind rustling through autumn trees on a hillside, field recording"
+   },
+   {
+    "id": "distant_music",
+    "object_en": "people playing instruments in background",
+    "x": 80,
+    "y": 500,
+    "label_ko": "악기 소리",
+    "type": "music",
+    "description_ko": "배경에서 멀리서 악기가 연주되는 소리가 희미하게 들린다.",
+    "prompt_en": "distant faint music from people playing instruments in background, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Barefoot Boys\",\n  \"sources\": [\n    {\n      \"id\": \"boys_running\",\n      \"object_en\": \"group of barefoot boys running hand-in-hand\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년들\",\n      \"type\": \"people\",\n      \"description_ko\": \"발이 맨발인 소년들이 손을 잡고 달리고 있는 소리가 들린다.\",\n      \"prompt_en\": \"barefoot boys running hand-in-hand across a grassy field, energetic footsteps and light laughter, field recording\"\n    },\n    {\n      \"id\": \"boy_falling\",\n      \"object_en\": \"boy falling to the ground\",\n      \"x\": 120,\n      \"y\": 650,\n      \"label_ko\": \"넘어가는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 소년이 넘어지며 땅에 떨어지는 소리가 들린다.\",\n      \"prompt_en\": \"young boy falling onto grass, soft thud and slight grunt, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees on the hillside\",\n      \"x\": 300,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"산의 나무 사이로 불어오는 바람 소리가 들린다.\",\n      \"prompt_en\": \"gentle wind rustling through autumn trees on a hillside, field recording\"\n    },\n    {\n      \"id\": \"distant_music\",\n      \"object_en\": \"people playing instruments in background\",\n      \"x\": 80,\n      \"y\": 500,\n      \"label_ko\": \"악기 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"배경에서 멀리서 악기가 연주되는 소리가 희미하게 들린다.\",\n      \"prompt_en\": \"distant faint music from people playing instruments in background, field recording\"\n    }\n  ]\n}\n"
+}

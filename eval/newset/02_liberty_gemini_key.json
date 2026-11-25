@@ -1,0 +1,63 @@
+{
+ "title_guess": "Liberty Leading the People",
+ "sources": [
+  {
+   "label_ko": "혁명군 군중의 함성과 돌격 소리",
+   "sound_en": "revolutionary crowd shouting and scrambling over the barricade",
+   "ground_phrase_en": "charging revolutionary fighters and crowd",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     585,
+     315
+    ],
+    [
+     745,
+     420
+    ],
+    [
+     245,
+     450
+    ],
+    [
+     95,
+     415
+    ],
+    [
+     385,
+     385
+    ]
+   ]
+  },
+  {
+   "label_ko": "연기 자욱한 시가전의 총성과 포성",
+   "sound_en": "gunfire and distant battle blasts echoing through the smoke-filled streets",
+   "ground_phrase_en": "smoke-filled city battleground",
+   "source_type": "ambient",
+   "grade": "required",
+   "points": []
+  },
+  {
+   "label_ko": "바람에 펄럭이는 큰 깃발 소리",
+   "sound_en": "large flag flapping strongly in the wind",
+   "ground_phrase_en": "large billowing tricolor flag",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     465,
+     90
+    ]
+   ]
+  },
+  {
+   "label_ko": "연기를 몰고 부는 바람 소리",
+   "sound_en": "wind blowing across the smoky sky",
+   "ground_phrase_en": "drifting battle smoke in the wind",
+   "source_type": "ambient",
+   "grade": "allowed",
+   "points": []
+  }
+ ]
+}

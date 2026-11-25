@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "10_inwang",
+ "seconds": 26.0,
+ "peak_vram_gb": 8.84,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Snowy Mountain Landscape with Waterfall and Pine Trees",
+  "sources": [
+   {
+    "id": "waterfall_sound",
+    "object_en": "waterfall",
+    "x": 650,
+    "y": 250,
+    "label_ko": "폭포소리",
+    "type": "nature",
+    "description_ko": "산비탈에서 떨어지는 폭포의 물소리가 들립니다.",
+    "prompt_en": "gentle but continuous sound of water falling from a mountain waterfall, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "pine trees",
+    "x": 700,
+    "y": 600,
+    "label_ko": "바람소리",
+    "type": "nature",
+    "description_ko": "바람이 소나무 사이를 스쳐 지나가는 소리가 납니다.",
+    "prompt_en": "soft rustling sound of wind moving through pine tree branches, field recording"
+   },
+   {
+    "id": "snowfall_ambient",
+    "object_en": "snow-covered mountains",
+    "x": 400,
+    "y": 150,
+    "label_ko": "눈소리",
+    "type": "nature",
+    "description_ko": "눈이 내리는 조용한 산의 배경 소리가 납니다.",
+    "prompt_en": "quiet ambient sound of light snow falling on mountain peaks, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Snowy Mountain Landscape with Waterfall and Pine Trees\",\n  \"sources\": [\n    {\n      \"id\": \"waterfall_sound\",\n      \"object_en\": \"waterfall\",\n      \"x\": 650,\n      \"y\": 250,\n      \"label_ko\": \"폭포소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"산비탈에서 떨어지는 폭포의 물소리가 들립니다.\",\n      \"prompt_en\": \"gentle but continuous sound of water falling from a mountain waterfall, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"pine trees\",\n      \"x\": 700,\n      \"y\": 600,\n      \"label_ko\": \"바람소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 소나무 사이를 스쳐 지나가는 소리가 납니다.\",\n      \"prompt_en\": \"soft rustling sound of wind moving through pine tree branches, field recording\"\n    },\n    {\n      \"id\": \"snowfall_ambient\",\n      \"object_en\": \"snow-covered mountains\",\n      \"x\": 400,\n      \"y\": 150,\n      \"label_ko\": \"눈소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈이 내리는 조용한 산의 배경 소리가 납니다.\",\n      \"prompt_en\": \"quiet ambient sound of light snow falling on mountain peaks, field recording\"\n    }\n  ]\n}\n"
+}

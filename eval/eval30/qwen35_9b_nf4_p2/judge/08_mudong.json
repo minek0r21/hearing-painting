@@ -1,0 +1,33 @@
+{
+ "hash": "8d93eede34f5",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No guitar in the painting."
+   },
+   {
+    "model": 5,
+    "verdict": "not_visible",
+    "why": "No wind harp in the painting."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 1\n    },\n    {\n      \"model\": 2,\n      \"answer\": 3\n    },\n    {\n      \"model\": 4,\n      \"answer\": 6\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 3,\n      \"verdict\": \"not_visible\",\n      \"why\": \"No guitar in the painting.\"\n    },\n    {\n      \"model\": 5,\n      \"verdict\": \"not_visible\",\n      \"why\": \"No wind harp in the painting.\"\n    }\n  ]\n}"
+}

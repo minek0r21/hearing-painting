@@ -1,0 +1,24 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 2,
+   "answer": 3
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Tree branches on the right can rustle."
+  },
+  {
+   "model": 4,
+   "verdict": "plausible",
+   "why": "Background bell tower can toll."
+  }
+ ]
+}

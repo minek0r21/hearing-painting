@@ -1,0 +1,52 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "27_merryfamily",
+ "seconds": 51.5,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "어르신들의 흥겨운 노래 소리",
+    "prompt_en": "elderly man and woman singing merrily together",
+    "object_en": "singing old man and woman at the table",
+    "x": 290,
+    "y": 392
+   },
+   {
+    "label_ko": "백파이프 연주 소리",
+    "prompt_en": "reedy bagpipes playing loudly",
+    "object_en": "man playing bagpipes",
+    "x": 365,
+    "y": 315
+   },
+   {
+    "label_ko": "플루트 연주 소리",
+    "prompt_en": "wooden flute playing a lively melody",
+    "object_en": "young man playing a wooden flute",
+    "x": 740,
+    "y": 372
+   },
+   {
+    "label_ko": "아기의 까르르 웃는 소리",
+    "prompt_en": "baby giggling and laughing happily",
+    "object_en": "laughing baby on mother's lap",
+    "x": 638,
+    "y": 405
+   },
+   {
+    "label_ko": "주전자에서 술 따르는 소리",
+    "prompt_en": "drink pouring from a metal pitcher into a cup",
+    "object_en": "girl pouring drink from a pitcher",
+    "x": 696,
+    "y": 655
+   }
+  ]
+ },
+ "raw": ""
+}

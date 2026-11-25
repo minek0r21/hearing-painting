@@ -1,0 +1,44 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "20_pearl",
+ "seconds": 19.9,
+ "peak_vram_gb": 8.81,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 2,
+  "count_ok": false,
+  "korean_label": 2,
+  "korean_desc": 2,
+  "type_ok": 2,
+  "prompt_ok": 2,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Girl with a Pearl Earring",
+  "sources": [
+   {
+    "id": "girl_turns_head",
+    "object_en": "girl turning her head",
+    "x": 450,
+    "y": 400,
+    "label_ko": "머리 돌리기",
+    "type": "people",
+    "description_ko": "화면 속 여자가 천천히 고개를 돌리며 숨을 내쉬는 소리가 들린다.",
+    "prompt_en": "soft quiet exhale as a young woman slowly turns her head to look at the viewer, field recording"
+   },
+   {
+    "id": "room_tone",
+    "object_en": "dark interior space",
+    "x": 500,
+    "y": 500,
+    "label_ko": "실내 소리",
+    "type": "nature",
+    "description_ko": "어두운 방의 잔잔한 배경 소리로, 아무도 없는 공간의 정적.",
+    "prompt_en": "quiet ambient room tone in a dimly lit interior, no visible activity, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Girl with a Pearl Earring\",\n  \"sources\": [\n    {\n      \"id\": \"girl_turns_head\",\n      \"object_en\": \"girl turning her head\",\n      \"x\": 450,\n      \"y\": 400,\n      \"label_ko\": \"머리 돌리기\",\n      \"type\": \"people\",\n      \"description_ko\": \"화면 속 여자가 천천히 고개를 돌리며 숨을 내쉬는 소리가 들린다.\",\n      \"prompt_en\": \"soft quiet exhale as a young woman slowly turns her head to look at the viewer, field recording\"\n    },\n    {\n      \"id\": \"room_tone\",\n      \"object_en\": \"dark interior space\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"실내 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"어두운 방의 잔잔한 배경 소리로, 아무도 없는 공간의 정적.\",\n      \"prompt_en\": \"quiet ambient room tone in a dimly lit interior, no visible activity, field recording\"\n    }\n  ]\n}\n"
+}

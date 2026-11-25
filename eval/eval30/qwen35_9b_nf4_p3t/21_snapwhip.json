@@ -1,0 +1,124 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "21_snapwhip",
+ "seconds": 82.0,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 10,
+  "count_ok": false,
+  "korean_label": 10,
+  "korean_desc": 10,
+  "type_ok": 10,
+  "prompt_ok": 10,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "채찍 놀이",
+  "sources": [
+   {
+    "id": "boys_playing",
+    "object_en": "group of boys playing",
+    "x": 500,
+    "y": 600,
+    "label_ko": "채찍 놀이",
+    "type": "people",
+    "description_ko": "초원 위에서 채찍을 잡고 달리는 소년들의 웃음소리와 발소리가 들립니다.",
+    "prompt_en": "children laughing and running in a field holding a whip, field recording"
+   },
+   {
+    "id": "boy_falling",
+    "object_en": "boy falling",
+    "x": 120,
+    "y": 650,
+    "label_ko": "넘어가는 소년",
+    "type": "people",
+    "description_ko": "초원 한복판에서 넘어지는 소년의 옷자락이 바람에 펄럭이는 소리와 체온이 느껴집니다.",
+    "prompt_en": "boy falling on grass, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running",
+    "object_en": "boy running",
+    "x": 180,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "채찍을 휘두르며 빠르게 달리는 소년의 숨소리와 발걸음 소리가 들립니다.",
+    "prompt_en": "boy running fast in a field, heavy breathing, field recording"
+   },
+   {
+    "id": "boy_running_2",
+    "object_en": "boy running",
+    "x": 250,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running_3",
+    "object_en": "boy running",
+    "x": 350,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running_4",
+    "object_en": "boy running",
+    "x": 450,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running_5",
+    "object_en": "boy running",
+    "x": 600,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running_6",
+    "object_en": "boy running",
+    "x": 750,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running_7",
+    "object_en": "boy running",
+    "x": 850,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   },
+   {
+    "id": "boy_running_8",
+    "object_en": "boy running",
+    "x": 950,
+    "y": 600,
+    "label_ko": "달리는 소년",
+    "type": "people",
+    "description_ko": "손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.",
+    "prompt_en": "boys holding hands running in a field, fabric rustling, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"채찍 놀이\",\n  \"sources\": [\n    {\n      \"id\": \"boys_playing\",\n      \"object_en\": \"group of boys playing\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"채찍 놀이\",\n      \"type\": \"people\",\n      \"description_ko\": \"초원 위에서 채찍을 잡고 달리는 소년들의 웃음소리와 발소리가 들립니다.\",\n      \"prompt_en\": \"children laughing and running in a field holding a whip, field recording\"\n    },\n    {\n      \"id\": \"boy_falling\",\n      \"object_en\": \"boy falling\",\n      \"x\": 120,\n      \"y\": 650,\n      \"label_ko\": \"넘어가는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"초원 한복판에서 넘어지는 소년의 옷자락이 바람에 펄럭이는 소리와 체온이 느껴집니다.\",\n      \"prompt_en\": \"boy falling on grass, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running\",\n      \"object_en\": \"boy running\",\n      \"x\": 180,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"채찍을 휘두르며 빠르게 달리는 소년의 숨소리와 발걸음 소리가 들립니다.\",\n      \"prompt_en\": \"boy running fast in a field, heavy breathing, field recording\"\n    },\n    {\n      \"id\": \"boy_running_2\",\n      \"object_en\": \"boy running\",\n      \"x\": 250,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running_3\",\n      \"object_en\": \"boy running\",\n      \"x\": 350,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running_4\",\n      \"object_en\": \"boy running\",\n      \"x\": 450,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running_5\",\n      \"object_en\": \"boy running\",\n      \"x\": 600,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running_6\",\n      \"object_en\": \"boy running\",\n      \"x\": 750,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running_7\",\n      \"object_en\": \"boy running\",\n      \"x\": 850,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"boy_running_8\",\n      \"object_en\": \"boy running\",\n      \"x\": 950,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"손을 잡고 달리는 소년들의 발소리와 옷자락이 바람에 펄럭이는 소리가 들립니다.\",\n      \"prompt_en\": \"boys holding hands running in a field, fabric rustling, field recording\"\n    }\n  ]\n}\n```\n"
+}

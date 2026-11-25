@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "07_seodang",
+ "seconds": 40.1,
+ "peak_vram_gb": 9.05,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "서당",
+  "sources": [
+   {
+    "id": "teacher_reading",
+    "object_en": "teacher reading at the desk",
+    "x": 680,
+    "y": 200,
+    "label_ko": "선생님 읽는 소리",
+    "type": "people",
+    "description_ko": "선생님이 책상 앞에 앉아 글을 읽으며 소리를 내는 모습",
+    "prompt_en": "an elderly man reading a book aloud with a deep, resonant voice, field recording"
+   },
+   {
+    "id": "students_reading",
+    "object_en": "students reading books on the floor",
+    "x": 150,
+    "y": 450,
+    "label_ko": "학생들 읽는 소리",
+    "type": "people",
+    "description_ko": "학생들이 바닥에 앉아 책을 읽으며 조용히 소리를 내는 모습",
+    "prompt_en": "children sitting on the floor reading books quietly, soft whispering voices, field recording"
+   },
+   {
+    "id": "student_yawning",
+    "object_en": "student yawning",
+    "x": 360,
+    "y": 480,
+    "label_ko": "학생 하품 소리",
+    "type": "people",
+    "description_ko": "한 학생이 하품을 하며 입에서 나는 소리",
+    "prompt_en": "a child yawning with mouth open, soft sighing sound, field recording"
+   },
+   {
+    "id": "student_smiling",
+    "object_en": "student smiling",
+    "x": 850,
+    "y": 550,
+    "label_ko": "학생 웃음소리",
+    "type": "people",
+    "description_ko": "학생이 웃으며 입에서 나는 경쾌한 웃음소리",
+    "prompt_en": "a young student smiling and laughing softly, light and cheerful voice, field recording"
+   },
+   {
+    "id": "student_turning_page",
+    "object_en": "student turning book page",
+    "x": 500,
+    "y": 850,
+    "label_ko": "책 넘기는 소리",
+    "type": "people",
+    "description_ko": "학생이 책장을 넘기며 나는 소음",
+    "prompt_en": "paper pages being turned slowly, crisp rustling sound, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"서당\",\n  \"sources\": [\n    {\n      \"id\": \"teacher_reading\",\n      \"object_en\": \"teacher reading at the desk\",\n      \"x\": 680,\n      \"y\": 200,\n      \"label_ko\": \"선생님 읽는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"선생님이 책상 앞에 앉아 글을 읽으며 소리를 내는 모습\",\n      \"prompt_en\": \"an elderly man reading a book aloud with a deep, resonant voice, field recording\"\n    },\n    {\n      \"id\": \"students_reading\",\n      \"object_en\": \"students reading books on the floor\",\n      \"x\": 150,\n      \"y\": 450,\n      \"label_ko\": \"학생들 읽는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생들이 바닥에 앉아 책을 읽으며 조용히 소리를 내는 모습\",\n      \"prompt_en\": \"children sitting on the floor reading books quietly, soft whispering voices, field recording\"\n    },\n    {\n      \"id\": \"student_yawning\",\n      \"object_en\": \"student yawning\",\n      \"x\": 360,\n      \"y\": 480,\n      \"label_ko\": \"학생 하품 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 학생이 하품을 하며 입에서 나는 소리\",\n      \"prompt_en\": \"a child yawning with mouth open, soft sighing sound, field recording\"\n    },\n    {\n      \"id\": \"student_smiling\",\n      \"object_en\": \"student smiling\",\n      \"x\": 850,\n      \"y\": 550,\n      \"label_ko\": \"학생 웃음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생이 웃으며 입에서 나는 경쾌한 웃음소리\",\n      \"prompt_en\": \"a young student smiling and laughing softly, light and cheerful voice, field recording\"\n    },\n    {\n      \"id\": \"student_turning_page\",\n      \"object_en\": \"student turning book page\",\n      \"x\": 500,\n      \"y\": 850,\n      \"label_ko\": \"책 넘기는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생이 책장을 넘기며 나는 소음\",\n      \"prompt_en\": \"paper pages being turned slowly, crisp rustling sound, field recording\"\n    }\n  ]\n}\n"
+}

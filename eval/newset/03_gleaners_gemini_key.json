@@ -1,0 +1,106 @@
+{
+ "title_guess": "The Gleaners",
+ "sources": [
+  {
+   "label_ko": "밀 이삭 줍고 마른 짚 밟는 소리",
+   "sound_en": "rustling dry wheat stalks and crunching footsteps on stubble",
+   "ground_phrase_en": "three peasant women gleaning wheat in the foreground",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     305,
+     535
+    ],
+    [
+     485,
+     580
+    ],
+    [
+     745,
+     570
+    ]
+   ]
+  },
+  {
+   "label_ko": "들판에 부는 바람 소리",
+   "sound_en": "gentle wind blowing across the open harvest field",
+   "ground_phrase_en": "wide open wheat field under hazy sky",
+   "source_type": "ambient",
+   "grade": "required",
+   "points": []
+  },
+  {
+   "label_ko": "멀리서 들리는 추수꾼들의 소리",
+   "sound_en": "distant voices and bustling harvest work",
+   "ground_phrase_en": "distant crowd of harvest workers in the background",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     470,
+     322
+    ],
+    [
+     535,
+     340
+    ],
+    [
+     585,
+     322
+    ],
+    [
+     760,
+     318
+    ]
+   ]
+  },
+  {
+   "label_ko": "멀리서 들리는 건초 마차 소리",
+   "sound_en": "distant creaking hay wagon and draft horses",
+   "ground_phrase_en": "loaded horse-drawn hay wagon in the background",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     365,
+     315
+    ]
+   ]
+  },
+  {
+   "label_ko": "하늘 위 새 떼 지저귀는 소리",
+   "sound_en": "distant flock of birds chirping in the sky",
+   "ground_phrase_en": "flock of small birds in the upper right sky",
+   "source_type": "clustered",
+   "grade": "allowed",
+   "points": [
+    [
+     730,
+     18
+    ],
+    [
+     790,
+     15
+    ],
+    [
+     855,
+     25
+    ]
+   ]
+  },
+  {
+   "label_ko": "멀리서 들리는 말발굽 소리",
+   "sound_en": "distant horse hooves on the field",
+   "ground_phrase_en": "overseer on horseback in the far right background",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     885,
+     312
+    ]
+   ]
+  }
+ ]
+}

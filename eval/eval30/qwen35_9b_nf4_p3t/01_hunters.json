@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "01_hunters",
+ "seconds": 40.5,
+ "peak_vram_gb": 8.97,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Hunters in the Snow",
+  "sources": [
+   {
+    "id": "hunting_dogs_barking",
+    "object_en": "hunting dogs",
+    "x": 150,
+    "y": 850,
+    "label_ko": "개 짖는 소리",
+    "type": "animal",
+    "description_ko": "나무 근처에서 사냥을 하는 개들이 짖고 있는 소리.",
+    "prompt_en": "barking dogs in a snowy forest, field recording"
+   },
+   {
+    "id": "hunting_horns",
+    "object_en": "hunting horns",
+    "x": 300,
+    "y": 650,
+    "label_ko": "사냥 호각",
+    "type": "music",
+    "description_ko": "사냥꾼들이 어깨에 멘 호각을 불며 소리를 내는 소리.",
+    "prompt_en": "men blowing hunting horns in a snowy landscape, field recording"
+   },
+   {
+    "id": "skaters_on_ice",
+    "object_en": "skaters",
+    "x": 750,
+    "y": 600,
+    "label_ko": "빙상 소리",
+    "type": "people",
+    "description_ko": "얼어붙은 호수 위에서 빙상하는 사람들의 발자국 소리와 빙판 소리.",
+    "prompt_en": "people ice skating on a frozen lake, field recording"
+   },
+   {
+    "id": "fire_crackling",
+    "object_en": "fire",
+    "x": 100,
+    "y": 600,
+    "label_ko": "불 타는 소리",
+    "type": "nature",
+    "description_ko": "집 마당에서 타는 불에서 나는 바삭바삭한 타는 소리.",
+    "prompt_en": "crackling fire in a fireplace, field recording"
+   },
+   {
+    "id": "birds_cawing",
+    "object_en": "birds",
+    "x": 700,
+    "y": 250,
+    "label_ko": "새 울음소리",
+    "type": "nature",
+    "description_ko": "하늘을 나는 새들이 날아다니며 내는 울음소리.",
+    "prompt_en": "birds flying in the sky, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Hunters in the Snow\",\n\"sources\": [\n  {\n    \"id\": \"hunting_dogs_barking\",\n    \"object_en\": \"hunting dogs\",\n    \"x\": 150,\n    \"y\": 850,\n    \"label_ko\": \"개 짖는 소리\",\n    \"type\": \"animal\",\n    \"description_ko\": \"나무 근처에서 사냥을 하는 개들이 짖고 있는 소리.\",\n    \"prompt_en\": \"barking dogs in a snowy forest, field recording\"\n  },\n  {\n    \"id\": \"hunting_horns\",\n    \"object_en\": \"hunting horns\",\n    \"x\": 300,\n    \"y\": 650,\n    \"label_ko\": \"사냥 호각\",\n    \"type\": \"music\",\n    \"description_ko\": \"사냥꾼들이 어깨에 멘 호각을 불며 소리를 내는 소리.\",\n    \"prompt_en\": \"men blowing hunting horns in a snowy landscape, field recording\"\n  },\n  {\n    \"id\": \"skaters_on_ice\",\n    \"object_en\": \"skaters\",\n    \"x\": 750,\n    \"y\": 600,\n    \"label_ko\": \"빙상 소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"얼어붙은 호수 위에서 빙상하는 사람들의 발자국 소리와 빙판 소리.\",\n    \"prompt_en\": \"people ice skating on a frozen lake, field recording\"\n  },\n  {\n    \"id\": \"fire_crackling\",\n    \"object_en\": \"fire\",\n    \"x\": 100,\n    \"y\": 600,\n    \"label_ko\": \"불 타는 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"집 마당에서 타는 불에서 나는 바삭바삭한 타는 소리.\",\n    \"prompt_en\": \"crackling fire in a fireplace, field recording\"\n  },\n  {\n    \"id\": \"birds_cawing\",\n    \"object_en\": \"birds\",\n    \"x\": 700,\n    \"y\": 250,\n    \"label_ko\": \"새 울음소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"하늘을 나는 새들이 날아다니며 내는 울음소리.\",\n    \"prompt_en\": \"birds flying in the sky, field recording\"\n  }\n]\n}\n```\n"
+}

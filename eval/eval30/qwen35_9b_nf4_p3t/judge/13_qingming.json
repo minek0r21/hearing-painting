@@ -1,0 +1,33 @@
+{
+ "hash": "7fcd65722a5f",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 5
+   },
+   {
+    "model": 5,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Walking crowd visible; footsteps plausible."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Umbrellas visible; wind rustling plausible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 3}, {\"model\": 3, \"answer\": 5}, {\"model\": 5, \"answer\": 1}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Walking crowd visible; footsteps plausible.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Umbrellas visible; wind rustling plausible.\"}]}"
+}

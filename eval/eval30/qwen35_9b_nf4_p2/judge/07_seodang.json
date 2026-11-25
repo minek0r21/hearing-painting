@@ -1,0 +1,34 @@
+{
+ "hash": "f50575a58cf8",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Students have open books and can turn pages."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Students are present and can yawn."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Room tone is background silence."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 3}, {\"model\": 4, \"answer\": 2}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Students have open books and can turn pages.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Students are present and can yawn.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Room tone is background silence.\"}]}"
+}

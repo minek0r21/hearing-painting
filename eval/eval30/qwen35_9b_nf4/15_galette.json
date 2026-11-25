@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "15_galette",
+ "seconds": 110.0,
+ "peak_vram_gb": 8.65,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Dance at the Moulin de la Galette",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들의 속삭임",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 대화하고 웃는 소리가 배경에 퍼져 있습니다.",
+    "prompt_en": "soft murmuring voices of a large crowd in an outdoor café, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "music_band",
+    "object_en": "chandelier under awning",
+    "x": 280,
+    "y": 80,
+    "label_ko": "악기 연주",
+    "type": "music",
+    "description_ko": "무대 위의 밴드가 피아노와 기타로 경쾌한 왈츠를 연주하고 있습니다.",
+    "prompt_en": "live jazz band playing piano and guitar in a lively outdoor setting, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "glass_clink",
+    "object_en": "glass on table",
+    "x": 880,
+    "y": 700,
+    "label_ko": "잔 부딪히는 소리",
+    "type": "people",
+    "description_ko": "남자가 테이블 위의 유리잔을 살짝 치며 웃고 있습니다.",
+    "prompt_en": "light clinking of glassware on a wooden table in a café, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "footsteps",
+    "object_en": "dancing couple",
+    "x": 200,
+    "y": 450,
+    "label_ko": "춤추는 발소리",
+    "type": "people",
+    "description_ko": "남녀가 춤추며 발을 가볍게 두드리는 리듬감 있는 소리가 나옵니다.",
+    "prompt_en": "rhythmic tapping of feet while dancing in a crowded outdoor space, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees in background",
+    "x": 600,
+    "y": 100,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "나무 사이로 불어오는 바람이 잎사귀를 흔들며 살랑거리는 소리가 납니다.",
+    "prompt_en": "gentle rustling of leaves in a breeze through tall trees, field recording",
+    "volume": 0.4
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Dance at the Moulin de la Galette\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"사람들의 속삭임\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 대화하고 웃는 소리가 배경에 퍼져 있습니다.\",\n      \"prompt_en\": \"soft murmuring voices of a large crowd in an outdoor café, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"music_band\",\n      \"object_en\": \"chandelier under awning\",\n      \"x\": 280,\n      \"y\": 80,\n      \"label_ko\": \"악기 연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"무대 위의 밴드가 피아노와 기타로 경쾌한 왈츠를 연주하고 있습니다.\",\n      \"prompt_en\": \"live jazz band playing piano and guitar in a lively outdoor setting, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"glass_clink\",\n      \"object_en\": \"glass on table\",\n      \"x\": 880,\n      \"y\": 700,\n      \"label_ko\": \"잔 부딪히는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 테이블 위의 유리잔을 살짝 치며 웃고 있습니다.\",\n      \"prompt_en\": \"light clinking of glassware on a wooden table in a café, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"footsteps\",\n      \"object_en\": \"dancing couple\",\n      \"x\": 200,\n      \"y\": 450,\n      \"label_ko\": \"춤추는 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남녀가 춤추며 발을 가볍게 두드리는 리듬감 있는 소리가 나옵니다.\",\n      \"prompt_en\": \"rhythmic tapping of feet while dancing in a crowded outdoor space, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees in background\",\n      \"x\": 600,\n      \"y\": 100,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무 사이로 불어오는 바람이 잎사귀를 흔들며 살랑거리는 소리가 납니다.\",\n      \"prompt_en\": \"gentle rustling of leaves in a breeze through tall trees, field recording\",\n      \"volume\": 0.4\n    }\n  ]\n}\n"
+}

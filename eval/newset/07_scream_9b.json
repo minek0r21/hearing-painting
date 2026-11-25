@@ -1,0 +1,40 @@
+{
+ "painting": "07_scream",
+ "seconds": 26.0,
+ "parsed": {
+  "title_guess": "The Scream",
+  "sources": [
+   {
+    "id": "scream_voice",
+    "object_en": "screaming figure",
+    "x": 500,
+    "y": 650,
+    "label_ko": "울음소리",
+    "type": "people",
+    "description_ko": "중앙에 서 있는 인물이 입을 벌리고 비명을 지르는 소리가 난다.",
+    "prompt_en": "a high-pitched human scream, mouth wide open, field recording"
+   },
+   {
+    "id": "wind_sky",
+    "object_en": "swirling sky",
+    "x": 500,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "하늘과 바다에 불어오는 강렬한 바람의 소리가 배경 전체에 퍼져 있다.",
+    "prompt_en": "howling wind sound, swirling air, field recording"
+   },
+   {
+    "id": "distant_boats",
+    "object_en": "boats on water",
+    "x": 350,
+    "y": 380,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "멀리 물 위에 떠 있는 작은 배들이 물결을 가르며 조용히 움직이는 소리.",
+    "prompt_en": "distant boats gently moving on water, subtle creaking and splashing, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Scream\",\n  \"sources\": [\n    {\n      \"id\": \"scream_voice\",\n      \"object_en\": \"screaming figure\",\n      \"x\": 500,\n      \"y\": 650,\n      \"label_ko\": \"울음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에 서 있는 인물이 입을 벌리고 비명을 지르는 소리가 난다.\",\n      \"prompt_en\": \"a high-pitched human scream, mouth wide open, field recording\"\n    },\n    {\n      \"id\": \"wind_sky\",\n      \"object_en\": \"swirling sky\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"하늘과 바다에 불어오는 강렬한 바람의 소리가 배경 전체에 퍼져 있다.\",\n      \"prompt_en\": \"howling wind sound, swirling air, field recording\"\n    },\n    {\n      \"id\": \"distant_boats\",\n      \"object_en\": \"boats on water\",\n      \"x\": 350,\n      \"y\": 380,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"멀리 물 위에 떠 있는 작은 배들이 물결을 가르며 조용히 움직이는 소리.\",\n      \"prompt_en\": \"distant boats gently moving on water, subtle creaking and splashing, field recording\"\n    }\n  ]\n}\n"
+}

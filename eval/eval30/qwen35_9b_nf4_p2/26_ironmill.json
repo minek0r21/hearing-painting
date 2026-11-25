@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "26_ironmill",
+ "seconds": 42.0,
+ "peak_vram_gb": 8.68,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Iron Rolling Mill",
+  "sources": [
+   {
+    "id": "metal_rolling",
+    "object_en": "rolling mill machinery",
+    "x": 600,
+    "y": 500,
+    "label_ko": "철제롤링",
+    "type": "vehicle",
+    "description_ko": "거대한 철제롤링 기계가 돌아가며 금속을 압축하는 소리가 진동한다.",
+    "prompt_en": "heavy industrial metal rolling mill machinery grinding and vibrating with rhythmic clanking, field recording"
+   },
+   {
+    "id": "worker_hammering",
+    "object_en": "worker swinging hammer",
+    "x": 350,
+    "y": 650,
+    "label_ko": "망치치기",
+    "type": "people",
+    "description_ko": "노동자가 뜨거운 철괴를 망치로 두드리는 격렬한 타격 소리가 반복된다.",
+    "prompt_en": "worker swinging heavy hammer on hot metal bar with sharp metallic clangs, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of workers",
+    "x": 450,
+    "y": 700,
+    "label_ko": "노동자소음",
+    "type": "people",
+    "description_ko": "많은 노동자들이 동시에 작업하며 발생하는 낮은 수준의 집단적인 소음.",
+    "prompt_en": "low continuous murmur of many workers moving and shouting in a crowded factory floor, field recording"
+   },
+   {
+    "id": "steam_whistle",
+    "object_en": "steam pipe or valve",
+    "x": 750,
+    "y": 300,
+    "label_ko": "증기휘istle",
+    "type": "vehicle",
+    "description_ko": "증기배관에서 periodic하게 새어 나오는 고압 증기 소리가 간헐적으로 울린다.",
+    "prompt_en": "periodic high-pressure steam hissing from industrial pipe or valve, field recording"
+   },
+   {
+    "id": "fire_crackle",
+    "object_en": "glowing furnace",
+    "x": 550,
+    "y": 450,
+    "label_ko": "불소음",
+    "type": "nature",
+    "description_ko": "불타는 고로에서 나는 열기와 불꽃의 크래킹 소리가 배경에 깔려 있다.",
+    "prompt_en": "crackling and roaring sound of intense fire inside a glowing industrial furnace, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Iron Rolling Mill\",\n  \"sources\": [\n    {\n      \"id\": \"metal_rolling\",\n      \"object_en\": \"rolling mill machinery\",\n      \"x\": 600,\n      \"y\": 500,\n      \"label_ko\": \"철제롤링\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"거대한 철제롤링 기계가 돌아가며 금속을 압축하는 소리가 진동한다.\",\n      \"prompt_en\": \"heavy industrial metal rolling mill machinery grinding and vibrating with rhythmic clanking, field recording\"\n    },\n    {\n      \"id\": \"worker_hammering\",\n      \"object_en\": \"worker swinging hammer\",\n      \"x\": 350,\n      \"y\": 650,\n      \"label_ko\": \"망치치기\",\n      \"type\": \"people\",\n      \"description_ko\": \"노동자가 뜨거운 철괴를 망치로 두드리는 격렬한 타격 소리가 반복된다.\",\n      \"prompt_en\": \"worker swinging heavy hammer on hot metal bar with sharp metallic clangs, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of workers\",\n      \"x\": 450,\n      \"y\": 700,\n      \"label_ko\": \"노동자소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 노동자들이 동시에 작업하며 발생하는 낮은 수준의 집단적인 소음.\",\n      \"prompt_en\": \"low continuous murmur of many workers moving and shouting in a crowded factory floor, field recording\"\n    },\n    {\n      \"id\": \"steam_whistle\",\n      \"object_en\": \"steam pipe or valve\",\n      \"x\": 750,\n      \"y\": 300,\n      \"label_ko\": \"증기휘istle\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"증기배관에서 periodic하게 새어 나오는 고압 증기 소리가 간헐적으로 울린다.\",\n      \"prompt_en\": \"periodic high-pressure steam hissing from industrial pipe or valve, field recording\"\n    },\n    {\n      \"id\": \"fire_crackle\",\n      \"object_en\": \"glowing furnace\",\n      \"x\": 550,\n      \"y\": 450,\n      \"label_ko\": \"불소음\",\n      \"type\": \"nature\",\n      \"description_ko\": \"불타는 고로에서 나는 열기와 불꽃의 크래킹 소리가 배경에 깔려 있다.\",\n      \"prompt_en\": \"crackling and roaring sound of intense fire inside a glowing industrial furnace, field recording\"\n    }\n  ]\n}\n"
+}

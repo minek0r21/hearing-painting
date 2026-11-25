@@ -1,0 +1,73 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "24_avercamp",
+ "seconds": 74.7,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with the Church of St. John the Baptist",
+  "sources": [
+   {
+    "id": "church_bell",
+    "object_en": "church tower",
+    "x": 250,
+    "y": 350,
+    "label_ko": "종소리",
+    "type": "music",
+    "description_ko": "교회 탑에서 울리는 맑은 종소리가 멀리까지 퍼져나간다.",
+    "prompt_en": "soft church bell tolling in a cold winter day, field recording"
+   },
+   {
+    "id": "crow_cawing",
+    "object_en": "birds in sky",
+    "x": 450,
+    "y": 100,
+    "label_ko": "새소리",
+    "type": "animal",
+    "description_ko": "하늘을 나는 새들이 날아다니며 짖는 소리가 들린다.",
+    "prompt_en": "flock of birds cawing and flying across a pale winter sky, field recording"
+   },
+   {
+    "id": "people_talking",
+    "object_en": "people in foreground",
+    "x": 500,
+    "y": 800,
+    "label_ko": "사람들 말소리",
+    "type": "people",
+    "description_ko": "얼어붙은 강변에서 사람들이 모여서 이야기하는 낮은 목소리.",
+    "prompt_en": "murmur of people talking in a frozen village square, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "bare trees",
+    "x": 800,
+    "y": 400,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "가느다란 나뭇가지 사이로 부는 차가운 바람 소리가 들린다.",
+    "prompt_en": "cold wind rustling through bare tree branches in winter, field recording"
+   },
+   {
+    "id": "boat_creaking",
+    "object_en": "wooden boat",
+    "x": 200,
+    "y": 750,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "얼어붙은 강변에停靠된 나무배가 바람에 살짝 흔들리며 삐걱거리는 소리.",
+    "prompt_en": "wooden boat creaking slightly in the cold wind on a frozen riverbank, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with the Church of St. John the Baptist\",\n  \"sources\": [\n    {\n      \"id\": \"church_bell\",\n      \"object_en\": \"church tower\",\n      \"x\": 250,\n      \"y\": 350,\n      \"label_ko\": \"종소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"교회 탑에서 울리는 맑은 종소리가 멀리까지 퍼져나간다.\",\n      \"prompt_en\": \"soft church bell tolling in a cold winter day, field recording\"\n    },\n    {\n      \"id\": \"crow_cawing\",\n      \"object_en\": \"birds in sky\",\n      \"x\": 450,\n      \"y\": 100,\n      \"label_ko\": \"새소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"하늘을 나는 새들이 날아다니며 짖는 소리가 들린다.\",\n      \"prompt_en\": \"flock of birds cawing and flying across a pale winter sky, field recording\"\n    },\n   \n    {\n      \"id\": \"people_talking\",\n      \"object_en\": \"people in foreground\",\n      \"x\": 500,\n      \"y\": 800,\n      \"label_ko\": \"사람들 말소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼어붙은 강변에서 사람들이 모여서 이야기하는 낮은 목소리.\",\n      \"prompt_en\": \"murmur of people talking in a frozen village square, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"bare trees\",\n      \"x\": 800,\n      \"y\": 400,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"가느다란 나뭇가지 사이로 부는 차가운 바람 소리가 들린다.\",\n      \"prompt_en\": \"cold wind rustling through bare tree branches in winter, field recording\"\n    },\n    {\n      \"id\": \"boat_creaking\",\n      \"object_en\": \"wooden boat\",\n      \"x\": 200,\n      \"y\": 750,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"얼어붙은 강변에停靠된 나무배가 바람에 살짝 흔들리며 삐걱거리는 소리.\",\n      \"prompt_en\": \"wooden boat creaking slightly in the cold wind on a frozen riverbank, field recording\"\n    }\n  ]\n}\n"
+}

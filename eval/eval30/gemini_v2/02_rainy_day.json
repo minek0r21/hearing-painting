@@ -1,0 +1,43 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "02_rainy_day",
+ "seconds": 86.7,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "거리에 내리는 빗소리",
+    "prompt_en": "steady rain falling on wet cobblestones and street",
+    "object_en": "rainy city street"
+   },
+   {
+    "label_ko": "우산에 떨어지는 빗소리",
+    "prompt_en": "rain pattering on open umbrellas",
+    "object_en": "open umbrellas",
+    "x": 655,
+    "y": 300
+   },
+   {
+    "label_ko": "젖은 길을 걷는 발걸음 소리",
+    "prompt_en": "pedestrians' footsteps on wet cobblestones and sidewalk",
+    "object_en": "walking pedestrians",
+    "x": 595,
+    "y": 700
+   },
+   {
+    "label_ko": "마차 바퀴와 말발굽 소리",
+    "prompt_en": "horse hooves and carriage wheels rattling on cobblestones",
+    "object_en": "horse-drawn carriages",
+    "x": 108,
+    "y": 495
+   }
+  ]
+ },
+ "raw": ""
+}

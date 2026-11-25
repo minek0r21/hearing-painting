@@ -1,0 +1,16 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "30_stilllife",
+ "seconds": 8.2,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 0
+ },
+ "parsed": {
+  "sources": []
+ },
+ "raw": ""
+}

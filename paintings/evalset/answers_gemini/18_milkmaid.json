@@ -1,0 +1,60 @@
+{
+ "model": "gemini-4-neon",
+ "file": "18_milkmaid.jpg",
+ "seconds": 23.2,
+ "parsed": {
+  "title_guess": "The Milkmaid",
+  "sources": [
+   {
+    "label_ko": "우유 따르는 소리",
+    "sound_en": "milk pouring from a pitcher into an earthenware bowl",
+    "ground_phrase_en": "stream of milk pouring into a bowl",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      336,
+      598
+     ]
+    ]
+   },
+   {
+    "label_ko": "옷깃 스치는 소리",
+    "sound_en": "soft rustling of the woman's clothing as she pours",
+    "ground_phrase_en": "woman pouring milk",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      535,
+      460
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Milkmaid\",\n  \"sources\": [\n    {\n      \"label_ko\": \"우유 따르는 소리\",\n      \"sound_en\": \"milk pouring from a pitcher into an earthenware bowl\",\n      \"ground_phrase_en\": \"stream of milk pouring into a bowl\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [336, 598]\n      ]\n    },\n    {\n      \"label_ko\": \"옷깃 스치는 소리\",\n      \"sound_en\": \"soft rustling of the woman's clothing as she pours\",\n      \"ground_phrase_en\": \"woman pouring milk\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [535, 460]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1590,
+  "candidatesTokenCount": 219,
+  "totalTokenCount": 3753,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1085
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 219
+   }
+  ],
+  "thoughtsTokenCount": 1944,
+  "serviceTier": "standard"
+ }
+}

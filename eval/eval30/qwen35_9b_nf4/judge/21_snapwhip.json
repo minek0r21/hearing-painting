@@ -1,0 +1,33 @@
+{
+ "hash": "1196523f891c",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 5,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Background children are visible and could chatter or laugh."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Hillside trees are visible and could rustle in wind."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 5, \"answer\": 3}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Background children are visible and could chatter or laugh.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Hillside trees are visible and could rustle in wind.\"}]}"
+}

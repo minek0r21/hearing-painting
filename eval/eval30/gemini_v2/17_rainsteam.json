@@ -1,0 +1,43 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "17_rainsteam",
+ "seconds": 26.6,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "증기기관차 달리는 소리",
+    "prompt_en": "steam locomotive chugging, hissing steam, and rumbling along the tracks",
+    "object_en": "steam locomotive and train on the railway bridge",
+    "x": 660,
+    "y": 615
+   },
+   {
+    "label_ko": "빗소리와 바람 소리",
+    "prompt_en": "heavy driving rain and rushing wind",
+    "object_en": "rainstorm and stormy sky"
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "prompt_en": "river water flowing beneath the bridge",
+    "object_en": "river on the lower left",
+    "x": 120,
+    "y": 840
+   },
+   {
+    "label_ko": "나룻배 노 젓는 소리",
+    "prompt_en": "oars splashing from a small rowboat on the river",
+    "object_en": "small rowboat with passengers on the river",
+    "x": 144,
+    "y": 790
+   }
+  ]
+ },
+ "raw": ""
+}

@@ -1,0 +1,38 @@
+{
+ "hash": "4417c27a36c9",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 3
+   },
+   {
+    "model": 6,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Fan is visible and can rustle."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Hats are silent clothing items."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Chairs are visible and can squeak."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 5, \"answer\": 3}, {\"model\": 6, \"answer\": 4}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Fan is visible and can rustle.\"}, {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Hats are silent clothing items.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Chairs are visible and can squeak.\"}]}"
+}

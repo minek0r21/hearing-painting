@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "25_bargehaulers",
+ "seconds": 26.5,
+ "peak_vram_gb": 8.8,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Barge Haulers of the Volga",
+  "sources": [
+   {
+    "id": "volga_haulers",
+    "object_en": "group of men pulling a rope",
+    "x": 350,
+    "y": 500,
+    "label_ko": "인부들의 힘",
+    "type": "people",
+    "description_ko": "강변에서 줄을 당기는 인부들의 숨소리와 힘차게 당기는 줄의 마찰 소리",
+    "prompt_en": "heavy breathing and straining sounds of men pulling a thick rope on a sandy beach, field recording"
+   },
+   {
+    "id": "volga_water",
+    "object_en": "river water",
+    "x": 500,
+    "y": 500,
+    "label_ko": "강물 소리",
+    "type": "nature",
+    "description_ko": "바람에 잔잔하게 흔들리는 강물에서 나는 물결 소리",
+    "prompt_en": "gentle flowing water sound of a wide river with a slight breeze, field recording"
+   },
+   {
+    "id": "boat_sail",
+    "object_en": "sailboat",
+    "x": 750,
+    "y": 300,
+    "label_ko": "배의 바람 소리",
+    "type": "vehicle",
+    "description_ko": "바람에 부채진 돛에서 나는 바람 소리",
+    "prompt_en": "rustling sound of canvas sails flapping in the wind on a boat, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"The Barge Haulers of the Volga\",\n\"sources\": [\n  {\n    \"id\": \"volga_haulers\",\n    \"object_en\": \"group of men pulling a rope\",\n    \"x\": 350,\n    \"y\": 500,\n    \"label_ko\": \"인부들의 힘\",\n    \"type\": \"people\",\n    \"description_ko\": \"강변에서 줄을 당기는 인부들의 숨소리와 힘차게 당기는 줄의 마찰 소리\",\n    \"prompt_en\": \"heavy breathing and straining sounds of men pulling a thick rope on a sandy beach, field recording\"\n  },\n  {\n    \"id\": \"volga_water\",\n    \"object_en\": \"river water\",\n    \"x\": 500,\n    \"y\": 500,\n    \"label_ko\": \"강물 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"바람에 잔잔하게 흔들리는 강물에서 나는 물결 소리\",\n    \"prompt_en\": \"gentle flowing water sound of a wide river with a slight breeze, field recording\"\n  },\n  {\n    \"id\": \"boat_sail\",\n    \"object_en\": \"sailboat\",\n    \"x\": 750,\n    \"y\": 300,\n    \"label_ko\": \"배의 바람 소리\",\n    \"type\": \"vehicle\",\n    \"description_ko\": \"바람에 부채진 돛에서 나는 바람 소리\",\n    \"prompt_en\": \"rustling sound of canvas sails flapping in the wind on a boat, field recording\"\n  }\n]\n}\n```\n"
+}

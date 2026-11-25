@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "03_wave",
+ "seconds": 64.7,
+ "peak_vram_gb": 8.62,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Great Wave off Kanagawa",
+  "sources": [
+   {
+    "id": "wave_crash",
+    "object_en": "wave",
+    "x": 300,
+    "y": 400,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "거대한 파도가 부서지며 웅장한 소리를 내며 몰려옵니다.",
+    "prompt_en": "deep crashing ocean wave sound with white foam and low rumble, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "boat_creak",
+    "object_en": "boat",
+    "x": 150,
+    "y": 650,
+    "label_ko": "배의 삐걱거림",
+    "type": "vehicle",
+    "description_ko": "파도 속에서 흔들리는 배가 나무로 만들어져서 삐걱거리는 소리가 납니다.",
+    "prompt_en": "wooden boat creaking under pressure from waves, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "boat_creak_2",
+    "object_en": "boat",
+    "x": 600,
+    "y": 850,
+    "label_ko": "배의 삐걱거림",
+    "type": "vehicle",
+    "description_ko": "파도 사이로 미끄러지는 배가 나무로 만들어져서 삐걱거리는 소리가 납니다.",
+    "prompt_en": "wooden boat creaking under pressure from waves, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "boat_creak_3",
+    "object_en": "boat",
+    "x": 800,
+    "y": 600,
+    "label_ko": "배의 삐걱거림",
+    "type": "vehicle",
+    "description_ko": "파도 사이로 미끄러지는 배가 나무로 만들어져서 삐걱거리는 소리가 납니다.",
+    "prompt_en": "wooden boat creaking under pressure from waves, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "sea_ambient",
+    "object_en": "sea",
+    "x": 500,
+    "y": 500,
+    "label_ko": "바다 소리",
+    "type": "nature",
+    "description_ko": "바다에서 들려오는 지속적인 파도 소리와 바람 소리가 섞여 있습니다.",
+    "prompt_en": "ambient ocean waves and wind sound, field recording",
+    "volume": 0.5
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Wave off Kanagawa\",\n  \"sources\": [\n    {\n      \"id\": \"wave_crash\",\n      \"object_en\": \"wave\",\n      \"x\": 300,\n      \"y\": 400,\n      \"label_ko\": \"파도 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거대한 파도가 부서지며 웅장한 소리를 내며 몰려옵니다.\",\n      \"prompt_en\": \"deep crashing ocean wave sound with white foam and low rumble, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"boat_creak\",\n      \"object_en\": \"boat\",\n      \"x\": 150,\n      \"y\": 650,\n      \"label_ko\": \"배의 삐걱거림\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 속에서 흔들리는 배가 나무로 만들어져서 삐걱거리는 소리가 납니다.\",\n      \"prompt_en\": \"wooden boat creaking under pressure from waves, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"boat_creak_2\",\n      \"object_en\": \"boat\",\n      \"x\": 600,\n      \"y\": 850,\n      \"label_ko\": \"배의 삐걱거림\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 사이로 미끄러지는 배가 나무로 만들어져서 삐걱거리는 소리가 납니다.\",\n      \"prompt_en\": \"wooden boat creaking under pressure from waves, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"boat_creak_3\",\n      \"object_en\": \"boat\",\n      \"x\": 800,\n      \"y\": 600,\n      \"label_ko\": \"배의 삐걱거림\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"파도 사이로 미끄러지는 배가 나무로 만들어져서 삐걱거리는 소리가 납니다.\",\n      \"prompt_en\": \"wooden boat creaking under pressure from waves, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"sea_ambient\",\n      \"object_en\": \"sea\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"바다 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바다에서 들려오는 지속적인 파도 소리와 바람 소리가 섞여 있습니다.\",\n      \"prompt_en\": \"ambient ocean waves and wind sound, field recording\",\n      \"volume\": 0.5\n    }\n  ]\n}\n"
+}

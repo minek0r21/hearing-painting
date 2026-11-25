@@ -1,0 +1,48 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "25_bargehaulers",
+ "seconds": 22.0,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "배를 끄는 인부들의 발걸음과 밧줄 소리",
+    "prompt_en": "heavy trudging footsteps in sand, straining towropes, and weary groans of barge haulers",
+    "object_en": "group of barge haulers",
+    "x": 220,
+    "y": 560
+   },
+   {
+    "label_ko": "물살을 가르는 목선의 삐걱거리는 소리",
+    "prompt_en": "wooden barge hull creaking, rigging straining, and water sloshing against the bow",
+    "object_en": "large wooden barge",
+    "x": 765,
+    "y": 445
+   },
+   {
+    "label_ko": "강물이 강변에 철썩이는 소리",
+    "prompt_en": "river water gently lapping against the sandy shore",
+    "object_en": "wide river and sandy shore"
+   },
+   {
+    "label_ko": "강변에 부는 바람 소리",
+    "prompt_en": "steady wind blowing across the open riverbank",
+    "object_en": "open riverbank and fluttering flag"
+   },
+   {
+    "label_ko": "멀리서 들리는 증기선 엔진 소리",
+    "prompt_en": "faint chugging of a distant steamboat on the river",
+    "object_en": "distant steamboat",
+    "x": 921,
+    "y": 462
+   }
+  ]
+ },
+ "raw": ""
+}

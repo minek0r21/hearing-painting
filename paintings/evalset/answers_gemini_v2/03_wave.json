@@ -1,0 +1,92 @@
+{
+ "model": "gemini-4-neon",
+ "file": "03_wave.jpg",
+ "seconds": 40.5,
+ "parsed": {
+  "title_guess": "The Great Wave off Kanagawa (Katsushika Hokusai)",
+  "sources": [
+   {
+    "label_ko": "거센 파도가 부서지는 소리",
+    "sound_en": "roaring and crashing ocean waves with heavy spray",
+    "ground_phrase_en": "giant breaking ocean waves",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "나무배가 파도에 부딪히고 삐걱거리는 소리",
+    "sound_en": "wooden boats creaking and slapping against the waves",
+    "ground_phrase_en": "wooden fishing boats in the waves",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      150,
+      665
+     ],
+     [
+      600,
+      905
+     ],
+     [
+      760,
+      680
+     ]
+    ]
+   },
+   {
+    "label_ko": "거센 바닷바람 소리",
+    "sound_en": "strong howling sea wind",
+    "ground_phrase_en": "stormy open sea and sky",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "배 위 어부들의 외침 소리",
+    "sound_en": "fishermen shouting over the storm",
+    "ground_phrase_en": "huddled rowers inside the wooden boats",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      207,
+      690
+     ],
+     [
+      745,
+      895
+     ],
+     [
+      835,
+      615
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Wave off Kanagawa (Katsushika Hokusai)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"거센 파도가 부서지는 소리\",\n      \"sound_en\": \"roaring and crashing ocean waves with heavy spray\",\n      \"ground_phrase_en\": \"giant breaking ocean waves\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"나무배가 파도에 부딪히고 삐걱거리는 소리\",\n      \"sound_en\": \"wooden boats creaking and slapping against the waves\",\n      \"ground_phrase_en\": \"wooden fishing boats in the waves\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [150, 665],\n        [600, 905],\n        [760, 680]\n      ]\n    },\n    {\n      \"label_ko\": \"거센 바닷바람 소리\",\n      \"sound_en\": \"strong howling sea wind\",\n      \"ground_phrase_en\": \"stormy open sea and sky\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"배 위 어부들의 외침 소리\",\n      \"sound_en\": \"fishermen shouting over the storm\",\n      \"ground_phrase_en\": \"huddled rowers inside the wooden boats\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [207, 690],\n        [745, 895],\n        [835, 615]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 443,
+  "totalTokenCount": 5876,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 443
+   }
+  ],
+  "thoughtsTokenCount": 3618,
+  "serviceTier": "standard"
+ }
+}

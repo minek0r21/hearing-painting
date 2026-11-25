@@ -1,0 +1,33 @@
+{
+ "hash": "848c11c9d74b",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   },
+   {
+    "model": 4,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "People are walking on the platform floor."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Duplicate train sound; locomotive is visible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 2}, {\"model\": 4, \"answer\": 3}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"People are walking on the platform floor.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Duplicate train sound; locomotive is visible.\"}]}"
+}

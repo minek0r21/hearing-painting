@@ -1,0 +1,25 @@
+{
+ "hash": "36df5558f222",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Men reading newspapers are visible; page rustling is plausible."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Walking pedestrians are visible; A1 is already paired with M1."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 1\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 2,\n      \"verdict\": \"plausible\",\n      \"why\": \"Men reading newspapers are visible; page rustling is plausible.\"\n    },\n    {\n      \"model\": 3,\n      \"verdict\": \"plausible\",\n      \"why\": \"Walking pedestrians are visible; A1 is already paired with M1.\"\n    }\n  ]\n}"
+}

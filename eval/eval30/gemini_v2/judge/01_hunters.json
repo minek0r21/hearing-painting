@@ -1,0 +1,44 @@
+{
+ "hash": "98fde1b93050",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 5
+   },
+   {
+    "model": 5,
+    "answer": 4
+   },
+   {
+    "model": 6,
+    "answer": 7
+   },
+   {
+    "model": 7,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 8,
+    "verdict": "plausible",
+    "why": "A horse-drawn cart is visible near the upper pond."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 2},\n    {\"model\": 2, \"answer\": 1},\n    {\"model\": 3, \"answer\": 3},\n    {\"model\": 4, \"answer\": 5},\n    {\"model\": 5, \"answer\": 4},\n    {\"model\": 6, \"answer\": 7},\n    {\"model\": 7, \"answer\": 6}\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 8,\n      \"verdict\": \"plausible\",\n      \"why\": \"A horse-drawn cart is visible near the upper pond.\"\n    }\n  ]\n}"
+}

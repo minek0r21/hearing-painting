@@ -1,0 +1,209 @@
+{
+ "model": "gemini-4-neon",
+ "file": "16_horsefair.jpg",
+ "seconds": 33.6,
+ "parsed": {
+  "title_guess": "The Horse Fair (Rosa Bonheur)",
+  "sources": [
+   {
+    "label_ko": "흙길 위 말발굽 소리",
+    "sound_en": "horse hooves pounding on the dirt road",
+    "ground_phrase_en": "running horses' hooves",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      155,
+      815
+     ],
+     [
+      355,
+      815
+     ],
+     [
+      440,
+      775
+     ],
+     [
+      660,
+      810
+     ],
+     [
+      910,
+      805
+     ]
+    ]
+   },
+   {
+    "label_ko": "말 울음소리와 거친 숨소리",
+    "sound_en": "horses neighing, snorting, and breathing heavily",
+    "ground_phrase_en": "excited horses",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      35,
+      435
+     ],
+     [
+      190,
+      465
+     ],
+     [
+      430,
+      330
+     ],
+     [
+      495,
+      420
+     ],
+     [
+      788,
+      495
+     ]
+    ]
+   },
+   {
+    "label_ko": "마부와 기수들이 말을 몰며 외치는 소리",
+    "sound_en": "horse handlers and riders shouting commands",
+    "ground_phrase_en": "horse handlers and riders",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      212,
+      540
+     ],
+     [
+      365,
+      400
+     ],
+     [
+      538,
+      505
+     ],
+     [
+      635,
+      445
+     ],
+     [
+      925,
+      485
+     ]
+    ]
+   },
+   {
+    "label_ko": "구경꾼들이 웅성거리는 소리",
+    "sound_en": "murmur and chatter of spectators",
+    "ground_phrase_en": "crowd of spectators",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      900,
+      360
+     ],
+     [
+      835,
+      485
+     ],
+     [
+      980,
+      550
+     ]
+    ]
+   },
+   {
+    "label_ko": "고삐와 마구가 삐걱거리고 달그락거리는 소리",
+    "sound_en": "leather harnesses creaking and metal bridles jingling",
+    "ground_phrase_en": "horse harnesses and bridles",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      195,
+      495
+     ],
+     [
+      280,
+      550
+     ],
+     [
+      430,
+      340
+     ],
+     [
+      695,
+      485
+     ]
+    ]
+   },
+   {
+    "label_ko": "마부들이 흙바닥을 달리는 발소리",
+    "sound_en": "handlers' footsteps running and scuffling on dirt",
+    "ground_phrase_en": "running horse handlers",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      35,
+      690
+     ],
+     [
+      215,
+      790
+     ],
+     [
+      525,
+      740
+     ]
+    ]
+   },
+   {
+    "label_ko": "채찍 휘두르는 소리",
+    "sound_en": "swish of a raised whip",
+    "ground_phrase_en": "rider raising a whip",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      350,
+      360
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 나뭇잎이 스치는 소리",
+    "sound_en": "wind rustling through the leafy trees",
+    "ground_phrase_en": "dense leafy trees",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Horse Fair (Rosa Bonheur)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"흙길 위 말발굽 소리\",\n      \"sound_en\": \"horse hooves pounding on the dirt road\",\n      \"ground_phrase_en\": \"running horses' hooves\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [155, 815],\n        [355, 815],\n        [440, 775],\n        [660, 810],\n        [910, 805]\n      ]\n    },\n    {\n      \"label_ko\": \"말 울음소리와 거친 숨소리\",\n      \"sound_en\": \"horses neighing, snorting, and breathing heavily\",\n      \"ground_phrase_en\": \"excited horses\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [35, 435],\n        [190, 465],\n        [430, 330],\n        [495, 420],\n        [788, 495]\n      ]\n    },\n    {\n      \"label_ko\": \"마부와 기수들이 말을 몰며 외치는 소리\",\n      \"sound_en\": \"horse handlers and riders shouting commands\",\n      \"ground_phrase_en\": \"horse handlers and riders\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [212, 540],\n        [365, 400],\n        [538, 505],\n        [635, 445],\n        [925, 485]\n      ]\n    },\n    {\n      \"label_ko\": \"구경꾼들이 웅성거리는 소리\",\n      \"sound_en\": \"murmur and chatter of spectators\",\n      \"ground_phrase_en\": \"crowd of spectators\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [900, 360],\n        [835, 485],\n        [980, 550]\n      ]\n    },\n    {\n      \"label_ko\": \"고삐와 마구가 삐걱거리고 달그락거리는 소리\",\n      \"sound_en\": \"leather harnesses creaking and metal bridles jingling\",\n      \"ground_phrase_en\": \"horse harnesses and bridles\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [195, 495],\n        [280, 550],\n        [430, 340],\n        [695, 485]\n      ]\n    },\n    {\n      \"label_ko\": \"마부들이 흙바닥을 달리는 발소리\",\n      \"sound_en\": \"handlers' footsteps running and scuffling on dirt\",\n      \"ground_phrase_en\": \"running horse handlers\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [35, 690],\n        [215, 790],\n        [525, 740]\n      ]\n    },\n    {\n      \"label_ko\": \"채찍 휘두르는 소리\",\n      \"sound_en\": \"swish of a raised whip\",\n      \"ground_phrase_en\": \"rider raising a whip\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [350, 360]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 나뭇잎이 스치는 소리\",\n      \"sound_en\": \"wind rustling through the leafy trees\",\n      \"ground_phrase_en\": \"dense leafy trees\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1609,
+  "candidatesTokenCount": 1007,
+  "totalTokenCount": 5224,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1104
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1007
+   }
+  ],
+  "thoughtsTokenCount": 2608,
+  "serviceTier": "standard"
+ }
+}

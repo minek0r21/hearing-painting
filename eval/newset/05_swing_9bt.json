@@ -1,0 +1,60 @@
+{
+ "painting": "05_swing",
+ "seconds": 43.3,
+ "parsed": {
+  "title_guess": "The Swing",
+  "sources": [
+   {
+    "id": "man_swinging",
+    "object_en": "woman on a swing",
+    "x": 480,
+    "y": 550,
+    "label_ko": "그네",
+    "type": "people",
+    "description_ko": "그네를 타고 흔들리는 여인의 옷자락이 바람에 나부끼는 소리.",
+    "prompt_en": "woman swinging on a rope swing in a garden, fabric rustling, creaking rope, field recording"
+   },
+   {
+    "id": "man_pushing",
+    "object_en": "man pushing the swing",
+    "x": 820,
+    "y": 780,
+    "label_ko": "추는 소리",
+    "type": "people",
+    "description_ko": "그네를 밀어주는 남성의 발걸음과 옷자락이 나부끼는 소리.",
+    "prompt_en": "man pushing a swing, footsteps on grass, fabric rustling, field recording"
+   },
+   {
+    "id": "man_falling",
+    "object_en": "man lying on the ground",
+    "x": 180,
+    "y": 820,
+    "label_ko": "숨소리",
+    "type": "people",
+    "description_ko": "꽃밭에 누워 있는 남성의 숨소리와 옷자락이 나부끼는 소리.",
+    "prompt_en": "man lying on the ground in a garden, breathing, fabric rustling, field recording"
+   },
+   {
+    "id": "cherry_blossoms",
+    "object_en": "cherry blossom trees",
+    "x": 800,
+    "y": 350,
+    "label_ko": "꽃잎",
+    "type": "nature",
+    "description_ko": "바람에 흔들리는 벚나무 가지와 꽃잎이 나부끼는 소리.",
+    "prompt_en": "cherry blossom branches swaying in the wind, rustling leaves, field recording"
+   },
+   {
+    "id": "cherry_blossoms_2",
+    "object_en": "cherry blossom trees",
+    "x": 200,
+    "y": 400,
+    "label_ko": "꽃잎",
+    "type": "nature",
+    "description_ko": "바람에 흔들리는 나무 가지와 꽃잎이 나부끼는 소리.",
+    "prompt_en": "tree branches swaying in the wind, rustling leaves, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"The Swing\",\n  \"sources\": [\n    {\n      \"id\": \"man_swinging\",\n      \"object_en\": \"woman on a swing\",\n      \"x\": 480,\n      \"y\": 550,\n      \"label_ko\": \"그네\",\n      \"type\": \"people\",\n      \"description_ko\": \"그네를 타고 흔들리는 여인의 옷자락이 바람에 나부끼는 소리.\",\n      \"prompt_en\": \"woman swinging on a rope swing in a garden, fabric rustling, creaking rope, field recording\"\n    },\n    {\n      \"id\": \"man_pushing\",\n      \"object_en\": \"man pushing the swing\",\n      \"x\": 820,\n      \"y\": 780,\n      \"label_ko\": \"추는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"그네를 밀어주는 남성의 발걸음과 옷자락이 나부끼는 소리.\",\n      \"prompt_en\": \"man pushing a swing, footsteps on grass, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"man_falling\",\n      \"object_en\": \"man lying on the ground\",\n      \"x\": 180,\n      \"y\": 820,\n      \"label_ko\": \"숨소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"꽃밭에 누워 있는 남성의 숨소리와 옷자락이 나부끼는 소리.\",\n      \"prompt_en\": \"man lying on the ground in a garden, breathing, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"cherry_blossoms\",\n      \"object_en\": \"cherry blossom trees\",\n      \"x\": 800,\n      \"y\": 350,\n      \"label_ko\": \"꽃잎\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람에 흔들리는 벚나무 가지와 꽃잎이 나부끼는 소리.\",\n      \"prompt_en\": \"cherry blossom branches swaying in the wind, rustling leaves, field recording\"\n    },\n    {\n      \"id\": \"cherry_blossoms_2\",\n      \"object_en\": \"cherry blossom trees\",\n      \"x\": 200,\n      \"y\": 400,\n      \"label_ko\": \"꽃잎\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람에 흔들리는 나무 가지와 꽃잎이 나부끼는 소리.\",\n      \"prompt_en\": \"tree branches swaying in the wind, rustling leaves, field recording\"\n    }\n  ]\n}\n```\n"
+}

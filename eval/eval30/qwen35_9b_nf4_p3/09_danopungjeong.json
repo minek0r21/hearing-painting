@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "09_danopungjeong",
+ "seconds": 39.7,
+ "peak_vram_gb": 8.97,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Hwangdo",
+  "sources": [
+   {
+    "id": "swinging_girl",
+    "object_en": "girl on swing",
+    "x": 630,
+    "y": 280,
+    "label_ko": "진자 놀이",
+    "type": "people",
+    "description_ko": "진자에 매달린 소녀가 흔들리며 웃고 있는 소리",
+    "prompt_en": "a girl laughing while swinging on a rope swing in a garden, field recording"
+   },
+   {
+    "id": "stream_water",
+    "object_en": "stream",
+    "x": 300,
+    "y": 700,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "작은 강물이 흐르는 소리",
+    "prompt_en": "gentle flowing stream water sound in a natural setting, field recording"
+   },
+   {
+    "id": "climbing_boys",
+    "object_en": "two boys climbing rocks",
+    "x": 180,
+    "y": 240,
+    "label_ko": "등반 소리",
+    "type": "people",
+    "description_ko": "바위 위에 올라가는 두 소년의 발걸음과 숨소리",
+    "prompt_en": "two boys climbing up a rocky slope, footsteps and breathing sounds, field recording"
+   },
+   {
+    "id": "bathing_women",
+    "object_en": "women bathing in stream",
+    "x": 250,
+    "y": 850,
+    "label_ko": "목욕 소리",
+    "type": "people",
+    "description_ko": "물에서 목욕하는 여성들의 물소리, 웃음, 대화",
+    "prompt_en": "women bathing in a shallow stream, splashing water and soft laughter, field recording"
+   },
+   {
+    "id": "walking_woman",
+    "object_en": "woman walking with basket",
+    "x": 880,
+    "y": 620,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "바구니를 들고 걷는 여인의 발걸음 소리",
+    "prompt_en": "a woman walking with a basket on her head, footsteps on grassy ground, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Hwangdo\",\n  \"sources\": [\n    {\n      \"id\": \"swinging_girl\",\n      \"object_en\": \"girl on swing\",\n      \"x\": 630,\n      \"y\": 280,\n      \"label_ko\": \"진자 놀이\",\n      \"type\": \"people\",\n      \"description_ko\": \"진자에 매달린 소녀가 흔들리며 웃고 있는 소리\",\n      \"prompt_en\": \"a girl laughing while swinging on a rope swing in a garden, field recording\"\n    },\n    {\n      \"id\": \"stream_water\",\n      \"object_en\": \"stream\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"작은 강물이 흐르는 소리\",\n      \"prompt_en\": \"gentle flowing stream water sound in a natural setting, field recording\"\n    },\n    {\n      \"id\": \"climbing_boys\",\n      \"object_en\": \"two boys climbing rocks\",\n      \"x\": 180,\n      \"y\": 240,\n      \"label_ko\": \"등반 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"바위 위에 올라가는 두 소년의 발걸음과 숨소리\",\n      \"prompt_en\": \"two boys climbing up a rocky slope, footsteps and breathing sounds, field recording\"\n    },\n    {\n      \"id\": \"bathing_women\",\n      \"object_en\": \"women bathing in stream\",\n      \"x\": 250,\n      \"y\": 850,\n      \"label_ko\": \"목욕 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"물에서 목욕하는 여성들의 물소리, 웃음, 대화\",\n      \"prompt_en\": \"women bathing in a shallow stream, splashing water and soft laughter, field recording\"\n    },\n    {\n      \"id\": \"walking_woman\",\n      \"object_en\": \"woman walking with basket\",\n      \"x\": 880,\n      \"y\": 620,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"바구니를 들고 걷는 여인의 발걸음 소리\",\n      \"prompt_en\": \"a woman walking with a basket on her head, footsteps on grassy ground, field recording\"\n    }\n  ]\n}\n"
+}

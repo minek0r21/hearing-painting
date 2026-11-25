@@ -1,0 +1,33 @@
+{
+ "hash": "82a3593e8c50",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 5
+   },
+   {
+    "model": 5,
+    "answer": 7
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Dogs are visible and can bark, distinct from panting/footsteps in A1."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "A flying bird is visible and can flap wings, distinct from cawing in A4."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 3}, {\"model\": 3, \"answer\": 5}, {\"model\": 5, \"answer\": 7}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Dogs are visible and can bark, distinct from panting/footsteps in A1.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"A flying bird is visible and can flap wings, distinct from cawing in A4.\"}]}"
+}

@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "14_tage",
+ "seconds": 30.5,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Bamboo Forest with Three Men",
+  "sources": [
+   {
+    "id": "men_climbing_bamboo",
+    "object_en": "three men climbing bamboo stalks",
+    "x": 300,
+    "y": 700,
+    "label_ko": "등산하는 사람들",
+    "type": "people",
+    "description_ko": "세 명의 남자가 바구니를 들고 바위와 죽나무 사이를 오르고 있는 소리",
+    "prompt_en": "three men climbing steep rocky terrain with bamboo stalks, footsteps crunching on stones, heavy breathing, creaking bamboo under weight, field recording"
+   },
+   {
+    "id": "bamboo_swaying",
+    "object_en": "bamboo branches swaying in wind",
+    "x": 500,
+    "y": 200,
+    "label_ko": "바람에 흔들리는 죽",
+    "type": "nature",
+    "description_ko": "바람에 의해 죽 가지들이 흔들리며 잎사귀가 부딪히는 소리",
+    "prompt_en": "bamboo leaves rustling and snapping in gentle breeze, soft swaying motion, natural outdoor wind sound, field recording"
+   },
+   {
+    "id": "footsteps_on_rock",
+    "object_en": "men stepping on rocky ground",
+    "x": 400,
+    "y": 750,
+    "label_ko": "바위 위 발소리",
+    "type": "people",
+    "description_ko": "남자들이 바위 위에 걸을 때 발이 돌에 부딪히는 경쾌한 소리",
+    "prompt_en": "footsteps crunching on uneven rocky surface, light and rhythmic, outdoor mountain path, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Bamboo Forest with Three Men\",\n  \"sources\": [\n    {\n      \"id\": \"men_climbing_bamboo\",\n      \"object_en\": \"three men climbing bamboo stalks\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"등산하는 사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"세 명의 남자가 바구니를 들고 바위와 죽나무 사이를 오르고 있는 소리\",\n      \"prompt_en\": \"three men climbing steep rocky terrain with bamboo stalks, footsteps crunching on stones, heavy breathing, creaking bamboo under weight, field recording\"\n    },\n    {\n      \"id\": \"bamboo_swaying\",\n      \"object_en\": \"bamboo branches swaying in wind\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"바람에 흔들리는 죽\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람에 의해 죽 가지들이 흔들리며 잎사귀가 부딪히는 소리\",\n      \"prompt_en\": \"bamboo leaves rustling and snapping in gentle breeze, soft swaying motion, natural outdoor wind sound, field recording\"\n    },\n    {\n      \"id\": \"footsteps_on_rock\",\n      \"object_en\": \"men stepping on rocky ground\",\n      \"x\": 400,\n      \"y\": 750,\n      \"label_ko\": \"바위 위 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자들이 바위 위에 걸을 때 발이 돌에 부딪히는 경쾌한 소리\",\n      \"prompt_en\": \"footsteps crunching on uneven rocky surface, light and rhythmic, outdoor mountain path, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,34 @@
+{
+ "hash": "e1817c253486",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "Workers use tongs and rods, not hammers."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Glowing furnace and hot metal are visible and can crackle or roar."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Many active workers are visible and can make footsteps and general work noise."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 3}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"Workers use tongs and rods, not hammers.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Glowing furnace and hot metal are visible and can crackle or roar.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Many active workers are visible and can make footsteps and general work noise.\"}]}"
+}

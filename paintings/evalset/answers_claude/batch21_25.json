@@ -1,0 +1,36 @@
+{
+ "21_snapwhip": {"title": "채찍 놀이", "sources": [
+  {"label_ko": "아이들의 함성과 웃음", "sound_en": "boys shouting and laughing while playing", "ground_phrase_en": "boys holding hands", "source_type": "clustered", "grade": "required", "points": [[300,560],[450,520],[650,560],[880,520]]},
+  {"label_ko": "풀밭을 달리는 맨발 소리", "sound_en": "bare feet running on grass", "ground_phrase_en": "running boy", "source_type": "clustered", "grade": "required", "points": [[260,780],[420,800],[640,780],[820,800]]},
+  {"label_ko": "넘어진 아이들", "sound_en": "boys tumbling on the grass", "ground_phrase_en": "fallen boy", "source_type": "point", "grade": "allowed", "points": [[150,670]]},
+  {"label_ko": "산골 바람과 새소리", "sound_en": "countryside breeze, birds in the hills", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "22_liverpool": {"title": "달빛 속 리버풀 부두", "sources": [
+  {"label_ko": "마차 바퀴와 말발굽", "sound_en": "horse-drawn omnibus wheels and hooves on wet cobblestones", "ground_phrase_en": "horse-drawn carriage", "source_type": "point", "grade": "required", "points": [[475,750]]},
+  {"label_ko": "젖은 보도의 발소리", "sound_en": "footsteps on wet pavement at night", "ground_phrase_en": "pedestrian", "source_type": "clustered", "grade": "required", "points": [[730,810],[660,840],[170,810],[410,770]]},
+  {"label_ko": "항구의 배 삐걱임과 밧줄", "sound_en": "moored sailing ships creaking, rigging", "ground_phrase_en": "ship masts", "source_type": "clustered", "grade": "required", "points": [[60,550],[200,550],[330,600]]},
+  {"label_ko": "밤거리 비 내린 뒤 물소리", "sound_en": "damp night street, drips, distant harbor", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []},
+  {"label_ko": "가게 앞 사람들 소리", "sound_en": "murmur near lit shop windows", "ground_phrase_en": "shop window", "source_type": "point", "grade": "allowed", "points": [[860,770]]}
+ ]},
+ "23_tuileries": {"title": "튈르리 공원의 음악회", "sources": [
+  {"label_ko": "공원의 사람들 대화", "sound_en": "fashionable crowd chatting in a park", "ground_phrase_en": "crowd of people", "source_type": "clustered", "grade": "required", "points": [[200,500],[500,480],[800,520]]},
+  {"label_ko": "야외 음악회", "sound_en": "outdoor band concert in the park", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "아이들 노는 소리", "sound_en": "children playing", "ground_phrase_en": "little girl", "source_type": "clustered", "grade": "allowed", "points": [[450,790],[510,880]]},
+  {"label_ko": "부채와 철제 의자 소리", "sound_en": "fans fluttering, iron chairs scraping", "ground_phrase_en": "iron chair", "source_type": "clustered", "grade": "allowed", "points": [[770,780],[150,820]]},
+  {"label_ko": "나뭇잎 바람", "sound_en": "breeze in tall trees", "ground_phrase_en": "tree", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "24_avercamp": {"title": "스케이트 타는 사람들이 있는 겨울 풍경 (부분)", "sources": [
+  {"label_ko": "스케이트와 얼음 소리", "sound_en": "skates scraping on ice", "ground_phrase_en": "ice skater", "source_type": "clustered", "grade": "required", "points": [[960,810],[830,830],[920,600]]},
+  {"label_ko": "마을 사람들 소리", "sound_en": "villagers talking on the ice", "ground_phrase_en": "group of people", "source_type": "clustered", "grade": "required", "points": [[600,840],[780,830],[340,870]]},
+  {"label_ko": "새소리", "sound_en": "birds flying and calling in winter", "ground_phrase_en": "bird", "source_type": "clustered", "grade": "required", "points": [[230,80],[450,150],[680,240],[130,170]]},
+  {"label_ko": "얼음 구멍에서 물 긷는 소리", "sound_en": "bucket and water at an ice hole", "ground_phrase_en": "person at ice hole", "source_type": "point", "grade": "allowed", "points": [[430,820]]},
+  {"label_ko": "교회 종소리", "sound_en": "distant church bell", "ground_phrase_en": "church tower", "source_type": "point", "grade": "allowed", "points": [[270,370]]}
+ ]},
+ "25_bargehaulers": {"title": "볼가강의 배 끄는 인부들", "sources": [
+  {"label_ko": "인부들의 힘겨운 숨과 신음", "sound_en": "men groaning and breathing heavily while hauling", "ground_phrase_en": "barge hauler", "source_type": "clustered", "grade": "required", "points": [[170,520],[350,520],[500,540],[620,500]]},
+  {"label_ko": "모래 밟는 무거운 발소리", "sound_en": "heavy footsteps dragging on sand", "ground_phrase_en": "hauler's feet", "source_type": "clustered", "grade": "required", "points": [[230,800],[450,720],[600,690]]},
+  {"label_ko": "밧줄 당기는 삐걱임", "sound_en": "taut ropes and harness creaking", "ground_phrase_en": "rope", "source_type": "clustered", "grade": "allowed", "points": [[300,420],[550,440]]},
+  {"label_ko": "강물과 바람", "sound_en": "wide river water and wind", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "범선 삐걱임", "sound_en": "sailing barge creaking", "ground_phrase_en": "sailing barge", "source_type": "point", "grade": "allowed", "points": [[770,430]]}
+ ]}
+}

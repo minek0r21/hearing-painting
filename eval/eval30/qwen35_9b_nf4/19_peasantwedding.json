@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "19_peasantwedding",
+ "seconds": 48.2,
+ "peak_vram_gb": 8.62,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of the Asses",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여 앉아 대화하고 웃는 소리가 가득합니다.",
+    "prompt_en": "low continuous murmur of many people talking and laughing in a crowded tavern, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "clinking_glass",
+    "object_en": "drinking vessels",
+    "x": 300,
+    "y": 650,
+    "label_ko": "잔 부딪히는 소리",
+    "type": "people",
+    "description_ko": "손님이 술잔을 부딪히며 축하하는清脆한 소리가 들립니다.",
+    "prompt_en": "sharp clinking of ceramic drinking vessels being raised in celebration, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "footsteps",
+    "object_en": "people walking",
+    "x": 600,
+    "y": 700,
+    "label_ko": "걸음걸이 소리",
+    "type": "people",
+    "description_ko": "사람들이 테이블 사이를 지나가며 발걸음 소리가 나옵니다.",
+    "prompt_en": "soft shuffling footsteps on wooden floor as people move through a crowded room, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "bowl_placement",
+    "object_en": "wooden bowls",
+    "x": 750,
+    "y": 680,
+    "label_ko": "접시 놓는 소리",
+    "type": "people",
+    "description_ko": "식사를 준비하는 사람이 나무 접시를 천천히 내려놓는 소리가 들립니다.",
+    "prompt_en": "gentle thud of wooden bowls being placed on a table, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "child_eating",
+    "object_en": "child eating",
+    "x": 350,
+    "y": 850,
+    "label_ko": "아이 먹는 소리",
+    "type": "people",
+    "description_ko": "아이가 음식을 먹으며 입으로 음식을 넣는 소리가 납니다.",
+    "prompt_en": "soft chewing and swallowing sounds of a child eating bread or cake, field recording",
+    "volume": 0.4
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Feast of the Asses\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"사람들 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여 앉아 대화하고 웃는 소리가 가득합니다.\",\n      \"prompt_en\": \"low continuous murmur of many people talking and laughing in a crowded tavern, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"clinking_glass\",\n      \"object_en\": \"drinking vessels\",\n      \"x\": 300,\n      \"y\": 650,\n      \"label_ko\": \"잔 부딪히는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"손님이 술잔을 부딪히며 축하하는清脆한 소리가 들립니다.\",\n      \"prompt_en\": \"sharp clinking of ceramic drinking vessels being raised in celebration, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"footsteps\",\n      \"object_en\": \"people walking\",\n      \"x\": 600,\n      \"y\": 700,\n      \"label_ko\": \"걸음걸이 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람들이 테이블 사이를 지나가며 발걸음 소리가 나옵니다.\",\n      \"prompt_en\": \"soft shuffling footsteps on wooden floor as people move through a crowded room, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"bowl_placement\",\n      \"object_en\": \"wooden bowls\",\n      \"x\": 750,\n      \"y\": 680,\n      \"label_ko\": \"접시 놓는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"식사를 준비하는 사람이 나무 접시를 천천히 내려놓는 소리가 들립니다.\",\n      \"prompt_en\": \"gentle thud of wooden bowls being placed on a table, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"child_eating\",\n      \"object_en\": \"child eating\",\n      \"x\": 350,\n      \"y\": 850,\n      \"label_ko\": \"아이 먹는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"아이가 음식을 먹으며 입으로 음식을 넣는 소리가 납니다.\",\n      \"prompt_en\": \"soft chewing and swallowing sounds of a child eating bread or cake, field recording\",\n      \"volume\": 0.4\n    }\n  ]\n}\n"
+}

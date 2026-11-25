@@ -1,0 +1,84 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "08_mudong",
+ "seconds": 46.3,
+ "peak_vram_gb": 9.02,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Korean folk musicians and dancer",
+  "sources": [
+   {
+    "id": "drum_beating",
+    "object_en": "barrel drum being struck",
+    "x": 420,
+    "y": 320,
+    "label_ko": "북치기",
+    "type": "music",
+    "description_ko": "북을 치는 소리가 들립니다.",
+    "prompt_en": "rhythmic drumming sound from a Korean barrel drum, field recording"
+   },
+   {
+    "id": "flute_playing",
+    "object_en": "transverse flute being played",
+    "x": 880,
+    "y": 550,
+    "label_ko": "대금연주",
+    "type": "music",
+    "description_ko": "대금을 불며 연주하는 소리가 나옵니다.",
+    "prompt_en": "soft flute melody from a Korean daegeum, field recording"
+   },
+   {
+    "id": "drum_beating_2",
+    "object_en": "hourglass drum being played",
+    "x": 680,
+    "y": 280,
+    "label_ko": "장구치기",
+    "type": "music",
+    "description_ko": "장구를 두드리며 리듬을 만드는 소리가 납니다.",
+    "prompt_en": "percussive hourglass drum rhythm from a Korean janggu, field recording"
+   },
+   {
+    "id": "pipe_playing",
+    "object_en": "small double-reed pipe being played",
+    "x": 720,
+    "y": 240,
+    "label_ko": "피리연주",
+    "type": "music",
+    "description_ko": "피리를 불며 선율에 맞춰 연주하는 소리가 납니다.",
+    "prompt_en": "melodic sound from a Korean piri, field recording"
+   },
+   {
+    "id": "drum_beating_3",
+    "object_en": "large barrel drum being struck",
+    "x": 140,
+    "y": 200,
+    "label_ko": "북치기",
+    "type": "music",
+    "description_ko": "큰 북을 치는 소리가 울립니다.",
+    "prompt_en": "deep resonant drumbeat from a large Korean buk drum, field recording"
+   },
+   {
+    "id": "dancer_steps",
+    "object_en": "dancer moving feet",
+    "x": 220,
+    "y": 750,
+    "label_ko": "춤추는 발소리",
+    "type": "people",
+    "description_ko": "춤추는 사람의 발걸음 소리가 들립니다.",
+    "prompt_en": "rhythmic footstep sounds from a Korean traditional dancer, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Korean folk musicians and dancer\",\n  \"sources\": [\n    {\n      \"id\": \"drum_beating\",\n      \"object_en\": \"barrel drum being struck\",\n      \"x\": 420,\n      \"y\": 320,\n      \"label_ko\": \"북치기\",\n      \"type\": \"music\",\n      \"description_ko\": \"북을 치는 소리가 들립니다.\",\n      \"prompt_en\": \"rhythmic drumming sound from a Korean barrel drum, field recording\"\n    },\n    {\n      \"id\": \"flute_playing\",\n      \"object_en\": \"transverse flute being played\",\n      \"x\": 880,\n      \"y\": 550,\n      \"label_ko\": \"대금연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"대금을 불며 연주하는 소리가 나옵니다.\",\n      \"prompt_en\": \"soft flute melody from a Korean daegeum, field recording\"\n    },\n    {\n      \"id\": \"drum_beating_2\",\n      \"object_en\": \"hourglass drum being played\",\n      \"x\": 680,\n      \"y\": 280,\n      \"label_ko\": \"장구치기\",\n      \"type\": \"music\",\n      \"description_ko\": \"장구를 두드리며 리듬을 만드는 소리가 납니다.\",\n      \"prompt_en\": \"percussive hourglass drum rhythm from a Korean janggu, field recording\"\n    },\n    {\n      \"id\": \"pipe_playing\",\n      \"object_en\": \"small double-reed pipe being played\",\n      \"x\": 720,\n      \"y\": 240,\n      \"label_ko\": \"피리연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"피리를 불며 선율에 맞춰 연주하는 소리가 납니다.\",\n      \"prompt_en\": \"melodic sound from a Korean piri, field recording\"\n    },\n    {\n      \"id\": \"drum_beating_3\",\n      \"object_en\": \"large barrel drum being struck\",\n      \"x\": 140,\n      \"y\": 200,\n      \"label_ko\": \"북치기\",\n      \"type\": \"music\",\n      \"description_ko\": \"큰 북을 치는 소리가 울립니다.\",\n      \"prompt_en\": \"deep resonant drumbeat from a large Korean buk drum, field recording\"\n    },\n    {\n      \"id\": \"dancer_steps\",\n      \"object_en\": \"dancer moving feet\",\n      \"x\": 220,\n      \"y\": 750,\n      \"label_ko\": \"춤추는 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"춤추는 사람의 발걸음 소리가 들립니다.\",\n      \"prompt_en\": \"rhythmic footstep sounds from a Korean traditional dancer, field recording\"\n    }\n  ]\n}\n"
+}

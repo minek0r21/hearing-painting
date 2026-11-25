@@ -1,0 +1,33 @@
+{
+ "hash": "bfe222206a05",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   },
+   {
+    "model": 5,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "silent",
+    "why": "Fog and mist do not produce sound."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Illuminated shop windows in this era do not emit an electrical hum."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 2,\n      \"answer\": 1\n    },\n    {\n      \"model\": 3,\n      \"answer\": 2\n    },\n    {\n      \"model\": 5,\n      \"answer\": 3\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 1,\n      \"verdict\": \"silent\",\n      \"why\": \"Fog and mist do not produce sound.\"\n    },\n    {\n      \"model\": 4,\n      \"verdict\": \"silent\",\n      \"why\": \"Illuminated shop windows in this era do not emit an electrical hum.\"\n    }\n  ]\n}"
+}

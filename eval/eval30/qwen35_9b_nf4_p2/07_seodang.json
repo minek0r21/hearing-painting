@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "07_seodang",
+ "seconds": 39.4,
+ "peak_vram_gb": 8.81,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Confucian Teacher and Students",
+  "sources": [
+   {
+    "id": "teacher_reading",
+    "object_en": "teacher reading at low table",
+    "x": 650,
+    "y": 250,
+    "label_ko": "선생님 읽기",
+    "type": "people",
+    "description_ko": "선생님이 책상 앞에 앉아 책을 읽으며 가르치고 있습니다.",
+    "prompt_en": "soft whisper of an elderly man reading ancient Korean text aloud in a quiet room, field recording"
+   },
+   {
+    "id": "students_turning_pages",
+    "object_en": "students turning pages of books",
+    "x": 150,
+    "y": 450,
+    "label_ko": "학생들 책 넘기기",
+    "type": "people",
+    "description_ko": "학생들이 바닥에 앉아 책을 넘기며 집중하고 있습니다.",
+    "prompt_en": "rustling sound of paper pages being turned by multiple children sitting on floor, field recording"
+   },
+   {
+    "id": "student_yawning",
+    "object_en": "yawning student",
+    "x": 350,
+    "y": 420,
+    "label_ko": "하품하는 학생",
+    "type": "people",
+    "description_ko": "한 학생이 졸려서 하품을 하고 있습니다.",
+    "prompt_en": "soft yawn sound from a tired child sitting cross-legged, field recording"
+   },
+   {
+    "id": "student_smiling",
+    "object_en": "smiling student",
+    "x": 850,
+    "y": 500,
+    "label_ko": "웃는 학생",
+    "type": "people",
+    "description_ko": "한 학생이 웃으며 선생님을 바라보고 있습니다.",
+    "prompt_en": "light chuckle or soft giggle from a young student in a quiet classroom, field recording"
+   },
+   {
+    "id": "room_tone",
+    "object_en": "empty room atmosphere",
+    "x": 500,
+    "y": 500,
+    "label_ko": "방 소리",
+    "type": "nature",
+    "description_ko": "조용한 한방의 배경 소음, 숨소리나 옷자락 소리.",
+    "prompt_en": "quiet ambient room tone with subtle fabric rustle and distant breathing, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Confucian Teacher and Students\",\n  \"sources\": [\n    {\n      \"id\": \"teacher_reading\",\n      \"object_en\": \"teacher reading at low table\",\n      \"x\": 650,\n      \"y\": 250,\n      \"label_ko\": \"선생님 읽기\",\n      \"type\": \"people\",\n      \"description_ko\": \"선생님이 책상 앞에 앉아 책을 읽으며 가르치고 있습니다.\",\n      \"prompt_en\": \"soft whisper of an elderly man reading ancient Korean text aloud in a quiet room, field recording\"\n    },\n    {\n      \"id\": \"students_turning_pages\",\n      \"object_en\": \"students turning pages of books\",\n      \"x\": 150,\n      \"y\": 450,\n      \"label_ko\": \"학생들 책 넘기기\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생들이 바닥에 앉아 책을 넘기며 집중하고 있습니다.\",\n      \"prompt_en\": \"rustling sound of paper pages being turned by multiple children sitting on floor, field recording\"\n    },\n    {\n      \"id\": \"student_yawning\",\n      \"object_en\": \"yawning student\",\n      \"x\": 350,\n      \"y\": 420,\n      \"label_ko\": \"하품하는 학생\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 학생이 졸려서 하품을 하고 있습니다.\",\n      \"prompt_en\": \"soft yawn sound from a tired child sitting cross-legged, field recording\"\n    },\n    {\n      \"id\": \"student_smiling\",\n      \"object_en\": \"smiling student\",\n      \"x\": 850,\n      \"y\": 500,\n      \"label_ko\": \"웃는 학생\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 학생이 웃으며 선생님을 바라보고 있습니다.\",\n      \"prompt_en\": \"light chuckle or soft giggle from a young student in a quiet classroom, field recording\"\n    },\n    {\n      \"id\": \"room_tone\",\n      \"object_en\": \"empty room atmosphere\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"방 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"조용한 한방의 배경 소음, 숨소리나 옷자락 소리.\",\n      \"prompt_en\": \"quiet ambient room tone with subtle fabric rustle and distant breathing, field recording\"\n    }\n  ]\n}\n"
+}

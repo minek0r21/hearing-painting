@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "09_danopungjeong",
+ "seconds": 40.9,
+ "peak_vram_gb": 9.01,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "단오풍정",
+  "sources": [
+   {
+    "id": "swinging_girl",
+    "object_en": "girl on a swing",
+    "x": 630,
+    "y": 280,
+    "label_ko": "진자 소리",
+    "type": "people",
+    "description_ko": "진자 위에서 흔들리는 소녀의 옷자락과 체중이 진자를 움직이는 소리.",
+    "prompt_en": "sound of a girl swinging on a swing, creaking chains and rustling fabric, field recording"
+   },
+   {
+    "id": "climbing_man",
+    "object_en": "man climbing a rock",
+    "x": 180,
+    "y": 240,
+    "label_ko": "등반 소리",
+    "type": "people",
+    "description_ko": "바위 위에 올라가는 남자의 발걸음과 옷자락이 바위를 스치는 소리.",
+    "prompt_en": "sound of a man climbing a rock, footsteps on stone and fabric rustling, field recording"
+   },
+   {
+    "id": "stream_water",
+    "object_en": "stream",
+    "x": 300,
+    "y": 800,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "바위 사이로 흐르는 작은 물줄기의潺潺한 물소리.",
+    "prompt_en": "sound of a small stream flowing over rocks, gentle bubbling water, field recording"
+   },
+   {
+    "id": "bathing_women",
+    "object_en": "women bathing",
+    "x": 300,
+    "y": 850,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "물에서 씻는 여자들의 물살과 물소리.",
+    "prompt_en": "sound of women bathing in a stream, splashing water and gentle ripples, field recording"
+   },
+   {
+    "id": "walking_man",
+    "object_en": "man walking",
+    "x": 880,
+    "y": 620,
+    "label_ko": "걸음소리",
+    "type": "people",
+    "description_ko": "산책하는 남자의 발걸음 소리.",
+    "prompt_en": "sound of a man walking on a path, footsteps on dirt, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"단오풍정\",\n  \"sources\": [\n    {\n      \"id\": \"swinging_girl\",\n      \"object_en\": \"girl on a swing\",\n      \"x\": 630,\n      \"y\": 280,\n      \"label_ko\": \"진자 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"진자 위에서 흔들리는 소녀의 옷자락과 체중이 진자를 움직이는 소리.\",\n      \"prompt_en\": \"sound of a girl swinging on a swing, creaking chains and rustling fabric, field recording\"\n    },\n    {\n      \"id\": \"climbing_man\",\n      \"object_en\": \"man climbing a rock\",\n      \"x\": 180,\n      \"y\": 240,\n      \"label_ko\": \"등반 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"바위 위에 올라가는 남자의 발걸음과 옷자락이 바위를 스치는 소리.\",\n      \"prompt_en\": \"sound of a man climbing a rock, footsteps on stone and fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"stream_water\",\n      \"object_en\": \"stream\",\n      \"x\": 300,\n      \"y\": 800,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바위 사이로 흐르는 작은 물줄기의潺潺한 물소리.\",\n      \"prompt_en\": \"sound of a small stream flowing over rocks, gentle bubbling water, field recording\"\n    },\n    {\n      \"id\": \"bathing_women\",\n      \"object_en\": \"women bathing\",\n      \"x\": 300,\n      \"y\": 850,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"물에서 씻는 여자들의 물살과 물소리.\",\n      \"prompt_en\": \"sound of women bathing in a stream, splashing water and gentle ripples, field recording\"\n    },\n    {\n      \"id\": \"walking_man\",\n      \"object_en\": \"man walking\",\n      \"x\": 880,\n      \"y\": 620,\n      \"label_ko\": \"걸음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"산책하는 남자의 발걸음 소리.\",\n      \"prompt_en\": \"sound of a man walking on a path, footsteps on dirt, field recording\"\n    }\n  ]\n}\n```\n"
+}

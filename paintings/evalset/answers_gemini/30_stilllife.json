@@ -1,0 +1,33 @@
+{
+ "model": "gemini-4-neon",
+ "file": "30_stilllife.jpg",
+ "seconds": 10.6,
+ "parsed": {
+  "title_guess": "Still Life with a Gilt Cup (Willem Claesz. Heda, 1635)",
+  "sources": []
+ },
+ "raw": "{\n  \"title_guess\": \"Still Life with a Gilt Cup (Willem Claesz. Heda, 1635)\",\n  \"sources\": []\n}",
+ "usage": {
+  "promptTokenCount": 1578,
+  "candidatesTokenCount": 46,
+  "totalTokenCount": 2360,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1073
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 46
+   }
+  ],
+  "thoughtsTokenCount": 736,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "hash": "0af91c500a1c",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 4
+   }
+  ],
+  "unpaired": []
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}, {\"model\": 4, \"answer\": 4}], \"unpaired\": []}"
+}

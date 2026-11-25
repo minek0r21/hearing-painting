@@ -1,0 +1,114 @@
+{
+ "model": "gemini-4-neon",
+ "file": "04_beach.jpg",
+ "seconds": 29.2,
+ "parsed": {
+  "title_guess": "Beach at Trouville",
+  "sources": [
+   {
+    "label_ko": "파도 소리",
+    "sound_en": "ocean waves breaking and washing onto the shore",
+    "ground_phrase_en": "ocean surf along the shoreline",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "바닷바람 소리",
+    "sound_en": "brisk coastal wind blowing across the open beach",
+    "ground_phrase_en": "windy coastal sky and blowing clothing",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "사람들의 대화 소리",
+    "sound_en": "groups of beachgoers chatting and murmuring on the sand",
+    "ground_phrase_en": "groups of beachgoers standing on the beach",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      295,
+      780
+     ],
+     [
+      435,
+      780
+     ],
+     [
+      635,
+      780
+     ]
+    ]
+   },
+   {
+    "label_ko": "말발굽과 마구 소리",
+    "sound_en": "horses snorting, hooves shifting in the sand, and harness jingling",
+    "ground_phrase_en": "two horses standing beside bathing machines",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      855,
+      795
+     ]
+    ]
+   },
+   {
+    "label_ko": "개 짖는 소리",
+    "sound_en": "dogs barking and scampering on the beach",
+    "ground_phrase_en": "dogs on the sandy beach",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      510,
+      848
+     ],
+     [
+      772,
+      875
+     ]
+    ]
+   },
+   {
+    "label_ko": "물놀이하는 소리",
+    "sound_en": "distant bathers splashing and calling out in the surf",
+    "ground_phrase_en": "bathers in the ocean water",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      510,
+      790
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Beach at Trouville\",\n  \"sources\": [\n    {\n      \"label_ko\": \"파도 소리\",\n      \"sound_en\": \"ocean waves breaking and washing onto the shore\",\n      \"ground_phrase_en\": \"ocean surf along the shoreline\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"바닷바람 소리\",\n      \"sound_en\": \"brisk coastal wind blowing across the open beach\",\n      \"ground_phrase_en\": \"windy coastal sky and blowing clothing\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"사람들의 대화 소리\",\n      \"sound_en\": \"groups of beachgoers chatting and murmuring on the sand\",\n      \"ground_phrase_en\": \"groups of beachgoers standing on the beach\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [295, 780],\n        [435, 780],\n        [635, 780]\n      ]\n    },\n    {\n      \"label_ko\": \"말발굽과 마구 소리\",\n      \"sound_en\": \"horses snorting, hooves shifting in the sand, and harness jingling\",\n      \"ground_phrase_en\": \"two horses standing beside bathing machines\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [855, 795]\n      ]\n    },\n    {\n      \"label_ko\": \"개 짖는 소리\",\n      \"sound_en\": \"dogs barking and scampering on the beach\",\n      \"ground_phrase_en\": \"dogs on the sandy beach\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [510, 848],\n        [772, 875]\n      ]\n    },\n    {\n      \"label_ko\": \"물놀이하는 소리\",\n      \"sound_en\": \"distant bathers splashing and calling out in the surf\",\n      \"ground_phrase_en\": \"bathers in the ocean water\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [510, 790]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1810,
+  "candidatesTokenCount": 602,
+  "totalTokenCount": 4932,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1075
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 602
+   }
+  ],
+  "thoughtsTokenCount": 2520,
+  "serviceTier": "standard"
+ }
+}

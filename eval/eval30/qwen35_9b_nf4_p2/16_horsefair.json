@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "16_horsefair",
+ "seconds": 31.5,
+ "peak_vram_gb": 8.59,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 3,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Horse Fair",
+  "sources": [
+   {
+    "id": "horse_clatter",
+    "object_en": "galloping horses",
+    "x": 500,
+    "y": 600,
+    "label_ko": "말소리",
+    "type": "animal",
+    "description_ko": "여러 마리의 말이 빠르게 달리고 발굽이 땅을 때리는 소리가 난다.",
+    "prompt_en": "loud clattering hooves of multiple horses galloping on dirt ground, field recording"
+   },
+   {
+    "id": "man_shout",
+    "object_en": "man shouting",
+    "x": 210,
+    "y": 650,
+    "label_ko": "крик",
+    "type": "people",
+    "description_ko": "남자가 말들을 통제하기 위해 크게 외치고 있다.",
+    "prompt_en": "man shouting loudly to control horses, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 900,
+    "y": 500,
+    "label_ko": "소란",
+    "type": "people",
+    "description_ko": "배경에 모인 많은 사람들이 떠드는 소리가 섞여 있다.",
+    "prompt_en": "distant murmur of a large crowd of people talking and moving, field recording"
+   },
+   {
+    "id": "wind_blow",
+    "object_en": "trees and sky",
+    "x": 400,
+    "y": 200,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "바람이 나무들을 흔들며 불어오는 소리.",
+    "prompt_en": "gentle wind blowing through trees and rustling leaves, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Horse Fair\",\n  \"sources\": [\n    {\n      \"id\": \"horse_clatter\",\n      \"object_en\": \"galloping horses\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"말소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"여러 마리의 말이 빠르게 달리고 발굽이 땅을 때리는 소리가 난다.\",\n      \"prompt_en\": \"loud clattering hooves of multiple horses galloping on dirt ground, field recording\"\n    },\n    {\n      \"id\": \"man_shout\",\n      \"object_en\": \"man shouting\",\n      \"x\": 210,\n      \"y\": 650,\n      \"label_ko\": \"крик\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 말들을 통제하기 위해 크게 외치고 있다.\",\n      \"prompt_en\": \"man shouting loudly to control horses, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 900,\n      \"y\": 500,\n      \"label_ko\": \"소란\",\n      \"type\": \"people\",\n      \"description_ko\": \"배경에 모인 많은 사람들이 떠드는 소리가 섞여 있다.\",\n      \"prompt_en\": \"distant murmur of a large crowd of people talking and moving, field recording\"\n    },\n    {\n      \"id\": \"wind_blow\",\n      \"object_en\": \"trees and sky\",\n      \"x\": 400,\n      \"y\": 200,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 나무들을 흔들며 불어오는 소리.\",\n      \"prompt_en\": \"gentle wind blowing through trees and rustling leaves, field recording\"\n    }\n  ]\n}\n"
+}

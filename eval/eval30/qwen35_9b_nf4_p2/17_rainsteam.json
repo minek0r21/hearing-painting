@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "17_rainsteam",
+ "seconds": 26.2,
+ "peak_vram_gb": 8.75,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rain, Steam and Speed - The Great Western Railway",
+  "sources": [
+   {
+    "id": "steam_engine_chug",
+    "object_en": "steam locomotive",
+    "x": 650,
+    "y": 600,
+    "label_ko": "증기기관차",
+    "type": "vehicle",
+    "description_ko": "증기기관차가 철도를 따라 빠르게 지나가며 증기와 소음을 내며 달리고 있다.",
+    "prompt_en": "loud chugging sound of a steam locomotive moving fast on railway tracks, with hissing steam and rhythmic wheel clatter, field recording"
+   },
+   {
+    "id": "river_flow",
+    "object_en": "river",
+    "x": 200,
+    "y": 750,
+    "label_ko": "강물",
+    "type": "nature",
+    "description_ko": "강물이 흐르는 소리가 멀리서 은은하게 들린다.",
+    "prompt_en": "gentle flowing water sound from a wide river, soft and continuous, field recording"
+   },
+   {
+    "id": "rain_fall",
+    "object_en": "rain",
+    "x": 500,
+    "y": 200,
+    "label_ko": "비",
+    "type": "nature",
+    "description_ko": "비가 내리는 소리가 하늘에서 퍼져나가고 있다.",
+    "prompt_en": "soft but steady rain falling sound, ambient and diffuse, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rain, Steam and Speed - The Great Western Railway\",\n  \"sources\": [\n    {\n      \"id\": \"steam_engine_chug\",\n      \"object_en\": \"steam locomotive\",\n      \"x\": 650,\n      \"y\": 600,\n      \"label_ko\": \"증기기관차\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"증기기관차가 철도를 따라 빠르게 지나가며 증기와 소음을 내며 달리고 있다.\",\n      \"prompt_en\": \"loud chugging sound of a steam locomotive moving fast on railway tracks, with hissing steam and rhythmic wheel clatter, field recording\"\n    },\n    {\n      \"id\": \"river_flow\",\n      \"object_en\": \"river\",\n      \"x\": 200,\n      \"y\": 750,\n      \"label_ko\": \"강물\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강물이 흐르는 소리가 멀리서 은은하게 들린다.\",\n      \"prompt_en\": \"gentle flowing water sound from a wide river, soft and continuous, field recording\"\n    },\n    {\n      \"id\": \"rain_fall\",\n      \"object_en\": \"rain\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"비\",\n      \"type\": \"nature\",\n      \"description_ko\": \"비가 내리는 소리가 하늘에서 퍼져나가고 있다.\",\n      \"prompt_en\": \"soft but steady rain falling sound, ambient and diffuse, field recording\"\n    }\n  ]\n}\n"
+}

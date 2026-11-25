@@ -1,0 +1,36 @@
+{
+ "hash": "e8c30c093d38",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 2
+   },
+   {
+    "model": 5,
+    "answer": 6
+   },
+   {
+    "model": 6,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Two women sit together on the hill and could chat."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}, {\"model\": 3, \"answer\": 2}, {\"model\": 5, \"answer\": 6}, {\"model\": 6, \"answer\": 5}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Two women sit together on the hill and could chat.\"}]}"
+}

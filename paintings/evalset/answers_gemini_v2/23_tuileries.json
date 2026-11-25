@@ -1,0 +1,110 @@
+{
+ "model": "gemini-4-neon",
+ "file": "23_tuileries.jpg",
+ "seconds": 37.5,
+ "parsed": {
+  "title_guess": "Music in the Tuileries",
+  "sources": [
+   {
+    "label_ko": "군중의 웅성거림과 대화 소리",
+    "sound_en": "lively crowd chatter and murmuring in the park",
+    "ground_phrase_en": "crowd of park visitors",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      110,
+      480
+     ],
+     [
+      290,
+      480
+     ],
+     [
+      500,
+      470
+     ],
+     [
+      720,
+      520
+     ],
+     [
+      860,
+      520
+     ]
+    ]
+   },
+   {
+    "label_ko": "아이들이 놀며 떠드는 소리",
+    "sound_en": "young children chattering and playing with buckets in the sand",
+    "ground_phrase_en": "two young girls playing on the ground",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      490,
+      860
+     ]
+    ]
+   },
+   {
+    "label_ko": "가까이 앉은 여인들의 대화 소리",
+    "sound_en": "two women conversing closely in the foreground",
+    "ground_phrase_en": "two seated women in yellow dresses",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      290,
+      635
+     ]
+    ]
+   },
+   {
+    "label_ko": "자갈길을 걷는 발걸음 소리",
+    "sound_en": "footsteps crunching on the gravel park path",
+    "ground_phrase_en": "man walking in white trousers",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      630,
+      720
+     ]
+    ]
+   },
+   {
+    "label_ko": "공원 나무 사이로 부는 바람과 나뭇잎 소리",
+    "sound_en": "gentle breeze rustling through the dense park trees",
+    "ground_phrase_en": "dense canopy of park trees",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Music in the Tuileries\",\n  \"sources\": [\n    {\n      \"label_ko\": \"군중의 웅성거림과 대화 소리\",\n      \"sound_en\": \"lively crowd chatter and murmuring in the park\",\n      \"ground_phrase_en\": \"crowd of park visitors\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [110, 480],\n        [290, 480],\n        [500, 470],\n        [720, 520],\n        [860, 520]\n      ]\n    },\n    {\n      \"label_ko\": \"아이들이 놀며 떠드는 소리\",\n      \"sound_en\": \"young children chattering and playing with buckets in the sand\",\n      \"ground_phrase_en\": \"two young girls playing on the ground\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [490, 860]\n      ]\n    },\n    {\n      \"label_ko\": \"가까이 앉은 여인들의 대화 소리\",\n      \"sound_en\": \"two women conversing closely in the foreground\",\n      \"ground_phrase_en\": \"two seated women in yellow dresses\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [290, 635]\n      ]\n    },\n    {\n      \"label_ko\": \"자갈길을 걷는 발걸음 소리\",\n      \"sound_en\": \"footsteps crunching on the gravel park path\",\n      \"ground_phrase_en\": \"man walking in white trousers\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [630, 720]\n      ]\n    },\n    {\n      \"label_ko\": \"공원 나무 사이로 부는 바람과 나뭇잎 소리\",\n      \"sound_en\": \"gentle breeze rustling through the dense park trees\",\n      \"ground_phrase_en\": \"dense canopy of park trees\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1801,
+  "candidatesTokenCount": 553,
+  "totalTokenCount": 5558,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1066
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 553
+   }
+  ],
+  "thoughtsTokenCount": 3204,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "hash": "e2fbabab81e3",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Boats with canvas sails are visible and can flap in the wind."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Boats with canvas sails are visible and can flap in the wind.\"}]}"
+}

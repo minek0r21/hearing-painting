@@ -1,0 +1,34 @@
+{
+ "hash": "dedcc02c3bf5",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 3,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "not_visible",
+    "why": "No Go board; it is a taffy tray."
+   },
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Spectators hold paper fans."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Leaning man or thrown wrestler could hit ground."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 3, \"answer\": 1}, {\"model\": 5, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"not_visible\", \"why\": \"No Go board; it is a taffy tray.\"}, {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Spectators hold paper fans.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Leaning man or thrown wrestler could hit ground.\"}]}"
+}

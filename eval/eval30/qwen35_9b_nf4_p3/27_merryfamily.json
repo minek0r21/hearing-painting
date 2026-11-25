@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "27_merryfamily",
+ "seconds": 40.8,
+ "peak_vram_gb": 8.97,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of St. Nicholas",
+  "sources": [
+   {
+    "id": "man_playing_lute",
+    "object_en": "man playing lute",
+    "x": 300,
+    "y": 400,
+    "label_ko": "루트 연주",
+    "type": "music",
+    "description_ko": "남자가 루트를 연주하며 웃고 있다.",
+    "prompt_en": "man strumming a lute with fingers, cheerful and lively, field recording"
+   },
+   {
+    "id": "boy_playing_flute",
+    "object_en": "boy playing transverse flute",
+    "x": 750,
+    "y": 350,
+    "label_ko": "플루트 연주",
+    "type": "music",
+    "description_ko": "소년이 횡적 플루트를 불며 연주하고 있다.",
+    "prompt_en": "young boy blowing into a transverse flute, soft and melodic, field recording"
+   },
+   {
+    "id": "boy_at_window",
+    "object_en": "boy at window with horn",
+    "x": 80,
+    "y": 300,
+    "label_ko": "호프 부는 소년",
+    "type": "people",
+    "description_ko": "창가에 서 있는 소년이 호프를 불며 소리친다.",
+    "prompt_en": "young boy standing at window blowing a horn, loud and clear, field recording"
+   },
+   {
+    "id": "dog_standing",
+    "object_en": "dog standing near table",
+    "x": 400,
+    "y": 700,
+    "label_ko": "강아지 울음",
+    "type": "animal",
+    "description_ko": "테이블 옆에 서 있는 강아지가 짖거나 울고 있다.",
+    "prompt_en": "small dog standing on tiled floor, whimpering or barking softly, field recording"
+   },
+   {
+    "id": "woman_serving_drink",
+    "object_en": "woman pouring drink",
+    "x": 600,
+    "y": 600,
+    "label_ko": "술 따기",
+    "type": "people",
+    "description_ko": "여자가 술병에서 잔에 술을 따르고 있다.",
+    "prompt_en": "woman pouring liquid from a jug into a glass, gentle clinking sound, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Feast of St. Nicholas\",\n  \"sources\": [\n    {\n      \"id\": \"man_playing_lute\",\n      \"object_en\": \"man playing lute\",\n      \"x\": 300,\n      \"y\": 400,\n      \"label_ko\": \"루트 연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"남자가 루트를 연주하며 웃고 있다.\",\n      \"prompt_en\": \"man strumming a lute with fingers, cheerful and lively, field recording\"\n    },\n    {\n      \"id\": \"boy_playing_flute\",\n      \"object_en\": \"boy playing transverse flute\",\n      \"x\": 750,\n      \"y\": 350,\n      \"label_ko\": \"플루트 연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"소년이 횡적 플루트를 불며 연주하고 있다.\",\n      \"prompt_en\": \"young boy blowing into a transverse flute, soft and melodic, field recording\"\n    },\n    {\n      \"id\": \"boy_at_window\",\n      \"object_en\": \"boy at window with horn\",\n      \"x\": 80,\n      \"y\": 300,\n      \"label_ko\": \"호프 부는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"창가에 서 있는 소년이 호프를 불며 소리친다.\",\n      \"prompt_en\": \"young boy standing at window blowing a horn, loud and clear, field recording\"\n    },\n    {\n      \"id\": \"dog_standing\",\n      \"object_en\": \"dog standing near table\",\n      \"x\": 400,\n      \"y\": 700,\n      \"label_ko\": \"강아지 울음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"테이블 옆에 서 있는 강아지가 짖거나 울고 있다.\",\n      \"prompt_en\": \"small dog standing on tiled floor, whimpering or barking softly, field recording\"\n    },\n    {\n      \"id\": \"woman_serving_drink\",\n      \"object_en\": \"woman pouring drink\",\n      \"x\": 600,\n      \"y\": 600,\n      \"label_ko\": \"술 따기\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 술병에서 잔에 술을 따르고 있다.\",\n      \"prompt_en\": \"woman pouring liquid from a jug into a glass, gentle clinking sound, field recording\"\n    }\n  ]\n}\n"
+}

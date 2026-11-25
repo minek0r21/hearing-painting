@@ -1,0 +1,33 @@
+{
+ "hash": "8a374a6c4644",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 4,
+    "answer": 2
+   },
+   {
+    "model": 5,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "silent",
+    "why": "Fog and sky are silent background elements."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "A street lamp is a still object that makes no wind sound."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 1}, {\"model\": 4, \"answer\": 2}, {\"model\": 5, \"answer\": 3}], \"unpaired\": [{\"model\": 1, \"verdict\": \"silent\", \"why\": \"Fog and sky are silent background elements.\"}, {\"model\": 3, \"verdict\": \"silent\", \"why\": \"A street lamp is a still object that makes no wind sound.\"}]}"
+}

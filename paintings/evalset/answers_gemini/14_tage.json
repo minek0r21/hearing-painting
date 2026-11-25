@@ -1,0 +1,156 @@
+{
+ "model": "gemini-4-neon",
+ "file": "14_tage.jpg",
+ "seconds": 37.7,
+ "parsed": {
+  "title_guess": "Singing and Dancing on a Country Path (detail from Ta Ge Tu by Ma Yuan)",
+  "sources": [
+   {
+    "label_ko": "농부들의 노랫소리와 웃음소리",
+    "sound_en": "merry singing, shouting, and laughter of peasants",
+    "ground_phrase_en": "singing and laughing peasants",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      75,
+      635
+     ],
+     [
+      260,
+      680
+     ],
+     [
+      575,
+      625
+     ]
+    ]
+   },
+   {
+    "label_ko": "흙길을 밟는 발걸음 소리",
+    "sound_en": "footsteps and stomping of straw sandals on the dirt path",
+    "ground_phrase_en": "dancing peasants' feet on path",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      125,
+      775
+     ],
+     [
+      335,
+      815
+     ],
+     [
+      600,
+      775
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 스치는 대나무 잎 소리",
+    "sound_en": "rustling bamboo leaves swaying in the breeze",
+    "ground_phrase_en": "bamboo branches and leaves",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      215,
+      225
+     ],
+     [
+      480,
+      290
+     ],
+     [
+      665,
+      385
+     ],
+     [
+      840,
+      460
+     ]
+    ]
+   },
+   {
+    "label_ko": "부드러운 시골 바람 소리",
+    "sound_en": "gentle countryside breeze blowing through the foliage",
+    "ground_phrase_en": "breeze in the outdoor landscape",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "다리 아래 흐르는 시냇물 소리",
+    "sound_en": "gentle babbling stream flowing beneath the small bridge",
+    "ground_phrase_en": "stream under the bridge",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      180,
+      925
+     ]
+    ]
+   },
+   {
+    "label_ko": "지팡이에 매달린 호리병 흔들리는 소리",
+    "sound_en": "wine gourd knocking against a wooden stick and sloshing",
+    "ground_phrase_en": "gourd hanging on a stick",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      630,
+      600
+     ]
+    ]
+   },
+   {
+    "label_ko": "옷자락 스치고 잡아당기는 소리",
+    "sound_en": "rustling and tugging of loose cloth robes",
+    "ground_phrase_en": "peasants' robes",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      185,
+      705
+     ],
+     [
+      305,
+      735
+     ],
+     [
+      625,
+      675
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Singing and Dancing on a Country Path (detail from Ta Ge Tu by Ma Yuan)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"농부들의 노랫소리와 웃음소리\",\n      \"sound_en\": \"merry singing, shouting, and laughter of peasants\",\n      \"ground_phrase_en\": \"singing and laughing peasants\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [75, 635],\n        [260, 680],\n        [575, 625]\n      ]\n    },\n    {\n      \"label_ko\": \"흙길을 밟는 발걸음 소리\",\n      \"sound_en\": \"footsteps and stomping of straw sandals on the dirt path\",\n      \"ground_phrase_en\": \"dancing peasants' feet on path\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [125, 775],\n        [335, 815],\n        [600, 775]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 스치는 대나무 잎 소리\",\n      \"sound_en\": \"rustling bamboo leaves swaying in the breeze\",\n      \"ground_phrase_en\": \"bamboo branches and leaves\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [215, 225],\n        [480, 290],\n        [665, 385],\n        [840, 460]\n      ]\n    },\n    {\n      \"label_ko\": \"부드러운 시골 바람 소리\",\n      \"sound_en\": \"gentle countryside breeze blowing through the foliage\",\n      \"ground_phrase_en\": \"breeze in the outdoor landscape\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"다리 아래 흐르는 시냇물 소리\",\n      \"sound_en\": \"gentle babbling stream flowing beneath the small bridge\",\n      \"ground_phrase_en\": \"stream under the bridge\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [180, 925]\n      ]\n    },\n    {\n      \"label_ko\": \"지팡이에 매달린 호리병 흔들리는 소리\",\n      \"sound_en\": \"wine gourd knocking against a wooden stick and sloshing\",\n      \"ground_phrase_en\": \"gourd hanging on a stick\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [630, 600]\n      ]\n    },\n    {\n      \"label_ko\": \"옷자락 스치고 잡아당기는 소리\",\n      \"sound_en\": \"rustling and tugging of loose cloth robes\",\n      \"ground_phrase_en\": \"peasants' robes\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [185, 705],\n        [305, 735],\n        [625, 675]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1597,
+  "candidatesTokenCount": 820,
+  "totalTokenCount": 5274,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1092
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 820
+   }
+  ],
+  "thoughtsTokenCount": 2857,
+  "serviceTier": "standard"
+ }
+}

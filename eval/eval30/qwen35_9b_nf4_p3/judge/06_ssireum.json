@@ -1,0 +1,34 @@
+{
+ "hash": "bb98606813d6",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "The tray-carrying vendor is present and could make footsteps, though the tray is strapped in front rather than on his head."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "The men are visible and could plausibly fall, even though the reclining figures appear to be watching."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Seated spectators are present and can make quiet breathing sounds."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 1}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"The tray-carrying vendor is present and could make footsteps, though the tray is strapped in front rather than on his head.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"The men are visible and could plausibly fall, even though the reclining figures appear to be watching.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Seated spectators are present and can make quiet breathing sounds.\"}]}"
+}

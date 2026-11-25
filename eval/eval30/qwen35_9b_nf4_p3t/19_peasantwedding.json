@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "19_peasantwedding",
+ "seconds": 34.7,
+ "peak_vram_gb": 8.94,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Wedding Feast at Tournai",
+  "sources": [
+   {
+    "id": "crowd_talking",
+    "object_en": "crowd of people talking and eating",
+    "x": 450,
+    "y": 400,
+    "label_ko": "사람들의 말소리",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여 앉아 식사하고 대화하는 소리가 난다.",
+    "prompt_en": "crowd of people talking and eating in a rustic hall, lively chatter and clinking of cups, field recording"
+   },
+   {
+    "id": "man_pouring",
+    "object_en": "man pouring wine from jug",
+    "x": 70,
+    "y": 650,
+    "label_ko": "술 따는 소리",
+    "type": "people",
+    "description_ko": "남자가 큰 항아리에서 술을 잔에 따르는 소리가 들린다.",
+    "prompt_en": "man pouring wine from a large ceramic jug into a cup, liquid flowing sound, field recording"
+   },
+   {
+    "id": "man_beating",
+    "object_en": "man beating dough with rolling pin",
+    "x": 550,
+    "y": 600,
+    "label_ko": "반죽 치는 소리",
+    "type": "people",
+    "description_ko": "남자가 반죽을 밀대로 치며 빵을 만드는 소리가 들린다.",
+    "prompt_en": "man beating dough with a rolling pin on a wooden board, rhythmic thumping sound, field recording"
+   },
+   {
+    "id": "man_playing_horn",
+    "object_en": "man playing a horn",
+    "x": 240,
+    "y": 350,
+    "label_ko": "호프 소리",
+    "type": "music",
+    "description_ko": "남자가 긴 호프를 불며 연주하는 소리가 들린다.",
+    "prompt_en": "man playing a long wooden horn, loud wind instrument sound, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"The Wedding Feast at Tournai\",\n\"sources\": [\n  {\n    \"id\": \"crowd_talking\",\n    \"object_en\": \"crowd of people talking and eating\",\n    \"x\": 450,\n    \"y\": 400,\n    \"label_ko\": \"사람들의 말소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"많은 사람들이 모여 앉아 식사하고 대화하는 소리가 난다.\",\n    \"prompt_en\": \"crowd of people talking and eating in a rustic hall, lively chatter and clinking of cups, field recording\"\n  },\n  {\n    \"id\": \"man_pouring\",\n    \"object_en\": \"man pouring wine from jug\",\n    \"x\": 70,\n    \"y\": 650,\n    \"label_ko\": \"술 따는 소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"남자가 큰 항아리에서 술을 잔에 따르는 소리가 들린다.\",\n    \"prompt_en\": \"man pouring wine from a large ceramic jug into a cup, liquid flowing sound, field recording\"\n  },\n  {\n    \"id\": \"man_beating\",\n    \"object_en\": \"man beating dough with rolling pin\",\n    \"x\": 550,\n    \"y\": 600,\n    \"label_ko\": \"반죽 치는 소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"남자가 반죽을 밀대로 치며 빵을 만드는 소리가 들린다.\",\n    \"prompt_en\": \"man beating dough with a rolling pin on a wooden board, rhythmic thumping sound, field recording\"\n  },\n  {\n    \"id\": \"man_playing_horn\",\n    \"object_en\": \"man playing a horn\",\n    \"x\": 240,\n    \"y\": 350,\n    \"label_ko\": \"호프 소리\",\n    \"type\": \"music\",\n    \"description_ko\": \"남자가 긴 호프를 불며 연주하는 소리가 들린다.\",\n    \"prompt_en\": \"man playing a long wooden horn, loud wind instrument sound, field recording\"\n  }\n]\n}\n```\n"
+}

@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "06_ssireum",
+ "seconds": 41.9,
+ "peak_vram_gb": 9.02,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Joseon genre painting of men playing a game",
+  "sources": [
+   {
+    "id": "men_talking_and_laughing",
+    "object_en": "group of seated men talking and laughing",
+    "x": 150,
+    "y": 150,
+    "label_ko": "남자들 웃음소리",
+    "type": "people",
+    "description_ko": "좌측에 앉아 있는 남성들이 서로 대화하고 웃는 소리가 난다.",
+    "prompt_en": "men talking and laughing in a traditional Korean setting, field recording"
+   },
+   {
+    "id": "men_fighting",
+    "object_en": "two men wrestling in the center",
+    "x": 550,
+    "y": 450,
+    "label_ko": "남자들 싸움 소리",
+    "type": "people",
+    "description_ko": "중앙에서 두 남자가 씨름을 하며 몸부림치는 소리가 난다.",
+    "prompt_en": "two men wrestling and grappling in a traditional Korean setting, field recording"
+   },
+   {
+    "id": "man_carrying_tray",
+    "object_en": "man carrying a tray on his head",
+    "x": 180,
+    "y": 550,
+    "label_ko": "남자 발걸음 소리",
+    "type": "people",
+    "description_ko": "머리에 받침을 들고 서 있는 남자의 발걸음 소리가 난다.",
+    "prompt_en": "man walking with a tray balanced on his head, field recording"
+   },
+   {
+    "id": "men_falling_down",
+    "object_en": "two men falling to the ground",
+    "x": 850,
+    "y": 800,
+    "label_ko": "남자들 넘어짐 소리",
+    "type": "people",
+    "description_ko": "오른쪽 아래에서 두 남자가 넘어지는 소리가 난다.",
+    "prompt_en": "two men falling to the ground in a traditional Korean setting, field recording"
+   },
+   {
+    "id": "men_sitting_and_watching",
+    "object_en": "group of men sitting and watching the scene",
+    "x": 300,
+    "y": 900,
+    "label_ko": "남자들 숨소리",
+    "type": "people",
+    "description_ko": "좌측 아래에 앉아 있는 남성들이 숨 쉬는 소리가 난다.",
+    "prompt_en": "men sitting quietly and watching, subtle breathing sounds, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Joseon genre painting of men playing a game\",\n  \"sources\": [\n    {\n      \"id\": \"men_talking_and_laughing\",\n      \"object_en\": \"group of seated men talking and laughing\",\n      \"x\": 150,\n      \"y\": 150,\n      \"label_ko\": \"남자들 웃음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"좌측에 앉아 있는 남성들이 서로 대화하고 웃는 소리가 난다.\",\n      \"prompt_en\": \"men talking and laughing in a traditional Korean setting, field recording\"\n    },\n    {\n      \"id\": \"men_fighting\",\n      \"object_en\": \"two men wrestling in the center\",\n      \"x\": 550,\n      \"y\": 450,\n      \"label_ko\": \"남자들 싸움 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에서 두 남자가 씨름을 하며 몸부림치는 소리가 난다.\",\n      \"prompt_en\": \"two men wrestling and grappling in a traditional Korean setting, field recording\"\n    },\n    {\n      \"id\": \"man_carrying_tray\",\n      \"object_en\": \"man carrying a tray on his head\",\n      \"x\": 180,\n      \"y\": 550,\n      \"label_ko\": \"남자 발걸음 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"머리에 받침을 들고 서 있는 남자의 발걸음 소리가 난다.\",\n      \"prompt_en\": \"man walking with a tray balanced on his head, field recording\"\n    },\n    {\n      \"id\": \"men_falling_down\",\n      \"object_en\": \"two men falling to the ground\",\n      \"x\": 850,\n      \"y\": 800,\n      \"label_ko\": \"남자들 넘어짐 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"오른쪽 아래에서 두 남자가 넘어지는 소리가 난다.\",\n      \"prompt_en\": \"two men falling to the ground in a traditional Korean setting, field recording\"\n    },\n    {\n      \"id\": \"men_sitting_and_watching\",\n      \"object_en\": \"group of men sitting and watching the scene\",\n      \"x\": 300,\n      \"y\": 900,\n      \"label_ko\": \"남자들 숨소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"좌측 아래에 앉아 있는 남성들이 숨 쉬는 소리가 난다.\",\n      \"prompt_en\": \"men sitting quietly and watching, subtle breathing sounds, field recording\"\n    }\n  ]\n}\n"
+}

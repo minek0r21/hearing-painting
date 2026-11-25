@@ -1,0 +1,33 @@
+{
+ "hash": "d403ce2dc36c",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "Workers use tongs and rods, not hammers."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Overhead industrial pipes and steam are visible."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 2},\n    {\"model\": 3, \"answer\": 3},\n    {\"model\": 5, \"answer\": 1}\n  ],\n  \"unpaired\": [\n    {\"model\": 2, \"verdict\": \"not_visible\", \"why\": \"Workers use tongs and rods, not hammers.\"},\n    {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Overhead industrial pipes and steam are visible.\"}\n  ]\n}"
+}

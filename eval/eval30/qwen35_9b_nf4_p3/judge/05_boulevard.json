@@ -1,0 +1,30 @@
+{
+ "hash": "273969db3871",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 4,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Men conversing in a group are visible."
+   },
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Woman walking on the street is visible."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Men reading newspapers are visible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 4, \"answer\": 1}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Men conversing in a group are visible.\"}, {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Woman walking on the street is visible.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Men reading newspapers are visible.\"}]}"
+}

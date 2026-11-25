@@ -1,0 +1,80 @@
+{
+  "title": "눈 속의 사냥꾼",
+  "artist": "피터르 브뤼헐",
+  "year": "1565",
+  "caption": "The image is a painting of a winter landscape with a village in the background. The village is covered in snow and there are several houses and buildings scattered throughout the scene. The sky is blue and the mountains are covered in a blanket of snow. In the foreground, there are trees and bushes, and in the center of the image, there is a group of people and animals gathered around a lake. The people are dressed in warm clothing and some are carrying bags and other items. There are also a few birds flying in the sky. The overall mood of the painting is peaceful and serene.",
+  "sources": [
+    {
+      "id": "dogs",
+      "label": "사냥개",
+      "type": "animal",
+      "u": 0.094,
+      "v": 0.762,
+      "depth": 0.224,
+      "file": "dogs",
+      "volume": 1.0,
+      "description": "지친 사냥꾼을 따라 눈길을 걷는 사냥개들",
+      "prompt": "tired hunting dogs walking through deep snow, paws crunching, panting, occasional whimper, field recording"
+    },
+    {
+      "id": "fire",
+      "label": "모닥불",
+      "type": "nature",
+      "u": 0.13,
+      "v": 0.6,
+      "depth": 0.598,
+      "file": "fire",
+      "volume": 1.0,
+      "description": "여관 앞에서 타오르는 모닥불",
+      "prompt": "crackling outdoor bonfire in winter, wood popping and hissing, field recording"
+    },
+    {
+      "id": "skaters",
+      "label": "스케이트",
+      "type": "people",
+      "u": 0.78,
+      "v": 0.62,
+      "depth": 0.888,
+      "file": "skaters",
+      "volume": 1.0,
+      "description": "꽁꽁 언 연못 위에서 노는 마을 사람들",
+      "prompt": "distant people ice skating on a frozen pond, blades scraping ice, children laughing far away, reverberant, field recording"
+    },
+    {
+      "id": "crows",
+      "label": "까마귀",
+      "type": "animal",
+      "u": 0.704,
+      "v": 0.261,
+      "depth": 0.9,
+      "file": "crows",
+      "volume": 1.0,
+      "description": "골짜기 위를 나는 까마귀",
+      "prompt": "crows cawing in bare winter trees, quiet snowy village, field recording"
+    },
+    {
+      "id": "hunters",
+      "label": "사냥꾼 발소리",
+      "type": "people",
+      "u": 0.326,
+      "v": 0.797,
+      "depth": 0.1,
+      "file": "hunters",
+      "volume": 1.0,
+      "description": "눈을 밟으며 마을로 돌아오는 사냥꾼들",
+      "prompt": "heavy footsteps of hunters trudging through deep snow, boots crunching, field recording"
+    },
+    {
+      "id": "wind",
+      "label": "겨울바람",
+      "type": "nature",
+      "u": 0.82,
+      "v": 0.1,
+      "depth": 1.0,
+      "file": "wind",
+      "volume": 0.5,
+      "description": "골짜기를 지나는 차가운 겨울바람",
+      "prompt": "cold winter wind blowing across a snowy valley, soft and steady, ambient field recording"
+    }
+  ]
+}

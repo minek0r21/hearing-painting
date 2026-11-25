@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "11_shower",
+ "seconds": 33.1,
+ "peak_vram_gb": 8.69,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rainy Evening at Oshino Hachiman Shrine",
+  "sources": [
+   {
+    "id": "rain_heavy",
+    "object_en": "falling rain",
+    "x": 500,
+    "y": 300,
+    "label_ko": "비소리",
+    "type": "nature",
+    "description_ko": "강하게 내리는 비 소리가 전체 장면을 감싸고 있다.",
+    "prompt_en": "heavy rain falling continuously in a traditional Japanese setting, field recording"
+   },
+   {
+    "id": "people_crossing_bridge",
+    "object_en": "people walking on bridge",
+    "x": 500,
+    "y": 700,
+    "label_ko": "다리 걷는 소리",
+    "type": "people",
+    "description_ko": "우산을 쓴 사람들이 다리를 건너며 발걸음 소리가 들린다.",
+    "prompt_en": "soft footsteps of people walking across a wooden bridge in the rain, field recording"
+   },
+   {
+    "id": "man_on_raft",
+    "object_en": "man on bamboo raft",
+    "x": 250,
+    "y": 520,
+    "label_ko": "보트 노는 소리",
+    "type": "people",
+    "description_ko": "작은 대나무 보트를 타고 있는 남자의 노 저어지는 소리가 들린다.",
+    "prompt_en": "gentle paddling sound of a man on a bamboo raft in calm water, field recording"
+   },
+   {
+    "id": "water_flow",
+    "object_en": "river water",
+    "x": 500,
+    "y": 800,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "빗속에서 흐르는 강물의 잔잔한 물결 소리가 배경에 깔려 있다.",
+    "prompt_en": "gentle flowing river water sound under heavy rain, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rainy Evening at Oshino Hachiman Shrine\",\n  \"sources\": [\n    {\n      \"id\": \"rain_heavy\",\n      \"object_en\": \"falling rain\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"비소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강하게 내리는 비 소리가 전체 장면을 감싸고 있다.\",\n      \"prompt_en\": \"heavy rain falling continuously in a traditional Japanese setting, field recording\"\n    },\n    {\n      \"id\": \"people_crossing_bridge\",\n      \"object_en\": \"people walking on bridge\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"다리 걷는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산을 쓴 사람들이 다리를 건너며 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"soft footsteps of people walking across a wooden bridge in the rain, field recording\"\n    },\n    {\n      \"id\": \"man_on_raft\",\n      \"object_en\": \"man on bamboo raft\",\n      \"x\": 250,\n      \"y\": 520,\n      \"label_ko\": \"보트 노는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"작은 대나무 보트를 타고 있는 남자의 노 저어지는 소리가 들린다.\",\n      \"prompt_en\": \"gentle paddling sound of a man on a bamboo raft in calm water, field recording\"\n    },\n    {\n      \"id\": \"water_flow\",\n      \"object_en\": \"river water\",\n      \"x\": 500,\n      \"y\": 800,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"빗속에서 흐르는 강물의 잔잔한 물결 소리가 배경에 깔려 있다.\",\n      \"prompt_en\": \"gentle flowing river water sound under heavy rain, field recording\"\n    }\n  ]\n}\n"
+}

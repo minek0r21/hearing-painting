@@ -1,0 +1,29 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 5,
+   "answer": 2
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 2,
+   "verdict": "plausible",
+   "why": "Man pulling the swing ropes is visible and can make movement sounds."
+  },
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Reclining man in the bushes is visible and can make breathing or rustling sounds."
+  },
+  {
+   "model": 4,
+   "verdict": "plausible",
+   "why": "Flowering foliage is visible and can rustle in the wind; duplicate of M5."
+  }
+ ]
+}

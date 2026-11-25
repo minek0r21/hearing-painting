@@ -1,0 +1,33 @@
+{
+ "hash": "207b16943148",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 4
+   },
+   {
+    "model": 4,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No dough or rolling pin is present."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Child on floor is visibly eating."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 4}, {\"model\": 4, \"answer\": 3}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No dough or rolling pin is present.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Child on floor is visibly eating.\"}]}"
+}

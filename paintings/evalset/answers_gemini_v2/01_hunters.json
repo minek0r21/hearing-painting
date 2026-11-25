@@ -1,0 +1,185 @@
+{
+ "model": "gemini-4-neon",
+ "file": "01_hunters.jpg",
+ "seconds": 42.7,
+ "parsed": {
+  "title_guess": "The Hunters in the Snow (Pieter Bruegel the Elder)",
+  "sources": [
+   {
+    "label_ko": "눈 밟는 사냥꾼 발소리",
+    "sound_en": "hunters' heavy footsteps crunching in deep snow",
+    "ground_phrase_en": "hunters walking in snow",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      275,
+      650
+     ],
+     [
+      330,
+      780
+     ],
+     [
+      402,
+      700
+     ]
+    ]
+   },
+   {
+    "label_ko": "사냥개 헐떡이고 짖는 소리",
+    "sound_en": "hunting dogs panting, whining, and padding through snow",
+    "ground_phrase_en": "pack of hunting dogs",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      92,
+      755
+     ],
+     [
+      148,
+      822
+     ],
+     [
+      58,
+      938
+     ],
+     [
+      138,
+      918
+     ],
+     [
+      248,
+      758
+     ]
+    ]
+   },
+   {
+    "label_ko": "장작불 타닥거리는 소리",
+    "sound_en": "crackling and roaring of an outdoor wood fire",
+    "ground_phrase_en": "outdoor wood fire",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      120,
+      608
+     ]
+    ]
+   },
+   {
+    "label_ko": "얼음 위 스케이트와 사람들 웅성거림",
+    "sound_en": "distant skaters' shouts and blades scraping on ice",
+    "ground_phrase_en": "people skating on frozen ponds",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      722,
+      592
+     ],
+     [
+      822,
+      585
+     ],
+     [
+      698,
+      662
+     ],
+     [
+      788,
+      655
+     ],
+     [
+      865,
+      950
+     ]
+    ]
+   },
+   {
+    "label_ko": "까마귀 울음소리",
+    "sound_en": "crows cawing and flapping wings",
+    "ground_phrase_en": "crows in trees and sky",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      236,
+      74
+     ],
+     [
+      568,
+      190
+     ],
+     [
+      708,
+      260
+     ],
+     [
+      500,
+      598
+     ]
+    ]
+   },
+   {
+    "label_ko": "차가운 겨울 바람 소리",
+    "sound_en": "cold winter wind blowing through bare trees",
+    "ground_phrase_en": "winter valley and bare trees",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "여관 앞 사람들 대화 소리",
+    "sound_en": "villagers talking and bustling around the fire",
+    "ground_phrase_en": "villagers gathered around the fire",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      95,
+      615
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 들리는 마차 소리",
+    "sound_en": "distant horse-drawn cart creaking along the road",
+    "ground_phrase_en": "horse-drawn cart near the pond",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      625,
+      560
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Hunters in the Snow (Pieter Bruegel the Elder)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"눈 밟는 사냥꾼 발소리\",\n      \"sound_en\": \"hunters' heavy footsteps crunching in deep snow\",\n      \"ground_phrase_en\": \"hunters walking in snow\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[275, 650], [330, 780], [402, 700]]\n    },\n    {\n      \"label_ko\": \"사냥개 헐떡이고 짖는 소리\",\n      \"sound_en\": \"hunting dogs panting, whining, and padding through snow\",\n      \"ground_phrase_en\": \"pack of hunting dogs\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[92, 755], [148, 822], [58, 938], [138, 918], [248, 758]]\n    },\n    {\n      \"label_ko\": \"장작불 타닥거리는 소리\",\n      \"sound_en\": \"crackling and roaring of an outdoor wood fire\",\n      \"ground_phrase_en\": \"outdoor wood fire\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[120, 608]]\n    },\n    {\n      \"label_ko\": \"얼음 위 스케이트와 사람들 웅성거림\",\n      \"sound_en\": \"distant skaters' shouts and blades scraping on ice\",\n      \"ground_phrase_en\": \"people skating on frozen ponds\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[722, 592], [822, 585], [698, 662], [788, 655], [865, 950]]\n    },\n    {\n      \"label_ko\": \"까마귀 울음소리\",\n      \"sound_en\": \"crows cawing and flapping wings\",\n      \"ground_phrase_en\": \"crows in trees and sky\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[236, 74], [568, 190], [708, 260], [500, 598]]\n    },\n    {\n      \"label_ko\": \"차가운 겨울 바람 소리\",\n      \"sound_en\": \"cold winter wind blowing through bare trees\",\n      \"ground_phrase_en\": \"winter valley and bare trees\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"여관 앞 사람들 대화 소리\",\n      \"sound_en\": \"villagers talking and bustling around the fire\",\n      \"ground_phrase_en\": \"villagers gathered around the fire\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[95, 615]]\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 마차 소리\",\n      \"sound_en\": \"distant horse-drawn cart creaking along the road\",\n      \"ground_phrase_en\": \"horse-drawn cart near the pond\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[625, 560]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1827,
+  "candidatesTokenCount": 872,
+  "totalTokenCount": 6698,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1092
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 872
+   }
+  ],
+  "thoughtsTokenCount": 3999,
+  "serviceTier": "standard"
+ }
+}

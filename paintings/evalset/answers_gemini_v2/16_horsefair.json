@@ -1,0 +1,129 @@
+{
+ "model": "gemini-4-neon",
+ "file": "16_horsefair.jpg",
+ "seconds": 30.2,
+ "parsed": {
+  "title_guess": "The Horse Fair (Rosa Bonheur)",
+  "sources": [
+   {
+    "label_ko": "말발굽과 말 울음소리",
+    "sound_en": "horses galloping, hooves pounding on dirt, neighing and snorting",
+    "ground_phrase_en": "herd of running and rearing horses",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      140,
+      580
+     ],
+     [
+      305,
+      620
+     ],
+     [
+      415,
+      470
+     ],
+     [
+      465,
+      535
+     ],
+     [
+      715,
+      595
+     ],
+     [
+      920,
+      665
+     ]
+    ]
+   },
+   {
+    "label_ko": "마부들의 고함과 말 모는 소리",
+    "sound_en": "horse handlers shouting, calling out, and snapping reins",
+    "ground_phrase_en": "horse handlers and riders",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      42,
+      540
+     ],
+     [
+      212,
+      600
+     ],
+     [
+      365,
+      415
+     ],
+     [
+      538,
+      550
+     ],
+     [
+      638,
+      460
+     ],
+     [
+      925,
+      515
+     ]
+    ]
+   },
+   {
+    "label_ko": "구경꾼들의 웅성거림",
+    "sound_en": "spectator crowd murmuring and chattering",
+    "ground_phrase_en": "spectators watching from the hillside and roadside",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      895,
+      360
+     ],
+     [
+      810,
+      415
+     ],
+     [
+      980,
+      550
+     ]
+    ]
+   },
+   {
+    "label_ko": "나뭇잎 흔들리는 바람 소리",
+    "sound_en": "wind rustling through tree leaves",
+    "ground_phrase_en": "leafy trees and cloudy sky",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Horse Fair (Rosa Bonheur)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"말발굽과 말 울음소리\",\n      \"sound_en\": \"horses galloping, hooves pounding on dirt, neighing and snorting\",\n      \"ground_phrase_en\": \"herd of running and rearing horses\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [140, 580],\n        [305, 620],\n        [415, 470],\n        [465, 535],\n        [715, 595],\n        [920, 665]\n      ]\n    },\n    {\n      \"label_ko\": \"마부들의 고함과 말 모는 소리\",\n      \"sound_en\": \"horse handlers shouting, calling out, and snapping reins\",\n      \"ground_phrase_en\": \"horse handlers and riders\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [42, 540],\n        [212, 600],\n        [365, 415],\n        [538, 550],\n        [638, 460],\n        [925, 515]\n      ]\n    },\n    {\n      \"label_ko\": \"구경꾼들의 웅성거림\",\n      \"sound_en\": \"spectator crowd murmuring and chattering\",\n      \"ground_phrase_en\": \"spectators watching from the hillside and roadside\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [895, 360],\n        [810, 415],\n        [980, 550]\n      ]\n    },\n    {\n      \"label_ko\": \"나뭇잎 흔들리는 바람 소리\",\n      \"sound_en\": \"wind rustling through tree leaves\",\n      \"ground_phrase_en\": \"leafy trees and cloudy sky\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1839,
+  "candidatesTokenCount": 549,
+  "totalTokenCount": 5230,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1104
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 549
+   }
+  ],
+  "thoughtsTokenCount": 2842,
+  "serviceTier": "standard"
+ }
+}

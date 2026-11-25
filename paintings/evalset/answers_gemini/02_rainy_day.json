@@ -1,0 +1,150 @@
+{
+ "model": "gemini-4-neon",
+ "file": "02_rainy_day.jpg",
+ "seconds": 27.0,
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "label_ko": "빗소리",
+    "sound_en": "steady rain falling on wet city streets",
+    "ground_phrase_en": "rainy Parisian street",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "우산에 떨어지는 빗방울 소리",
+    "sound_en": "raindrops pattering on taut umbrella fabric",
+    "ground_phrase_en": "open umbrellas",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      650,
+      295
+     ],
+     [
+      885,
+      260
+     ],
+     [
+      420,
+      420
+     ],
+     [
+      68,
+      435
+     ],
+     [
+      255,
+      420
+     ]
+    ]
+   },
+   {
+    "label_ko": "젖은 돌바닥을 걷는 발걸음 소리",
+    "sound_en": "footsteps tapping on wet cobblestones and pavement",
+    "ground_phrase_en": "walking pedestrians",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      585,
+      920
+     ],
+     [
+      785,
+      930
+     ],
+     [
+      375,
+      695
+     ],
+     [
+      45,
+      695
+     ],
+     [
+      270,
+      530
+     ]
+    ]
+   },
+   {
+    "label_ko": "말발굽과 마차 바퀴 구르는 소리",
+    "sound_en": "horse hooves and wooden carriage wheels rumbling on cobblestones",
+    "ground_phrase_en": "horse-drawn carriages",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      110,
+      495
+     ],
+     [
+      340,
+      445
+     ]
+    ]
+   },
+   {
+    "label_ko": "젖은 코트와 옷깃 스치는 소리",
+    "sound_en": "soft rustling of heavy wet coats and dresses",
+    "ground_phrase_en": "pedestrians' coats and dresses",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      590,
+      680
+     ],
+     [
+      770,
+      720
+     ],
+     [
+      935,
+      680
+     ],
+     [
+      375,
+      560
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 들리는 도시 소음과 사람들의 웅성거림",
+    "sound_en": "distant muffled street murmur and city ambiance",
+    "ground_phrase_en": "distant Parisian boulevard",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"label_ko\": \"빗소리\",\n      \"sound_en\": \"steady rain falling on wet city streets\",\n      \"ground_phrase_en\": \"rainy Parisian street\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"우산에 떨어지는 빗방울 소리\",\n      \"sound_en\": \"raindrops pattering on taut umbrella fabric\",\n      \"ground_phrase_en\": \"open umbrellas\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [650, 295],\n        [885, 260],\n        [420, 420],\n        [68, 435],\n        [255, 420]\n      ]\n    },\n    {\n      \"label_ko\": \"젖은 돌바닥을 걷는 발걸음 소리\",\n      \"sound_en\": \"footsteps tapping on wet cobblestones and pavement\",\n      \"ground_phrase_en\": \"walking pedestrians\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [585, 920],\n        [785, 930],\n        [375, 695],\n        [45, 695],\n        [270, 530]\n      ]\n    },\n    {\n      \"label_ko\": \"말발굽과 마차 바퀴 구르는 소리\",\n      \"sound_en\": \"horse hooves and wooden carriage wheels rumbling on cobblestones\",\n      \"ground_phrase_en\": \"horse-drawn carriages\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [110, 495],\n        [340, 445]\n      ]\n    },\n    {\n      \"label_ko\": \"젖은 코트와 옷깃 스치는 소리\",\n      \"sound_en\": \"soft rustling of heavy wet coats and dresses\",\n      \"ground_phrase_en\": \"pedestrians' coats and dresses\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [590, 680],\n        [770, 720],\n        [935, 680],\n        [375, 560]\n      ]\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 도시 소음과 사람들의 웅성거림\",\n      \"sound_en\": \"distant muffled street murmur and city ambiance\",\n      \"ground_phrase_en\": \"distant Parisian boulevard\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1578,
+  "candidatesTokenCount": 714,
+  "totalTokenCount": 4426,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1073
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 714
+   }
+  ],
+  "thoughtsTokenCount": 2134,
+  "serviceTier": "standard"
+ }
+}

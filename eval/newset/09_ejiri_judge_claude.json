@@ -1,0 +1,25 @@
+{
+ "pairs": [
+  {
+   "model": 2,
+   "answer": 4
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 1,
+   "verdict": "not_visible",
+   "why": "No children or kites; figures are travelers."
+  },
+  {
+   "model": 3,
+   "verdict": "not_visible",
+   "why": "No kites; objects are papers and a hat."
+  },
+  {
+   "model": 4,
+   "verdict": "silent",
+   "why": "Distant background mountain is silent."
+  }
+ ]
+}

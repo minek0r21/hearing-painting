@@ -1,0 +1,38 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "07_seodang",
+ "seconds": 27.8,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "아이 울음소리",
+    "prompt_en": "boy crying and sobbing",
+    "object_en": "crying boy",
+    "x": 360,
+    "y": 465
+   },
+   {
+    "label_ko": "학동들 웃음소리",
+    "prompt_en": "students giggling and snickering",
+    "object_en": "smiling students",
+    "x": 260,
+    "y": 290
+   },
+   {
+    "label_ko": "훈장님 꾸짖는 소리",
+    "prompt_en": "teacher sternly scolding",
+    "object_en": "seated teacher behind desk",
+    "x": 665,
+    "y": 255
+   }
+  ]
+ },
+ "raw": ""
+}

@@ -1,0 +1,34 @@
+{
+ "hash": "e2bd0dd386f6",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Pedestrians are walking on the sidewalk."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Crowd on the boulevard creates ambient noise."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Waiter is tending a table on the right."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 1}, {\"model\": 3, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Pedestrians are walking on the sidewalk.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Crowd on the boulevard creates ambient noise.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Waiter is tending a table on the right.\"}]}"
+}

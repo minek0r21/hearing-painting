@@ -1,0 +1,28 @@
+{
+ "hash": "75f7d1013e82",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "not_visible",
+    "why": "No musical instruments are visible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 4, \"verdict\": \"not_visible\", \"why\": \"No musical instruments are visible.\"}]}"
+}

@@ -1,0 +1,56 @@
+{
+  "title": "파리의 거리, 비 오는 날",
+  "artist": "귀스타브 카유보트",
+  "year": "1877",
+  "caption": "The image is a painting of a street scene in Paris, France. It shows a group of people walking on a cobblestone street, holding umbrellas to protect themselves from the rain. The street is lined with buildings on both sides, and there is a street lamp on the right side of the image. In the center of the painting, there are two men and a woman walking side by side, both dressed in formal attire. The man on the left is wearing a black suit and a top hat, while the man in the middle is holding a large umbrella. The woman on the far right is also holding a smaller umbrella. There is a horse-drawn carriage on the street, and a few other people can be seen in the background. The sky is overcast, and the overall mood of the scene is gloomy and rainy.",
+  "sources": [
+    {
+      "id": "carriage",
+      "label": "마차",
+      "type": "vehicle",
+      "u": 0.12,
+      "v": 0.5,
+      "depth": 0.713,
+      "file": "carriage",
+      "volume": 1.0,
+      "description": "젖은 돌길 위를 지나가는 마차",
+      "prompt": "horse-drawn carriage passing by, hooves clopping and wooden wheels rolling on wet cobblestones, 19th century street, field recording"
+    },
+    {
+      "id": "steps_near",
+      "label": "가까운 발소리",
+      "type": "people",
+      "u": 0.6,
+      "v": 0.56,
+      "depth": 0.1,
+      "file": "steps_near",
+      "volume": 1.0,
+      "description": "우산을 쓰고 이쪽으로 걸어오는 사람들",
+      "prompt": "close footsteps of two people walking on wet cobblestones, leather shoes, rain tapping on an umbrella, field recording"
+    },
+    {
+      "id": "steps_far",
+      "label": "먼 발소리",
+      "type": "people",
+      "u": 0.253,
+      "v": 0.423,
+      "depth": 0.9,
+      "file": "steps_far",
+      "volume": 0.7,
+      "description": "멀리 광장을 건너는 사람들",
+      "prompt": "distant footsteps and faint murmuring of pedestrians crossing a rainy city square, reverberant, field recording"
+    },
+    {
+      "id": "rain",
+      "label": "빗소리",
+      "type": "nature",
+      "u": 0.28,
+      "v": 0.1,
+      "depth": 1.0,
+      "file": "rain",
+      "volume": 0.6,
+      "description": "도시 전체에 내리는 가는 비",
+      "prompt": "steady light rain falling on a city street and rooftops, gentle, no thunder, ambient field recording"
+    }
+  ]
+}

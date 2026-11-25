@@ -1,0 +1,36 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "14_tage",
+ "seconds": 45.3,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "흥겹게 노래하며 발 구르는 소리",
+    "prompt_en": "men singing, laughing, and stomping along the path",
+    "object_en": "three men dancing and walking on the path",
+    "x": 110,
+    "y": 700
+   },
+   {
+    "label_ko": "바람에 대나무 잎 스치는 소리",
+    "prompt_en": "breeze rustling through bamboo and willow leaves",
+    "object_en": "bamboo grove and overhanging willow tree"
+   },
+   {
+    "label_ko": "개울물 흐르는 소리",
+    "prompt_en": "gentle stream flowing along the bank",
+    "object_en": "small stream at the bottom left",
+    "x": 180,
+    "y": 930
+   }
+  ]
+ },
+ "raw": ""
+}

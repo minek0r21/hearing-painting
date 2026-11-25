@@ -1,0 +1,93 @@
+{
+ "model": "gemini-4-neon",
+ "file": "07_seodang.jpg",
+ "seconds": 27.8,
+ "parsed": {
+  "title_guess": "Seodang (Village School) by Kim Hong-do",
+  "sources": [
+   {
+    "label_ko": "아이 울음소리",
+    "sound_en": "boy crying and sobbing",
+    "ground_phrase_en": "crying boy",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      360,
+      465
+     ]
+    ]
+   },
+   {
+    "label_ko": "학동들 웃음소리",
+    "sound_en": "students giggling and snickering",
+    "ground_phrase_en": "smiling students",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      260,
+      290
+     ],
+     [
+      175,
+      340
+     ],
+     [
+      95,
+      405
+     ],
+     [
+      875,
+      520
+     ],
+     [
+      850,
+      600
+     ],
+     [
+      785,
+      660
+     ]
+    ]
+   },
+   {
+    "label_ko": "훈장님 꾸짖는 소리",
+    "sound_en": "teacher sternly scolding",
+    "ground_phrase_en": "seated teacher behind desk",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      665,
+      255
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Seodang (Village School) by Kim Hong-do\",\n  \"sources\": [\n    {\n      \"label_ko\": \"아이 울음소리\",\n      \"sound_en\": \"boy crying and sobbing\",\n      \"ground_phrase_en\": \"crying boy\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[360, 465]]\n    },\n    {\n      \"label_ko\": \"학동들 웃음소리\",\n      \"sound_en\": \"students giggling and snickering\",\n      \"ground_phrase_en\": \"smiling students\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[260, 290], [175, 340], [95, 405], [875, 520], [850, 600], [785, 660]]\n    },\n    {\n      \"label_ko\": \"훈장님 꾸짖는 소리\",\n      \"sound_en\": \"teacher sternly scolding\",\n      \"ground_phrase_en\": \"seated teacher behind desk\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[665, 255]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 335,
+  "totalTokenCount": 4633,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 335
+   }
+  ],
+  "thoughtsTokenCount": 2483,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "claude": {
+  "required": "12/18",
+  "required_found": 0.667,
+  "invented": "2/29",
+  "invented_rate": 0.069,
+  "loc": "13/18",
+  "loc_rate": 0.722
+ },
+ "gemini": {
+  "required": "19/24",
+  "required_found": 0.792,
+  "invented": "2/29",
+  "invented_rate": 0.069,
+  "loc": "15/17",
+  "loc_rate": 0.882
+ }
+}

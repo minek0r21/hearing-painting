@@ -1,0 +1,83 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "28_railwaystation",
+ "seconds": 64.7,
+ "peak_vram_gb": 8.51,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Great Train Departure",
+  "sources": [
+   {
+    "id": "train_departure",
+    "object_en": "steam locomotive",
+    "x": 180,
+    "y": 520,
+    "label_ko": "기차",
+    "type": "vehicle",
+    "description_ko": "기차가 역 밖으로 출발하며 증기가 피어오르는 소리가 들립니다.",
+    "prompt_en": "steam locomotive chugging and hissing, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 700,
+    "label_ko": "사람들",
+    "type": "people",
+    "description_ko": "많은 사람들이 떠들며 떠나는 장면을 배경으로 한 낮은 소음.",
+    "prompt_en": "crowd murmuring and shuffling, field recording"
+   },
+   {
+    "id": "man_bowing",
+    "object_en": "man bowing",
+    "x": 600,
+    "y": 800,
+    "label_ko": "남자",
+    "type": "people",
+    "description_ko": "남자가 숙여지며 발걸음 소리와 옷자락 스치는 소리가 나옵니다.",
+    "prompt_en": "man bowing with footsteps and fabric rustling, field recording"
+   },
+   {
+    "id": "luggage_drop",
+    "object_en": "luggage being dropped",
+    "x": 650,
+    "y": 850,
+    "label_ko": "가방",
+    "type": "people",
+    "description_ko": "가방이 바닥에 떨어지며 '탁' 하는 소리가 납니다.",
+    "prompt_en": "luggage being dropped on floor, field recording"
+   },
+   {
+    "id": "woman_wrapping",
+    "object_en": "woman wrapping herself",
+    "x": 700,
+    "y": 650,
+    "label_ko": "여자",
+    "type": "people",
+    "description_ko": "여자가 자신을 감싸는 천을 흔들며 옷자락 마찰 소리가 납니다.",
+    "prompt_en": "woman wrapping herself in fabric, field recording"
+   },
+   {
+    "id": "ambient_hall",
+    "object_en": "train station hall",
+    "x": 500,
+    "y": 300,
+    "label_ko": "역장",
+    "type": "nature",
+    "description_ko": "넓은 역장 내부에서 공기가 흐르는 듯한 배경 소음.",
+    "prompt_en": "echoing hall with distant echoes and ambient noise, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Train Departure\",\n  \"sources\": [\n    {\n      \"id\": \"train_departure\",\n      \"object_en\": \"steam locomotive\",\n      \"x\": 180,\n      \"y\": 520,\n      \"label_ko\": \"기차\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"기차가 역 밖으로 출발하며 증기가 피어오르는 소리가 들립니다.\",\n      \"prompt_en\": \"steam locomotive chugging and hissing, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 떠들며 떠나는 장면을 배경으로 한 낮은 소음.\",\n      \"prompt_en\": \"crowd murmuring and shuffling, field recording\"\n    },\n    {\n      \"id\": \"man_bowing\",\n      \"object_en\": \"man bowing\",\n      \"x\": 600,\n      \"y\": 800,\n      \"label_ko\": \"남자\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 숙여지며 발걸음 소리와 옷자락 스치는 소리가 나옵니다.\",\n      \"prompt_en\": \"man bowing with footsteps and fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"luggage_drop\",\n      \"object_en\": \"luggage being dropped\",\n      \"x\": 650,\n      \"y\": 850,\n      \"label_ko\": \"가방\",\n      \"type\": \"people\",\n      \"description_ko\": \"가방이 바닥에 떨어지며 '탁' 하는 소리가 납니다.\",\n      \"prompt_en\": \"luggage being dropped on floor, field recording\"\n    },\n    {\n      \"id\": \"woman_wrapping\",\n      \"object_en\": \"woman wrapping herself\",\n      \"x\": 700,\n      \"y\": 650,\n      \"label_ko\": \"여자\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 자신을 감싸는 천을 흔들며 옷자락 마찰 소리가 납니다.\",\n      \"prompt_en\": \"woman wrapping herself in fabric, field recording\"\n    },\n    {\n      \"id\": \"ambient_hall\",\n      \"object_en\": \"train station hall\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"역장\",\n      \"type\": \"nature\",\n      \"description_ko\": \"넓은 역장 내부에서 공기가 흐르는 듯한 배경 소음.\",\n      \"prompt_en\": \"echoing hall with distant echoes and ambient noise, field recording\"\n    }\n  ]\n}\n"
+}

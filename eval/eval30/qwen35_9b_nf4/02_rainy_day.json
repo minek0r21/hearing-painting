@@ -1,0 +1,73 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "02_rainy_day",
+ "seconds": 48.3,
+ "peak_vram_gb": 8.67,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "id": "umbrella_rustle",
+    "object_en": "umbrella",
+    "x": 650,
+    "y": 300,
+    "label_ko": "우산 소리",
+    "type": "people",
+    "description_ko": "우산을 들고 걷는 남성과 여성이 우산을 펼치며 비를 피하는 소리가 들립니다.",
+    "prompt_en": "rustling fabric sound of a large grey umbrella being held open in the rain, field recording"
+   },
+   {
+    "id": "umbrella_rustle_2",
+    "object_en": "umbrella",
+    "x": 900,
+    "y": 250,
+    "label_ko": "우산 소리",
+    "type": "people",
+    "description_ko": "우산을 들고 있는 남성의 우산이 비에 젖으며 펼쳐지는 소리가 납니다.",
+    "prompt_en": "rustling fabric sound of a large dark umbrella being held open in the rain, field recording"
+   },
+   {
+    "id": "cart_wheel",
+    "object_en": "cart",
+    "x": 110,
+    "y": 500,
+    "label_ko": "수레 바퀴",
+    "type": "vehicle",
+    "description_ko": "길 위를 굴러가는 수레 바퀴가 돌며 나는 소리가 들립니다.",
+    "prompt_en": "wooden cart wheels rolling on wet cobblestone street, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "people",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들 소리",
+    "type": "people",
+    "description_ko": "비 오는 거리에서 사람들이 걸어다니며 만드는 낮은 소음과 빗소리가 섞여 있습니다.",
+    "prompt_en": "distant murmur of people walking in the rain on a city street, field recording"
+   },
+   {
+    "id": "street_lamp",
+    "object_en": "street lamp",
+    "x": 480,
+    "y": 100,
+    "label_ko": "가로등",
+    "type": "nature",
+    "description_ko": "비 오는 날의 차가운 거리에서 가로등이 비추는 듯한 차분한 분위기입니다.",
+    "prompt_en": "soft ambient sound of a gas street lamp flickering in the rain, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"id\": \"umbrella_rustle\",\n      \"object_en\": \"umbrella\",\n      \"x\": 650,\n      \"y\": 300,\n      \"label_ko\": \"우산 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산을 들고 걷는 남성과 여성이 우산을 펼치며 비를 피하는 소리가 들립니다.\",\n      \"prompt_en\": \"rustling fabric sound of a large grey umbrella being held open in the rain, field recording\"\n    },\n    {\n      \"id\": \"umbrella_rustle_2\",\n      \"object_en\": \"umbrella\",\n      \"x\": 900,\n      \"y\": 250,\n      \"label_ko\": \"우산 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산을 들고 있는 남성의 우산이 비에 젖으며 펼쳐지는 소리가 납니다.\",\n      \"prompt_en\": \"rustling fabric sound of a large dark umbrella being held open in the rain, field recording\"\n    },\n    {\n      \"id\": \"cart_wheel\",\n      \"object_en\": \"cart\",\n      \"x\": 110,\n      \"y\": 500,\n      \"label_ko\": \"수레 바퀴\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"길 위를 굴러가는 수레 바퀴가 돌며 나는 소리가 들립니다.\",\n      \"prompt_en\": \"wooden cart wheels rolling on wet cobblestone street, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"people\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"사람들 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"비 오는 거리에서 사람들이 걸어다니며 만드는 낮은 소음과 빗소리가 섞여 있습니다.\",\n      \"prompt_en\": \"distant murmur of people walking in the rain on a city street, field recording\"\n    },\n    {\n      \"id\": \"street_lamp\",\n      \"object_en\": \"street lamp\",\n      \"x\": 480,\n      \"y\": 100,\n      \"label_ko\": \"가로등\",\n      \"type\": \"nature\",\n      \"description_ko\": \"비 오는 날의 차가운 거리에서 가로등이 비추는 듯한 차분한 분위기입니다.\",\n      \"prompt_en\": \"soft ambient sound of a gas street lamp flickering in the rain, field recording\"\n    }\n  ]\n}\n```\n"
+}

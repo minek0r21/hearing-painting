@@ -1,0 +1,29 @@
+{
+ "hash": "bdb9815c983a",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 7
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "not_visible",
+    "why": "No lute shown; instrument is a violin."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Boy standing at window makes no described sound."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 3}, {\"model\": 4, \"answer\": 7}], \"unpaired\": [{\"model\": 1, \"verdict\": \"not_visible\", \"why\": \"No lute shown; instrument is a violin.\"}, {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Boy standing at window makes no described sound.\"}]}"
+}

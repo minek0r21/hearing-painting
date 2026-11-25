@@ -1,0 +1,35 @@
+{
+ "06_ssireum": {"title": "씨름", "sources": [
+  {"label_ko": "씨름꾼 몸싸움과 기합", "sound_en": "two wrestlers grappling, grunting, feet shuffling on dirt", "ground_phrase_en": "two wrestlers", "source_type": "point", "grade": "required", "points": [[530,450]]},
+  {"label_ko": "구경꾼 환호와 웃음", "sound_en": "crowd of spectators cheering and laughing", "ground_phrase_en": "spectators", "source_type": "clustered", "grade": "required", "points": [[150,150],[400,60],[830,150],[100,820],[820,780]]},
+  {"label_ko": "엿장수 외침", "sound_en": "taffy seller calling out", "ground_phrase_en": "boy selling taffy with a tray", "source_type": "point", "grade": "allowed", "points": [[150,530]]},
+  {"label_ko": "부채 부치는 소리", "sound_en": "hand fans fluttering", "ground_phrase_en": "folding fan", "source_type": "clustered", "grade": "allowed", "points": [[230,150],[410,930]]}
+ ]},
+ "07_seodang": {"title": "서당", "sources": [
+  {"label_ko": "훈장에게 혼난 아이의 훌쩍임", "sound_en": "a boy sobbing and sniffling", "ground_phrase_en": "crying boy", "source_type": "point", "grade": "required", "points": [[370,420]]},
+  {"label_ko": "아이들의 킥킥 웃음", "sound_en": "children giggling", "ground_phrase_en": "laughing children", "source_type": "clustered", "grade": "required", "points": [[200,300],[110,370],[720,520],[820,560],[580,620]]},
+  {"label_ko": "훈장의 말소리", "sound_en": "old teacher speaking", "ground_phrase_en": "teacher", "source_type": "point", "grade": "allowed", "points": [[640,220]]},
+  {"label_ko": "책장 넘기는 소리", "sound_en": "pages of books turning", "ground_phrase_en": "open book", "source_type": "clustered", "grade": "allowed", "points": [[150,540],[510,470],[390,860]]}
+ ]},
+ "08_mudong": {"title": "무동", "sources": [
+  {"label_ko": "북 소리", "sound_en": "Korean barrel drum beats", "ground_phrase_en": "drum", "source_type": "point", "grade": "required", "points": [[120,170]]},
+  {"label_ko": "장구 소리", "sound_en": "janggu hourglass drum rhythm", "ground_phrase_en": "hourglass drum", "source_type": "point", "grade": "required", "points": [[420,370]]},
+  {"label_ko": "피리 소리", "sound_en": "Korean piri reed pipes", "ground_phrase_en": "man playing pipe", "source_type": "clustered", "grade": "required", "points": [[690,250],[820,300]]},
+  {"label_ko": "대금 소리", "sound_en": "daegeum bamboo transverse flute", "ground_phrase_en": "man playing transverse flute", "source_type": "point", "grade": "required", "points": [[900,560]]},
+  {"label_ko": "해금 소리", "sound_en": "haegeum two-string fiddle", "ground_phrase_en": "man playing fiddle", "source_type": "point", "grade": "required", "points": [[650,650]]},
+  {"label_ko": "춤추는 아이의 소매 휘날림과 발 구름", "sound_en": "dancer's sleeves swishing and feet stamping", "ground_phrase_en": "dancing boy", "source_type": "point", "grade": "allowed", "points": [[260,650]]}
+ ]},
+ "09_danopungjeong": {"title": "단오풍정", "sources": [
+  {"label_ko": "그네 삐걱임", "sound_en": "swing ropes creaking", "ground_phrase_en": "woman on a swing", "source_type": "point", "grade": "required", "points": [[650,330]]},
+  {"label_ko": "개울물 소리", "sound_en": "small stream flowing", "ground_phrase_en": "stream", "source_type": "point", "grade": "required", "points": [[300,900]]},
+  {"label_ko": "여인들의 웃음과 물장구", "sound_en": "women laughing and splashing water", "ground_phrase_en": "women bathing", "source_type": "clustered", "grade": "required", "points": [[230,780],[420,780],[140,560]]},
+  {"label_ko": "몰래 엿보는 아이들의 킥킥거림", "sound_en": "two boys giggling while peeking", "ground_phrase_en": "boys hiding behind rock", "source_type": "point", "grade": "allowed", "points": [[190,250]]},
+  {"label_ko": "보따리 이고 가는 발소리", "sound_en": "footsteps of a woman carrying a bundle", "ground_phrase_en": "woman carrying bundle on head", "source_type": "point", "grade": "allowed", "points": [[900,630]]},
+  {"label_ko": "나뭇잎 바람", "sound_en": "breeze in leaves", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "10_inwang": {"title": "인왕제색도", "sources": [
+  {"label_ko": "비 갠 뒤 폭포 소리", "sound_en": "waterfalls pouring after rain", "ground_phrase_en": "waterfall", "source_type": "clustered", "grade": "required", "points": [[240,340],[640,230]]},
+  {"label_ko": "소나무 숲 바람", "sound_en": "wind through pine forest", "ground_phrase_en": "pine trees", "source_type": "clustered", "grade": "allowed", "points": [[450,700],[800,700]]},
+  {"label_ko": "비 갠 산의 물방울과 안개", "sound_en": "dripping water and misty mountain air after rain", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]}
+}

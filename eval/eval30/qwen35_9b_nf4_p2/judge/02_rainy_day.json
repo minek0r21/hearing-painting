@@ -1,0 +1,33 @@
+{
+ "hash": "24da33e9fa01",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 4
+   },
+   {
+    "model": 4,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Umbrella fabric can rustle while carried."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Street lamp is unlit during daytime."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 4}, {\"model\": 4, \"answer\": 3}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Umbrella fabric can rustle while carried.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Street lamp is unlit during daytime.\"}]}"
+}

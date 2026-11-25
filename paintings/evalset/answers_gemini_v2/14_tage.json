@@ -1,0 +1,76 @@
+{
+ "model": "gemini-4-neon",
+ "file": "14_tage.jpg",
+ "seconds": 45.3,
+ "parsed": {
+  "title_guess": "Singing and Stomping (detail) by Ma Yuan",
+  "sources": [
+   {
+    "label_ko": "흥겹게 노래하며 발 구르는 소리",
+    "sound_en": "men singing, laughing, and stomping along the path",
+    "ground_phrase_en": "three men dancing and walking on the path",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      110,
+      700
+     ],
+     [
+      295,
+      745
+     ],
+     [
+      610,
+      695
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 대나무 잎 스치는 소리",
+    "sound_en": "breeze rustling through bamboo and willow leaves",
+    "ground_phrase_en": "bamboo grove and overhanging willow tree",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "개울물 흐르는 소리",
+    "sound_en": "gentle stream flowing along the bank",
+    "ground_phrase_en": "small stream at the bottom left",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      180,
+      930
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Singing and Stomping (detail) by Ma Yuan\",\n  \"sources\": [\n    {\n      \"label_ko\": \"흥겹게 노래하며 발 구르는 소리\",\n      \"sound_en\": \"men singing, laughing, and stomping along the path\",\n      \"ground_phrase_en\": \"three men dancing and walking on the path\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [110, 700],\n        [295, 745],\n        [610, 695]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 대나무 잎 스치는 소리\",\n      \"sound_en\": \"breeze rustling through bamboo and willow leaves\",\n      \"ground_phrase_en\": \"bamboo grove and overhanging willow tree\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"개울물 흐르는 소리\",\n      \"sound_en\": \"gentle stream flowing along the bank\",\n      \"ground_phrase_en\": \"small stream at the bottom left\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [180, 930]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1827,
+  "candidatesTokenCount": 335,
+  "totalTokenCount": 6059,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1092
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 335
+   }
+  ],
+  "thoughtsTokenCount": 3897,
+  "serviceTier": "standard"
+ }
+}

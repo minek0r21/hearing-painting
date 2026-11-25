@@ -1,0 +1,29 @@
+{
+ "hash": "1be080363104",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 4,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "People holding newspapers are visible."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "People walking are visible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 4, \"answer\": 4}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"People holding newspapers are visible.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"People walking are visible.\"}]}"
+}

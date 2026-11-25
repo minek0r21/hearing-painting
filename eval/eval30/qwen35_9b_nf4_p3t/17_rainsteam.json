@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "17_rainsteam",
+ "seconds": 24.0,
+ "peak_vram_gb": 8.99,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rain, Steam, and Speed - The Great Western Railway",
+  "sources": [
+   {
+    "id": "steam_engine",
+    "object_en": "steam locomotive",
+    "x": 660,
+    "y": 620,
+    "label_ko": "증기기관차",
+    "type": "vehicle",
+    "description_ko": "기차에서 나는 증기 소리와 철도 차량의 움직임을 묘사합니다.",
+    "prompt_en": "loud hissing steam and mechanical clatter of a moving train, field recording"
+   },
+   {
+    "id": "rain",
+    "object_en": "rain",
+    "x": 500,
+    "y": 200,
+    "label_ko": "비",
+    "type": "nature",
+    "description_ko": "폭우가 내리는 소리를 묘사합니다.",
+    "prompt_en": "heavy rain falling on a landscape, field recording"
+   },
+   {
+    "id": "river",
+    "object_en": "river",
+    "x": 200,
+    "y": 800,
+    "label_ko": "강물",
+    "type": "nature",
+    "description_ko": "흐르는 강물의 물결 소리를 묘사합니다.",
+    "prompt_en": "flowing river water, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Rain, Steam, and Speed - The Great Western Railway\",\n\"sources\": [\n  {\n    \"id\": \"steam_engine\",\n    \"object_en\": \"steam locomotive\",\n    \"x\": 660,\n    \"y\": 620,\n    \"label_ko\": \"증기기관차\",\n    \"type\": \"vehicle\",\n    \"description_ko\": \"기차에서 나는 증기 소리와 철도 차량의 움직임을 묘사합니다.\",\n    \"prompt_en\": \"loud hissing steam and mechanical clatter of a moving train, field recording\"\n  },\n  {\n    \"id\": \"rain\",\n    \"object_en\": \"rain\",\n    \"x\": 500,\n    \"y\": 200,\n    \"label_ko\": \"비\",\n    \"type\": \"nature\",\n    \"description_ko\": \"폭우가 내리는 소리를 묘사합니다.\",\n    \"prompt_en\": \"heavy rain falling on a landscape, field recording\"\n  },\n  {\n    \"id\": \"river\",\n    \"object_en\": \"river\",\n    \"x\": 200,\n    \"y\": 800,\n    \"label_ko\": \"강물\",\n    \"type\": \"nature\",\n    \"description_ko\": \"흐르는 강물의 물결 소리를 묘사합니다.\",\n    \"prompt_en\": \"flowing river water, field recording\"\n  }\n]\n}\n```\n"
+}

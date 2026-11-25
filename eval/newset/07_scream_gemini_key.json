@@ -1,0 +1,51 @@
+{
+ "title_guess": "The Scream",
+ "sources": [
+  {
+   "label_ko": "비명 소리",
+   "sound_en": "piercing human scream",
+   "ground_phrase_en": "screaming figure",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     525,
+     595
+    ]
+   ]
+  },
+  {
+   "label_ko": "세찬 바람 소리",
+   "sound_en": "howling wind",
+   "ground_phrase_en": "swirling turbulent sky",
+   "source_type": "ambient",
+   "grade": "required",
+   "points": []
+  },
+  {
+   "label_ko": "나무 다리 위 발걸음 소리",
+   "sound_en": "footsteps on wooden bridge planks",
+   "ground_phrase_en": "two figures walking on the bridge",
+   "source_type": "clustered",
+   "grade": "allowed",
+   "points": [
+    [
+     38,
+     420
+    ],
+    [
+     92,
+     440
+    ]
+   ]
+  },
+  {
+   "label_ko": "멀리서 들리는 물결 소리",
+   "sound_en": "distant lapping fjord water",
+   "ground_phrase_en": "swirling fjord water",
+   "source_type": "ambient",
+   "grade": "allowed",
+   "points": []
+  }
+ ]
+}

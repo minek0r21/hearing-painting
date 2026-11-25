@@ -1,0 +1,33 @@
+{
+ "hash": "9880b7c54919",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 1
+   },
+   {
+    "model": 4,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Crowds are visible in the market streets."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Bare trees are visible on the right."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 1}, {\"model\": 4, \"answer\": 4}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Crowds are visible in the market streets.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Bare trees are visible on the right.\"}]}"
+}

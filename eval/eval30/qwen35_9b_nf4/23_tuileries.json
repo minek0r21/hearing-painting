@@ -1,0 +1,89 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "23_tuileries",
+ "seconds": 107.2,
+ "peak_vram_gb": 8.59,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "A Sunday Afternoon on the Island of La Grande Jatte",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들의 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 대화하고 있는 소리가 배경에 퍼져 있습니다.",
+    "prompt_en": "soft murmuring voices of a large crowd in a park, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "fan_flap",
+    "object_en": "blue fan",
+    "x": 280,
+    "y": 620,
+    "label_ko": "파란 부채",
+    "type": "people",
+    "description_ko": "여성이 파란 부채를 흔들며 바람을 만드는 소리가 나옵니다.",
+    "prompt_en": "gentle rustling sound of a blue hand fan being waved, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "hat_click",
+    "object_en": "top hat",
+    "x": 600,
+    "y": 450,
+    "label_ko": "모자",
+    "type": "people",
+    "description_ko": "남성이 모자를 벗거나 입는 소리가 들립니다.",
+    "prompt_en": "soft click of a top hat being placed on or taken off, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "chair_squeak",
+    "object_en": "wicker chair",
+    "x": 850,
+    "y": 750,
+    "label_ko": "의자",
+    "type": "people",
+    "description_ko": "사람이 의자에 앉거나 일어날 때 나는 작은 긁히는 소리가 납니다.",
+    "prompt_en": "light squeaking sound of a wicker chair being sat on or stood up from, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "child_laugh",
+    "object_en": "children playing",
+    "x": 450,
+    "y": 800,
+    "label_ko": "아이들의 웃음",
+    "type": "people",
+    "description_ko": "아이들이 놀고 있을 때 나는 경쾌한 웃음소리가 나옵니다.",
+    "prompt_en": "light, joyful laughter of two small children playing together, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees",
+    "x": 300,
+    "y": 200,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "나무 사이로 불어오는 바람 소리가 배경에 흐릅니다.",
+    "prompt_en": "gentle rustling of leaves in a breeze through tall trees, field recording",
+    "volume": 0.5
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"A Sunday Afternoon on the Island of La Grande Jatte\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"사람들의 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 대화하고 있는 소리가 배경에 퍼져 있습니다.\",\n      \"prompt_en\": \"soft murmuring voices of a large crowd in a park, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"fan_flap\",\n      \"object_en\": \"blue fan\",\n      \"x\": 280,\n      \"y\": 620,\n      \"label_ko\": \"파란 부채\",\n      \"type\": \"people\",\n      \"description_ko\": \"여성이 파란 부채를 흔들며 바람을 만드는 소리가 나옵니다.\",\n      \"prompt_en\": \"gentle rustling sound of a blue hand fan being waved, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"hat_click\",\n      \"object_en\": \"top hat\",\n      \"x\": 600,\n      \"y\": 450,\n      \"label_ko\": \"모자\",\n      \"type\": \"people\",\n      \"description_ko\": \"남성이 모자를 벗거나 입는 소리가 들립니다.\",\n      \"prompt_en\": \"soft click of a top hat being placed on or taken off, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"chair_squeak\",\n      \"object_en\": \"wicker chair\",\n      \"x\": 850,\n      \"y\": 750,\n      \"label_ko\": \"의자\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람이 의자에 앉거나 일어날 때 나는 작은 긁히는 소리가 납니다.\",\n      \"prompt_en\": \"light squeaking sound of a wicker chair being sat on or stood up from, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"child_laugh\",\n      \"object_en\": \"children playing\",\n      \"x\": 450,\n      \"y\": 800,\n      \"label_ko\": \"아이들의 웃음\",\n      \"type\": \"people\",\n      \"description_ko\": \"아이들이 놀고 있을 때 나는 경쾌한 웃음소리가 나옵니다.\",\n      \"prompt_en\": \"light, joyful laughter of two small children playing together, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees\",\n      \"x\": 300,\n      \"y\": 200,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무 사이로 불어오는 바람 소리가 배경에 흐릅니다.\",\n      \"prompt_en\": \"gentle rustling of leaves in a breeze through tall trees, field recording\",\n      \"volume\": 0.5\n    }\n  ]\n}\n"
+}

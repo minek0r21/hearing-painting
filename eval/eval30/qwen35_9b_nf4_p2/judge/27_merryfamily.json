@@ -1,0 +1,38 @@
+{
+ "hash": "6407f6a4750e",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 7
+   },
+   {
+    "model": 4,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "not_visible",
+    "why": "The instrument shown is a violin, not a lute."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "The boy holds a horn at the window."
+   },
+   {
+    "model": 6,
+    "verdict": "silent",
+    "why": "Room tone is ambient silence."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 3}, {\"model\": 3, \"answer\": 7}, {\"model\": 4, \"answer\": 6}], \"unpaired\": [{\"model\": 1, \"verdict\": \"not_visible\", \"why\": \"The instrument shown is a violin, not a lute.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"The boy holds a horn at the window.\"}, {\"model\": 6, \"verdict\": \"silent\", \"why\": \"Room tone is ambient silence.\"}]}"
+}

@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "29_ninthwave",
+ "seconds": 25.6,
+ "peak_vram_gb": 8.69,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 2,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Storm at Sea",
+  "sources": [
+   {
+    "id": "roaring_sea",
+    "object_en": "churning ocean waves",
+    "x": 500,
+    "y": 700,
+    "label_ko": "거친 파도",
+    "type": "nature",
+    "description_ko": "거친 바다 파도가 격렬하게 부서지며 소리를 내는 소리",
+    "prompt_en": "deep roaring ocean waves crashing violently in a storm, field recording"
+   },
+   {
+    "id": "howling_wind",
+    "object_en": "stormy sky and wind",
+    "x": 500,
+    "y": 300,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "폭풍우가 치는 하늘에서 불어오는 거센 바람의 소음",
+    "prompt_en": "howling wind during a violent storm, field recording"
+   },
+   {
+    "id": "shouting_sailors",
+    "object_en": "people in a small boat",
+    "x": 450,
+    "y": 850,
+    "label_ko": "кричащие моряки",
+    "type": "people",
+    "description_ko": "작은 배에 타고 있는 사람들이 폭풍우 속에서 비명을 지르는 소리",
+    "prompt_en": "men shouting and struggling in a small boat during a storm, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Storm at Sea\",\n  \"sources\": [\n    {\n      \"id\": \"roaring_sea\",\n      \"object_en\": \"churning ocean waves\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"거친 파도\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거친 바다 파도가 격렬하게 부서지며 소리를 내는 소리\",\n      \"prompt_en\": \"deep roaring ocean waves crashing violently in a storm, field recording\"\n    },\n    {\n      \"id\": \"howling_wind\",\n      \"object_en\": \"stormy sky and wind\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭풍우가 치는 하늘에서 불어오는 거센 바람의 소음\",\n      \"prompt_en\": \"howling wind during a violent storm, field recording\"\n    },\n    {\n      \"id\": \"shouting_sailors\",\n      \"object_en\": \"people in a small boat\",\n      \"x\": 450,\n      \"y\": 850,\n      \"label_ko\": \"кричащие моряки\",\n      \"type\": \"people\",\n      \"description_ko\": \"작은 배에 타고 있는 사람들이 폭풍우 속에서 비명을 지르는 소리\",\n      \"prompt_en\": \"men shouting and struggling in a small boat during a storm, field recording\"\n    }\n  ]\n}\n"
+}

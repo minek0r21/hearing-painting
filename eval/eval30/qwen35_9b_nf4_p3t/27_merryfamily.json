@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "27_merryfamily",
+ "seconds": 33.3,
+ "peak_vram_gb": 9.01,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of St. Nicholas",
+  "sources": [
+   {
+    "id": "man_playing_lute",
+    "object_en": "man playing lute",
+    "x": 300,
+    "y": 400,
+    "label_ko": "루타 소리",
+    "type": "music",
+    "description_ko": "좌측에 앉아 있는 남자가 루타를 연주하며 소리를 내고 있다.",
+    "prompt_en": "man playing a lute with a plectrum, strumming strings, field recording"
+   },
+   {
+    "id": "boy_playing_flute",
+    "object_en": "boy playing flute",
+    "x": 750,
+    "y": 350,
+    "label_ko": "플루트 소리",
+    "type": "music",
+    "description_ko": "오른쪽 벤치에 앉아 있는 소년이 횡적 플루트를 불며 소리를 내고 있다.",
+    "prompt_en": "boy playing a transverse flute, blowing into the mouthpiece, field recording"
+   },
+   {
+    "id": "boy_at_window",
+    "object_en": "boy at window",
+    "x": 80,
+    "y": 300,
+    "label_ko": "창가 소년",
+    "type": "people",
+    "description_ko": "창문 밖으로 몸을 내밀어 있는 소년.",
+    "prompt_en": "young boy standing at an open window, looking out, field recording"
+   },
+   {
+    "id": "dog_standing",
+    "object_en": "dog standing",
+    "x": 450,
+    "y": 750,
+    "label_ko": "강아지",
+    "type": "animal",
+    "description_ko": "식탁 옆에 서 있는 갈색과 흰색 강아지.",
+    "prompt_en": "brown and white dog standing on a tiled floor, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"The Feast of St. Nicholas\",\n  \"sources\": [\n    {\n      \"id\": \"man_playing_lute\",\n      \"object_en\": \"man playing lute\",\n      \"x\": 300,\n      \"y\": 400,\n      \"label_ko\": \"루타 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"좌측에 앉아 있는 남자가 루타를 연주하며 소리를 내고 있다.\",\n      \"prompt_en\": \"man playing a lute with a plectrum, strumming strings, field recording\"\n    },\n    {\n      \"id\": \"boy_playing_flute\",\n      \"object_en\": \"boy playing flute\",\n      \"x\": 750,\n      \"y\": 350,\n      \"label_ko\": \"플루트 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽 벤치에 앉아 있는 소년이 횡적 플루트를 불며 소리를 내고 있다.\",\n      \"prompt_en\": \"boy playing a transverse flute, blowing into the mouthpiece, field recording\"\n    },\n    {\n      \"id\": \"boy_at_window\",\n      \"object_en\": \"boy at window\",\n      \"x\": 80,\n      \"y\": 300,\n      \"label_ko\": \"창가 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"창문 밖으로 몸을 내밀어 있는 소년.\",\n      \"prompt_en\": \"young boy standing at an open window, looking out, field recording\"\n    },\n    {\n      \"id\": \"dog_standing\",\n      \"object_en\": \"dog standing\",\n      \"x\": 450,\n      \"y\": 750,\n      \"label_ko\": \"강아지\",\n      \"type\": \"animal\",\n      \"description_ko\": \"식탁 옆에 서 있는 갈색과 흰색 강아지.\",\n      \"prompt_en\": \"brown and white dog standing on a tiled floor, field recording\"\n    }\n  ]\n}\n```\n"
+}

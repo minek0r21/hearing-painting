@@ -1,0 +1,45 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "19_peasantwedding",
+ "seconds": 66.9,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "하객들의 왁자지껄한 대화와 식사 소리",
+    "prompt_en": "lively chatter, laughter, and eating of wedding guests",
+    "object_en": "crowd of peasant wedding guests seated at the banquet table and gathered at the doorway",
+    "x": 55,
+    "y": 290
+   },
+   {
+    "label_ko": "백파이프 연주 소리",
+    "prompt_en": "droning folk melody played on bagpipes",
+    "object_en": "bagpiper in a red jacket holding bagpipes",
+    "x": 275,
+    "y": 395
+   },
+   {
+    "label_ko": "항아리에서 술 따르는 소리",
+    "prompt_en": "ale pouring from a large jug into a smaller pitcher",
+    "object_en": "man pouring drink from a large jug into a pitcher",
+    "x": 95,
+    "y": 710
+   },
+   {
+    "label_ko": "음식 나르는 발걸음과 그릇 부딪히는 소리",
+    "prompt_en": "heavy footsteps and clattering earthenware bowls on a wooden tray",
+    "object_en": "servers carrying a makeshift wooden tray loaded with bowls",
+    "x": 715,
+    "y": 650
+   }
+  ]
+ },
+ "raw": ""
+}

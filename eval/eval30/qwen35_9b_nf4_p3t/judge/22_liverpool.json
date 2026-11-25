@@ -1,0 +1,28 @@
+{
+ "hash": "43ef180b4fa4",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 4
+   },
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Explicitly describes silent masts and generic ambient tone instead of creaking."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 4\n    },\n    {\n      \"model\": 2,\n      \"answer\": 1\n    },\n    {\n      \"model\": 3,\n      \"answer\": 2\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 4,\n      \"verdict\": \"silent\",\n      \"why\": \"Explicitly describes silent masts and generic ambient tone instead of creaking.\"\n    }\n  ]\n}"
+}

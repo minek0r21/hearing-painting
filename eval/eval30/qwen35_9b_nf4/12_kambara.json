@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "12_kambara",
+ "seconds": 43.2,
+ "peak_vram_gb": 8.6,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Tokaido Gojo no Uchi: Goshono",
+  "sources": [
+   {
+    "id": "snowfall",
+    "object_en": "snow",
+    "x": 500,
+    "y": 300,
+    "label_ko": "눈 내리는 소리",
+    "type": "nature",
+    "description_ko": "눈이 천천히 내리는 소리가 들립니다.",
+    "prompt_en": "gentle snow falling sound in winter night, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "walking_people",
+    "object_en": "people walking",
+    "x": 400,
+    "y": 750,
+    "label_ko": "걷는 발소리",
+    "type": "people",
+    "description_ko": "사람들이 눈 덮인 길을 걸으며 발소리가 나옵니다.",
+    "prompt_en": "footsteps crunching on snow-covered path, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "horse_movement",
+    "object_en": "horse",
+    "x": 730,
+    "y": 700,
+    "label_ko": "말의 발소리",
+    "type": "animal",
+    "description_ko": "말이 눈 위를 걸으며 발소리가 들립니다.",
+    "prompt_en": "hoofsteps on snowy ground, field recording",
+    "volume": 0.65
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees",
+    "x": 950,
+    "y": 400,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "바람이 나무 사이를 스치며 소리가 납니다.",
+    "prompt_en": "wind rustling through tall trees in winter, field recording",
+    "volume": 0.55
+   },
+   {
+    "id": "roof_snow_crackle",
+    "object_en": "snow on roof",
+    "x": 600,
+    "y": 500,
+    "label_ko": "지붕 눈 소리",
+    "type": "nature",
+    "description_ko": "지붕에 쌓인 눈이 살짝 부서지는 미세한 소리가 납니다.",
+    "prompt_en": "light crackling sound of snow on wooden roof, field recording",
+    "volume": 0.4
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Tokaido Gojo no Uchi: Goshono\",\n  \"sources\": [\n    {\n      \"id\": \"snowfall\",\n      \"object_en\": \"snow\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"눈 내리는 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈이 천천히 내리는 소리가 들립니다.\",\n      \"prompt_en\": \"gentle snow falling sound in winter night, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"walking_people\",\n      \"object_en\": \"people walking\",\n      \"x\": 400,\n      \"y\": 750,\n      \"label_ko\": \"걷는 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람들이 눈 덮인 길을 걸으며 발소리가 나옵니다.\",\n      \"prompt_en\": \"footsteps crunching on snow-covered path, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"horse_movement\",\n      \"object_en\": \"horse\",\n      \"x\": 730,\n      \"y\": 700,\n      \"label_ko\": \"말의 발소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"말이 눈 위를 걸으며 발소리가 들립니다.\",\n      \"prompt_en\": \"hoofsteps on snowy ground, field recording\",\n      \"volume\": 0.65\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees\",\n      \"x\": 950,\n      \"y\": 400,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 나무 사이를 스치며 소리가 납니다.\",\n      \"prompt_en\": \"wind rustling through tall trees in winter, field recording\",\n      \"volume\": 0.55\n    },\n    {\n      \"id\": \"roof_snow_crackle\",\n      \"object_en\": \"snow on roof\",\n      \"x\": 600,\n      \"y\": 500,\n      \"label_ko\": \"지붕 눈 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"지붕에 쌓인 눈이 살짝 부서지는 미세한 소리가 납니다.\",\n      \"prompt_en\": \"light crackling sound of snow on wooden roof, field recording\",\n      \"volume\": 0.4\n    }\n  ]\n}\n"
+}

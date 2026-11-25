@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "22_liverpool",
+ "seconds": 47.9,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Fog on the Thames",
+  "sources": [
+   {
+    "id": "fog_ambient",
+    "object_en": "thick fog over the street and harbor",
+    "x": 500,
+    "y": 300,
+    "label_ko": "안개",
+    "type": "nature",
+    "description_ko": "거대한 안개가 거리와 항구를 감싸고 있어 무거운 공기와 습한 바람 소리가 난다.",
+    "prompt_en": "thick fog rolling over a cobblestone street and harbor at dusk, muffled ambient sound of damp air and distant wind, field recording"
+   },
+   {
+    "id": "horse_car_movement",
+    "object_en": "horse-drawn carriage moving down the street",
+    "x": 480,
+    "y": 720,
+    "label_ko": "마차 소리",
+    "type": "vehicle",
+    "description_ko": "말이 끄는 마차가 젖은 돌길을 지나며 갈퀴 소리와 말의 발소리가 들린다.",
+    "prompt_en": "cobbled street with a horse-drawn carriage moving forward, sound of hooves on wet stone and carriage wheels, field recording"
+   },
+   {
+    "id": "pedestrians_walking",
+    "object_en": "people walking on the wet street",
+    "x": 180,
+    "y": 780,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "비 젖은 길 위를 걷는 사람들의 발걸음 소리가 연이어 들린다.",
+    "prompt_en": "wet cobblestone street with multiple pedestrians walking, sound of footsteps on damp stone, field recording"
+   },
+   {
+    "id": "shop_window_reflection",
+    "object_en": "illuminated shop windows reflecting streetlights",
+    "x": 900,
+    "y": 750,
+    "label_ko": "가게 조명",
+    "type": "nature",
+    "description_ko": "점점 어두워지는 거리에서 가게 창문의 따뜻한 불빛이 반사되며 은은한 빛의 소리가 난다.",
+    "prompt_en": "warm yellow light glowing from shop windows on a foggy street, subtle ambient glow sound, field recording"
+   },
+   {
+    "id": "ship_masts_silence",
+    "object_en": "ship masts in the harbor",
+    "x": 100,
+    "y": 400,
+    "label_ko": "배의 돛대",
+    "type": "nature",
+    "description_ko": "안개 속 항구의 배 돛대들이 조용히 서 있어 특별한 소리는 없다.",
+    "prompt_en": "still ship masts in foggy harbor, no visible motion or sound, ambient silence, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Fog on the Thames\",\n  \"sources\": [\n    {\n      \"id\": \"fog_ambient\",\n      \"object_en\": \"thick fog over the street and harbor\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"안개\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거대한 안개가 거리와 항구를 감싸고 있어 무거운 공기와 습한 바람 소리가 난다.\",\n      \"prompt_en\": \"thick fog rolling over a cobblestone street and harbor at dusk, muffled ambient sound of damp air and distant wind, field recording\"\n    },\n    {\n      \"id\": \"horse_car_movement\",\n      \"object_en\": \"horse-drawn carriage moving down the street\",\n      \"x\": 480,\n      \"y\": 720,\n      \"label_ko\": \"마차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"말이 끄는 마차가 젖은 돌길을 지나며 갈퀴 소리와 말의 발소리가 들린다.\",\n      \"prompt_en\": \"cobbled street with a horse-drawn carriage moving forward, sound of hooves on wet stone and carriage wheels, field recording\"\n    },\n    {\n      \"id\": \"pedestrians_walking\",\n      \"object_en\": \"people walking on the wet street\",\n      \"x\": 180,\n      \"y\": 780,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"비 젖은 길 위를 걷는 사람들의 발걸음 소리가 연이어 들린다.\",\n      \"prompt_en\": \"wet cobblestone street with multiple pedestrians walking, sound of footsteps on damp stone, field recording\"\n    },\n    {\n      \"id\": \"shop_window_reflection\",\n      \"object_en\": \"illuminated shop windows reflecting streetlights\",\n      \"x\": 900,\n      \"y\": 750,\n      \"label_ko\": \"가게 조명\",\n      \"type\": \"nature\",\n      \"description_ko\": \"점점 어두워지는 거리에서 가게 창문의 따뜻한 불빛이 반사되며 은은한 빛의 소리가 난다.\",\n      \"prompt_en\": \"warm yellow light glowing from shop windows on a foggy street, subtle ambient glow sound, field recording\"\n    },\n    {\n      \"id\": \"ship_masts_silence\",\n      \"object_en\": \"ship masts in the harbor\",\n      \"x\": 100,\n      \"y\": 400,\n      \"label_ko\": \"배의 돛대\",\n      \"type\": \"nature\",\n      \"description_ko\": \"안개 속 항구의 배 돛대들이 조용히 서 있어 특별한 소리는 없다.\",\n      \"prompt_en\": \"still ship masts in foggy harbor, no visible motion or sound, ambient silence, field recording\"\n    }\n  ]\n}\n"
+}

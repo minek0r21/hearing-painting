@@ -1,0 +1,55 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "04_beach",
+ "seconds": 29.2,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "파도 소리",
+    "prompt_en": "ocean waves breaking and washing onto the shore",
+    "object_en": "ocean surf along the shoreline"
+   },
+   {
+    "label_ko": "바닷바람 소리",
+    "prompt_en": "brisk coastal wind blowing across the open beach",
+    "object_en": "windy coastal sky and blowing clothing"
+   },
+   {
+    "label_ko": "사람들의 대화 소리",
+    "prompt_en": "groups of beachgoers chatting and murmuring on the sand",
+    "object_en": "groups of beachgoers standing on the beach",
+    "x": 295,
+    "y": 780
+   },
+   {
+    "label_ko": "말발굽과 마구 소리",
+    "prompt_en": "horses snorting, hooves shifting in the sand, and harness jingling",
+    "object_en": "two horses standing beside bathing machines",
+    "x": 855,
+    "y": 795
+   },
+   {
+    "label_ko": "개 짖는 소리",
+    "prompt_en": "dogs barking and scampering on the beach",
+    "object_en": "dogs on the sandy beach",
+    "x": 510,
+    "y": 848
+   },
+   {
+    "label_ko": "물놀이하는 소리",
+    "prompt_en": "distant bathers splashing and calling out in the surf",
+    "object_en": "bathers in the ocean water",
+    "x": 510,
+    "y": 790
+   }
+  ]
+ },
+ "raw": ""
+}

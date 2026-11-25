@@ -1,0 +1,83 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "30_stilllife",
+ "seconds": 50.3,
+ "peak_vram_gb": 8.67,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Still Life with Oysters and Wine",
+  "sources": [
+   {
+    "id": "oyster_platter_crack",
+    "object_en": "oyster platter",
+    "x": 300,
+    "y": 600,
+    "label_ko": "굴 접시",
+    "type": "nature",
+    "description_ko": "굴이 접시에서 살짝 떨어지는 소리가 들립니다.",
+    "prompt_en": "soft clinking sound of oysters shifting on a metal platter, field recording"
+   },
+   {
+    "id": "wine_glass_rattle",
+    "object_en": "wine glass",
+    "x": 570,
+    "y": 350,
+    "label_ko": "와인 잔",
+    "type": "nature",
+    "description_ko": "와인 잔이 테이블 위에 살짝 흔들리는 소리가 납니다.",
+    "prompt_en": "gentle rattle of crystal wine glass on wooden table, field recording"
+   },
+   {
+    "id": "lemon_peel_drop",
+    "object_en": "lemon peel",
+    "x": 880,
+    "y": 700,
+    "label_ko": "레몬 껍질",
+    "type": "nature",
+    "description_ko": "레몬 껍질이 천천히 떨어지는 소리가 들립니다.",
+    "prompt_en": "crisp snap of lemon peel falling onto tablecloth, field recording"
+   },
+   {
+    "id": "silver_pitcher_creak",
+    "object_en": "silver pitcher",
+    "x": 820,
+    "y": 400,
+    "label_ko": "은색 주전자",
+    "type": "nature",
+    "description_ko": "은색 주전자가 천천히 기울어지는 소리가 납니다.",
+    "prompt_en": "soft metallic creak of silver pitcher tilting slightly, field recording"
+   },
+   {
+    "id": "bread_crumb_fall",
+    "object_en": "bread roll",
+    "x": 440,
+    "y": 650,
+    "label_ko": "빵",
+    "type": "nature",
+    "description_ko": "빵 조각이 천천히 떨어지는 소리가 들립니다.",
+    "prompt_en": "soft thud of bread crumb falling onto tablecloth, field recording"
+   },
+   {
+    "id": "ambient_room_hush",
+    "object_en": "background space",
+    "x": 500,
+    "y": 500,
+    "label_ko": "배경 공간",
+    "type": "nature",
+    "description_ko": "조용한 방의 숨결 같은 배경 소리가 납니다.",
+    "prompt_en": "quiet ambient room tone with subtle fabric rustle, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Still Life with Oysters and Wine\",\n  \"sources\": [\n    {\n      \"id\": \"oyster_platter_crack\",\n      \"object_en\": \"oyster platter\",\n      \"x\": 300,\n      \"y\": 600,\n      \"label_ko\": \"굴 접시\",\n      \"type\": \"nature\",\n      \"description_ko\": \"굴이 접시에서 살짝 떨어지는 소리가 들립니다.\",\n      \"prompt_en\": \"soft clinking sound of oysters shifting on a metal platter, field recording\"\n    },\n    {\n      \"id\": \"wine_glass_rattle\",\n      \"object_en\": \"wine glass\",\n      \"x\": 570,\n      \"y\": 350,\n      \"label_ko\": \"와인 잔\",\n      \"type\": \"nature\",\n      \"description_ko\": \"와인 잔이 테이블 위에 살짝 흔들리는 소리가 납니다.\",\n      \"prompt_en\": \"gentle rattle of crystal wine glass on wooden table, field recording\"\n    },\n    {\n      \"id\": \"lemon_peel_drop\",\n      \"object_en\": \"lemon peel\",\n      \"x\": 880,\n      \"y\": 700,\n      \"label_ko\": \"레몬 껍질\",\n      \"type\": \"nature\",\n      \"description_ko\": \"레몬 껍질이 천천히 떨어지는 소리가 들립니다.\",\n      \"prompt_en\": \"crisp snap of lemon peel falling onto tablecloth, field recording\"\n    },\n    {\n      \"id\": \"silver_pitcher_creak\",\n      \"object_en\": \"silver pitcher\",\n      \"x\": 820,\n      \"y\": 400,\n      \"label_ko\": \"은색 주전자\",\n      \"type\": \"nature\",\n      \"description_ko\": \"은색 주전자가 천천히 기울어지는 소리가 납니다.\",\n      \"prompt_en\": \"soft metallic creak of silver pitcher tilting slightly, field recording\"\n    },\n    {\n      \"id\": \"bread_crumb_fall\",\n      \"object_en\": \"bread roll\",\n      \"x\": 440,\n      \"y\": 650,\n      \"label_ko\": \"빵\",\n      \"type\": \"nature\",\n      \"description_ko\": \"빵 조각이 천천히 떨어지는 소리가 들립니다.\",\n      \"prompt_en\": \"soft thud of bread crumb falling onto tablecloth, field recording\"\n    },\n    {\n      \"id\": \"ambient_room_hush\",\n      \"object_en\": \"background space\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"배경 공간\",\n      \"type\": \"nature\",\n      \"description_ko\": \"조용한 방의 숨결 같은 배경 소리가 납니다.\",\n      \"prompt_en\": \"quiet ambient room tone with subtle fabric rustle, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,20 @@
+{
+ "hash": "62b19a859e77",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Visible woman can softly exhale."
+   },
+   {
+    "model": 2,
+    "verdict": "silent",
+    "why": "Background room tone is silent."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Visible woman can softly exhale.\"}, {\"model\": 2, \"verdict\": \"silent\", \"why\": \"Background room tone is silent.\"}]}"
+}

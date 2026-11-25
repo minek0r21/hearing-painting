@@ -1,0 +1,24 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 2,
+   "answer": 5
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "People are visible and can murmur."
+  },
+  {
+   "model": 4,
+   "verdict": "plausible",
+   "why": "Swords are visible and can clink."
+  }
+ ]
+}

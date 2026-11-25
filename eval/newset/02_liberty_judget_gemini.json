@@ -1,0 +1,24 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 4,
+   "answer": 2
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 2,
+   "verdict": "plausible",
+   "why": "Fighters are advancing over rubble."
+  },
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Visible guns can be fired."
+  }
+ ]
+}

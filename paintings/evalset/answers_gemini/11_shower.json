@@ -1,0 +1,142 @@
+{
+ "model": "gemini-4-neon",
+ "file": "11_shower.jpg",
+ "seconds": 33.0,
+ "parsed": {
+  "title_guess": "Sudden Shower over Shin-Ōhashi Bridge and Atake",
+  "sources": [
+   {
+    "label_ko": "세차게 쏟아지는 빗소리",
+    "sound_en": "heavy rain pouring down across the bridge and river",
+    "ground_phrase_en": "heavy rain shower",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "나무 다리 위를 급히 걷는 발소리",
+    "sound_en": "hurried footsteps on wet wooden bridge planks",
+    "ground_phrase_en": "people hurrying across wooden bridge",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      280,
+      725
+     ],
+     [
+      430,
+      675
+     ],
+     [
+      605,
+      635
+     ],
+     [
+      720,
+      608
+     ]
+    ]
+   },
+   {
+    "label_ko": "우산과 삿갓을 두드리는 빗방울 소리",
+    "sound_en": "rain pattering on paper umbrellas and straw hats",
+    "ground_phrase_en": "umbrellas and straw hats in the rain",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      248,
+      658
+     ],
+     [
+      282,
+      676
+     ],
+     [
+      405,
+      624
+     ],
+     [
+      610,
+      572
+     ],
+     [
+      735,
+      568
+     ]
+    ]
+   },
+   {
+    "label_ko": "교각에 부딪히며 흐르는 강물 소리",
+    "sound_en": "river water flowing and lapping against wooden bridge pilings",
+    "ground_phrase_en": "river and wooden bridge pilings",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "뗏목을 젓는 장대의 물장구 소리",
+    "sound_en": "wooden pole splashing in the river as the log raft glides forward",
+    "ground_phrase_en": "boatman poling a log raft",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      195,
+      518
+     ]
+    ]
+   },
+   {
+    "label_ko": "비와 함께 부는 바람 소리",
+    "sound_en": "wind blowing through the sudden downpour",
+    "ground_phrase_en": "slanted rainstorm",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "비를 피하며 나누는 사람들의 목소리",
+    "sound_en": "muffled voices of pedestrians rushing together through the shower",
+    "ground_phrase_en": "pairs of pedestrians walking together on the bridge",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      275,
+      695
+     ],
+     [
+      608,
+      605
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Sudden Shower over Shin-Ōhashi Bridge and Atake\",\n  \"sources\": [\n    {\n      \"label_ko\": \"세차게 쏟아지는 빗소리\",\n      \"sound_en\": \"heavy rain pouring down across the bridge and river\",\n      \"ground_phrase_en\": \"heavy rain shower\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"나무 다리 위를 급히 걷는 발소리\",\n      \"sound_en\": \"hurried footsteps on wet wooden bridge planks\",\n      \"ground_phrase_en\": \"people hurrying across wooden bridge\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [280, 725],\n        [430, 675],\n        [605, 635],\n        [720, 608]\n      ]\n    },\n    {\n      \"label_ko\": \"우산과 삿갓을 두드리는 빗방울 소리\",\n      \"sound_en\": \"rain pattering on paper umbrellas and straw hats\",\n      \"ground_phrase_en\": \"umbrellas and straw hats in the rain\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [248, 658],\n        [282, 676],\n        [405, 624],\n        [610, 572],\n        [735, 568]\n      ]\n    },\n    {\n      \"label_ko\": \"교각에 부딪히며 흐르는 강물 소리\",\n      \"sound_en\": \"river water flowing and lapping against wooden bridge pilings\",\n      \"ground_phrase_en\": \"river and wooden bridge pilings\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"뗏목을 젓는 장대의 물장구 소리\",\n      \"sound_en\": \"wooden pole splashing in the river as the log raft glides forward\",\n      \"ground_phrase_en\": \"boatman poling a log raft\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [195, 518]\n      ]\n    },\n    {\n      \"label_ko\": \"비와 함께 부는 바람 소리\",\n      \"sound_en\": \"wind blowing through the sudden downpour\",\n      \"ground_phrase_en\": \"slanted rainstorm\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"비를 피하며 나누는 사람들의 목소리\",\n      \"sound_en\": \"muffled voices of pedestrians rushing together through the shower\",\n      \"ground_phrase_en\": \"pairs of pedestrians walking together on the bridge\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [275, 695],\n        [608, 605]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1612,
+  "candidatesTokenCount": 788,
+  "totalTokenCount": 5030,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1107
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 788
+   }
+  ],
+  "thoughtsTokenCount": 2630,
+  "serviceTier": "standard"
+ }
+}

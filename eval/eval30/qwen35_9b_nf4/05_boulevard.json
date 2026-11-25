@@ -1,0 +1,67 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "05_boulevard",
+ "seconds": 40.3,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Boulevard des Capucines",
+  "sources": [
+   {
+    "id": "newspaper_reader",
+    "object_en": "newspaper",
+    "x": 770,
+    "y": 600,
+    "label_ko": "신문",
+    "type": "people",
+    "description_ko": "남자가 손에 들고 있는 신문에서 나오는 소음.",
+    "prompt_en": "rustling of a newspaper being read, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "man_conversation",
+    "object_en": "men talking",
+    "x": 600,
+    "y": 550,
+    "label_ko": "대화",
+    "type": "people",
+    "description_ko": "남자들이 서로 이야기하는 목소리.",
+    "prompt_en": "men talking in a group, low volume conversation, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "woman_silence",
+    "object_en": "woman walking",
+    "x": 450,
+    "y": 600,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "여자가 조용히 걸어가는 발걸음 소리.",
+    "prompt_en": "soft footsteps of a woman walking on pavement, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "street_ambience",
+    "object_en": "street scene",
+    "x": 500,
+    "y": 500,
+    "label_ko": "거리 소음",
+    "type": "nature",
+    "description_ko": "바쁜 거리에서 들려오는 배경 소음.",
+    "prompt_en": "ambient street noise in a busy city, field recording",
+    "volume": 0.6
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"The Boulevard des Capucines\",\n  \"sources\": [\n    {\n      \"id\": \"newspaper_reader\",\n      \"object_en\": \"newspaper\",\n      \"x\": 770,\n      \"y\": 600,\n      \"label_ko\": \"신문\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 손에 들고 있는 신문에서 나오는 소음.\",\n      \"prompt_en\": \"rustling of a newspaper being read, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"man_conversation\",\n      \"object_en\": \"men talking\",\n      \"x\": 600,\n      \"y\": 550,\n      \"label_ko\": \"대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자들이 서로 이야기하는 목소리.\",\n      \"prompt_en\": \"men talking in a group, low volume conversation, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"woman_silence\",\n      \"object_en\": \"woman walking\",\n      \"x\": 450,\n      \"y\": 600,\n      \"label_ko\": \"걸음걸이\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 조용히 걸어가는 발걸음 소리.\",\n      \"prompt_en\": \"soft footsteps of a woman walking on pavement, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"street_ambience\",\n      \"object_en\": \"street scene\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"거리 소음\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바쁜 거리에서 들려오는 배경 소음.\",\n      \"prompt_en\": \"ambient street noise in a busy city, field recording\",\n      \"volume\": 0.6\n    }\n  ]\n}\n```\n"
+}

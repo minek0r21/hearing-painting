@@ -1,0 +1,29 @@
+{
+ "hash": "f42d505c2ee6",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No dough or rolling pin in scene."
+   },
+   {
+    "model": 4,
+    "verdict": "not_visible",
+    "why": "Instrument shown is a bagpipe, not a horn."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 4}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No dough or rolling pin in scene.\"}, {\"model\": 4, \"verdict\": \"not_visible\", \"why\": \"Instrument shown is a bagpipe, not a horn.\"}]}"
+}

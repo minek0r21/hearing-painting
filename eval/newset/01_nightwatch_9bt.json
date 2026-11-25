@@ -1,0 +1,50 @@
+{
+ "painting": "01_nightwatch",
+ "seconds": 34.0,
+ "parsed": {
+  "title_guess": "Night Watch",
+  "sources": [
+   {
+    "id": "drum_beating",
+    "object_en": "drum",
+    "x": 950,
+    "y": 750,
+    "label_ko": "북소리",
+    "type": "music",
+    "description_ko": "오른쪽 아래에서 북을 치는 소리가 들립니다.",
+    "prompt_en": "loud rhythmic drumming sound, field recording"
+   },
+   {
+    "id": "marching_footsteps",
+    "object_en": "marching soldiers",
+    "x": 450,
+    "y": 850,
+    "label_ko": "군인 발걸음",
+    "type": "people",
+    "description_ko": "중앙에 서 있는 군인들이 행진하며 발을 내딛는 소리가 들립니다.",
+    "prompt_en": "heavy rhythmic marching footsteps on stone floor, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 300,
+    "y": 500,
+    "label_ko": "군중 소란",
+    "type": "people",
+    "description_ko": "왼쪽과 뒤쪽의 군중들이 떠들며 소란을 피우는 목소리 소리가 들립니다.",
+    "prompt_en": "loud chaotic murmuring and shouting of a crowd, field recording"
+   },
+   {
+    "id": "sword_clink",
+    "object_en": "sword",
+    "x": 650,
+    "y": 700,
+    "label_ko": "칼 소리",
+    "type": "people",
+    "description_ko": "오른쪽 앞의 남자가 칼을 휘두르며 금속이 부딪히는 소리가 들립니다.",
+    "prompt_en": "sharp metallic clinking sound of a sword being drawn or moved, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Night Watch\",\n\"sources\": [\n  {\n    \"id\": \"drum_beating\",\n    \"object_en\": \"drum\",\n    \"x\": 950,\n    \"y\": 750,\n    \"label_ko\": \"북소리\",\n    \"type\": \"music\",\n    \"description_ko\": \"오른쪽 아래에서 북을 치는 소리가 들립니다.\",\n    \"prompt_en\": \"loud rhythmic drumming sound, field recording\"\n  },\n  {\n    \"id\": \"marching_footsteps\",\n    \"object_en\": \"marching soldiers\",\n    \"x\": 450,\n    \"y\": 850,\n    \"label_ko\": \"군인 발걸음\",\n    \"type\": \"people\",\n    \"description_ko\": \"중앙에 서 있는 군인들이 행진하며 발을 내딛는 소리가 들립니다.\",\n    \"prompt_en\": \"heavy rhythmic marching footsteps on stone floor, field recording\"\n  },\n  {\n    \"id\": \"crowd_murmur\",\n    \"object_en\": \"crowd of people\",\n    \"x\": 300,\n    \"y\": 500,\n    \"label_ko\": \"군중 소란\",\n    \"type\": \"people\",\n    \"description_ko\": \"왼쪽과 뒤쪽의 군중들이 떠들며 소란을 피우는 목소리 소리가 들립니다.\",\n    \"prompt_en\": \"loud chaotic murmuring and shouting of a crowd, field recording\"\n  },\n  {\n    \"id\": \"sword_clink\",\n    \"object_en\": \"sword\",\n    \"x\": 650,\n    \"y\": 700,\n    \"label_ko\": \"칼 소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"오른쪽 앞의 남자가 칼을 휘두르며 금속이 부딪히는 소리가 들립니다.\",\n    \"prompt_en\": \"sharp metallic clinking sound of a sword being drawn or moved, field recording\"\n  }\n]\n}\n```\n"
+}

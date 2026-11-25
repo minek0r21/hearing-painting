@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "04_beach",
+ "seconds": 41.9,
+ "peak_vram_gb": 8.66,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Beach Scene with Figures",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "group of people on the beach",
+    "x": 300,
+    "y": 750,
+    "label_ko": "사람들",
+    "type": "people",
+    "description_ko": "모래사장 위에 서 있는 여러 명의 사람들이 서로 대화하고 있는 소리가 들립니다.",
+    "prompt_en": "soft murmuring of a small group of people talking on a beach, field recording"
+   },
+   {
+    "id": "seagull_cry",
+    "object_en": "seagull in the sky",
+    "x": 600,
+    "y": 300,
+    "label_ko": "새소리",
+    "type": "animal",
+    "description_ko": "하늘을 나는 새가 날아다니며 날카로운 소리를 냅니다.",
+    "prompt_en": "sharp cry of a seagull flying in the sky, field recording"
+   },
+   {
+    "id": "dog_bark",
+    "object_en": "dog on the sand",
+    "x": 500,
+    "y": 800,
+    "label_ko": "개 짖음",
+    "type": "animal",
+    "description_ko": "모래 위를 뛰어다니는 개가 짖는 소리가 들립니다.",
+    "prompt_en": "barking of a dog running on the sand, field recording"
+   },
+   {
+    "id": "horses_neigh",
+    "object_en": "horses near the carts",
+    "x": 850,
+    "y": 750,
+    "label_ko": "말 소리",
+    "type": "animal",
+    "description_ko": "마차 옆에 서 있는 말들이 움직이며 소리를 냅니다.",
+    "prompt_en": "neighing of horses standing near carts on the beach, field recording"
+   },
+   {
+    "id": "waves_crash",
+    "object_en": "ocean waves",
+    "x": 200,
+    "y": 700,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "바다에서 부서지는 파도 소리가 배경에 깔려 있습니다.",
+    "prompt_en": "crashing sound of ocean waves on the shore, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Beach Scene with Figures\",\n\"sources\": [\n  {\n    \"id\": \"crowd_murmur\",\n    \"object_en\": \"group of people on the beach\",\n    \"x\": 300,\n    \"y\": 750,\n    \"label_ko\": \"사람들\",\n    \"type\": \"people\",\n    \"description_ko\": \"모래사장 위에 서 있는 여러 명의 사람들이 서로 대화하고 있는 소리가 들립니다.\",\n    \"prompt_en\": \"soft murmuring of a small group of people talking on a beach, field recording\"\n  },\n  {\n    \"id\": \"seagull_cry\",\n    \"object_en\": \"seagull in the sky\",\n    \"x\": 600,\n    \"y\": 300,\n    \"label_ko\": \"새소리\",\n    \"type\": \"animal\",\n    \"description_ko\": \"하늘을 나는 새가 날아다니며 날카로운 소리를 냅니다.\",\n    \"prompt_en\": \"sharp cry of a seagull flying in the sky, field recording\"\n  },\n  {\n    \"id\": \"dog_bark\",\n    \"object_en\": \"dog on the sand\",\n    \"x\": 500,\n    \"y\": 800,\n    \"label_ko\": \"개 짖음\",\n    \"type\": \"animal\",\n    \"description_ko\": \"모래 위를 뛰어다니는 개가 짖는 소리가 들립니다.\",\n    \"prompt_en\": \"barking of a dog running on the sand, field recording\"\n  },\n  {\n    \"id\": \"horses_neigh\",\n    \"object_en\": \"horses near the carts\",\n    \"x\": 850,\n    \"y\": 750,\n    \"label_ko\": \"말 소리\",\n    \"type\": \"animal\",\n    \"description_ko\": \"마차 옆에 서 있는 말들이 움직이며 소리를 냅니다.\",\n    \"prompt_en\": \"neighing of horses standing near carts on the beach, field recording\"\n  },\n  {\n    \"id\": \"waves_crash\",\n    \"object_en\": \"ocean waves\",\n    \"x\": 200,\n    \"y\": 700,\n    \"label_ko\": \"파도 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"바다에서 부서지는 파도 소리가 배경에 깔려 있습니다.\",\n    \"prompt_en\": \"crashing sound of ocean waves on the shore, field recording\"\n  }\n]\n}\n```\n"
+}

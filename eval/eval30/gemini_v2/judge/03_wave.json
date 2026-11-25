@@ -1,0 +1,28 @@
+{
+ "hash": "d70e47fc82e0",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Rowers are visible; A3 already paired."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}, {\"model\": 3, \"answer\": 4}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Rowers are visible; A3 already paired.\"}]}"
+}

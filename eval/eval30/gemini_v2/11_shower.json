@@ -1,0 +1,41 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "11_shower",
+ "seconds": 29.9,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "장대비 쏟아지는 소리",
+    "prompt_en": "heavy rain pouring down",
+    "object_en": "heavy rain"
+   },
+   {
+    "label_ko": "나무 다리 위 급한 발걸음 소리",
+    "prompt_en": "hurried footsteps on wet wooden bridge",
+    "object_en": "people hurrying across the wooden bridge",
+    "x": 260,
+    "y": 700
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "prompt_en": "river water flowing against wooden bridge pilings",
+    "object_en": "river water"
+   },
+   {
+    "label_ko": "뗏목 삿대질 소리",
+    "prompt_en": "raft pole splashing in river water",
+    "object_en": "boatman poling a log raft",
+    "x": 205,
+    "y": 520
+   }
+  ]
+ },
+ "raw": ""
+}

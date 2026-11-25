@@ -1,0 +1,33 @@
+{
+ "hash": "7d296a0ba7f0",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Two women in yellow are seated together."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "A walking man is visible on the ground."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}, {\"model\": 5, \"answer\": 4}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Two women in yellow are seated together.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"A walking man is visible on the ground.\"}]}"
+}

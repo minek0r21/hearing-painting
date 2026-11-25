@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "24_avercamp",
+ "seconds": 41.5,
+ "peak_vram_gb": 9.02,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with Skaters and Bird Catchers",
+  "sources": [
+   {
+    "id": "skaters_on_ice",
+    "object_en": "people skating on frozen canal",
+    "x": 850,
+    "y": 800,
+    "label_ko": "얼음 스케이트",
+    "type": "people",
+    "description_ko": "얼음 위에서 스케이트를 타는 사람들의 발걸음과 빙판 소리",
+    "prompt_en": "crunching footsteps on frozen canal ice, creaking skates, field recording"
+   },
+   {
+    "id": "bird_catchers_netting",
+    "object_en": "men casting nets to catch birds",
+    "x": 350,
+    "y": 750,
+    "label_ko": "새 잡는 그물",
+    "type": "people",
+    "description_ko": "새를 잡기 위해 그물을 던지는 사람들의 움직임과 바람 소리",
+    "prompt_en": "rustling net being cast by men, flapping wings of trapped birds, field recording"
+   },
+   {
+    "id": "flying_birds",
+    "object_en": "birds flying in sky",
+    "x": 450,
+    "y": 150,
+    "label_ko": "날아다니는 새",
+    "type": "animal",
+    "description_ko": "하늘을 나는 새들의 날갯짓과 날개 소리",
+    "prompt_en": "flapping wings of multiple birds in flight, distant chirping, field recording"
+   },
+   {
+    "id": "chimney_smoke",
+    "object_en": "smoke rising from chimney",
+    "x": 420,
+    "y": 480,
+    "label_ko": "연기",
+    "type": "nature",
+    "description_ko": "난로에서 피어오르는 연기의 바람 소리",
+    "prompt_en": "soft whoosh of smoke rising from brick chimney, field recording"
+   },
+   {
+    "id": "boat_moored",
+    "object_en": "wooden boat pulled onto shore",
+    "x": 250,
+    "y": 800,
+    "label_ko": "배",
+    "type": "vehicle",
+    "description_ko": "물결에 떠 있던 배가 육지에 끌려올라가는 소리",
+    "prompt_en": "creaking wood of boat being dragged on snow-covered ground, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with Skaters and Bird Catchers\",\n  \"sources\": [\n    {\n      \"id\": \"skaters_on_ice\",\n      \"object_en\": \"people skating on frozen canal\",\n      \"x\": 850,\n      \"y\": 800,\n      \"label_ko\": \"얼음 스케이트\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼음 위에서 스케이트를 타는 사람들의 발걸음과 빙판 소리\",\n      \"prompt_en\": \"crunching footsteps on frozen canal ice, creaking skates, field recording\"\n    },\n    {\n      \"id\": \"bird_catchers_netting\",\n      \"object_en\": \"men casting nets to catch birds\",\n      \"x\": 350,\n      \"y\": 750,\n      \"label_ko\": \"새 잡는 그물\",\n      \"type\": \"people\",\n      \"description_ko\": \"새를 잡기 위해 그물을 던지는 사람들의 움직임과 바람 소리\",\n      \"prompt_en\": \"rustling net being cast by men, flapping wings of trapped birds, field recording\"\n    },\n    {\n      \"id\": \"flying_birds\",\n      \"object_en\": \"birds flying in sky\",\n      \"x\": 450,\n      \"y\": 150,\n      \"label_ko\": \"날아다니는 새\",\n      \"type\": \"animal\",\n      \"description_ko\": \"하늘을 나는 새들의 날갯짓과 날개 소리\",\n      \"prompt_en\": \"flapping wings of multiple birds in flight, distant chirping, field recording\"\n    },\n    {\n      \"id\": \"chimney_smoke\",\n      \"object_en\": \"smoke rising from chimney\",\n      \"x\": 420,\n      \"y\": 480,\n      \"label_ko\": \"연기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"난로에서 피어오르는 연기의 바람 소리\",\n      \"prompt_en\": \"soft whoosh of smoke rising from brick chimney, field recording\"\n    },\n    {\n      \"id\": \"boat_moored\",\n      \"object_en\": \"wooden boat pulled onto shore\",\n      \"x\": 250,\n      \"y\": 800,\n      \"label_ko\": \"배\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"물결에 떠 있던 배가 육지에 끌려올라가는 소리\",\n      \"prompt_en\": \"creaking wood of boat being dragged on snow-covered ground, field recording\"\n    }\n  ]\n}\n"
+}

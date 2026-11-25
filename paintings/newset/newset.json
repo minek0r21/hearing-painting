@@ -1,0 +1,76 @@
+[
+ {
+  "n": 1,
+  "slug": "nightwatch",
+  "title": "야경",
+  "artist": "렘브란트",
+  "style": "바로크",
+  "file": "01_nightwatch.jpg"
+ },
+ {
+  "n": 2,
+  "slug": "liberty",
+  "title": "민중을 이끄는 자유의 여신",
+  "artist": "들라크루아",
+  "style": "낭만주의",
+  "file": "02_liberty.jpg"
+ },
+ {
+  "n": 3,
+  "slug": "gleaners",
+  "title": "이삭 줍는 여인들",
+  "artist": "밀레",
+  "style": "사실주의",
+  "file": "03_gleaners.jpg",
+  "commons": "File:Jean-François Millet - Gleaners - Google Art Project 2.jpg",
+  "license": "Public domain"
+ },
+ {
+  "n": 4,
+  "slug": "saintlazare",
+  "title": "생라자르 역",
+  "artist": "모네",
+  "style": "인상주의",
+  "file": "04_saintlazare.jpg"
+ },
+ {
+  "n": 5,
+  "slug": "swing",
+  "title": "그네",
+  "artist": "프라고나르",
+  "style": "로코코",
+  "file": "05_swing.jpg"
+ },
+ {
+  "n": 6,
+  "slug": "cafeterrace",
+  "title": "밤의 카페 테라스",
+  "artist": "반 고흐",
+  "style": "후기인상주의",
+  "file": "06_cafeterrace.jpg"
+ },
+ {
+  "n": 7,
+  "slug": "scream",
+  "title": "절규",
+  "artist": "뭉크",
+  "style": "표현주의",
+  "file": "07_scream.jpg"
+ },
+ {
+  "n": 8,
+  "slug": "pajeokdo",
+  "title": "파적도",
+  "artist": "김득신",
+  "style": "조선 풍속화",
+  "file": "08_pajeokdo.jpg"
+ },
+ {
+  "n": 9,
+  "slug": "ejiri",
+  "title": "스루가의 에지리",
+  "artist": "호쿠사이",
+  "style": "우키요에",
+  "file": "09_ejiri.jpg"
+ }
+]

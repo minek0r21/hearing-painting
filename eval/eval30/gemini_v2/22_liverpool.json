@@ -1,0 +1,43 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "22_liverpool",
+ "seconds": 27.6,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "젖은 자갈길 위 마차 바퀴와 말발굽 소리",
+    "prompt_en": "horse-drawn carriages clattering and hooves splashing on wet cobblestones",
+    "object_en": "horse-drawn omnibus and carriage on the street",
+    "x": 475,
+    "y": 755
+   },
+   {
+    "label_ko": "젖은 보도 위 보행자 발걸음과 웅성거림",
+    "prompt_en": "pedestrian footsteps on wet pavement and muffled street chatter",
+    "object_en": "pedestrians walking along the sidewalks",
+    "x": 180,
+    "y": 810
+   },
+   {
+    "label_ko": "보슬비 내리는 소리",
+    "prompt_en": "light rain falling on wet cobblestones and roofs",
+    "object_en": "rainy misty night sky and glistening wet street"
+   },
+   {
+    "label_ko": "정박한 범선의 삐걱거림과 항구 물결 소리",
+    "prompt_en": "creaking ship rigging and harbor water lapping against moored hulls",
+    "object_en": "masts of sailing ships moored at the docks",
+    "x": 45,
+    "y": 520
+   }
+  ]
+ },
+ "raw": ""
+}

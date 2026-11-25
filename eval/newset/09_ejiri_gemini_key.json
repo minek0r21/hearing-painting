@@ -1,0 +1,84 @@
+{
+ "title_guess": "Ejiri in Suruga Province (Katsushika Hokusai)",
+ "sources": [
+  {
+   "label_ko": "세차게 몰아치는 바람 소리",
+   "sound_en": "strong gust of wind howling across the open plain",
+   "ground_phrase_en": "strong wind sweeping across the landscape",
+   "source_type": "ambient",
+   "grade": "required",
+   "points": []
+  },
+  {
+   "label_ko": "바람에 거세게 흔들리는 나뭇가지와 잎 소리",
+   "sound_en": "tall trees bending and leaves rustling fiercely in the wind",
+   "ground_phrase_en": "two tall bending trees",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     395,
+     95
+    ],
+    [
+     485,
+     170
+    ]
+   ]
+  },
+  {
+   "label_ko": "바람에 쓰러지며 스치는 갈대밭 소리",
+   "sound_en": "tall marsh reeds swishing and rustling heavily in the wind",
+   "ground_phrase_en": "tall windblown marsh reeds",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     90,
+     740
+    ],
+    [
+     160,
+     570
+    ],
+    [
+     850,
+     710
+    ],
+    [
+     710,
+     820
+    ]
+   ]
+  },
+  {
+   "label_ko": "돌풍에 놀라 외치며 서둘러 걷는 길손들 소리",
+   "sound_en": "travelers exclaiming and hurrying footsteps along the dirt path",
+   "ground_phrase_en": "travelers struggling against the wind",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     185,
+     800
+    ],
+    [
+     400,
+     785
+    ],
+    [
+     515,
+     765
+    ],
+    [
+     745,
+     655
+    ],
+    [
+     405,
+     560
+    ]
+   ]
+  }
+ ]
+}

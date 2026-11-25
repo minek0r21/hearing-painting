@@ -1,0 +1,60 @@
+{
+ "painting": "05_swing",
+ "seconds": 43.4,
+ "parsed": {
+  "title_guess": "The Swing",
+  "sources": [
+   {
+    "id": "woman_swinging",
+    "object_en": "woman on a swing",
+    "x": 480,
+    "y": 520,
+    "label_ko": "스윙 소리",
+    "type": "people",
+    "description_ko": "여자가 진동하는 스윙에서 발동하는 소리와 옷의 살랑거림이 들립니다.",
+    "prompt_en": "soft creaking sound of a wooden swing moving back and forth, fabric rustling, field recording"
+   },
+   {
+    "id": "man_reaching_up",
+    "object_en": "man lying on the ground reaching up",
+    "x": 180,
+    "y": 800,
+    "label_ko": "남자의 외침",
+    "type": "people",
+    "description_ko": "남자가 땅에 누워 손을 뻗으며 여자를 향해 외치는 목소리가 들립니다.",
+    "prompt_en": "man shouting or calling out from a lying position, soft but audible voice, field recording"
+   },
+   {
+    "id": "man_pulling_rope",
+    "object_en": "man pulling the swing rope",
+    "x": 820,
+    "y": 750,
+    "label_ko": "줄 당기는 소리",
+    "type": "people",
+    "description_ko": "남자가 스윙을 당기며 줄을 당기는 마찰 소리가 들립니다.",
+    "prompt_en": "rope being pulled taut with a slight creak and friction sound, field recording"
+   },
+   {
+    "id": "cherry_blossoms",
+    "object_en": "cherry blossom trees",
+    "x": 300,
+    "y": 300,
+    "label_ko": "꽃잎 떨어지는 소리",
+    "type": "nature",
+    "description_ko": "벚꽃잎이 바람에 흔들리며 떨어지는 미세한 소리가 배경에 퍼져 있습니다.",
+    "prompt_en": "soft rustling of cherry blossom petals falling in the wind, ambient nature sound, field recording"
+   },
+   {
+    "id": "butterfly",
+    "object_en": "butterfly flying",
+    "x": 220,
+    "y": 540,
+    "label_ko": "나비 날개 소리",
+    "type": "animal",
+    "description_ko": "나비가 날개를 퍼덕이며 날아다니는 미세한 바람 소리.",
+    "prompt_en": "faint fluttering sound of a butterfly's wings in flight, quiet nature sound, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Swing\",\n  \"sources\": [\n    {\n      \"id\": \"woman_swinging\",\n      \"object_en\": \"woman on a swing\",\n      \"x\": 480,\n      \"y\": 520,\n      \"label_ko\": \"스윙 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 진동하는 스윙에서 발동하는 소리와 옷의 살랑거림이 들립니다.\",\n      \"prompt_en\": \"soft creaking sound of a wooden swing moving back and forth, fabric rustling, field recording\"\n    },\n    {\n      \"id\": \"man_reaching_up\",\n      \"object_en\": \"man lying on the ground reaching up\",\n      \"x\": 180,\n      \"y\": 800,\n      \"label_ko\": \"남자의 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 땅에 누워 손을 뻗으며 여자를 향해 외치는 목소리가 들립니다.\",\n      \"prompt_en\": \"man shouting or calling out from a lying position, soft but audible voice, field recording\"\n    },\n    {\n      \"id\": \"man_pulling_rope\",\n      \"object_en\": \"man pulling the swing rope\",\n      \"x\": 820,\n      \"y\": 750,\n      \"label_ko\": \"줄 당기는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 스윙을 당기며 줄을 당기는 마찰 소리가 들립니다.\",\n      \"prompt_en\": \"rope being pulled taut with a slight creak and friction sound, field recording\"\n    },\n    {\n      \"id\": \"cherry_blossoms\",\n      \"object_en\": \"cherry blossom trees\",\n      \"x\": 300,\n      \"y\": 300,\n      \"label_ko\": \"꽃잎 떨어지는 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"벚꽃잎이 바람에 흔들리며 떨어지는 미세한 소리가 배경에 퍼져 있습니다.\",\n      \"prompt_en\": \"soft rustling of cherry blossom petals falling in the wind, ambient nature sound, field recording\"\n    },\n    {\n      \"id\": \"butterfly\",\n      \"object_en\": \"butterfly flying\",\n      \"x\": 220,\n      \"y\": 540,\n      \"label_ko\": \"나비 날개 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"나비가 날개를 퍼덕이며 날아다니는 미세한 바람 소리.\",\n      \"prompt_en\": \"faint fluttering sound of a butterfly's wings in flight, quiet nature sound, field recording\"\n    }\n  ]\n}\n"
+}

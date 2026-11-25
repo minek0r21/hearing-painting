@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "22_liverpool",
+ "seconds": 34.4,
+ "peak_vram_gb": 8.92,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "달빛 속 리버풀 부두",
+  "sources": [
+   {
+    "id": "foggy_street_ambience",
+    "object_en": "misty street and harbor",
+    "x": 500,
+    "y": 500,
+    "label_ko": "안개 낀 거리",
+    "type": "nature",
+    "description_ko": "안개가 낀 거리와 항구에서 들려오는 무거운 습한 바람 소리.",
+    "prompt_en": "heavy damp wind blowing through a foggy harbor street, low rumbling ambient sound, field recording"
+   },
+   {
+    "id": "horse_car_movement",
+    "object_en": "horse-drawn carriage",
+    "x": 470,
+    "y": 720,
+    "label_ko": "말차레",
+    "type": "vehicle",
+    "description_ko": "마차의 바퀴가 젖은 돌길을 갈아 넘기는 소리.",
+    "prompt_en": "wet cobblestone street, horse hooves clomping on wet ground, carriage wheels rolling, field recording"
+   },
+   {
+    "id": "crowd_footsteps",
+    "object_en": "pedestrians on street",
+    "x": 700,
+    "y": 800,
+    "label_ko": "보행자 발걸음",
+    "type": "people",
+    "description_ko": "젖은 길 위를 걷는 사람들의 발걸음 소리.",
+    "prompt_en": "people walking on wet cobblestone street, footsteps splashing slightly, field recording"
+   },
+   {
+    "id": "ship_masts",
+    "object_en": "ship masts",
+    "x": 100,
+    "y": 400,
+    "label_ko": "선박",
+    "type": "nature",
+    "description_ko": "안개 낀 항구에서 멀리 보이는 선박들의 고요함.",
+    "prompt_en": "silent ship masts in foggy harbor, distant ambient sound, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"달빛 속 리버풀 부두\",\n\"sources\": [\n  {\n    \"id\": \"foggy_street_ambience\",\n    \"object_en\": \"misty street and harbor\",\n    \"x\": 500,\n    \"y\": 500,\n    \"label_ko\": \"안개 낀 거리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"안개가 낀 거리와 항구에서 들려오는 무거운 습한 바람 소리.\",\n    \"prompt_en\": \"heavy damp wind blowing through a foggy harbor street, low rumbling ambient sound, field recording\"\n  },\n  {\n    \"id\": \"horse_car_movement\",\n    \"object_en\": \"horse-drawn carriage\",\n    \"x\": 470,\n    \"y\": 720,\n    \"label_ko\": \"말차레\",\n    \"type\": \"vehicle\",\n    \"description_ko\": \"마차의 바퀴가 젖은 돌길을 갈아 넘기는 소리.\",\n    \"prompt_en\": \"wet cobblestone street, horse hooves clomping on wet ground, carriage wheels rolling, field recording\"\n  },\n  {\n    \"id\": \"crowd_footsteps\",\n    \"object_en\": \"pedestrians on street\",\n    \"x\": 700,\n    \"y\": 800,\n    \"label_ko\": \"보행자 발걸음\",\n    \"type\": \"people\",\n    \"description_ko\": \"젖은 길 위를 걷는 사람들의 발걸음 소리.\",\n    \"prompt_en\": \"people walking on wet cobblestone street, footsteps splashing slightly, field recording\"\n  },\n  {\n    \"id\": \"ship_masts\",\n    \"object_en\": \"ship masts\",\n    \"x\": 100,\n    \"y\": 400,\n    \"label_ko\": \"선박\",\n    \"type\": \"nature\",\n    \"description_ko\": \"안개 낀 항구에서 멀리 보이는 선박들의 고요함.\",\n    \"prompt_en\": \"silent ship masts in foggy harbor, distant ambient sound, field recording\"\n  }\n]\n}\n```\n"
+}

@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "02_rainy_day",
+ "seconds": 41.1,
+ "peak_vram_gb": 8.77,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "id": "rain_fall",
+    "object_en": "rain falling on cobblestone street",
+    "x": 500,
+    "y": 600,
+    "label_ko": "비 내리는 소리",
+    "type": "nature",
+    "description_ko": "비가 내리는 거리에서 돌길에 떨어지는 빗소리가 들린다.",
+    "prompt_en": "soft steady rain falling on wet cobblestone street, field recording"
+   },
+   {
+    "id": "umbrella_open",
+    "object_en": "man holding open umbrella",
+    "x": 600,
+    "y": 400,
+    "label_ko": "우산 소리",
+    "type": "people",
+    "description_ko": "남자가 우산을 들고 걷는 소리가 들린다.",
+    "prompt_en": "man walking with open umbrella, fabric rustling slightly, field recording"
+   },
+   {
+    "id": "horse_cart",
+    "object_en": "horse-drawn cart in background",
+    "x": 100,
+    "y": 450,
+    "label_ko": "말차 소리",
+    "type": "vehicle",
+    "description_ko": "배경에서 마차가 지나가는 소리가 들린다.",
+    "prompt_en": "horse-drawn cart creaking and wheels rolling on cobblestones, field recording"
+   },
+   {
+    "id": "pedestrian_steps",
+    "object_en": "people walking on sidewalk",
+    "x": 350,
+    "y": 650,
+    "label_ko": "걸음소리",
+    "type": "people",
+    "description_ko": "사람들이 돌길 위를 걷는 발소리가 들린다.",
+    "prompt_en": "soft footsteps on wet cobblestone street, multiple people walking, field recording"
+   },
+   {
+    "id": "street_lamp_hum",
+    "object_en": "gas street lamp",
+    "x": 480,
+    "y": 200,
+    "label_ko": "등불 소리",
+    "type": "nature",
+    "description_ko": "가스 가로등에서 나는 은은한 불꽃 타는 소리가 들린다.",
+    "prompt_en": "gentle hiss of gas street lamp flame, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"id\": \"rain_fall\",\n      \"object_en\": \"rain falling on cobblestone street\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"비 내리는 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"비가 내리는 거리에서 돌길에 떨어지는 빗소리가 들린다.\",\n      \"prompt_en\": \"soft steady rain falling on wet cobblestone street, field recording\"\n    },\n    {\n      \"id\": \"umbrella_open\",\n      \"object_en\": \"man holding open umbrella\",\n      \"x\": 600,\n      \"y\": 400,\n      \"label_ko\": \"우산 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 우산을 들고 걷는 소리가 들린다.\",\n      \"prompt_en\": \"man walking with open umbrella, fabric rustling slightly, field recording\"\n    },\n    {\n      \"id\": \"horse_cart\",\n      \"object_en\": \"horse-drawn cart in background\",\n      \"x\": 100,\n      \"y\": 450,\n      \"label_ko\": \"말차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"배경에서 마차가 지나가는 소리가 들린다.\",\n      \"prompt_en\": \"horse-drawn cart creaking and wheels rolling on cobblestones, field recording\"\n    },\n    {\n      \"id\": \"pedestrian_steps\",\n      \"object_en\": \"people walking on sidewalk\",\n      \"x\": 350,\n      \"y\": 650,\n      \"label_ko\": \"걸음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람들이 돌길 위를 걷는 발소리가 들린다.\",\n      \"prompt_en\": \"soft footsteps on wet cobblestone street, multiple people walking, field recording\"\n    },\n    {\n      \"id\": \"street_lamp_hum\",\n      \"object_en\": \"gas street lamp\",\n      \"x\": 480,\n      \"y\": 200,\n      \"label_ko\": \"등불 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"가스 가로등에서 나는 은은한 불꽃 타는 소리가 들린다.\",\n      \"prompt_en\": \"gentle hiss of gas street lamp flame, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,27 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 3
+  },
+  {
+   "model": 2,
+   "answer": 1
+  },
+  {
+   "model": 3,
+   "answer": 2
+  },
+  {
+   "model": 4,
+   "answer": 4
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 5,
+   "verdict": "not_visible",
+   "why": "No archers or bows appear in the painting."
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "08_mudong",
+ "seconds": 27.1,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "장구 소리",
+    "prompt_en": "rhythmic hourglass drum (janggu) beats",
+    "object_en": "hourglass drum (janggu)",
+    "x": 450,
+    "y": 345
+   },
+   {
+    "label_ko": "북 소리",
+    "prompt_en": "deep hanging barrel drum beats",
+    "object_en": "hanging barrel drum",
+    "x": 155,
+    "y": 205
+   },
+   {
+    "label_ko": "피리 소리",
+    "prompt_en": "reedy bamboo oboe (piri) melodies",
+    "object_en": "bamboo oboes (piri)",
+    "x": 735,
+    "y": 270
+   },
+   {
+    "label_ko": "대금 소리",
+    "prompt_en": "transverse bamboo flute (daegeum) playing",
+    "object_en": "transverse bamboo flute",
+    "x": 885,
+    "y": 550
+   },
+   {
+    "label_ko": "해금 소리",
+    "prompt_en": "bowed two-stringed fiddle (haegeum) playing",
+    "object_en": "two-stringed vertical fiddle",
+    "x": 660,
+    "y": 665
+   },
+   {
+    "label_ko": "춤추는 발소리",
+    "prompt_en": "lively dancing footsteps",
+    "object_en": "dancing boy",
+    "x": 280,
+    "y": 740
+   }
+  ]
+ },
+ "raw": ""
+}

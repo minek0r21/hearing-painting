@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "24_avercamp",
+ "seconds": 42.2,
+ "peak_vram_gb": 9.06,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with Skaters and Bird Catchers",
+  "sources": [
+   {
+    "id": "skating_footsteps",
+    "object_en": "skaters on ice",
+    "x": 850,
+    "y": 850,
+    "label_ko": "스케이트 소리",
+    "type": "people",
+    "description_ko": "얼어붙은 호수 위에서 스케이트를 타는 사람들의 발자국 소리가 들립니다.",
+    "prompt_en": "sound of people skating on frozen lake, creaking ice and skates scraping, field recording"
+   },
+   {
+    "id": "bird_catchers",
+    "object_en": "men with nets",
+    "x": 420,
+    "y": 800,
+    "label_ko": "새 잡는 소리",
+    "type": "people",
+    "description_ko": "새를 잡으려는 사람들이 그물을 흔드는 소리가 납니다.",
+    "prompt_en": "sound of men shaking nets to catch birds, rustling fabric, field recording"
+   },
+   {
+    "id": "crowd_talking",
+    "object_en": "people in village",
+    "x": 500,
+    "y": 800,
+    "label_ko": "사람들 목소리",
+    "type": "people",
+    "description_ko": "마을에 모여 있는 많은 사람들이 서로 대화하는 목소리 소리가 납니다.",
+    "prompt_en": "crowd of people talking and laughing in a village square, ambient chatter, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "bare trees",
+    "x": 100,
+    "y": 300,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "겨울철에 잎이 없는 나무 사이로 불어오는 바람 소리가 납니다.",
+    "prompt_en": "wind blowing through bare winter trees, rustling branches, field recording"
+   },
+   {
+    "id": "fireplace_crackle",
+    "object_en": "chimney smoke",
+    "x": 450,
+    "y": 450,
+    "label_ko": "불 소리",
+    "type": "nature",
+    "description_ko": "집 굴뚝에서 피어오르는 연기를 통해 느껴지는 안쪽의 불길 소리입니다.",
+    "prompt_en": "crackling fire inside a house, smoke rising from chimney, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"Winter Landscape with Skaters and Bird Catchers\",\n  \"sources\": [\n    {\n      \"id\": \"skating_footsteps\",\n      \"object_en\": \"skaters on ice\",\n      \"x\": 850,\n      \"y\": 850,\n      \"label_ko\": \"스케이트 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼어붙은 호수 위에서 스케이트를 타는 사람들의 발자국 소리가 들립니다.\",\n      \"prompt_en\": \"sound of people skating on frozen lake, creaking ice and skates scraping, field recording\"\n    },\n    {\n      \"id\": \"bird_catchers\",\n      \"object_en\": \"men with nets\",\n      \"x\": 420,\n      \"y\": 800,\n      \"label_ko\": \"새 잡는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"새를 잡으려는 사람들이 그물을 흔드는 소리가 납니다.\",\n      \"prompt_en\": \"sound of men shaking nets to catch birds, rustling fabric, field recording\"\n    },\n    {\n      \"id\": \"crowd_talking\",\n      \"object_en\": \"people in village\",\n      \"x\": 500,\n      \"y\": 800,\n      \"label_ko\": \"사람들 목소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"마을에 모여 있는 많은 사람들이 서로 대화하는 목소리 소리가 납니다.\",\n      \"prompt_en\": \"crowd of people talking and laughing in a village square, ambient chatter, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"bare trees\",\n      \"x\": 100,\n      \"y\": 300,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"겨울철에 잎이 없는 나무 사이로 불어오는 바람 소리가 납니다.\",\n      \"prompt_en\": \"wind blowing through bare winter trees, rustling branches, field recording\"\n    },\n    {\n      \"id\": \"fireplace_crackle\",\n      \"object_en\": \"chimney smoke\",\n      \"x\": 450,\n      \"y\": 450,\n      \"label_ko\": \"불 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"집 굴뚝에서 피어오르는 연기를 통해 느껴지는 안쪽의 불길 소리입니다.\",\n      \"prompt_en\": \"crackling fire inside a house, smoke rising from chimney, field recording\"\n    }\n  ]\n}\n```\n"
+}

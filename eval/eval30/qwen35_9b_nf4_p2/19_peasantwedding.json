@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "19_peasantwedding",
+ "seconds": 43.7,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of the Ass (or similar tavern scene)",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people talking and eating",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들 소란",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여 대화하고 식사하는 소리가 가득한 장난기 가득한 분위기.",
+    "prompt_en": "lively tavern crowd murmuring and laughing, low continuous chatter, field recording"
+   },
+   {
+    "id": "clinking_glass",
+    "object_en": "man pouring wine from jug into cup",
+    "x": 100,
+    "y": 700,
+    "label_ko": "술 따는 소리",
+    "type": "people",
+    "description_ko": "남자가 큰 항아리에서 잔에 술을 따르는 소리와 잔이 부딪히는清脆한 소리.",
+    "prompt_en": "liquid pouring from ceramic jug into small cup, soft clink of glass, field recording"
+   },
+   {
+    "id": "drum_beat",
+    "object_en": "man playing drum on table",
+    "x": 600,
+    "y": 650,
+    "label_ko": "북 치는 소리",
+    "type": "music",
+    "description_ko": "남자가 나무 테이블 위에 있는 북을 두드리는 리듬감 있는 소리.",
+    "prompt_en": "wooden drum being struck rhythmically on table, deep thud with echo, field recording"
+   },
+   {
+    "id": "knife_cutting",
+    "object_en": "man cutting meat with knife",
+    "x": 800,
+    "y": 550,
+    "label_ko": "칼 자르는 소리",
+    "type": "people",
+    "description_ko": "남자가 고기를 칼로 자르는 날카롭고 반복적인 소리.",
+    "prompt_en": "sharp knife slicing through cooked meat on wooden board, crisp cutting sound, field recording"
+   },
+   {
+    "id": "footsteps",
+    "object_en": "people walking across floor",
+    "x": 400,
+    "y": 800,
+    "label_ko": "걸음 소리",
+    "type": "people",
+    "description_ko": "여러 사람이 흙바닥을 밟으며 걸어다니는 가볍고 불규칙한 발소리.",
+    "prompt_en": "soft footsteps on dirt floor, irregular rhythmic tapping, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Feast of the Ass (or similar tavern scene)\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people talking and eating\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"사람들 소란\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여 대화하고 식사하는 소리가 가득한 장난기 가득한 분위기.\",\n      \"prompt_en\": \"lively tavern crowd murmuring and laughing, low continuous chatter, field recording\"\n    },\n    {\n      \"id\": \"clinking_glass\",\n      \"object_en\": \"man pouring wine from jug into cup\",\n      \"x\": 100,\n      \"y\": 700,\n      \"label_ko\": \"술 따는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 큰 항아리에서 잔에 술을 따르는 소리와 잔이 부딪히는清脆한 소리.\",\n      \"prompt_en\": \"liquid pouring from ceramic jug into small cup, soft clink of glass, field recording\"\n    },\n    {\n      \"id\": \"drum_beat\",\n      \"object_en\": \"man playing drum on table\",\n      \"x\": 600,\n      \"y\": 650,\n      \"label_ko\": \"북 치는 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"남자가 나무 테이블 위에 있는 북을 두드리는 리듬감 있는 소리.\",\n      \"prompt_en\": \"wooden drum being struck rhythmically on table, deep thud with echo, field recording\"\n    },\n    {\n      \"id\": \"knife_cutting\",\n      \"object_en\": \"man cutting meat with knife\",\n      \"x\": 800,\n      \"y\": 550,\n      \"label_ko\": \"칼 자르는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 고기를 칼로 자르는 날카롭고 반복적인 소리.\",\n      \"prompt_en\": \"sharp knife slicing through cooked meat on wooden board, crisp cutting sound, field recording\"\n    },\n    {\n      \"id\": \"footsteps\",\n      \"object_en\": \"people walking across floor\",\n      \"x\": 400,\n      \"y\": 800,\n      \"label_ko\": \"걸음 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"여러 사람이 흙바닥을 밟으며 걸어다니는 가볍고 불규칙한 발소리.\",\n      \"prompt_en\": \"soft footsteps on dirt floor, irregular rhythmic tapping, field recording\"\n    }\n  ]\n}\n"
+}

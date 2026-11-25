@@ -1,0 +1,169 @@
+{
+ "model": "gemini-4-neon",
+ "file": "05_boulevard.jpg",
+ "seconds": 40.4,
+ "parsed": {
+  "title_guess": "Le Boulevard devant le Théâtre des Variétés (Jean Béraud)",
+  "sources": [
+   {
+    "label_ko": "행인들의 대화 소리",
+    "sound_en": "murmur of conversations among pedestrians",
+    "ground_phrase_en": "groups of people conversing on the sidewalk",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      600,
+      505
+     ],
+     [
+      720,
+      515
+     ],
+     [
+      825,
+      535
+     ]
+    ]
+   },
+   {
+    "label_ko": "보도 위 발걸음 소리",
+    "sound_en": "footsteps on the stone pavement",
+    "ground_phrase_en": "pedestrians walking along the boulevard",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      190,
+      670
+     ],
+     [
+      280,
+      710
+     ],
+     [
+      455,
+      770
+     ],
+     [
+      510,
+      700
+     ],
+     [
+      785,
+      750
+     ]
+    ]
+   },
+   {
+    "label_ko": "신문팔이의 외침 소리",
+    "sound_en": "newspaper vendor calling out to passersby",
+    "ground_phrase_en": "newspaper vendor wearing a cap",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      778,
+      520
+     ]
+    ]
+   },
+   {
+    "label_ko": "신문지 바스락거리는 소리",
+    "sound_en": "rustling of newspapers",
+    "ground_phrase_en": "men holding and reading newspapers",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      255,
+      590
+     ],
+     [
+      325,
+      545
+     ],
+     [
+      775,
+      615
+     ]
+    ]
+   },
+   {
+    "label_ko": "치맛자락 스치는 소리",
+    "sound_en": "soft swishing of a long dress",
+    "ground_phrase_en": "woman walking in a long pleated dress",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      450,
+      690
+     ]
+    ]
+   },
+   {
+    "label_ko": "카페 테이블 정리 소리",
+    "sound_en": "light clatter of a waiter tending a café table",
+    "ground_phrase_en": "waiter leaning over a café table",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      940,
+      610
+     ]
+    ]
+   },
+   {
+    "label_ko": "가로수 나뭇잎 스치는 소리",
+    "sound_en": "gentle rustling of leaves in the boulevard trees",
+    "ground_phrase_en": "leafy street trees",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      160,
+      170
+     ],
+     [
+      400,
+      160
+     ]
+    ]
+   },
+   {
+    "label_ko": "도시 거리의 은은한 배경 소음",
+    "sound_en": "distant ambient hum of a Parisian boulevard",
+    "ground_phrase_en": "Parisian city boulevard",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Le Boulevard devant le Théâtre des Variétés (Jean Béraud)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"행인들의 대화 소리\",\n      \"sound_en\": \"murmur of conversations among pedestrians\",\n      \"ground_phrase_en\": \"groups of people conversing on the sidewalk\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [600, 505],\n        [720, 515],\n        [825, 535]\n      ]\n    },\n    {\n      \"label_ko\": \"보도 위 발걸음 소리\",\n      \"sound_en\": \"footsteps on the stone pavement\",\n      \"ground_phrase_en\": \"pedestrians walking along the boulevard\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [190, 670],\n        [280, 710],\n        [455, 770],\n        [510, 700],\n        [785, 750]\n      ]\n    },\n    {\n      \"label_ko\": \"신문팔이의 외침 소리\",\n      \"sound_en\": \"newspaper vendor calling out to passersby\",\n      \"ground_phrase_en\": \"newspaper vendor wearing a cap\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [778, 520]\n      ]\n    },\n    {\n      \"label_ko\": \"신문지 바스락거리는 소리\",\n      \"sound_en\": \"rustling of newspapers\",\n      \"ground_phrase_en\": \"men holding and reading newspapers\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [255, 590],\n        [325, 545],\n        [775, 615]\n      ]\n    },\n    {\n      \"label_ko\": \"치맛자락 스치는 소리\",\n      \"sound_en\": \"soft swishing of a long dress\",\n      \"ground_phrase_en\": \"woman walking in a long pleated dress\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [450, 690]\n      ]\n    },\n    {\n      \"label_ko\": \"카페 테이블 정리 소리\",\n      \"sound_en\": \"light clatter of a waiter tending a café table\",\n      \"ground_phrase_en\": \"waiter leaning over a café table\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [940, 610]\n      ]\n    },\n    {\n      \"label_ko\": \"가로수 나뭇잎 스치는 소리\",\n      \"sound_en\": \"gentle rustling of leaves in the boulevard trees\",\n      \"ground_phrase_en\": \"leafy street trees\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [160, 170],\n        [400, 160]\n      ]\n    },\n    {\n      \"label_ko\": \"도시 거리의 은은한 배경 소음\",\n      \"sound_en\": \"distant ambient hum of a Parisian boulevard\",\n      \"ground_phrase_en\": \"Parisian city boulevard\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 880,
+  "totalTokenCount": 5882,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 880
+   }
+  ],
+  "thoughtsTokenCount": 3417,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "model": "gemini-4-neon",
+ "file": "22_liverpool.jpg",
+ "seconds": 33.2,
+ "parsed": {
+  "title_guess": "Shipping on the Clyde by John Atkinson Grimshaw",
+  "sources": [
+   {
+    "label_ko": "마차 바퀴와 말발굽 소리",
+    "sound_en": "horse hooves and carriage wheels clattering on wet cobblestones",
+    "ground_phrase_en": "horse-drawn carriages",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      476,
+      755
+     ],
+     [
+      408,
+      760
+     ]
+    ]
+   },
+   {
+    "label_ko": "젖은 거리를 걷는 발걸음 소리",
+    "sound_en": "footsteps of pedestrians walking on wet cobblestones",
+    "ground_phrase_en": "pedestrians on the sidewalks",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      182,
+      805
+     ],
+     [
+      594,
+      785
+     ],
+     [
+      660,
+      818
+     ],
+     [
+      735,
+      825
+     ],
+     [
+      810,
+      825
+     ],
+     [
+      902,
+      835
+     ]
+    ]
+   },
+   {
+    "label_ko": "부슬비 내리는 소리",
+    "sound_en": "light rain falling on wet cobblestones and umbrellas",
+    "ground_phrase_en": "rainy wet street",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "행인들의 웅성거리는 소리",
+    "sound_en": "murmuring voices and quiet chatter of passersby",
+    "ground_phrase_en": "people along the street",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      182,
+      805
+     ],
+     [
+      476,
+      705
+     ],
+     [
+      660,
+      818
+     ],
+     [
+      735,
+      825
+     ],
+     [
+      810,
+      825
+     ]
+    ]
+   },
+   {
+    "label_ko": "정박한 배의 돛대와 밧줄 삐걱거리는 소리",
+    "sound_en": "creaking timber and rigging of moored sailing ships",
+    "ground_phrase_en": "masts and rigging of docked ships",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      38,
+      480
+     ],
+     [
+      194,
+      520
+     ],
+     [
+      306,
+      560
+     ]
+    ]
+   },
+   {
+    "label_ko": "부두에 물결 출렁이는 소리",
+    "sound_en": "water gently lapping against ship hulls and the quay",
+    "ground_phrase_en": "harbor docks on the left",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   },
+   {
+    "label_ko": "밤바람 부는 소리",
+    "sound_en": "soft damp evening wind blowing through the street and harbor",
+    "ground_phrase_en": "misty evening air",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Shipping on the Clyde by John Atkinson Grimshaw\",\n  \"sources\": [\n    {\n      \"label_ko\": \"마차 바퀴와 말발굽 소리\",\n      \"sound_en\": \"horse hooves and carriage wheels clattering on wet cobblestones\",\n      \"ground_phrase_en\": \"horse-drawn carriages\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [476, 755],\n        [408, 760]\n      ]\n    },\n    {\n      \"label_ko\": \"젖은 거리를 걷는 발걸음 소리\",\n      \"sound_en\": \"footsteps of pedestrians walking on wet cobblestones\",\n      \"ground_phrase_en\": \"pedestrians on the sidewalks\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [182, 805],\n        [594, 785],\n        [660, 818],\n        [735, 825],\n        [810, 825],\n        [902, 835]\n      ]\n    },\n    {\n      \"label_ko\": \"부슬비 내리는 소리\",\n      \"sound_en\": \"light rain falling on wet cobblestones and umbrellas\",\n      \"ground_phrase_en\": \"rainy wet street\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"행인들의 웅성거리는 소리\",\n      \"sound_en\": \"murmuring voices and quiet chatter of passersby\",\n      \"ground_phrase_en\": \"people along the street\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [182, 805],\n        [476, 705],\n        [660, 818],\n        [735, 825],\n        [810, 825]\n      ]\n    },\n    {\n      \"label_ko\": \"정박한 배의 돛대와 밧줄 삐걱거리는 소리\",\n      \"sound_en\": \"creaking timber and rigging of moored sailing ships\",\n      \"ground_phrase_en\": \"masts and rigging of docked ships\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [38, 480],\n        [194, 520],\n        [306, 560]\n      ]\n    },\n    {\n      \"label_ko\": \"부두에 물결 출렁이는 소리\",\n      \"sound_en\": \"water gently lapping against ship hulls and the quay\",\n      \"ground_phrase_en\": \"harbor docks on the left\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"밤바람 부는 소리\",\n      \"sound_en\": \"soft damp evening wind blowing through the street and harbor\",\n      \"ground_phrase_en\": \"misty evening air\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 815,
+  "totalTokenCount": 4883,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 815
+   }
+  ],
+  "thoughtsTokenCount": 2483,
+  "serviceTier": "standard"
+ }
+}

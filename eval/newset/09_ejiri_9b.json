@@ -1,0 +1,50 @@
+{
+ "painting": "09_ejiri",
+ "seconds": 36.2,
+ "parsed": {
+  "title_guess": "Hokusai's 'The Great Wave off Kanagawa' (but this is actually a different scene — likely 'The Wind Blowing the Kites' or similar from Hokusai's series)",
+  "sources": [
+   {
+    "id": "people_running_kites",
+    "object_en": "people running with kites",
+    "x": 450,
+    "y": 700,
+    "label_ko": "비추는 사람들",
+    "type": "people",
+    "description_ko": "비추는 사람들이 뛰며 소리를 내며 날개를 흔든다.",
+    "prompt_en": "children running in a field holding kites, laughing and shouting, field recording"
+   },
+   {
+    "id": "wind_bending_trees",
+    "object_en": "trees bent by wind",
+    "x": 300,
+    "y": 200,
+    "label_ko": "바람 부는 나무",
+    "type": "nature",
+    "description_ko": "강한 바람이 나무를 휘어지게 하고 잎사귀가沙沙作响.",
+    "prompt_en": "strong wind rustling tree leaves and bending branches, field recording"
+   },
+   {
+    "id": "kites_flying_in_sky",
+    "object_en": "kites flying in sky",
+    "x": 750,
+    "y": 150,
+    "label_ko": "날아오르는的风船",
+    "type": "nature",
+    "description_ko": "하늘에 날리는 풍선과 나비 모양의 kite들이 바람에 흔들리며 소리 없이 떠다닌다.",
+    "prompt_en": "kites fluttering in the sky with wind, soft whooshing sound, field recording"
+   },
+   {
+    "id": "distant_mountain_silence",
+    "object_en": "Mount Fuji in background",
+    "x": 200,
+    "y": 100,
+    "label_ko": "후지산",
+    "type": "nature",
+    "description_ko": "먼 산은 조용히 서 있으며, 바람 소리만 들린다.",
+    "prompt_en": "distant mountain in quiet landscape, ambient wind sound, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Hokusai's 'The Great Wave off Kanagawa' (but this is actually a different scene — likely 'The Wind Blowing the Kites' or similar from Hokusai's series)\",\n  \"sources\": [\n    {\n      \"id\": \"people_running_kites\",\n      \"object_en\": \"people running with kites\",\n      \"x\": 450,\n      \"y\": 700,\n      \"label_ko\": \"비추는 사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"비추는 사람들이 뛰며 소리를 내며 날개를 흔든다.\",\n      \"prompt_en\": \"children running in a field holding kites, laughing and shouting, field recording\"\n    },\n    {\n      \"id\": \"wind_bending_trees\",\n      \"object_en\": \"trees bent by wind\",\n      \"x\": 300,\n      \"y\": 200,\n      \"label_ko\": \"바람 부는 나무\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강한 바람이 나무를 휘어지게 하고 잎사귀가沙沙作响.\",\n      \"prompt_en\": \"strong wind rustling tree leaves and bending branches, field recording\"\n    },\n    {\n      \"id\": \"kites_flying_in_sky\",\n      \"object_en\": \"kites flying in sky\",\n      \"x\": 750,\n      \"y\": 150,\n      \"label_ko\": \"날아오르는的风船\",\n      \"type\": \"nature\",\n      \"description_ko\": \"하늘에 날리는 풍선과 나비 모양의 kite들이 바람에 흔들리며 소리 없이 떠다닌다.\",\n      \"prompt_en\": \"kites fluttering in the sky with wind, soft whooshing sound, field recording\"\n    },\n    {\n      \"id\": \"distant_mountain_silence\",\n      \"object_en\": \"Mount Fuji in background\",\n      \"x\": 200,\n      \"y\": 100,\n      \"label_ko\": \"후지산\",\n      \"type\": \"nature\",\n      \"description_ko\": \"먼 산은 조용히 서 있으며, 바람 소리만 들린다.\",\n      \"prompt_en\": \"distant mountain in quiet landscape, ambient wind sound, field recording\"\n    }\n  ]\n}\n"
+}

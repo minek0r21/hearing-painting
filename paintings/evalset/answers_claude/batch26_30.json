@@ -1,0 +1,35 @@
+{
+ "26_ironmill": {"title": "철 압연 공장", "sources": [
+  {"label_ko": "달군 쇠를 끄는 금속 소리", "sound_en": "glowing iron dragged with tongs, metal clanging", "ground_phrase_en": "glowing red-hot iron", "source_type": "point", "grade": "required", "points": [[560,520]]},
+  {"label_ko": "기계 바퀴와 압연기 굉음", "sound_en": "rolling mill machinery roaring, flywheels and belts", "ground_phrase_en": "large flywheel", "source_type": "clustered", "grade": "required", "points": [[350,180],[900,120],[620,420]]},
+  {"label_ko": "노동자들의 고함", "sound_en": "workers shouting over the noise", "ground_phrase_en": "worker", "source_type": "clustered", "grade": "required", "points": [[250,450],[400,400],[750,420]]},
+  {"label_ko": "쇳물 지글거림과 불꽃", "sound_en": "hissing hot metal and sparks", "ground_phrase_en": "sparks", "source_type": "point", "grade": "allowed", "points": [[560,560]]},
+  {"label_ko": "구석에서 식사하는 소리", "sound_en": "workers eating in a corner", "ground_phrase_en": "worker eating", "source_type": "point", "grade": "allowed", "points": [[800,720]]}
+ ]},
+ "27_merryfamily": {"title": "즐거운 가족", "sources": [
+  {"label_ko": "바이올린 연주", "sound_en": "old man playing violin", "ground_phrase_en": "violin", "source_type": "point", "grade": "required", "points": [[310,420]]},
+  {"label_ko": "백파이프 소리", "sound_en": "bagpipe drone", "ground_phrase_en": "bagpipe", "source_type": "point", "grade": "required", "points": [[320,240]]},
+  {"label_ko": "피리 부는 아이들", "sound_en": "children playing recorder and flute", "ground_phrase_en": "boy playing pipe", "source_type": "clustered", "grade": "required", "points": [[90,240],[660,330]]},
+  {"label_ko": "가족의 노래", "sound_en": "family singing from a song sheet", "ground_phrase_en": "singing woman", "source_type": "clustered", "grade": "required", "points": [[400,330],[510,330]]},
+  {"label_ko": "아기 소리", "sound_en": "baby babbling", "ground_phrase_en": "baby", "source_type": "point", "grade": "allowed", "points": [[580,380]]},
+  {"label_ko": "술 따르는 소리", "sound_en": "wine poured from a jug", "ground_phrase_en": "girl pouring", "source_type": "point", "grade": "allowed", "points": [[620,640]]},
+  {"label_ko": "개 소리", "sound_en": "dog sniffing and barking", "ground_phrase_en": "dog", "source_type": "point", "grade": "allowed", "points": [[400,560]]}
+ ]},
+ "28_railwaystation": {"title": "기차역", "sources": [
+  {"label_ko": "역 군중의 웅성임", "sound_en": "crowded railway platform chatter", "ground_phrase_en": "crowd on platform", "source_type": "clustered", "grade": "required", "points": [[300,560],[550,550],[800,580]]},
+  {"label_ko": "증기기관차", "sound_en": "steam locomotive hissing and idling", "ground_phrase_en": "steam locomotive", "source_type": "point", "grade": "required", "points": [[150,530]]},
+  {"label_ko": "짐 싣는 소리", "sound_en": "porters loading luggage onto carriage roof", "ground_phrase_en": "porter loading luggage", "source_type": "point", "grade": "allowed", "points": [[620,400]]},
+  {"label_ko": "작별 인사와 아이 소리", "sound_en": "farewells, children crying", "ground_phrase_en": "family saying goodbye", "source_type": "clustered", "grade": "allowed", "points": [[320,720],[460,780]]},
+  {"label_ko": "개 짖는 소리", "sound_en": "dog barking", "ground_phrase_en": "dog", "source_type": "point", "grade": "allowed", "points": [[40,800]]},
+  {"label_ko": "역 지붕 아래 울림", "sound_en": "reverberant station hall", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "29_ninthwave": {"title": "아홉 번째 파도", "sources": [
+  {"label_ko": "폭풍 바다", "sound_en": "stormy sea, huge waves", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "거대한 파도 부서짐", "sound_en": "massive wave crest breaking", "ground_phrase_en": "giant wave", "source_type": "point", "grade": "required", "points": [[300,600]]},
+  {"label_ko": "난파된 사람들의 외침", "sound_en": "shipwreck survivors shouting on a mast", "ground_phrase_en": "people clinging to mast", "source_type": "point", "grade": "required", "points": [[430,850]]},
+  {"label_ko": "폭풍 바람", "sound_en": "howling storm wind", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "30_stilllife": {"title": "금박 잔이 있는 정물 (함정: 정물)", "sources": [
+  {"label_ko": "고요한 실내", "sound_en": "quiet room tone", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]}
+}

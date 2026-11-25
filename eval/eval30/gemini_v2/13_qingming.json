@@ -1,0 +1,57 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "13_qingming",
+ "seconds": 71.0,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "뱃사공 외침과 노 젓는 소리",
+    "prompt_en": "boatmen shouting, oars splashing, and wooden mast creaking",
+    "object_en": "large wooden boat passing under the bridge",
+    "x": 815,
+    "y": 320
+   },
+   {
+    "label_ko": "다리 위 인파의 웅성거림과 발소리",
+    "prompt_en": "crowd shouting, chatter, and footsteps on the wooden bridge",
+    "object_en": "crowds of people on the arched bridge and street",
+    "x": 635,
+    "y": 145
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "prompt_en": "flowing river water swirling and lapping",
+    "object_en": "wide flowing river"
+   },
+   {
+    "label_ko": "나무 수레 덜컹거리는 소리",
+    "prompt_en": "wooden cart wheels rumbling and creaking",
+    "object_en": "loaded wooden carts in the foreground",
+    "x": 305,
+    "y": 765
+   },
+   {
+    "label_ko": "시장 노점과 찻집의 떠들썩한 소리",
+    "prompt_en": "market vendors hawking and teahouse chatter",
+    "object_en": "market stalls and riverside shops",
+    "x": 220,
+    "y": 635
+   },
+   {
+    "label_ko": "말과 당나귀 발굽 소리",
+    "prompt_en": "donkey and horse hooves clattering",
+    "object_en": "pack donkeys and horse",
+    "x": 440,
+    "y": 690
+   }
+  ]
+ },
+ "raw": ""
+}

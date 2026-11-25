@@ -1,0 +1,24 @@
+{
+ "hash": "690c28f1be89",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Distant children visible on the left can chatter and cheer."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Distant children visible on the left can chatter and cheer.\"}]}"
+}

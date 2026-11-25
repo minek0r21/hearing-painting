@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "26_ironmill",
+ "seconds": 46.2,
+ "peak_vram_gb": 8.86,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Iron Rolling Mill",
+  "sources": [
+   {
+    "id": "iron_mill_machinery",
+    "object_en": "large rolling mill machinery with gears and rollers",
+    "x": 650,
+    "y": 450,
+    "label_ko": "철제 롤링 밀",
+    "type": "vehicle",
+    "description_ko": "거대한 철제 롤링 밀 기계를 돌리는 소리가 진동처럼 울리고 있다.",
+    "prompt_en": "heavy industrial machinery grinding and clanking with rhythmic mechanical motion, deep metallic groans and clatters, field recording"
+   },
+   {
+    "id": "workers_shouting",
+    "object_en": "group of workers in the center and left foreground",
+    "x": 300,
+    "y": 550,
+    "label_ko": "노동자들의 외침",
+    "type": "people",
+    "description_ko": "중심과 왼쪽에 있는 노동자들이 힘겹게 일하며 서로를 부르는 목소리가 섞여 있다.",
+    "prompt_en": "men shouting and calling out to each other in a crowded factory, rough and strained voices, field recording"
+   },
+   {
+    "id": "fire_and_heat",
+    "object_en": "glowing furnace area in the background",
+    "x": 200,
+    "y": 350,
+    "label_ko": "불길과 열기",
+    "type": "nature",
+    "description_ko": "배경의 붉은 불길에서 나는 뜨거운 열기와 타는 소리가 공간 전체에 퍼져 있다.",
+    "prompt_en": "intense crackling and roaring of a large industrial furnace, heat shimmer and burning sounds, field recording"
+   },
+   {
+    "id": "metal_being_rolled",
+    "object_en": "glowing metal bar being pushed through rollers",
+    "x": 550,
+    "y": 500,
+    "label_ko": "압연되는 철봉",
+    "type": "vehicle",
+    "description_ko": "불타오르는 철봉이 롤러 사이를 지나가며 찌그러지는 소리가 들린다.",
+    "prompt_en": "hot metal bar being compressed and rolled through heavy machinery, screeching and grinding sounds, field recording"
+   },
+   {
+    "id": "crowd_moving",
+    "object_en": "dense group of workers in the middle and right of the scene",
+    "x": 750,
+    "y": 600,
+    "label_ko": "노동자들의 움직임",
+    "type": "people",
+    "description_ko": "오른쪽과 중앙에 모여 있는 많은 노동자들이 움직이며 발소리와 숨소리가 섞여 있다.",
+    "prompt_en": "crowd of workers moving and working in a factory, heavy footsteps, breathing, and occasional shouts, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Iron Rolling Mill\",\n  \"sources\": [\n    {\n      \"id\": \"iron_mill_machinery\",\n      \"object_en\": \"large rolling mill machinery with gears and rollers\",\n      \"x\": 650,\n      \"y\": 450,\n      \"label_ko\": \"철제 롤링 밀\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"거대한 철제 롤링 밀 기계를 돌리는 소리가 진동처럼 울리고 있다.\",\n      \"prompt_en\": \"heavy industrial machinery grinding and clanking with rhythmic mechanical motion, deep metallic groans and clatters, field recording\"\n    },\n    {\n      \"id\": \"workers_shouting\",\n      \"object_en\": \"group of workers in the center and left foreground\",\n      \"x\": 300,\n      \"y\": 550,\n      \"label_ko\": \"노동자들의 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"중심과 왼쪽에 있는 노동자들이 힘겹게 일하며 서로를 부르는 목소리가 섞여 있다.\",\n      \"prompt_en\": \"men shouting and calling out to each other in a crowded factory, rough and strained voices, field recording\"\n    },\n    {\n      \"id\": \"fire_and_heat\",\n      \"object_en\": \"glowing furnace area in the background\",\n      \"x\": 200,\n      \"y\": 350,\n      \"label_ko\": \"불길과 열기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"배경의 붉은 불길에서 나는 뜨거운 열기와 타는 소리가 공간 전체에 퍼져 있다.\",\n      \"prompt_en\": \"intense crackling and roaring of a large industrial furnace, heat shimmer and burning sounds, field recording\"\n    },\n    {\n      \"id\": \"metal_being_rolled\",\n      \"object_en\": \"glowing metal bar being pushed through rollers\",\n      \"x\": 550,\n      \"y\": 500,\n      \"label_ko\": \"압연되는 철봉\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"불타오르는 철봉이 롤러 사이를 지나가며 찌그러지는 소리가 들린다.\",\n      \"prompt_en\": \"hot metal bar being compressed and rolled through heavy machinery, screeching and grinding sounds, field recording\"\n    },\n    {\n      \"id\": \"crowd_moving\",\n      \"object_en\": \"dense group of workers in the middle and right of the scene\",\n      \"x\": 750,\n      \"y\": 600,\n      \"label_ko\": \"노동자들의 움직임\",\n      \"type\": \"people\",\n      \"description_ko\": \"오른쪽과 중앙에 모여 있는 많은 노동자들이 움직이며 발소리와 숨소리가 섞여 있다.\",\n      \"prompt_en\": \"crowd of workers moving and working in a factory, heavy footsteps, breathing, and occasional shouts, field recording\"\n    }\n  ]\n}\n"
+}

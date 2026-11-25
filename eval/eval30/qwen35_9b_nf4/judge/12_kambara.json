@@ -1,0 +1,34 @@
+{
+ "hash": "26750a655c64",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "No horse in painting."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Trees visible; wind can rustle them."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "Still snow on roofs makes no sound."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 2, \"answer\": 1}], \"unpaired\": [{\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"No horse in painting.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Trees visible; wind can rustle them.\"}, {\"model\": 5, \"verdict\": \"silent\", \"why\": \"Still snow on roofs makes no sound.\"}]}"
+}

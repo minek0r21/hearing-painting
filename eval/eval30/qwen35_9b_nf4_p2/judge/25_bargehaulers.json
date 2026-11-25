@@ -1,0 +1,29 @@
+{
+ "hash": "c1a7711fc755",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Boat is visible and can sound a horn."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Wind is present and can rustle clothing."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Boat is visible and can sound a horn.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Wind is present and can rustle clothing.\"}]}"
+}

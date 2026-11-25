@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "04_beach",
+ "seconds": 38.6,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Beach at Trouville",
+  "sources": [
+   {
+    "id": "people_talking",
+    "object_en": "group of people standing and talking",
+    "x": 430,
+    "y": 750,
+    "label_ko": "사람들의 말소리",
+    "type": "people",
+    "description_ko": "해변에 서 있는 사람들이 서로 대화하는 소리가 들린다.",
+    "prompt_en": "soft voices of people talking in a group on a beach, field recording"
+   },
+   {
+    "id": "people_walking",
+    "object_en": "woman walking on the left",
+    "x": 140,
+    "y": 800,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "왼쪽에서 해변을 걷는 여인의 발걸음 소리가 들린다.",
+    "prompt_en": "footsteps of a woman walking on sand, field recording"
+   },
+   {
+    "id": "dog_running",
+    "object_en": "dog running on the beach",
+    "x": 510,
+    "y": 820,
+    "label_ko": "개 소리",
+    "type": "animal",
+    "description_ko": "사방을 뛰어다니는 개의 발걸음과 숨소리.",
+    "prompt_en": "small dog running on sand, field recording"
+   },
+   {
+    "id": "sea_waves",
+    "object_en": "sea waves crashing on shore",
+    "x": 200,
+    "y": 780,
+    "label_ko": "파도 소리",
+    "type": "nature",
+    "description_ko": "바다에서 해변으로 밀려오는 파도 소리가 배경에 깔려 있다.",
+    "prompt_en": "sound of ocean waves crashing on the shore, field recording"
+   },
+   {
+    "id": "wind_blowing",
+    "object_en": "wind blowing through the scene",
+    "x": 500,
+    "y": 300,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "바다 위의 바람이 불어오는 소리.",
+    "prompt_en": "gentle wind blowing over the beach, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"Beach at Trouville\",\n\"sources\": [\n  {\n    \"id\": \"people_talking\",\n    \"object_en\": \"group of people standing and talking\",\n    \"x\": 430,\n    \"y\": 750,\n    \"label_ko\": \"사람들의 말소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"해변에 서 있는 사람들이 서로 대화하는 소리가 들린다.\",\n    \"prompt_en\": \"soft voices of people talking in a group on a beach, field recording\"\n  },\n  {\n    \"id\": \"people_walking\",\n    \"object_en\": \"woman walking on the left\",\n    \"x\": 140,\n    \"y\": 800,\n    \"label_ko\": \"걸음걸이\",\n    \"type\": \"people\",\n    \"description_ko\": \"왼쪽에서 해변을 걷는 여인의 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"footsteps of a woman walking on sand, field recording\"\n  },\n  {\n    \"id\": \"dog_running\",\n    \"object_en\": \"dog running on the beach\",\n    \"x\": 510,\n    \"y\": 820,\n    \"label_ko\": \"개 소리\",\n    \"type\": \"animal\",\n    \"description_ko\": \"사방을 뛰어다니는 개의 발걸음과 숨소리.\",\n    \"prompt_en\": \"small dog running on sand, field recording\"\n  },\n  {\n    \"id\": \"sea_waves\",\n    \"object_en\": \"sea waves crashing on shore\",\n    \"x\": 200,\n    \"y\": 780,\n    \"label_ko\": \"파도 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"바다에서 해변으로 밀려오는 파도 소리가 배경에 깔려 있다.\",\n    \"prompt_en\": \"sound of ocean waves crashing on the shore, field recording\"\n  },\n  {\n    \"id\": \"wind_blowing\",\n    \"object_en\": \"wind blowing through the scene\",\n    \"x\": 500,\n    \"y\": 300,\n    \"label_ko\": \"바람 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"바다 위의 바람이 불어오는 소리.\",\n    \"prompt_en\": \"gentle wind blowing over the beach, field recording\"\n  }\n]\n}\n```\n"
+}

@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "12_kambara",
+ "seconds": 35.3,
+ "peak_vram_gb": 8.69,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Katsushika Hokusai, The Fifty-Third Station of the Tokaido Road: Goshono",
+  "sources": [
+   {
+    "id": "snow_fall",
+    "object_en": "falling snow",
+    "x": 500,
+    "y": 300,
+    "label_ko": "눈 내리기",
+    "type": "nature",
+    "description_ko": "눈이 천천히 내리고 있는 소리",
+    "prompt_en": "gentle snow falling sound in a quiet winter village, field recording"
+   },
+   {
+    "id": "person_walking",
+    "object_en": "person walking with straw hat",
+    "x": 380,
+    "y": 750,
+    "label_ko": "걷는 사람",
+    "type": "people",
+    "description_ko": "갈아신은 옷을 입고 갈아신은 모자를 쓴 사람이 걸어가는 발소리",
+    "prompt_en": "soft footsteps of a person walking in deep snow wearing straw hat and blue kimono, field recording"
+   },
+   {
+    "id": "person_with_bamboo",
+    "object_en": "person carrying bamboo pole",
+    "x": 730,
+    "y": 700,
+    "label_ko": "대나무 운반",
+    "type": "people",
+    "description_ko": "대나무를 등에 지고 걸어가는 사람의 걸음걸이 소리",
+    "prompt_en": "rhythmic walking sound of a person carrying a long bamboo pole on their back through snow, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "snow-covered trees",
+    "x": 920,
+    "y": 450,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "눈 덮인 나무 사이로 부는 바람의 소음",
+    "prompt_en": "soft wind rustling through snow-laden pine trees in a mountain village, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Katsushika Hokusai, The Fifty-Third Station of the Tokaido Road: Goshono\",\n  \"sources\": [\n    {\n      \"id\": \"snow_fall\",\n      \"object_en\": \"falling snow\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"눈 내리기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈이 천천히 내리고 있는 소리\",\n      \"prompt_en\": \"gentle snow falling sound in a quiet winter village, field recording\"\n    },\n    {\n      \"id\": \"person_walking\",\n      \"object_en\": \"person walking with straw hat\",\n      \"x\": 380,\n      \"y\": 750,\n      \"label_ko\": \"걷는 사람\",\n      \"type\": \"people\",\n      \"description_ko\": \"갈아신은 옷을 입고 갈아신은 모자를 쓴 사람이 걸어가는 발소리\",\n      \"prompt_en\": \"soft footsteps of a person walking in deep snow wearing straw hat and blue kimono, field recording\"\n    },\n    {\n      \"id\": \"person_with_bamboo\",\n      \"object_en\": \"person carrying bamboo pole\",\n      \"x\": 730,\n      \"y\": 700,\n      \"label_ko\": \"대나무 운반\",\n      \"type\": \"people\",\n      \"description_ko\": \"대나무를 등에 지고 걸어가는 사람의 걸음걸이 소리\",\n      \"prompt_en\": \"rhythmic walking sound of a person carrying a long bamboo pole on their back through snow, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"snow-covered trees\",\n      \"x\": 920,\n      \"y\": 450,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈 덮인 나무 사이로 부는 바람의 소음\",\n      \"prompt_en\": \"soft wind rustling through snow-laden pine trees in a mountain village, field recording\"\n    }\n  ]\n}\n"
+}

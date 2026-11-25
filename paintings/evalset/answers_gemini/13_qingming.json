@@ -1,0 +1,235 @@
+{
+ "model": "gemini-4-neon",
+ "file": "13_qingming.jpg",
+ "seconds": 43.3,
+ "parsed": {
+  "title_guess": "Along the River During the Qingming Festival (Rainbow Bridge detail)",
+  "sources": [
+   {
+    "label_ko": "강물 흐르는 소리",
+    "sound_en": "river water flowing and lapping against banks and hulls",
+    "ground_phrase_en": "flowing river water",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "군중의 웅성거림과 시장 소음",
+    "sound_en": "bustling crowd chatter and lively market hubbub",
+    "ground_phrase_en": "crowds of pedestrians on the bridge and streets",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      655,
+      145
+     ],
+     [
+      510,
+      280
+     ],
+     [
+      465,
+      635
+     ],
+     [
+      240,
+      645
+     ],
+     [
+      230,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "뱃사공들의 다급한 외침",
+    "sound_en": "boatmen shouting urgent instructions while navigating under the bridge",
+    "ground_phrase_en": "boatmen on the large riverboat and nearby boat roof",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      805,
+      330
+     ],
+     [
+      805,
+      555
+     ]
+    ]
+   },
+   {
+    "label_ko": "노 젓는 물소리와 나무배 삐걱거리는 소리",
+    "sound_en": "oars and poles splashing in water with creaking wooden boat hulls and rigging",
+    "ground_phrase_en": "wooden riverboats and oars",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      810,
+      350
+     ],
+     [
+      220,
+      165
+     ],
+     [
+      245,
+      485
+     ]
+    ]
+   },
+   {
+    "label_ko": "나무 수레바퀴 굴러가는 소리",
+    "sound_en": "heavy wooden cart wheels creaking and rumbling on the dirt street",
+    "ground_phrase_en": "wooden handcarts and ox-drawn cart",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      315,
+      750
+     ],
+     [
+      160,
+      795
+     ]
+    ]
+   },
+   {
+    "label_ko": "노점상들의 호객 소리",
+    "sound_en": "street vendors calling out and hawking wares under stalls",
+    "ground_phrase_en": "market stalls under thatched awnings and umbrellas",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      395,
+      335
+     ],
+     [
+      265,
+      600
+     ],
+     [
+      605,
+      645
+     ],
+     [
+      320,
+      470
+     ]
+    ]
+   },
+   {
+    "label_ko": "나무 다리 위 발걸음 소리",
+    "sound_en": "dense footsteps clattering across wooden bridge planks",
+    "ground_phrase_en": "arched wooden bridge deck",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      620,
+      160
+     ],
+     [
+      540,
+      260
+     ],
+     [
+      490,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "말과 소, 나귀의 발굽 소리",
+    "sound_en": "hooves of oxen, donkeys, and horses thudding on the ground",
+    "ground_phrase_en": "ox, pack donkey, and horse",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      260,
+      865
+     ],
+     [
+      440,
+      695
+     ],
+     [
+      65,
+      925
+     ]
+    ]
+   },
+   {
+    "label_ko": "주막과 찻집의 대화 및 그릇 부딪히는 소리",
+    "sound_en": "diners talking with clinking bowls and cups in riverside taverns",
+    "ground_phrase_en": "riverside teahouses and open-air taverns",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      890,
+      885
+     ],
+     [
+      275,
+      75
+     ],
+     [
+      415,
+      110
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 펄럭이는 주막 깃발 소리",
+    "sound_en": "cloth wine-shop banner rustling and flapping in the breeze",
+    "ground_phrase_en": "striped cloth banner hanging from a pole",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      125,
+      565
+     ]
+    ]
+   },
+   {
+    "label_ko": "강변 나뭇가지를 스치는 바람 소리",
+    "sound_en": "gentle breeze rustling through bare riverside tree branches",
+    "ground_phrase_en": "riverside trees and open air",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Along the River During the Qingming Festival (Rainbow Bridge detail)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"강물 흐르는 소리\",\n      \"sound_en\": \"river water flowing and lapping against banks and hulls\",\n      \"ground_phrase_en\": \"flowing river water\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"군중의 웅성거림과 시장 소음\",\n      \"sound_en\": \"bustling crowd chatter and lively market hubbub\",\n      \"ground_phrase_en\": \"crowds of pedestrians on the bridge and streets\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [655, 145],\n        [510, 280],\n        [465, 635],\n        [240, 645],\n        [230, 415]\n      ]\n    },\n    {\n      \"label_ko\": \"뱃사공들의 다급한 외침\",\n      \"sound_en\": \"boatmen shouting urgent instructions while navigating under the bridge\",\n      \"ground_phrase_en\": \"boatmen on the large riverboat and nearby boat roof\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [805, 330],\n        [805, 555]\n      ]\n    },\n    {\n      \"label_ko\": \"노 젓는 물소리와 나무배 삐걱거리는 소리\",\n      \"sound_en\": \"oars and poles splashing in water with creaking wooden boat hulls and rigging\",\n      \"ground_phrase_en\": \"wooden riverboats and oars\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [810, 350],\n        [220, 165],\n        [245, 485]\n      ]\n    },\n    {\n      \"label_ko\": \"나무 수레바퀴 굴러가는 소리\",\n      \"sound_en\": \"heavy wooden cart wheels creaking and rumbling on the dirt street\",\n      \"ground_phrase_en\": \"wooden handcarts and ox-drawn cart\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [315, 750],\n        [160, 795]\n      ]\n    },\n    {\n      \"label_ko\": \"노점상들의 호객 소리\",\n      \"sound_en\": \"street vendors calling out and hawking wares under stalls\",\n      \"ground_phrase_en\": \"market stalls under thatched awnings and umbrellas\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [395, 335],\n        [265, 600],\n        [605, 645],\n        [320, 470]\n      ]\n    },\n    {\n      \"label_ko\": \"나무 다리 위 발걸음 소리\",\n      \"sound_en\": \"dense footsteps clattering across wooden bridge planks\",\n      \"ground_phrase_en\": \"arched wooden bridge deck\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [620, 160],\n        [540, 260],\n        [490, 415]\n      ]\n    },\n    {\n      \"label_ko\": \"말과 소, 나귀의 발굽 소리\",\n      \"sound_en\": \"hooves of oxen, donkeys, and horses thudding on the ground\",\n      \"ground_phrase_en\": \"ox, pack donkey, and horse\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [260, 865],\n        [440, 695],\n        [65, 925]\n      ]\n    },\n    {\n      \"label_ko\": \"주막과 찻집의 대화 및 그릇 부딪히는 소리\",\n      \"sound_en\": \"diners talking with clinking bowls and cups in riverside taverns\",\n      \"ground_phrase_en\": \"riverside teahouses and open-air taverns\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [890, 885],\n        [275, 75],\n        [415, 110]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 펄럭이는 주막 깃발 소리\",\n      \"sound_en\": \"cloth wine-shop banner rustling and flapping in the breeze\",\n      \"ground_phrase_en\": \"striped cloth banner hanging from a pole\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [125, 565]\n      ]\n    },\n    {\n      \"label_ko\": \"강변 나뭇가지를 스치는 바람 소리\",\n      \"sound_en\": \"gentle breeze rustling through bare riverside tree branches\",\n      \"ground_phrase_en\": \"riverside trees and open air\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1586,
+  "candidatesTokenCount": 1333,
+  "totalTokenCount": 6243,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1081
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1333
+   }
+  ],
+  "thoughtsTokenCount": 3324,
+  "serviceTier": "standard"
+ }
+}

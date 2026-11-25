@@ -1,0 +1,25 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 3
+  },
+  {
+   "model": 2,
+   "answer": 6
+  },
+  {
+   "model": 3,
+   "answer": 1
+  },
+  {
+   "model": 4,
+   "answer": 2
+  },
+  {
+   "model": 5,
+   "answer": 4
+  }
+ ],
+ "unpaired": []
+}

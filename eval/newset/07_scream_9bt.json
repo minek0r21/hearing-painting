@@ -1,0 +1,30 @@
+{
+ "painting": "07_scream",
+ "seconds": 19.1,
+ "parsed": {
+  "title_guess": "The Scream",
+  "sources": [
+   {
+    "id": "scream_voice",
+    "object_en": "screaming figure",
+    "x": 500,
+    "y": 650,
+    "label_ko": "절규",
+    "type": "people",
+    "description_ko": "중앙에 서 있는 인물이 입을 벌리고 비명을 지르는 소리가 난다.",
+    "prompt_en": "a high-pitched human scream, mouth wide open, intense emotional outburst, field recording"
+   },
+   {
+    "id": "wind_sky",
+    "object_en": "swirling sky",
+    "x": 500,
+    "y": 200,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "붉고 노란색으로 물든 하늘에서 강하게 부는 바람의 소리가 배경에 퍼진다.",
+    "prompt_en": "howling wind sound, swirling air, dramatic sky atmosphere, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Scream\",\n  \"sources\": [\n    {\n      \"id\": \"scream_voice\",\n      \"object_en\": \"screaming figure\",\n      \"x\": 500,\n      \"y\": 650,\n      \"label_ko\": \"절규\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에 서 있는 인물이 입을 벌리고 비명을 지르는 소리가 난다.\",\n      \"prompt_en\": \"a high-pitched human scream, mouth wide open, intense emotional outburst, field recording\"\n    },\n    {\n      \"id\": \"wind_sky\",\n      \"object_en\": \"swirling sky\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"붉고 노란색으로 물든 하늘에서 강하게 부는 바람의 소리가 배경에 퍼진다.\",\n      \"prompt_en\": \"howling wind sound, swirling air, dramatic sky atmosphere, field recording\"\n    }\n  ]\n}\n"
+}

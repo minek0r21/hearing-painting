@@ -1,0 +1,25 @@
+{
+ "hash": "01d41c6b87cd",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Men on the slope are visible and could make footsteps and breathing."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Man walking with a staff is visible and could make stepping sounds."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Men on the slope are visible and could make footsteps and breathing.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Man walking with a staff is visible and could make stepping sounds.\"}]}"
+}

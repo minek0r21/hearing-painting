@@ -1,0 +1,40 @@
+{
+ "painting": "04_saintlazare",
+ "seconds": 26.8,
+ "parsed": {
+  "title_guess": "Train Station Interior",
+  "sources": [
+   {
+    "id": "train_engine_chug",
+    "object_en": "steam locomotive emitting smoke",
+    "x": 480,
+    "y": 650,
+    "label_ko": "기차 증기",
+    "type": "vehicle",
+    "description_ko": "기차가 역 안에서 증기를 내뿜으며 움직이는 소리",
+    "prompt_en": "low rumbling chug of a steam locomotive engine with hissing steam release, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "group of people standing on platform",
+    "x": 850,
+    "y": 800,
+    "label_ko": "사람들 속삭임",
+    "type": "people",
+    "description_ko": "역 플랫폼에 서 있는 사람들이 낮게 대화하거나 움직이는 소음",
+    "prompt_en": "distant murmuring of a crowd of people standing and moving slowly in a train station, field recording"
+   },
+   {
+    "id": "train_wheel_rattle",
+    "object_en": "train wheels on tracks",
+    "x": 490,
+    "y": 700,
+    "label_ko": "바퀴軋軋",
+    "type": "vehicle",
+    "description_ko": "기차 바퀴가 레일 위를 굴러가는軋軋한 소리",
+    "prompt_en": "rhythmic clatter of train wheels rolling on metal tracks, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Train Station Interior\",\n  \"sources\": [\n    {\n      \"id\": \"train_engine_chug\",\n      \"object_en\": \"steam locomotive emitting smoke\",\n      \"x\": 480,\n      \"y\": 650,\n      \"label_ko\": \"기차 증기\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"기차가 역 안에서 증기를 내뿜으며 움직이는 소리\",\n      \"prompt_en\": \"low rumbling chug of a steam locomotive engine with hissing steam release, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"group of people standing on platform\",\n      \"x\": 850,\n      \"y\": 800,\n      \"label_ko\": \"사람들 속삭임\",\n      \"type\": \"people\",\n      \"description_ko\": \"역 플랫폼에 서 있는 사람들이 낮게 대화하거나 움직이는 소음\",\n      \"prompt_en\": \"distant murmuring of a crowd of people standing and moving slowly in a train station, field recording\"\n    },\n    {\n      \"id\": \"train_wheel_rattle\",\n      \"object_en\": \"train wheels on tracks\",\n      \"x\": 490,\n      \"y\": 700,\n      \"label_ko\": \"바퀴軋軋\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"기차 바퀴가 레일 위를 굴러가는軋軋한 소리\",\n      \"prompt_en\": \"rhythmic clatter of train wheels rolling on metal tracks, field recording\"\n    }\n  ]\n}\n"
+}

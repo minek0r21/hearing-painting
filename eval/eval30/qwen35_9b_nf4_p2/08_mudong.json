@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "08_mudong",
+ "seconds": 41.8,
+ "peak_vram_gb": 8.81,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "무악도 (Muakdo)",
+  "sources": [
+   {
+    "id": "drum_beat",
+    "object_en": "large drum being struck",
+    "x": 150,
+    "y": 180,
+    "label_ko": "북소리",
+    "type": "music",
+    "description_ko": "왼쪽 위에서 큰 북을 치는 소리가 울려 퍼진다.",
+    "prompt_en": "deep resonant drum beat struck with a mallet, rhythmic and echoing, field recording"
+   },
+   {
+    "id": "flute_play",
+    "object_en": "flute being played",
+    "x": 880,
+    "y": 520,
+    "label_ko": "피리소리",
+    "type": "music",
+    "description_ko": "오른쪽 아래에서 피리를 불며 부드럽고 고운 소리가 난다.",
+    "prompt_en": "soft melodic flute note played by hand, airy and expressive, field recording"
+   },
+   {
+    "id": "guitar_strum",
+    "object_en": "guitar being strummed",
+    "x": 720,
+    "y": 700,
+    "label_ko": "기타소리",
+    "type": "music",
+    "description_ko": "오른쪽 아래에서 기타를 치며 리듬감 있는 소리가 난다.",
+    "prompt_en": "plucked guitar strings with rhythmic strumming, warm and acoustic, field recording"
+   },
+   {
+    "id": "dance_movement",
+    "object_en": "dancer moving energetically",
+    "x": 250,
+    "y": 750,
+    "label_ko": "춤추는 소리",
+    "type": "people",
+    "description_ko": "왼쪽 아래에서 춤추는 사람의 발걸음과 옷자락 소리가 들린다.",
+    "prompt_en": "rhythmic footstep and fabric rustle from a dancer in motion, lively and dynamic, field recording"
+   },
+   {
+    "id": "wind_harp",
+    "object_en": "wind harp (saegeum)",
+    "x": 680,
+    "y": 620,
+    "label_ko": "새금소리",
+    "type": "music",
+    "description_ko": "중앙에서 새금을 연주하며 맑고 고운 소리가 난다.",
+    "prompt_en": "bright and ethereal sound of a Korean wind harp (saegeum) being played, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"무악도 (Muakdo)\",\n  \"sources\": [\n    {\n      \"id\": \"drum_beat\",\n      \"object_en\": \"large drum being struck\",\n      \"x\": 150,\n      \"y\": 180,\n      \"label_ko\": \"북소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"왼쪽 위에서 큰 북을 치는 소리가 울려 퍼진다.\",\n      \"prompt_en\": \"deep resonant drum beat struck with a mallet, rhythmic and echoing, field recording\"\n    },\n    {\n      \"id\": \"flute_play\",\n      \"object_en\": \"flute being played\",\n      \"x\": 880,\n      \"y\": 520,\n      \"label_ko\": \"피리소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽 아래에서 피리를 불며 부드럽고 고운 소리가 난다.\",\n      \"prompt_en\": \"soft melodic flute note played by hand, airy and expressive, field recording\"\n    },\n    {\n      \"id\": \"guitar_strum\",\n      \"object_en\": \"guitar being strummed\",\n      \"x\": 720,\n      \"y\": 700,\n      \"label_ko\": \"기타소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽 아래에서 기타를 치며 리듬감 있는 소리가 난다.\",\n      \"prompt_en\": \"plucked guitar strings with rhythmic strumming, warm and acoustic, field recording\"\n    },\n    {\n      \"id\": \"dance_movement\",\n      \"object_en\": \"dancer moving energetically\",\n      \"x\": 250,\n      \"y\": 750,\n      \"label_ko\": \"춤추는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽 아래에서 춤추는 사람의 발걸음과 옷자락 소리가 들린다.\",\n      \"prompt_en\": \"rhythmic footstep and fabric rustle from a dancer in motion, lively and dynamic, field recording\"\n    },\n    {\n      \"id\": \"wind_harp\",\n      \"object_en\": \"wind harp (saegeum)\",\n      \"x\": 680,\n      \"y\": 620,\n      \"label_ko\": \"새금소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"중앙에서 새금을 연주하며 맑고 고운 소리가 난다.\",\n      \"prompt_en\": \"bright and ethereal sound of a Korean wind harp (saegeum) being played, field recording\"\n    }\n  ]\n}\n"
+}

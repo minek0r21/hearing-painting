@@ -1,0 +1,116 @@
+{
+ "model": "gemini-4-neon",
+ "file": "08_mudong.jpg",
+ "seconds": 27.1,
+ "parsed": {
+  "title_guess": "Mudong (Dancing Boy) by Kim Hong-do",
+  "sources": [
+   {
+    "label_ko": "장구 소리",
+    "sound_en": "rhythmic hourglass drum (janggu) beats",
+    "ground_phrase_en": "hourglass drum (janggu)",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      450,
+      345
+     ]
+    ]
+   },
+   {
+    "label_ko": "북 소리",
+    "sound_en": "deep hanging barrel drum beats",
+    "ground_phrase_en": "hanging barrel drum",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      155,
+      205
+     ]
+    ]
+   },
+   {
+    "label_ko": "피리 소리",
+    "sound_en": "reedy bamboo oboe (piri) melodies",
+    "ground_phrase_en": "bamboo oboes (piri)",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      735,
+      270
+     ],
+     [
+      850,
+      295
+     ]
+    ]
+   },
+   {
+    "label_ko": "대금 소리",
+    "sound_en": "transverse bamboo flute (daegeum) playing",
+    "ground_phrase_en": "transverse bamboo flute",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      885,
+      550
+     ]
+    ]
+   },
+   {
+    "label_ko": "해금 소리",
+    "sound_en": "bowed two-stringed fiddle (haegeum) playing",
+    "ground_phrase_en": "two-stringed vertical fiddle",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      660,
+      665
+     ]
+    ]
+   },
+   {
+    "label_ko": "춤추는 발소리",
+    "sound_en": "lively dancing footsteps",
+    "ground_phrase_en": "dancing boy",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      280,
+      740
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Mudong (Dancing Boy) by Kim Hong-do\",\n  \"sources\": [\n    {\n      \"label_ko\": \"장구 소리\",\n      \"sound_en\": \"rhythmic hourglass drum (janggu) beats\",\n      \"ground_phrase_en\": \"hourglass drum (janggu)\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[450, 345]]\n    },\n    {\n      \"label_ko\": \"북 소리\",\n      \"sound_en\": \"deep hanging barrel drum beats\",\n      \"ground_phrase_en\": \"hanging barrel drum\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[155, 205]]\n    },\n    {\n      \"label_ko\": \"피리 소리\",\n      \"sound_en\": \"reedy bamboo oboe (piri) melodies\",\n      \"ground_phrase_en\": \"bamboo oboes (piri)\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[735, 270], [850, 295]]\n    },\n    {\n      \"label_ko\": \"대금 소리\",\n      \"sound_en\": \"transverse bamboo flute (daegeum) playing\",\n      \"ground_phrase_en\": \"transverse bamboo flute\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[885, 550]]\n    },\n    {\n      \"label_ko\": \"해금 소리\",\n      \"sound_en\": \"bowed two-stringed fiddle (haegeum) playing\",\n      \"ground_phrase_en\": \"two-stringed vertical fiddle\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[660, 665]]\n    },\n    {\n      \"label_ko\": \"춤추는 발소리\",\n      \"sound_en\": \"lively dancing footsteps\",\n      \"ground_phrase_en\": \"dancing boy\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[280, 740]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 552,
+  "totalTokenCount": 4832,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 552
+   }
+  ],
+  "thoughtsTokenCount": 2465,
+  "serviceTier": "standard"
+ }
+}

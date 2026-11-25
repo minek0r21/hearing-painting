@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "07_seodang",
+ "seconds": 31.3,
+ "peak_vram_gb": 9.02,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Joseon genre painting of a teacher and students",
+  "sources": [
+   {
+    "id": "teacher_speaking",
+    "object_en": "teacher's mouth",
+    "x": 680,
+    "y": 200,
+    "label_ko": "말하기",
+    "type": "people",
+    "description_ko": "선생님이 학생들에게 가르치고 있는 목소리",
+    "prompt_en": "soft spoken voice of an elderly Korean teacher instructing students, field recording"
+   },
+   {
+    "id": "student_reading",
+    "object_en": "student's mouth",
+    "x": 100,
+    "y": 400,
+    "label_ko": "읽기",
+    "type": "people",
+    "description_ko": "학생들이 책을 읽으며 조용히 숨 쉬는 소리",
+    "prompt_en": "quiet breathing and soft page-turning sounds from students reading books, field recording"
+   },
+   {
+    "id": "student_yawning",
+    "object_en": "yawning student's mouth",
+    "x": 350,
+    "y": 450,
+    "label_ko": "하품",
+    "type": "people",
+    "description_ko": "한 학생이 졸려서 하품하는 소리",
+    "prompt_en": "soft yawn sound from a tired student in a classroom setting, field recording"
+   },
+   {
+    "id": "student_smiling",
+    "object_en": "smiling student's mouth",
+    "x": 850,
+    "y": 550,
+    "label_ko": "웃음",
+    "type": "people",
+    "description_ko": "학생들이 웃는 경쾌한 웃음소리",
+    "prompt_en": "light, cheerful laughter from students listening to a lesson, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Joseon genre painting of a teacher and students\",\n  \"sources\": [\n    {\n      \"id\": \"teacher_speaking\",\n      \"object_en\": \"teacher's mouth\",\n      \"x\": 680,\n      \"y\": 200,\n      \"label_ko\": \"말하기\",\n      \"type\": \"people\",\n      \"description_ko\": \"선생님이 학생들에게 가르치고 있는 목소리\",\n      \"prompt_en\": \"soft spoken voice of an elderly Korean teacher instructing students, field recording\"\n    },\n    {\n      \"id\": \"student_reading\",\n      \"object_en\": \"student's mouth\",\n      \"x\": 100,\n      \"y\": 400,\n      \"label_ko\": \"읽기\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생들이 책을 읽으며 조용히 숨 쉬는 소리\",\n      \"prompt_en\": \"quiet breathing and soft page-turning sounds from students reading books, field recording\"\n    },\n    {\n      \"id\": \"student_yawning\",\n      \"object_en\": \"yawning student's mouth\",\n      \"x\": 350,\n      \"y\": 450,\n      \"label_ko\": \"하품\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 학생이 졸려서 하품하는 소리\",\n      \"prompt_en\": \"soft yawn sound from a tired student in a classroom setting, field recording\"\n    },\n    {\n      \"id\": \"student_smiling\",\n      \"object_en\": \"smiling student's mouth\",\n      \"x\": 850,\n      \"y\": 550,\n      \"label_ko\": \"웃음\",\n      \"type\": \"people\",\n      \"description_ko\": \"학생들이 웃는 경쾌한 웃음소리\",\n      \"prompt_en\": \"light, cheerful laughter from students listening to a lesson, field recording\"\n    }\n  ]\n}\n"
+}

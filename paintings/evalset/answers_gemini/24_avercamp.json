@@ -1,0 +1,235 @@
+{
+ "model": "gemini-4-neon",
+ "file": "24_avercamp.jpg",
+ "seconds": 38.2,
+ "parsed": {
+  "title_guess": "Winter Landscape with Ice Skaters (detail) by Hendrick Avercamp",
+  "sources": [
+   {
+    "label_ko": "차가운 겨울 바람 소리",
+    "sound_en": "cold winter wind whistling through bare tree branches",
+    "ground_phrase_en": "bare winter trees and drifting chimney smoke",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "까마귀 울음과 날갯짓 소리",
+    "sound_en": "crows cawing and bird wings flapping",
+    "ground_phrase_en": "flock of dark birds in the sky and on trees and roofs",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      216,
+      10
+     ],
+     [
+      234,
+      82
+     ],
+     [
+      456,
+      154
+     ],
+     [
+      134,
+      171
+     ],
+     [
+      529,
+      553
+     ],
+     [
+      580,
+      487
+     ]
+    ]
+   },
+   {
+    "label_ko": "얼음 위 스케이트 날 긁히는 소리",
+    "sound_en": "ice skates scraping across the frozen canal",
+    "ground_phrase_en": "ice skaters on the frozen river",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      970,
+      820
+     ],
+     [
+      914,
+      962
+     ],
+     [
+      831,
+      812
+     ],
+     [
+      752,
+      832
+     ],
+     [
+      812,
+      901
+     ]
+    ]
+   },
+   {
+    "label_ko": "마을 사람들의 웅성거리는 대화 소리",
+    "sound_en": "villagers chatting and calling out in the cold air",
+    "ground_phrase_en": "groups of villagers gathered on the ice and near doorways",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      600,
+      828
+     ],
+     [
+      635,
+      746
+     ],
+     [
+      772,
+      825
+     ],
+     [
+      815,
+      902
+     ],
+     [
+      110,
+      844
+     ]
+    ]
+   },
+   {
+    "label_ko": "눈길 밟는 발걸음 소리",
+    "sound_en": "footsteps crunching in the snow",
+    "ground_phrase_en": "villagers walking across the snowy bank",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      355,
+      878
+     ],
+     [
+      508,
+      888
+     ],
+     [
+      267,
+      879
+     ],
+     [
+      605,
+      865
+     ],
+     [
+      967,
+      589
+     ]
+    ]
+   },
+   {
+    "label_ko": "도르래 삐걱거림과 물 긷는 소리",
+    "sound_en": "wooden hoist creaking and bucket splashing in an ice hole",
+    "ground_phrase_en": "hanging bucket suspended over a hole in the ice",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      507,
+      765
+     ]
+    ]
+   },
+   {
+    "label_ko": "작은 개 짖는 소리",
+    "sound_en": "small dog yapping and running in the snow",
+    "ground_phrase_en": "small dog trotting in the foreground snow",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      581,
+      909
+     ]
+    ]
+   },
+   {
+    "label_ko": "닭 꼬꼬댁거리는 소리",
+    "sound_en": "chickens clucking near the cottage",
+    "ground_phrase_en": "chickens pecking by the left cottage",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      75,
+      848
+     ],
+     [
+      54,
+      862
+     ],
+     [
+      66,
+      872
+     ]
+    ]
+   },
+   {
+    "label_ko": "눈길 위 먼 말발굽 소리",
+    "sound_en": "distant horse hooves muffled in snow",
+    "ground_phrase_en": "rider on horseback in the right background",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      901,
+      581
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 울리는 교회 종소리",
+    "sound_en": "distant church bells tolling",
+    "ground_phrase_en": "church bell tower in the upper left background",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      276,
+      368
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with Ice Skaters (detail) by Hendrick Avercamp\",\n  \"sources\": [\n    {\n      \"label_ko\": \"차가운 겨울 바람 소리\",\n      \"sound_en\": \"cold winter wind whistling through bare tree branches\",\n      \"ground_phrase_en\": \"bare winter trees and drifting chimney smoke\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"까마귀 울음과 날갯짓 소리\",\n      \"sound_en\": \"crows cawing and bird wings flapping\",\n      \"ground_phrase_en\": \"flock of dark birds in the sky and on trees and roofs\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [216, 10],\n        [234, 82],\n        [456, 154],\n        [134, 171],\n        [529, 553],\n        [580, 487]\n      ]\n    },\n    {\n      \"label_ko\": \"얼음 위 스케이트 날 긁히는 소리\",\n      \"sound_en\": \"ice skates scraping across the frozen canal\",\n      \"ground_phrase_en\": \"ice skaters on the frozen river\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [970, 820],\n        [914, 962],\n        [831, 812],\n        [752, 832],\n        [812, 901]\n      ]\n    },\n    {\n      \"label_ko\": \"마을 사람들의 웅성거리는 대화 소리\",\n      \"sound_en\": \"villagers chatting and calling out in the cold air\",\n      \"ground_phrase_en\": \"groups of villagers gathered on the ice and near doorways\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [600, 828],\n        [635, 746],\n        [772, 825],\n        [815, 902],\n        [110, 844]\n      ]\n    },\n    {\n      \"label_ko\": \"눈길 밟는 발걸음 소리\",\n      \"sound_en\": \"footsteps crunching in the snow\",\n      \"ground_phrase_en\": \"villagers walking across the snowy bank\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [355, 878],\n        [508, 888],\n        [267, 879],\n        [605, 865],\n        [967, 589]\n      ]\n    },\n    {\n      \"label_ko\": \"도르래 삐걱거림과 물 긷는 소리\",\n      \"sound_en\": \"wooden hoist creaking and bucket splashing in an ice hole\",\n      \"ground_phrase_en\": \"hanging bucket suspended over a hole in the ice\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [507, 765]\n      ]\n    },\n    {\n      \"label_ko\": \"작은 개 짖는 소리\",\n      \"sound_en\": \"small dog yapping and running in the snow\",\n      \"ground_phrase_en\": \"small dog trotting in the foreground snow\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [581, 909]\n      ]\n    },\n    {\n      \"label_ko\": \"닭 꼬꼬댁거리는 소리\",\n      \"sound_en\": \"chickens clucking near the cottage\",\n      \"ground_phrase_en\": \"chickens pecking by the left cottage\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [75, 848],\n        [54, 862],\n        [66, 872]\n      ]\n    },\n    {\n      \"label_ko\": \"눈길 위 먼 말발굽 소리\",\n      \"sound_en\": \"distant horse hooves muffled in snow\",\n      \"ground_phrase_en\": \"rider on horseback in the right background\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [901, 581]\n      ]\n    },\n    {\n      \"label_ko\": \"멀리서 울리는 교회 종소리\",\n      \"sound_en\": \"distant church bells tolling\",\n      \"ground_phrase_en\": \"church bell tower in the upper left background\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [276, 368]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 1232,
+  "totalTokenCount": 5982,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1232
+   }
+  ],
+  "thoughtsTokenCount": 3165,
+  "serviceTier": "standard"
+ }
+}

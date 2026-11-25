@@ -1,0 +1,50 @@
+{
+ "painting": "08_pajeokdo",
+ "seconds": 34.3,
+ "parsed": {
+  "title_guess": "파적도",
+  "sources": [
+   {
+    "id": "man_chasing_cat",
+    "object_en": "man with a stick chasing a cat",
+    "x": 450,
+    "y": 500,
+    "label_ko": "고양이 쫓는 소리",
+    "type": "animal",
+    "description_ko": "남자가 막대기로 고양이를 쫓으며 발소리와 고양이의 달리는 소리가 난다.",
+    "prompt_en": "a man chasing a running cat with a stick, footsteps and cat running sounds, field recording"
+   },
+   {
+    "id": "woman_screaming",
+    "object_en": "woman on steps gesturing",
+    "x": 800,
+    "y": 250,
+    "label_ko": "여자의 외침",
+    "type": "people",
+    "description_ko": "계단 위에 있는 여자가 손짓하며 소리를 지르는 소리.",
+    "prompt_en": "a woman on steps shouting and gesturing with her hands, field recording"
+   },
+   {
+    "id": "bird_flying",
+    "object_en": "flying bird",
+    "x": 280,
+    "y": 750,
+    "label_ko": "새 날음 소리",
+    "type": "animal",
+    "description_ko": "날개를 펄럭이며 날아다니는 새의 날음 소리.",
+    "prompt_en": "a bird flying with wings flapping, field recording"
+   },
+   {
+    "id": "chicks_chirping",
+    "object_en": "group of chicks",
+    "x": 350,
+    "y": 900,
+    "label_ko": "새끼닭 울음",
+    "type": "animal",
+    "description_ko": "땅에 있는 새끼닭들이 모여서 우는 소리.",
+    "prompt_en": "a group of chicks chirping on the ground, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"파적도\",\n  \"sources\": [\n    {\n      \"id\": \"man_chasing_cat\",\n      \"object_en\": \"man with a stick chasing a cat\",\n      \"x\": 450,\n      \"y\": 500,\n      \"label_ko\": \"고양이 쫓는 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"남자가 막대기로 고양이를 쫓으며 발소리와 고양이의 달리는 소리가 난다.\",\n      \"prompt_en\": \"a man chasing a running cat with a stick, footsteps and cat running sounds, field recording\"\n    },\n    {\n      \"id\": \"woman_screaming\",\n      \"object_en\": \"woman on steps gesturing\",\n      \"x\": 800,\n      \"y\": 250,\n      \"label_ko\": \"여자의 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"계단 위에 있는 여자가 손짓하며 소리를 지르는 소리.\",\n      \"prompt_en\": \"a woman on steps shouting and gesturing with her hands, field recording\"\n    },\n    {\n      \"id\": \"bird_flying\",\n      \"object_en\": \"flying bird\",\n      \"x\": 280,\n      \"y\": 750,\n      \"label_ko\": \"새 날음 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"날개를 펄럭이며 날아다니는 새의 날음 소리.\",\n      \"prompt_en\": \"a bird flying with wings flapping, field recording\"\n    },\n    {\n      \"id\": \"chicks_chirping\",\n      \"object_en\": \"group of chicks\",\n      \"x\": 350,\n      \"y\": 900,\n      \"label_ko\": \"새끼닭 울음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"땅에 있는 새끼닭들이 모여서 우는 소리.\",\n      \"prompt_en\": \"a group of chicks chirping on the ground, field recording\"\n    }\n  ]\n}\n"
+}

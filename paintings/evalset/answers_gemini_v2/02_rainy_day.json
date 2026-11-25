@@ -1,0 +1,121 @@
+{
+ "model": "gemini-4-neon",
+ "file": "02_rainy_day.jpg",
+ "seconds": 86.7,
+ "parsed": {
+  "title_guess": "Paris Street; Rainy Day",
+  "sources": [
+   {
+    "label_ko": "거리에 내리는 빗소리",
+    "sound_en": "steady rain falling on wet cobblestones and street",
+    "ground_phrase_en": "rainy city street",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "우산에 떨어지는 빗소리",
+    "sound_en": "rain pattering on open umbrellas",
+    "ground_phrase_en": "open umbrellas",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      655,
+      300
+     ],
+     [
+      890,
+      265
+     ],
+     [
+      420,
+      422
+     ],
+     [
+      68,
+      440
+     ],
+     [
+      255,
+      420
+     ]
+    ]
+   },
+   {
+    "label_ko": "젖은 길을 걷는 발걸음 소리",
+    "sound_en": "pedestrians' footsteps on wet cobblestones and sidewalk",
+    "ground_phrase_en": "walking pedestrians",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      595,
+      700
+     ],
+     [
+      775,
+      700
+     ],
+     [
+      945,
+      680
+     ],
+     [
+      375,
+      565
+     ],
+     [
+      45,
+      580
+     ],
+     [
+      270,
+      488
+     ]
+    ]
+   },
+   {
+    "label_ko": "마차 바퀴와 말발굽 소리",
+    "sound_en": "horse hooves and carriage wheels rattling on cobblestones",
+    "ground_phrase_en": "horse-drawn carriages",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      108,
+      495
+     ],
+     [
+      345,
+      442
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Paris Street; Rainy Day\",\n  \"sources\": [\n    {\n      \"label_ko\": \"거리에 내리는 빗소리\",\n      \"sound_en\": \"steady rain falling on wet cobblestones and street\",\n      \"ground_phrase_en\": \"rainy city street\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"우산에 떨어지는 빗소리\",\n      \"sound_en\": \"rain pattering on open umbrellas\",\n      \"ground_phrase_en\": \"open umbrellas\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [655, 300],\n        [890, 265],\n        [420, 422],\n        [68, 440],\n        [255, 420]\n      ]\n    },\n    {\n      \"label_ko\": \"젖은 길을 걷는 발걸음 소리\",\n      \"sound_en\": \"pedestrians' footsteps on wet cobblestones and sidewalk\",\n      \"ground_phrase_en\": \"walking pedestrians\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [595, 700],\n        [775, 700],\n        [945, 680],\n        [375, 565],\n        [45, 580],\n        [270, 488]\n      ]\n    },\n    {\n      \"label_ko\": \"마차 바퀴와 말발굽 소리\",\n      \"sound_en\": \"horse hooves and carriage wheels rattling on cobblestones\",\n      \"ground_phrase_en\": \"horse-drawn carriages\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [108, 495],\n        [345, 442]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1808,
+  "candidatesTokenCount": 503,
+  "totalTokenCount": 10272,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1073
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 503
+   }
+  ],
+  "thoughtsTokenCount": 7961,
+  "serviceTier": "standard"
+ }
+}

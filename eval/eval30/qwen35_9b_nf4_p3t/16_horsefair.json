@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "16_horsefair",
+ "seconds": 24.7,
+ "peak_vram_gb": 8.8,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "말 시장",
+  "sources": [
+   {
+    "id": "horse_hooves",
+    "object_en": "horses' hooves",
+    "x": 500,
+    "y": 800,
+    "label_ko": "말 발굽 소리",
+    "type": "animal",
+    "description_ko": "다수의 말이 땅을 울리며 달리는 발굽 소리가 들린다.",
+    "prompt_en": "sound of many horses' hooves pounding on dirt ground, field recording"
+   },
+   {
+    "id": "men_shouting",
+    "object_en": "men's mouths",
+    "x": 210,
+    "y": 550,
+    "label_ko": "남자들의 외침",
+    "type": "people",
+    "description_ko": "말을 다루는 남자들의 목소리와 외침 소리가 난다.",
+    "prompt_en": "men shouting and talking loudly in a chaotic market scene, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees",
+    "x": 700,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "나무 사이로 불어오는 바람 소리가 들린다.",
+    "prompt_en": "rustling sound of wind blowing through trees, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"말 시장\",\n\"sources\": [\n  {\n    \"id\": \"horse_hooves\",\n    \"object_en\": \"horses' hooves\",\n    \"x\": 500,\n    \"y\": 800,\n    \"label_ko\": \"말 발굽 소리\",\n    \"type\": \"animal\",\n    \"description_ko\": \"다수의 말이 땅을 울리며 달리는 발굽 소리가 들린다.\",\n    \"prompt_en\": \"sound of many horses' hooves pounding on dirt ground, field recording\"\n  },\n  {\n    \"id\": \"men_shouting\",\n    \"object_en\": \"men's mouths\",\n    \"x\": 210,\n    \"y\": 550,\n    \"label_ko\": \"남자들의 외침\",\n    \"type\": \"people\",\n    \"description_ko\": \"말을 다루는 남자들의 목소리와 외침 소리가 난다.\",\n    \"prompt_en\": \"men shouting and talking loudly in a chaotic market scene, field recording\"\n  },\n  {\n    \"id\": \"wind_through_trees\",\n    \"object_en\": \"trees\",\n    \"x\": 700,\n    \"y\": 200,\n    \"label_ko\": \"바람 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"나무 사이로 불어오는 바람 소리가 들린다.\",\n    \"prompt_en\": \"rustling sound of wind blowing through trees, field recording\"\n  }\n]\n}\n```\n"
+}

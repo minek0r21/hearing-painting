@@ -1,0 +1,84 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "27_merryfamily",
+ "seconds": 48.0,
+ "peak_vram_gb": 8.77,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of St. Nicholas",
+  "sources": [
+   {
+    "id": "man_playing_lute",
+    "object_en": "man playing lute",
+    "x": 320,
+    "y": 420,
+    "label_ko": "루트 연주",
+    "type": "music",
+    "description_ko": "좌측에 앉아 있는 노인이 루트를 연주하며 웃고 있다.",
+    "prompt_en": "man playing lute with cheerful expression, acoustic plucking sound, field recording"
+   },
+   {
+    "id": "boy_flute",
+    "object_en": "boy playing flute",
+    "x": 780,
+    "y": 380,
+    "label_ko": "플루트 소리",
+    "type": "music",
+    "description_ko": "오른쪽에서 플루트를 불고 있는 소년의 날카로운 바람 소리.",
+    "prompt_en": "young boy playing wooden flute, breathy wind sound, field recording"
+   },
+   {
+    "id": "dog_barking",
+    "object_en": "dog standing near table",
+    "x": 450,
+    "y": 750,
+    "label_ko": "개 짖음",
+    "type": "animal",
+    "description_ko": "식탁 옆에 서 있는 개가 짖거나 으르렁거리는 소리.",
+    "prompt_en": "small dog barking or growling softly, indoor setting, field recording"
+   },
+   {
+    "id": "girl_pouring_wine",
+    "object_en": "girl pouring wine from jug",
+    "x": 680,
+    "y": 650,
+    "label_ko": "술 부는 소리",
+    "type": "people",
+    "description_ko": "여자가 주전자로 포도주를 부을 때 나는 맑은 액체 흐르는 소리.",
+    "prompt_en": "liquid pouring from ceramic jug into glass, crisp splash sound, field recording"
+   },
+   {
+    "id": "boy_at_window",
+    "object_en": "boy at window with horn",
+    "x": 80,
+    "y": 300,
+    "label_ko": "호각 소리",
+    "type": "people",
+    "description_ko": "창가에 서 있는 소년이 호각을 불며 외치는 소리.",
+    "prompt_en": "boy blowing horn at window, loud brass wind sound, field recording"
+   },
+   {
+    "id": "room_tone",
+    "object_en": "interior room space",
+    "x": 500,
+    "y": 500,
+    "label_ko": "방 소리",
+    "type": "nature",
+    "description_ko": "집안 내부의 조용한 배경 소음, 숨소리나 옷자락 소리.",
+    "prompt_en": "quiet indoor room tone, subtle ambient noise, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Feast of St. Nicholas\",\n  \"sources\": [\n    {\n      \"id\": \"man_playing_lute\",\n      \"object_en\": \"man playing lute\",\n      \"x\": 320,\n      \"y\": 420,\n      \"label_ko\": \"루트 연주\",\n      \"type\": \"music\",\n      \"description_ko\": \"좌측에 앉아 있는 노인이 루트를 연주하며 웃고 있다.\",\n      \"prompt_en\": \"man playing lute with cheerful expression, acoustic plucking sound, field recording\"\n    },\n    {\n      \"id\": \"boy_flute\",\n      \"object_en\": \"boy playing flute\",\n      \"x\": 780,\n      \"y\": 380,\n      \"label_ko\": \"플루트 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽에서 플루트를 불고 있는 소년의 날카로운 바람 소리.\",\n      \"prompt_en\": \"young boy playing wooden flute, breathy wind sound, field recording\"\n    },\n    {\n      \"id\": \"dog_barking\",\n      \"object_en\": \"dog standing near table\",\n      \"x\": 450,\n      \"y\": 750,\n      \"label_ko\": \"개 짖음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"식탁 옆에 서 있는 개가 짖거나 으르렁거리는 소리.\",\n      \"prompt_en\": \"small dog barking or growling softly, indoor setting, field recording\"\n    },\n    {\n      \"id\": \"girl_pouring_wine\",\n      \"object_en\": \"girl pouring wine from jug\",\n      \"x\": 680,\n      \"y\": 650,\n      \"label_ko\": \"술 부는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"여자가 주전자로 포도주를 부을 때 나는 맑은 액체 흐르는 소리.\",\n      \"prompt_en\": \"liquid pouring from ceramic jug into glass, crisp splash sound, field recording\"\n    },\n    {\n      \"id\": \"boy_at_window\",\n      \"object_en\": \"boy at window with horn\",\n      \"x\": 80,\n      \"y\": 300,\n      \"label_ko\": \"호각 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"창가에 서 있는 소년이 호각을 불며 외치는 소리.\",\n      \"prompt_en\": \"boy blowing horn at window, loud brass wind sound, field recording\"\n    },\n    {\n      \"id\": \"room_tone\",\n      \"object_en\": \"interior room space\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"방 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"집안 내부의 조용한 배경 소음, 숨소리나 옷자락 소리.\",\n      \"prompt_en\": \"quiet indoor room tone, subtle ambient noise, field recording\"\n    }\n  ]\n}\n"
+}

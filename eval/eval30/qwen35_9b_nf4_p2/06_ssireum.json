@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "06_ssireum",
+ "seconds": 44.0,
+ "peak_vram_gb": 8.81,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Game of Go (or similar traditional Korean gathering scene)",
+  "sources": [
+   {
+    "id": "go_game_sound",
+    "object_en": "stone being placed on Go board",
+    "x": 150,
+    "y": 350,
+    "label_ko": "고돌 떨어지는 소리",
+    "type": "people",
+    "description_ko": "왼쪽 아래에서 고돌을 판 위에 내려놓는 소리가 들린다.",
+    "prompt_en": "soft clacking sound of a small stone being placed on a wooden board, field recording"
+   },
+   {
+    "id": "man_holding_tray",
+    "object_en": "man carrying tray",
+    "x": 160,
+    "y": 550,
+    "label_ko": "접시 들고 걷는 소리",
+    "type": "people",
+    "description_ko": "왼쪽에서 접시를 들고 서서히 움직이는 남자의 발걸음과 옷자락 소리가 들린다.",
+    "prompt_en": "gentle footsteps and rustling fabric of a man walking while holding a tray, field recording"
+   },
+   {
+    "id": "two_men_fighting",
+    "object_en": "two men wrestling",
+    "x": 550,
+    "y": 450,
+    "label_ko": "남자 싸우는 소리",
+    "type": "people",
+    "description_ko": "중앙에서 두 남자가 서로 붙잡고 싸우는 격렬한 몸짓과 옷 마찰 소리가 들린다.",
+    "prompt_en": "intense physical struggle with fabric rustling and body movement sounds, field recording"
+   },
+   {
+    "id": "man_falling",
+    "object_en": "man falling to ground",
+    "x": 850,
+    "y": 850,
+    "label_ko": "남자 넘어지는 소리",
+    "type": "people",
+    "description_ko": "오른쪽 아래에서 한 남자가 뒤로 넘어지며 옷과 바닥이 부딪히는 소리가 들린다.",
+    "prompt_en": "sudden thud and fabric slap as a man falls backward onto the ground, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "group of seated men",
+    "x": 500,
+    "y": 100,
+    "label_ko": "사람들 속삭임",
+    "type": "people",
+    "description_ko": "위쪽 좌우에 앉아 있는 여러 남자들의 낮은 속삭임과 웃음소리가 배경으로 흐른다.",
+    "prompt_en": "soft murmuring and occasional laughter from a group of seated men, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Game of Go (or similar traditional Korean gathering scene)\",\n  \"sources\": [\n    {\n      \"id\": \"go_game_sound\",\n      \"object_en\": \"stone being placed on Go board\",\n      \"x\": 150,\n      \"y\": 350,\n      \"label_ko\": \"고돌 떨어지는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽 아래에서 고돌을 판 위에 내려놓는 소리가 들린다.\",\n      \"prompt_en\": \"soft clacking sound of a small stone being placed on a wooden board, field recording\"\n    },\n    {\n      \"id\": \"man_holding_tray\",\n      \"object_en\": \"man carrying tray\",\n      \"x\": 160,\n      \"y\": 550,\n      \"label_ko\": \"접시 들고 걷는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽에서 접시를 들고 서서히 움직이는 남자의 발걸음과 옷자락 소리가 들린다.\",\n      \"prompt_en\": \"gentle footsteps and rustling fabric of a man walking while holding a tray, field recording\"\n    },\n    {\n      \"id\": \"two_men_fighting\",\n      \"object_en\": \"two men wrestling\",\n      \"x\": 550,\n      \"y\": 450,\n      \"label_ko\": \"남자 싸우는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에서 두 남자가 서로 붙잡고 싸우는 격렬한 몸짓과 옷 마찰 소리가 들린다.\",\n      \"prompt_en\": \"intense physical struggle with fabric rustling and body movement sounds, field recording\"\n    },\n    {\n      \"id\": \"man_falling\",\n      \"object_en\": \"man falling to ground\",\n      \"x\": 850,\n      \"y\": 850,\n      \"label_ko\": \"남자 넘어지는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"오른쪽 아래에서 한 남자가 뒤로 넘어지며 옷과 바닥이 부딪히는 소리가 들린다.\",\n      \"prompt_en\": \"sudden thud and fabric slap as a man falls backward onto the ground, field recording\"\n    },\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"group of seated men\",\n      \"x\": 500,\n      \"y\": 100,\n      \"label_ko\": \"사람들 속삭임\",\n      \"type\": \"people\",\n      \"description_ko\": \"위쪽 좌우에 앉아 있는 여러 남자들의 낮은 속삭임과 웃음소리가 배경으로 흐른다.\",\n      \"prompt_en\": \"soft murmuring and occasional laughter from a group of seated men, field recording\"\n    }\n  ]\n}\n"
+}

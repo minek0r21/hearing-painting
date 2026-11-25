@@ -1,0 +1,142 @@
+{
+ "model": "gemini-4-neon",
+ "file": "21_snapwhip.jpg",
+ "seconds": 26.1,
+ "parsed": {
+  "title_guess": "Snap the Whip",
+  "sources": [
+   {
+    "label_ko": "아이들의 외침과 웃음소리",
+    "sound_en": "boys shouting, laughing, and straining while playing",
+    "ground_phrase_en": "line of boys playing snap the whip",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      270,
+      515
+     ],
+     [
+      395,
+      520
+     ],
+     [
+      440,
+      475
+     ],
+     [
+      640,
+      515
+     ],
+     [
+      835,
+      500
+     ],
+     [
+      925,
+      495
+     ]
+    ]
+   },
+   {
+    "label_ko": "풀밭을 달리는 맨발 소리",
+    "sound_en": "bare feet pounding and rustling through meadow grass",
+    "ground_phrase_en": "bare feet of running boys on the grass",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      248,
+      800
+     ],
+     [
+      365,
+      835
+     ],
+     [
+      420,
+      865
+     ],
+     [
+      615,
+      825
+     ],
+     [
+      795,
+      815
+     ],
+     [
+      905,
+      830
+     ]
+    ]
+   },
+   {
+    "label_ko": "풀밭에 넘어지고 구르는 소리",
+    "sound_en": "boys tumbling and thudding onto the grass",
+    "ground_phrase_en": "two boys falling onto the grass on the left",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      135,
+      665
+     ],
+     [
+      195,
+      595
+     ]
+    ]
+   },
+   {
+    "label_ko": "멀리서 들리는 아이들의 재잘거림과 환호 소리",
+    "sound_en": "distant children chattering and cheering",
+    "ground_phrase_en": "small group of children standing and cheering in the left background",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      68,
+      565
+     ],
+     [
+      110,
+      535
+     ]
+    ]
+   },
+   {
+    "label_ko": "숲과 풀밭을 스치는 바람 소리",
+    "sound_en": "gentle breeze rustling through the wooded hills and meadow grass",
+    "ground_phrase_en": "forested hillside and grassy meadow",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Snap the Whip\",\n  \"sources\": [\n    {\n      \"label_ko\": \"아이들의 외침과 웃음소리\",\n      \"sound_en\": \"boys shouting, laughing, and straining while playing\",\n      \"ground_phrase_en\": \"line of boys playing snap the whip\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [270, 515],\n        [395, 520],\n        [440, 475],\n        [640, 515],\n        [835, 500],\n        [925, 495]\n      ]\n    },\n    {\n      \"label_ko\": \"풀밭을 달리는 맨발 소리\",\n      \"sound_en\": \"bare feet pounding and rustling through meadow grass\",\n      \"ground_phrase_en\": \"bare feet of running boys on the grass\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [248, 800],\n        [365, 835],\n        [420, 865],\n        [615, 825],\n        [795, 815],\n        [905, 830]\n      ]\n    },\n    {\n      \"label_ko\": \"풀밭에 넘어지고 구르는 소리\",\n      \"sound_en\": \"boys tumbling and thudding onto the grass\",\n      \"ground_phrase_en\": \"two boys falling onto the grass on the left\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [135, 665],\n        [195, 595]\n      ]\n    },\n    {\n      \"label_ko\": \"멀리서 들리는 아이들의 재잘거림과 환호 소리\",\n      \"sound_en\": \"distant children chattering and cheering\",\n      \"ground_phrase_en\": \"small group of children standing and cheering in the left background\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [68, 565],\n        [110, 535]\n      ]\n    },\n    {\n      \"label_ko\": \"숲과 풀밭을 스치는 바람 소리\",\n      \"sound_en\": \"gentle breeze rustling through the wooded hills and meadow grass\",\n      \"ground_phrase_en\": \"forested hillside and grassy meadow\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1580,
+  "candidatesTokenCount": 656,
+  "totalTokenCount": 4234,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1075
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 656
+   }
+  ],
+  "thoughtsTokenCount": 1998,
+  "serviceTier": "standard"
+ }
+}

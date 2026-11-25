@@ -1,0 +1,81 @@
+{
+ "model": "gemini-4-neon",
+ "file": "17_rainsteam.jpg",
+ "seconds": 26.6,
+ "parsed": {
+  "title_guess": "Rain, Steam and Speed – The Great Western Railway",
+  "sources": [
+   {
+    "label_ko": "증기기관차 달리는 소리",
+    "sound_en": "steam locomotive chugging, hissing steam, and rumbling along the tracks",
+    "ground_phrase_en": "steam locomotive and train on the railway bridge",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      660,
+      615
+     ]
+    ]
+   },
+   {
+    "label_ko": "빗소리와 바람 소리",
+    "sound_en": "heavy driving rain and rushing wind",
+    "ground_phrase_en": "rainstorm and stormy sky",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "sound_en": "river water flowing beneath the bridge",
+    "ground_phrase_en": "river on the lower left",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      120,
+      840
+     ]
+    ]
+   },
+   {
+    "label_ko": "나룻배 노 젓는 소리",
+    "sound_en": "oars splashing from a small rowboat on the river",
+    "ground_phrase_en": "small rowboat with passengers on the river",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      144,
+      790
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rain, Steam and Speed – The Great Western Railway\",\n  \"sources\": [\n    {\n      \"label_ko\": \"증기기관차 달리는 소리\",\n      \"sound_en\": \"steam locomotive chugging, hissing steam, and rumbling along the tracks\",\n      \"ground_phrase_en\": \"steam locomotive and train on the railway bridge\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[660, 615]]\n    },\n    {\n      \"label_ko\": \"빗소리와 바람 소리\",\n      \"sound_en\": \"heavy driving rain and rushing wind\",\n      \"ground_phrase_en\": \"rainstorm and stormy sky\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"강물 흐르는 소리\",\n      \"sound_en\": \"river water flowing beneath the bridge\",\n      \"ground_phrase_en\": \"river on the lower left\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[120, 840]]\n    },\n    {\n      \"label_ko\": \"나룻배 노 젓는 소리\",\n      \"sound_en\": \"oars splashing from a small rowboat on the river\",\n      \"ground_phrase_en\": \"small rowboat with passengers on the river\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[144, 790]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1799,
+  "candidatesTokenCount": 384,
+  "totalTokenCount": 4614,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1064
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 384
+   }
+  ],
+  "thoughtsTokenCount": 2431,
+  "serviceTier": "standard"
+ }
+}

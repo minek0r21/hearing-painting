@@ -1,0 +1,38 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "06_ssireum",
+ "seconds": 24.1,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "씨름꾼들의 기합과 몸싸움 소리",
+    "prompt_en": "grunts and scuffling of wrestlers grappling",
+    "object_en": "two wrestlers grappling in the center",
+    "x": 570,
+    "y": 505
+   },
+   {
+    "label_ko": "구경꾼들의 환호와 웃음소리",
+    "prompt_en": "cheering, laughter, and chatter of spectators",
+    "object_en": "crowd of spectators sitting around the ring",
+    "x": 230,
+    "y": 170
+   },
+   {
+    "label_ko": "엿장수 외치는 소리",
+    "prompt_en": "taffy vendor calling out to the crowd",
+    "object_en": "taffy vendor carrying a wooden tray",
+    "x": 175,
+    "y": 580
+   }
+  ]
+ },
+ "raw": ""
+}

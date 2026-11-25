@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "14_tage",
+ "seconds": 80.0,
+ "peak_vram_gb": 8.62,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "",
+  "sources": [
+   {
+    "id": "bamboo_crack",
+    "object_en": "bamboo",
+    "x": 650,
+    "y": 300,
+    "label_ko": "대나무",
+    "type": "nature",
+    "description_ko": "대나무 줄기가 바람에 부러지는 소리가 들립니다.",
+    "prompt_en": "bamboo stem snapping sound in wind, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "man_cough",
+    "object_en": "man",
+    "x": 100,
+    "y": 650,
+    "label_ko": "남자",
+    "type": "people",
+    "description_ko": "왼쪽 남자가 기침을 하는 소리가 납니다.",
+    "prompt_en": "man coughing sound, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "man_laugh",
+    "object_en": "man",
+    "x": 300,
+    "y": 700,
+    "label_ko": "남자",
+    "type": "people",
+    "description_ko": "중앙 남자가 웃는 소리가 납니다.",
+    "prompt_en": "man laughing sound, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "man_walk",
+    "object_en": "man",
+    "x": 600,
+    "y": 650,
+    "label_ko": "남자",
+    "type": "people",
+    "description_ko": "오른쪽 남자가 걸을 때 발걸음 소리가 납니다.",
+    "prompt_en": "man walking footsteps on dirt path, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "wind_through_bamboo",
+    "object_en": "bamboo",
+    "x": 500,
+    "y": 200,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "대나무 사이로 불어오는 바람 소리가 납니다.",
+    "prompt_en": "wind rustling through bamboo leaves, field recording",
+    "volume": 0.6
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"\",\n  \"sources\": [\n    {\n      \"id\": \"bamboo_crack\",\n      \"object_en\": \"bamboo\",\n      \"x\": 650,\n      \"y\": 300,\n      \"label_ko\": \"대나무\",\n      \"type\": \"nature\",\n      \"description_ko\": \"대나무 줄기가 바람에 부러지는 소리가 들립니다.\",\n      \"prompt_en\": \"bamboo stem snapping sound in wind, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"man_cough\",\n      \"object_en\": \"man\",\n      \"x\": 100,\n      \"y\": 650,\n      \"label_ko\": \"남자\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽 남자가 기침을 하는 소리가 납니다.\",\n      \"prompt_en\": \"man coughing sound, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"man_laugh\",\n      \"object_en\": \"man\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"남자\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙 남자가 웃는 소리가 납니다.\",\n      \"prompt_en\": \"man laughing sound, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"man_walk\",\n      \"object_en\": \"man\",\n      \"x\": 600,\n      \"y\": 650,\n      \"label_ko\": \"남자\",\n      \"type\": \"people\",\n      \"description_ko\": \"오른쪽 남자가 걸을 때 발걸음 소리가 납니다.\",\n      \"prompt_en\": \"man walking footsteps on dirt path, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"wind_through_bamboo\",\n      \"object_en\": \"bamboo\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"대나무 사이로 불어오는 바람 소리가 납니다.\",\n      \"prompt_en\": \"wind rustling through bamboo leaves, field recording\",\n      \"volume\": 0.6\n    }\n  ]\n}\n"
+}

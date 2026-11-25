@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "01_hunters",
+ "seconds": 34.9,
+ "peak_vram_gb": 8.73,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with Skaters and a Dog Fight",
+  "sources": [
+   {
+    "id": "fire_crackle",
+    "object_en": "fire in the foreground",
+    "x": 100,
+    "y": 600,
+    "label_ko": "불소리",
+    "type": "nature",
+    "description_ko": "앞쪽 나무 아래에서 타는 불에서 나는 바삭바삭한 소리",
+    "prompt_en": "crackling fire sound in a snowy winter scene, field recording"
+   },
+   {
+    "id": "dog_bark",
+    "object_en": "dogs fighting",
+    "x": 150,
+    "y": 750,
+    "label_ko": "개 짖음",
+    "type": "animal",
+    "description_ko": "앞쪽 눈 덮인 땅에서 싸우는 개들의 짖는 소리",
+    "prompt_en": "dogs barking and growling during a fight in a snowy landscape, field recording"
+   },
+   {
+    "id": "skater_squeak",
+    "object_en": "skaters on frozen river",
+    "x": 600,
+    "y": 600,
+    "label_ko": "스케이트 소리",
+    "type": "people",
+    "description_ko": "얼어붙은 강 위에서 스케이트를 타는 사람들의 빙판 소리",
+    "prompt_en": "skates squeaking on ice in a winter river, field recording"
+   },
+   {
+    "id": "wind_hush",
+    "object_en": "snowy landscape",
+    "x": 500,
+    "y": 300,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "눈 덮인 풍경에서 부는 차가운 바람의 소리",
+    "prompt_en": "soft wind blowing through snow-covered trees and hills, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with Skaters and a Dog Fight\",\n  \"sources\": [\n    {\n      \"id\": \"fire_crackle\",\n      \"object_en\": \"fire in the foreground\",\n      \"x\": 100,\n      \"y\": 600,\n      \"label_ko\": \"불소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"앞쪽 나무 아래에서 타는 불에서 나는 바삭바삭한 소리\",\n      \"prompt_en\": \"crackling fire sound in a snowy winter scene, field recording\"\n    },\n    {\n      \"id\": \"dog_bark\",\n      \"object_en\": \"dogs fighting\",\n      \"x\": 150,\n      \"y\": 750,\n      \"label_ko\": \"개 짖음\",\n      \"type\": \"animal\",\n      \"description_ko\": \"앞쪽 눈 덮인 땅에서 싸우는 개들의 짖는 소리\",\n      \"prompt_en\": \"dogs barking and growling during a fight in a snowy landscape, field recording\"\n    },\n    {\n      \"id\": \"skater_squeak\",\n      \"object_en\": \"skaters on frozen river\",\n      \"x\": 600,\n      \"y\": 600,\n      \"label_ko\": \"스케이트 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼어붙은 강 위에서 스케이트를 타는 사람들의 빙판 소리\",\n      \"prompt_en\": \"skates squeaking on ice in a winter river, field recording\"\n    },\n    {\n      \"id\": \"wind_hush\",\n      \"object_en\": \"snowy landscape\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"눈 덮인 풍경에서 부는 차가운 바람의 소리\",\n      \"prompt_en\": \"soft wind blowing through snow-covered trees and hills, field recording\"\n    }\n  ]\n}\n"
+}

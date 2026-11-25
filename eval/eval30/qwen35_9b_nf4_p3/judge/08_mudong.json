@@ -1,0 +1,36 @@
+{
+ "hash": "a5d25671277e",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 4
+   },
+   {
+    "model": 3,
+    "answer": 2
+   },
+   {
+    "model": 4,
+    "answer": 3
+   },
+   {
+    "model": 6,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Duplicate of M1; the barrel drum is visible and being played."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 4}, {\"model\": 3, \"answer\": 2}, {\"model\": 4, \"answer\": 3}, {\"model\": 6, \"answer\": 6}], \"unpaired\": [{\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Duplicate of M1; the barrel drum is visible and being played.\"}]}"
+}

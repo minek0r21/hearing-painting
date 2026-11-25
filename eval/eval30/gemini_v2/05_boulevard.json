@@ -1,0 +1,50 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "05_boulevard",
+ "seconds": 43.0,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "인도를 걷는 사람들의 발소리",
+    "prompt_en": "footsteps of pedestrians walking along the boulevard sidewalk",
+    "object_en": "pedestrians strolling on the sidewalk",
+    "x": 452,
+    "y": 635
+   },
+   {
+    "label_ko": "거리에서 대화하는 사람들의 말소리",
+    "prompt_en": "men conversing on the sidewalk in front of the theater",
+    "object_en": "men in hats standing and talking",
+    "x": 578,
+    "y": 575
+   },
+   {
+    "label_ko": "신문팔이의 외침 소리",
+    "prompt_en": "newspaper vendor calling out papers to passersby",
+    "object_en": "newspaper vendor holding newspapers",
+    "x": 778,
+    "y": 615
+   },
+   {
+    "label_ko": "파리 대로의 웅성거리는 소음",
+    "prompt_en": "ambient murmur and bustle of a Parisian boulevard",
+    "object_en": "Parisian boulevard street scene"
+   },
+   {
+    "label_ko": "노천 카페 테이블 정리 소리",
+    "prompt_en": "clatter of a waiter tending a sidewalk café table",
+    "object_en": "waiter leaning over a sidewalk café table",
+    "x": 950,
+    "y": 595
+   }
+  ]
+ },
+ "raw": ""
+}

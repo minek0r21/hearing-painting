@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "22_liverpool",
+ "seconds": 44.4,
+ "peak_vram_gb": 8.69,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Fog on the Thames",
+  "sources": [
+   {
+    "id": "fog_ambient",
+    "object_en": "misty atmosphere over the street and river",
+    "x": 500,
+    "y": 300,
+    "label_ko": "안개",
+    "type": "nature",
+    "description_ko": "안개가 낀 런던 거리와 강 위로 흐르는 무거운 공기의 소리",
+    "prompt_en": "thick fog rolling over a cobblestone street and river at dusk, field recording"
+   },
+   {
+    "id": "horse_car",
+    "object_en": "horse-drawn carriage moving down the street",
+    "x": 480,
+    "y": 700,
+    "label_ko": "마차",
+    "type": "vehicle",
+    "description_ko": "말이 끄는 마차가 젖은 돌길을 따라 천천히 지나가는 소리",
+    "prompt_en": "cobbled street with horse-drawn carriage creaking and hooves clacking on wet stone, field recording"
+   },
+   {
+    "id": "pedestrians",
+    "object_en": "people walking on the wet street",
+    "x": 650,
+    "y": 750,
+    "label_ko": "보행자",
+    "type": "people",
+    "description_ko": "비 젖은 길 위를 걷는 사람들의 발걸음과 옷자락 스치는 소리",
+    "prompt_en": "soft shuffling footsteps and rustling coats of pedestrians walking on wet cobblestones, field recording"
+   },
+   {
+    "id": "shop_lights",
+    "object_en": "illuminated shop windows on the right",
+    "x": 850,
+    "y": 700,
+    "label_ko": "가게 조명",
+    "type": "nature",
+    "description_ko": "점점 어두워지는 밤에 가게 창문에서 새어 나오는 따뜻한 불빛의 미세한 윙윙거림",
+    "prompt_en": "warm flickering glow from illuminated shop windows at night, subtle electrical hum, field recording"
+   },
+   {
+    "id": "distant_ships",
+    "object_en": "sailboats with masts on the left riverbank",
+    "x": 150,
+    "y": 500,
+    "label_ko": "배",
+    "type": "vehicle",
+    "description_ko": "안개 낀 강가에 정박한帆船들의 바람 소리나 물결 소리",
+    "prompt_en": "distant creaking of ship masts and gentle lapping of water against hulls in foggy harbor, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Fog on the Thames\",\n  \"sources\": [\n    {\n      \"id\": \"fog_ambient\",\n      \"object_en\": \"misty atmosphere over the street and river\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"안개\",\n      \"type\": \"nature\",\n      \"description_ko\": \"안개가 낀 런던 거리와 강 위로 흐르는 무거운 공기의 소리\",\n      \"prompt_en\": \"thick fog rolling over a cobblestone street and river at dusk, field recording\"\n    },\n    {\n      \"id\": \"horse_car\",\n      \"object_en\": \"horse-drawn carriage moving down the street\",\n      \"x\": 480,\n      \"y\": 700,\n      \"label_ko\": \"마차\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"말이 끄는 마차가 젖은 돌길을 따라 천천히 지나가는 소리\",\n      \"prompt_en\": \"cobbled street with horse-drawn carriage creaking and hooves clacking on wet stone, field recording\"\n    },\n    {\n      \"id\": \"pedestrians\",\n      \"object_en\": \"people walking on the wet street\",\n      \"x\": 650,\n      \"y\": 750,\n      \"label_ko\": \"보행자\",\n      \"type\": \"people\",\n      \"description_ko\": \"비 젖은 길 위를 걷는 사람들의 발걸음과 옷자락 스치는 소리\",\n      \"prompt_en\": \"soft shuffling footsteps and rustling coats of pedestrians walking on wet cobblestones, field recording\"\n    },\n    {\n      \"id\": \"shop_lights\",\n      \"object_en\": \"illuminated shop windows on the right\",\n      \"x\": 850,\n      \"y\": 700,\n      \"label_ko\": \"가게 조명\",\n      \"type\": \"nature\",\n      \"description_ko\": \"점점 어두워지는 밤에 가게 창문에서 새어 나오는 따뜻한 불빛의 미세한 윙윙거림\",\n      \"prompt_en\": \"warm flickering glow from illuminated shop windows at night, subtle electrical hum, field recording\"\n    },\n    {\n      \"id\": \"distant_ships\",\n      \"object_en\": \"sailboats with masts on the left riverbank\",\n      \"x\": 150,\n      \"y\": 500,\n      \"label_ko\": \"배\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"안개 낀 강가에 정박한帆船들의 바람 소리나 물결 소리\",\n      \"prompt_en\": \"distant creaking of ship masts and gentle lapping of water against hulls in foggy harbor, field recording\"\n    }\n  ]\n}\n"
+}

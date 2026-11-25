@@ -1,0 +1,32 @@
+{
+ "hash": "2f3212b8dded",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 4
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Visible garden crowd can make chatter and murmur."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 4}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 1}, {\"model\": 5, \"answer\": 5}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Visible garden crowd can make chatter and murmur.\"}]}"
+}

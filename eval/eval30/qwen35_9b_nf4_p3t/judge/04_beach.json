@@ -1,0 +1,32 @@
+{
+ "hash": "52152daf4a51",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 3,
+    "answer": 5
+   },
+   {
+    "model": 4,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Woman walking on sand is visible."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 3}, {\"model\": 3, \"answer\": 5}, {\"model\": 4, \"answer\": 1}, {\"model\": 5, \"answer\": 2}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Woman walking on sand is visible.\"}]}"
+}

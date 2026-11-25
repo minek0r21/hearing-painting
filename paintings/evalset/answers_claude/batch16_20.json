@@ -1,0 +1,28 @@
+{
+ "16_horsefair": {"title": "말 시장", "sources": [
+  {"label_ko": "말발굽 소리", "sound_en": "many horse hooves pounding on dirt", "ground_phrase_en": "horse", "source_type": "clustered", "grade": "required", "points": [[150,630],[420,500],[600,560],[730,520],[900,620]]},
+  {"label_ko": "말 울음과 콧김", "sound_en": "horses neighing and snorting", "ground_phrase_en": "rearing horse", "source_type": "clustered", "grade": "required", "points": [[400,430],[700,420]]},
+  {"label_ko": "마부들의 고함", "sound_en": "handlers shouting and whistling", "ground_phrase_en": "horse handler", "source_type": "clustered", "grade": "required", "points": [[230,560],[500,470],[620,400]]},
+  {"label_ko": "장터 사람들 웅성임", "sound_en": "distant market crowd", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "17_rainsteam": {"title": "비, 증기, 속도", "sources": [
+  {"label_ko": "증기기관차 소리", "sound_en": "steam locomotive chugging, iron wheels on rails", "ground_phrase_en": "steam locomotive", "source_type": "point", "grade": "required", "points": [[630,580]]},
+  {"label_ko": "비바람", "sound_en": "driving rain and wind", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "기차 기적", "sound_en": "train whistle", "ground_phrase_en": "steam locomotive", "source_type": "point", "grade": "allowed", "points": [[630,560]]},
+  {"label_ko": "강 위 작은 배", "sound_en": "small boat on the river, oars", "ground_phrase_en": "small boat", "source_type": "point", "grade": "allowed", "points": [[140,780]]}
+ ]},
+ "18_milkmaid": {"title": "우유 따르는 여인 (함정: 조용한 실내)", "sources": [
+  {"label_ko": "우유 따르는 소리", "sound_en": "thin stream of milk pouring into an earthenware bowl", "ground_phrase_en": "milk jug", "source_type": "point", "grade": "required", "points": [[340,580]]},
+  {"label_ko": "고요한 부엌", "sound_en": "quiet room tone", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "19_peasantwedding": {"title": "농민의 결혼식", "sources": [
+  {"label_ko": "백파이프 연주", "sound_en": "bagpipe playing", "ground_phrase_en": "bagpipe player", "source_type": "point", "grade": "required", "points": [[260,320]]},
+  {"label_ko": "잔치 사람들의 대화와 웃음", "sound_en": "rowdy wedding feast chatter and laughter", "ground_phrase_en": "guests at table", "source_type": "clustered", "grade": "required", "points": [[420,300],[650,280],[900,330]]},
+  {"label_ko": "그릇과 숟가락 소리", "sound_en": "wooden bowls and spoons clattering", "ground_phrase_en": "bowls on a board", "source_type": "clustered", "grade": "required", "points": [[680,600],[600,330]]},
+  {"label_ko": "술 따르는 소리", "sound_en": "beer pouring from a jug", "ground_phrase_en": "man pouring from jug", "source_type": "point", "grade": "required", "points": [[60,580]]},
+  {"label_ko": "아이가 먹는 소리", "sound_en": "child licking a bowl", "ground_phrase_en": "child on floor", "source_type": "point", "grade": "allowed", "points": [[300,880]]}
+ ]},
+ "20_pearl": {"title": "진주 귀고리를 한 소녀 (함정: 초상)", "sources": [
+  {"label_ko": "고요한 실내", "sound_en": "quiet room tone", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]}
+}

@@ -1,0 +1,25 @@
+{
+ "pairs": [
+  {
+   "model": 2,
+   "answer": 2
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 1,
+   "verdict": "not_visible",
+   "why": "No children or kites appear in the painting."
+  },
+  {
+   "model": 3,
+   "verdict": "not_visible",
+   "why": "No kites are shown; the objects are blowing papers and a hat."
+  },
+  {
+   "model": 4,
+   "verdict": "silent",
+   "why": "The distant mountain is a still background object that makes no sound."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 2,
+   "verdict": "plausible",
+   "why": "Man lying in the bushes is visible and can call out."
+  },
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Man pulling the swing ropes is visible and can create rope friction sounds."
+  },
+  {
+   "model": 4,
+   "verdict": "not_visible",
+   "why": "No cherry blossom trees or falling petals are shown."
+  },
+  {
+   "model": 5,
+   "verdict": "not_visible",
+   "why": "No butterfly is present; the flying object is a shoe."
+  }
+ ]
+}

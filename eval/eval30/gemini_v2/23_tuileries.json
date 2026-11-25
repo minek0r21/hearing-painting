@@ -1,0 +1,50 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "23_tuileries",
+ "seconds": 37.5,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "군중의 웅성거림과 대화 소리",
+    "prompt_en": "lively crowd chatter and murmuring in the park",
+    "object_en": "crowd of park visitors",
+    "x": 110,
+    "y": 480
+   },
+   {
+    "label_ko": "아이들이 놀며 떠드는 소리",
+    "prompt_en": "young children chattering and playing with buckets in the sand",
+    "object_en": "two young girls playing on the ground",
+    "x": 490,
+    "y": 860
+   },
+   {
+    "label_ko": "가까이 앉은 여인들의 대화 소리",
+    "prompt_en": "two women conversing closely in the foreground",
+    "object_en": "two seated women in yellow dresses",
+    "x": 290,
+    "y": 635
+   },
+   {
+    "label_ko": "자갈길을 걷는 발걸음 소리",
+    "prompt_en": "footsteps crunching on the gravel park path",
+    "object_en": "man walking in white trousers",
+    "x": 630,
+    "y": 720
+   },
+   {
+    "label_ko": "공원 나무 사이로 부는 바람과 나뭇잎 소리",
+    "prompt_en": "gentle breeze rustling through the dense park trees",
+    "object_en": "dense canopy of park trees"
+   }
+  ]
+ },
+ "raw": ""
+}

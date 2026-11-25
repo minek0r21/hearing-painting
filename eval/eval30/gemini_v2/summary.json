@@ -1,0 +1,21 @@
+{
+ "model": "gemini_v2",
+ "prompt": "v1",
+ "judge": "gemini-4-neon",
+ "paintings": 30,
+ "json_ok": "30/30",
+ "required_found": 0.92,
+ "required": "69/75",
+ "allowed_found": 29,
+ "invented": 0.0,
+ "invented_n": "0/123",
+ "plausible_extra": 25,
+ "silent": 0,
+ "not_visible": 0,
+ "loc_within_10pct": 0.946,
+ "loc_n": "70/74",
+ "word_required_found": 0.853,
+ "word_unpaired": 0.228,
+ "avg_sec": 38.0,
+ "peak_vram_gb": 0.0
+}

@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "28_railwaystation",
+ "seconds": 42.2,
+ "peak_vram_gb": 8.76,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Great Train Robbery (1862) by John Leech",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people talking and moving",
+    "x": 450,
+    "y": 650,
+    "label_ko": "사람들의 소란",
+    "type": "people",
+    "description_ko": "많은 사람들이 서로 말하고 움직이며 소란을 피우는 소리",
+    "prompt_en": "a bustling crowd of people talking, laughing, and moving around in a busy train station, field recording"
+   },
+   {
+    "id": "train_arrival",
+    "object_en": "steam train on the left",
+    "x": 180,
+    "y": 520,
+    "label_ko": "기차 소리",
+    "type": "vehicle",
+    "description_ko": "왼쪽에서 들어오는 증기 기차의 증기 분출과 기관차 소음",
+    "prompt_en": "a steam train arriving at a station with hissing steam and mechanical clanking, field recording"
+   },
+   {
+    "id": "luggage_drop",
+    "object_en": "man dropping a suitcase",
+    "x": 620,
+    "y": 800,
+    "label_ko": "가방 떨어지는 소리",
+    "type": "people",
+    "description_ko": "남자가 바닥에 가방을 떨어뜨리는 묵직한 타격음",
+    "prompt_en": "a heavy suitcase being dropped onto a wooden floor with a thud, field recording"
+   },
+   {
+    "id": "woman_sigh",
+    "object_en": "woman in white dress embracing another",
+    "x": 700,
+    "y": 680,
+    "label_ko": "여자 울음소리",
+    "type": "people",
+    "description_ko": "흰색 드레스를 입은 여자가 다른 여자를 안으며 슬픈 목소리로 울고 있는 소리",
+    "prompt_en": "a woman in a white dress sobbing softly while hugging another woman, field recording"
+   },
+   {
+    "id": "dog_bark",
+    "object_en": "dog on the far left",
+    "x": 30,
+    "y": 850,
+    "label_ko": "개 짖는 소리",
+    "type": "animal",
+    "description_ko": "왼쪽 아래에서 개가 짖는 날카로운 소리",
+    "prompt_en": "a small dog barking loudly on a station platform, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Train Robbery (1862) by John Leech\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people talking and moving\",\n      \"x\": 450,\n      \"y\": 650,\n      \"label_ko\": \"사람들의 소란\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 서로 말하고 움직이며 소란을 피우는 소리\",\n      \"prompt_en\": \"a bustling crowd of people talking, laughing, and moving around in a busy train station, field recording\"\n    },\n    {\n      \"id\": \"train_arrival\",\n      \"object_en\": \"steam train on the left\",\n      \"x\": 180,\n      \"y\": 520,\n      \"label_ko\": \"기차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"왼쪽에서 들어오는 증기 기차의 증기 분출과 기관차 소음\",\n      \"prompt_en\": \"a steam train arriving at a station with hissing steam and mechanical clanking, field recording\"\n    },\n    {\n      \"id\": \"luggage_drop\",\n      \"object_en\": \"man dropping a suitcase\",\n      \"x\": 620,\n      \"y\": 800,\n      \"label_ko\": \"가방 떨어지는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 바닥에 가방을 떨어뜨리는 묵직한 타격음\",\n      \"prompt_en\": \"a heavy suitcase being dropped onto a wooden floor with a thud, field recording\"\n    },\n    {\n      \"id\": \"woman_sigh\",\n      \"object_en\": \"woman in white dress embracing another\",\n      \"x\": 700,\n      \"y\": 680,\n      \"label_ko\": \"여자 울음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"흰색 드레스를 입은 여자가 다른 여자를 안으며 슬픈 목소리로 울고 있는 소리\",\n      \"prompt_en\": \"a woman in a white dress sobbing softly while hugging another woman, field recording\"\n    },\n    {\n      \"id\": \"dog_bark\",\n      \"object_en\": \"dog on the far left\",\n      \"x\": 30,\n      \"y\": 850,\n      \"label_ko\": \"개 짖는 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"왼쪽 아래에서 개가 짖는 날카로운 소리\",\n      \"prompt_en\": \"a small dog barking loudly on a station platform, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,24 @@
+{
+ "hash": "67b230b56379",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Man in top hat smoking is visible and can make puffing sounds."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 2}, {\"model\": 3, \"answer\": 1}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Man in top hat smoking is visible and can make puffing sounds.\"}]}"
+}

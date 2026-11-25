@@ -1,0 +1,40 @@
+{
+ "painting": "09_ejiri",
+ "seconds": 25.7,
+ "parsed": {
+  "title_guess": "스루가의 에지리",
+  "sources": [
+   {
+    "id": "people_running",
+    "object_en": "people running",
+    "x": 450,
+    "y": 800,
+    "label_ko": "달리는 소리",
+    "type": "people",
+    "description_ko": "논밭을 달리는 농부들의 발걸음 소리가 들린다.",
+    "prompt_en": "sound of people running through a field, footsteps on dirt, field recording"
+   },
+   {
+    "id": "wind_bending_trees",
+    "object_en": "trees bending",
+    "x": 350,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "강한 바람이 나무를 휘어지게 하는 바람 소리가 들린다.",
+    "prompt_en": "sound of strong wind blowing through trees, rustling leaves, field recording"
+   },
+   {
+    "id": "flying_kites",
+    "object_en": "flying kites",
+    "x": 750,
+    "y": 250,
+    "label_ko": "비행기 소리",
+    "type": "nature",
+    "description_ko": "하늘을 나는 연의 줄이 바람에 흔들리는 소리가 들린다.",
+    "prompt_en": "sound of kite string rustling in the wind, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"스루가의 에지리\",\n\"sources\": [\n    {\n        \"id\": \"people_running\",\n        \"object_en\": \"people running\",\n        \"x\": 450,\n        \"y\": 800,\n        \"label_ko\": \"달리는 소리\",\n        \"type\": \"people\",\n        \"description_ko\": \"논밭을 달리는 농부들의 발걸음 소리가 들린다.\",\n        \"prompt_en\": \"sound of people running through a field, footsteps on dirt, field recording\"\n    },\n    {\n        \"id\": \"wind_bending_trees\",\n        \"object_en\": \"trees bending\",\n        \"x\": 350,\n        \"y\": 200,\n        \"label_ko\": \"바람 소리\",\n        \"type\": \"nature\",\n        \"description_ko\": \"강한 바람이 나무를 휘어지게 하는 바람 소리가 들린다.\",\n        \"prompt_en\": \"sound of strong wind blowing through trees, rustling leaves, field recording\"\n    },\n    {\n        \"id\": \"flying_kites\",\n        \"object_en\": \"flying kites\",\n        \"x\": 750,\n        \"y\": 250,\n        \"label_ko\": \"비행기 소리\",\n        \"type\": \"nature\",\n        \"description_ko\": \"하늘을 나는 연의 줄이 바람에 흔들리는 소리가 들린다.\",\n        \"prompt_en\": \"sound of kite string rustling in the wind, field recording\"\n    }\n]\n}\n```\n"
+}

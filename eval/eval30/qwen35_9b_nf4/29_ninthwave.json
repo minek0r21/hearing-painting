@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "29_ninthwave",
+ "seconds": 45.1,
+ "peak_vram_gb": 8.6,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Sea of Storms",
+  "sources": [
+   {
+    "id": "roaring_sea",
+    "object_en": "ocean waves",
+    "x": 500,
+    "y": 700,
+    "label_ko": "거친 바다",
+    "type": "nature",
+    "description_ko": "거친 파도가 부서지며 거센 소리를 내며 몰아친다.",
+    "prompt_en": "deep roaring ocean waves crashing violently in stormy sea, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "howling_wind",
+    "object_en": "sky clouds",
+    "x": 400,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "폭풍우가 몰아치는 하늘에서 바람이 세차게 불어오는 소리가 들린다.",
+    "prompt_en": "howling wind through storm clouds, field recording",
+    "volume": 0.8
+   },
+   {
+    "id": "struggling_people",
+    "object_en": "people in boat",
+    "x": 450,
+    "y": 850,
+    "label_ko": "배에 있는 사람들",
+    "type": "people",
+    "description_ko": "폭풍우 속 배에 있는 사람들이 비명을 지르며 싸우는 소리가 들린다.",
+    "prompt_en": "people screaming and struggling in a small boat during a storm, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "crashing_wave",
+    "object_en": "large wave",
+    "x": 300,
+    "y": 650,
+    "label_ko": "파도 충돌",
+    "type": "nature",
+    "description_ko": "거대한 파도가 부서지며 굉음을 내며 바다 위로 치솟는다.",
+    "prompt_en": "massive wave crashing with thunderous sound, field recording",
+    "volume": 0.95
+   },
+   {
+    "id": "distant_thunder",
+    "object_en": "storm clouds",
+    "x": 600,
+    "y": 300,
+    "label_ko": "천둥소리",
+    "type": "nature",
+    "description_ko": "폭풍우 구름 사이에서 멀리서 천둥이 울리는 소리가 들린다.",
+    "prompt_en": "distant thunder rumbling in stormy sky, field recording",
+    "volume": 0.6
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Sea of Storms\",\n  \"sources\": [\n    {\n      \"id\": \"roaring_sea\",\n      \"object_en\": \"ocean waves\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"거친 바다\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거친 파도가 부서지며 거센 소리를 내며 몰아친다.\",\n      \"prompt_en\": \"deep roaring ocean waves crashing violently in stormy sea, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"howling_wind\",\n      \"object_en\": \"sky clouds\",\n      \"x\": 400,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭풍우가 몰아치는 하늘에서 바람이 세차게 불어오는 소리가 들린다.\",\n      \"prompt_en\": \"howling wind through storm clouds, field recording\",\n      \"volume\": 0.8\n    },\n    {\n      \"id\": \"struggling_people\",\n      \"object_en\": \"people in boat\",\n      \"x\": 450,\n      \"y\": 850,\n      \"label_ko\": \"배에 있는 사람들\",\n      \"type\": \"people\",\n      \"description_ko\": \"폭풍우 속 배에 있는 사람들이 비명을 지르며 싸우는 소리가 들린다.\",\n      \"prompt_en\": \"people screaming and struggling in a small boat during a storm, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"crashing_wave\",\n      \"object_en\": \"large wave\",\n      \"x\": 300,\n      \"y\": 650,\n      \"label_ko\": \"파도 충돌\",\n      \"type\": \"nature\",\n      \"description_ko\": \"거대한 파도가 부서지며 굉음을 내며 바다 위로 치솟는다.\",\n      \"prompt_en\": \"massive wave crashing with thunderous sound, field recording\",\n      \"volume\": 0.95\n    },\n    {\n      \"id\": \"distant_thunder\",\n      \"object_en\": \"storm clouds\",\n      \"x\": 600,\n      \"y\": 300,\n      \"label_ko\": \"천둥소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭풍우 구름 사이에서 멀리서 천둥이 울리는 소리가 들린다.\",\n      \"prompt_en\": \"distant thunder rumbling in stormy sky, field recording\",\n      \"volume\": 0.6\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,60 @@
+{
+ "painting": "01_nightwatch",
+ "seconds": 44.4,
+ "parsed": {
+  "title_guess": "The Night Watch",
+  "sources": [
+   {
+    "id": "marching_soldiers",
+    "object_en": "group of soldiers marching forward",
+    "x": 450,
+    "y": 600,
+    "label_ko": "군인 행진",
+    "type": "people",
+    "description_ko": "군인들이 진군하며 발걸음 소리와 명령을 내리는 목소리가 들립니다.",
+    "prompt_en": "marching soldiers footsteps and voices in a dimly lit room, field recording"
+   },
+   {
+    "id": "drum_beating",
+    "object_en": "drummer playing a large drum",
+    "x": 950,
+    "y": 750,
+    "label_ko": "북 치는 소리",
+    "type": "music",
+    "description_ko": "오른쪽에서 북을 치는 소리가 울려 퍼집니다.",
+    "prompt_en": "large wooden drum being struck rhythmically by a drummer, field recording"
+   },
+   {
+    "id": "man_speaking",
+    "object_en": "man in black hat and red sash gesturing and speaking",
+    "x": 480,
+    "y": 550,
+    "label_ko": "남자 목소리",
+    "type": "people",
+    "description_ko": "중앙에 있는 남자가 손짓하며 목소리를 내는 소리가 들립니다.",
+    "prompt_en": "man in historical attire speaking with expressive hand gestures, field recording"
+   },
+   {
+    "id": "dog_barking",
+    "object_en": "dog lying on the ground",
+    "x": 800,
+    "y": 850,
+    "label_ko": "개 짖는 소리",
+    "type": "animal",
+    "description_ko": "바닥에 누워 있는 개가 가끔 짖는 소리가 들립니다.",
+    "prompt_en": "dog lying on floor occasionally barking softly, field recording"
+   },
+   {
+    "id": "archer_tense",
+    "object_en": "archer holding a bow drawn back",
+    "x": 700,
+    "y": 450,
+    "label_ko": "활 쏘는 긴장",
+    "type": "people",
+    "description_ko": "활을 쏘려는 궁수들의 긴장된 숨소리와 준비되는 움직임 소리가 들립니다.",
+    "prompt_en": "archers drawing bows with tension and subtle breathing sounds, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Night Watch\",\n  \"sources\": [\n    {\n      \"id\": \"marching_soldiers\",\n      \"object_en\": \"group of soldiers marching forward\",\n      \"x\": 450,\n      \"y\": 600,\n      \"label_ko\": \"군인 행진\",\n      \"type\": \"people\",\n      \"description_ko\": \"군인들이 진군하며 발걸음 소리와 명령을 내리는 목소리가 들립니다.\",\n      \"prompt_en\": \"marching soldiers footsteps and voices in a dimly lit room, field recording\"\n    },\n    {\n      \"id\": \"drum_beating\",\n      \"object_en\": \"drummer playing a large drum\",\n      \"x\": 950,\n      \"y\": 750,\n      \"label_ko\": \"북 치는 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽에서 북을 치는 소리가 울려 퍼집니다.\",\n      \"prompt_en\": \"large wooden drum being struck rhythmically by a drummer, field recording\"\n    },\n    {\n      \"id\": \"man_speaking\",\n      \"object_en\": \"man in black hat and red sash gesturing and speaking\",\n      \"x\": 480,\n      \"y\": 550,\n      \"label_ko\": \"남자 목소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에 있는 남자가 손짓하며 목소리를 내는 소리가 들립니다.\",\n      \"prompt_en\": \"man in historical attire speaking with expressive hand gestures, field recording\"\n    },\n    {\n      \"id\": \"dog_barking\",\n      \"object_en\": \"dog lying on the ground\",\n      \"x\": 800,\n      \"y\": 850,\n      \"label_ko\": \"개 짖는 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"바닥에 누워 있는 개가 가끔 짖는 소리가 들립니다.\",\n      \"prompt_en\": \"dog lying on floor occasionally barking softly, field recording\"\n    },\n    {\n      \"id\": \"archer_tense\",\n      \"object_en\": \"archer holding a bow drawn back\",\n      \"x\": 700,\n      \"y\": 450,\n      \"label_ko\": \"활 쏘는 긴장\",\n      \"type\": \"people\",\n      \"description_ko\": \"활을 쏘려는 궁수들의 긴장된 숨소리와 준비되는 움직임 소리가 들립니다.\",\n      \"prompt_en\": \"archers drawing bows with tension and subtle breathing sounds, field recording\"\n    }\n  ]\n}\n"
+}

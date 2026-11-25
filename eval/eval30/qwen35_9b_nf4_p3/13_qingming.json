@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "13_qingming",
+ "seconds": 42.4,
+ "peak_vram_gb": 8.78,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Along the River During the Qingming Festival",
+  "sources": [
+   {
+    "id": "crowd_footsteps",
+    "object_en": "crowd of people walking on the bridge and street",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람들의 발소리",
+    "type": "people",
+    "description_ko": "많은 사람들이 다리를 건너고 길에서 걸어가는 발소리가 들립니다.",
+    "prompt_en": "crowd of people walking on a busy street and bridge, footsteps on stone and wood, field recording"
+   },
+   {
+    "id": "boat_movement",
+    "object_en": "boats moving on the river",
+    "x": 800,
+    "y": 300,
+    "label_ko": "배의 물소리",
+    "type": "vehicle",
+    "description_ko": "강 위에서 노를 저어가는 배들이 물결을 일으키며 움직이는 소리가 납니다.",
+    "prompt_en": "wooden boats moving on a river, oars dipping in water, splashing sounds, field recording"
+   },
+   {
+    "id": "river_flow",
+    "object_en": "flowing river water",
+    "x": 300,
+    "y": 350,
+    "label_ko": "흐르는 물소리",
+    "type": "nature",
+    "description_ko": "강물이 흐르는 지속적인 물소리가 배경에 깔려 있습니다.",
+    "prompt_en": "gentle flowing river water, continuous soft splashing sound, field recording"
+   },
+   {
+    "id": "umbrella_opening",
+    "object_en": "people holding umbrellas",
+    "x": 450,
+    "y": 500,
+    "label_ko": "산산한 우산 소리",
+    "type": "people",
+    "description_ko": "우산을 들고 있는 사람들이 우산을 펼치거나 흔들며 소리가 납니다.",
+    "prompt_en": "people holding and moving traditional umbrellas, fabric rustling and clicking sounds, field recording"
+   },
+   {
+    "id": "cart_wheel",
+    "object_en": "wheelbarrow being pulled",
+    "x": 200,
+    "y": 700,
+    "label_ko": "수레 바퀴 소리",
+    "type": "vehicle",
+    "description_ko": "수레를 끄는 사람이 바퀴를 굴리며 마찰 소리가 납니다.",
+    "prompt_en": "wooden wheelbarrow being pulled on cobblestone street, creaking and rolling sounds, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Along the River During the Qingming Festival\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_footsteps\",\n      \"object_en\": \"crowd of people walking on the bridge and street\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람들의 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 다리를 건너고 길에서 걸어가는 발소리가 들립니다.\",\n      \"prompt_en\": \"crowd of people walking on a busy street and bridge, footsteps on stone and wood, field recording\"\n    },\n    {\n      \"id\": \"boat_movement\",\n      \"object_en\": \"boats moving on the river\",\n      \"x\": 800,\n      \"y\": 300,\n      \"label_ko\": \"배의 물소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"강 위에서 노를 저어가는 배들이 물결을 일으키며 움직이는 소리가 납니다.\",\n      \"prompt_en\": \"wooden boats moving on a river, oars dipping in water, splashing sounds, field recording\"\n    },\n    {\n      \"id\": \"river_flow\",\n      \"object_en\": \"flowing river water\",\n      \"x\": 300,\n      \"y\": 350,\n      \"label_ko\": \"흐르는 물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강물이 흐르는 지속적인 물소리가 배경에 깔려 있습니다.\",\n      \"prompt_en\": \"gentle flowing river water, continuous soft splashing sound, field recording\"\n    },\n    {\n      \"id\": \"umbrella_opening\",\n      \"object_en\": \"people holding umbrellas\",\n      \"x\": 450,\n      \"y\": 500,\n      \"label_ko\": \"산산한 우산 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"우산을 들고 있는 사람들이 우산을 펼치거나 흔들며 소리가 납니다.\",\n      \"prompt_en\": \"people holding and moving traditional umbrellas, fabric rustling and clicking sounds, field recording\"\n    },\n    {\n      \"id\": \"cart_wheel\",\n      \"object_en\": \"wheelbarrow being pulled\",\n      \"x\": 200,\n      \"y\": 700,\n      \"label_ko\": \"수레 바퀴 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"수레를 끄는 사람이 바퀴를 굴리며 마찰 소리가 납니다.\",\n      \"prompt_en\": \"wooden wheelbarrow being pulled on cobblestone street, creaking and rolling sounds, field recording\"\n    }\n  ]\n}\n"
+}

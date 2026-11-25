@@ -1,0 +1,4385 @@
+{
+ "01_hunters": {
+  "title": "눈 속의 사냥꾼",
+  "confirmed": [
+   {
+    "label_ko": "사냥개 발소리와 헐떡임",
+    "sound_en": "tired hunting dogs panting and paws in deep snow",
+    "ground_phrase_en": "hunting dog",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      90,
+      720
+     ],
+     [
+      150,
+      770
+     ],
+     [
+      120,
+      830
+     ],
+     [
+      70,
+      920
+     ],
+     [
+      140,
+      900
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "사냥개 헐떡이고 짖는 소리",
+     "sound_en": "hunting dogs panting, whining, and padding through snow",
+     "ground_phrase_en": "pack of hunting dogs",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       92,
+       755
+      ],
+      [
+       148,
+       822
+      ],
+      [
+       58,
+       938
+      ],
+      [
+       138,
+       918
+      ],
+      [
+       248,
+       758
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "사냥꾼의 눈 밟는 발소리",
+    "sound_en": "hunters trudging through deep snow",
+    "ground_phrase_en": "hunter",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      270,
+      620
+     ],
+     [
+      330,
+      810
+     ],
+     [
+      410,
+      660
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "눈 밟는 사냥꾼 발소리",
+     "sound_en": "hunters' heavy footsteps crunching in deep snow",
+     "ground_phrase_en": "hunters walking in snow",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       275,
+       650
+      ],
+      [
+       330,
+       780
+      ],
+      [
+       402,
+       700
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "모닥불 타는 소리",
+    "sound_en": "crackling outdoor bonfire",
+    "ground_phrase_en": "bonfire",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      120,
+      600
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "장작불 타닥거리는 소리",
+     "sound_en": "crackling and roaring of an outdoor wood fire",
+     "ground_phrase_en": "outdoor wood fire",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       120,
+       608
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "까마귀 울음",
+    "sound_en": "crows cawing in bare trees",
+    "ground_phrase_en": "crow",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      230,
+      70
+     ],
+     [
+      570,
+      190
+     ],
+     [
+      705,
+      260
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "까마귀 울음소리",
+     "sound_en": "crows cawing and flapping wings",
+     "ground_phrase_en": "crows in trees and sky",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       236,
+       74
+      ],
+      [
+       568,
+       190
+      ],
+      [
+       708,
+       260
+      ],
+      [
+       500,
+       598
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "스케이트 날과 아이들 웃음",
+    "sound_en": "distant ice skating, blades scraping, children laughing",
+    "ground_phrase_en": "people skating on ice",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      700,
+      580
+     ],
+     [
+      800,
+      580
+     ],
+     [
+      730,
+      670
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "얼음 위 스케이트와 사람들 웅성거림",
+     "sound_en": "distant skaters' shouts and blades scraping on ice",
+     "ground_phrase_en": "people skating on frozen ponds",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       722,
+       592
+      ],
+      [
+       822,
+       585
+      ],
+      [
+       698,
+       662
+      ],
+      [
+       788,
+       655
+      ],
+      [
+       865,
+       950
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "모닥불 곁 사람들 소리",
+    "sound_en": "people working by the fire, murmuring",
+    "ground_phrase_en": "people by the fire",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      70,
+      600
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "여관 앞 사람들 대화 소리",
+     "sound_en": "villagers talking and bustling around the fire",
+     "ground_phrase_en": "villagers gathered around the fire",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       95,
+       615
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "겨울바람",
+    "sound_en": "cold winter wind over the valley",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "차가운 겨울 바람 소리",
+     "sound_en": "cold winter wind blowing through bare trees",
+     "ground_phrase_en": "winter valley and bare trees",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [
+    {
+     "label_ko": "멀리서 들리는 마차 소리",
+     "sound_en": "distant horse-drawn cart creaking along the road",
+     "ground_phrase_en": "horse-drawn cart near the pond",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       625,
+       560
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "02_rainy_day": {
+  "title": "파리의 거리, 비 오는 날",
+  "confirmed": [
+   {
+    "label_ko": "빗소리",
+    "sound_en": "steady light rain on a city street",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "거리에 내리는 빗소리",
+     "sound_en": "steady rain falling on wet cobblestones and street",
+     "ground_phrase_en": "rainy city street",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "우산에 떨어지는 빗방울",
+    "sound_en": "rain tapping on umbrellas",
+    "ground_phrase_en": "umbrella",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      580,
+      240
+     ],
+     [
+      870,
+      220
+     ],
+     [
+      390,
+      320
+     ],
+     [
+      60,
+      440
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "우산에 떨어지는 빗소리",
+     "sound_en": "rain pattering on open umbrellas",
+     "ground_phrase_en": "open umbrellas",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       655,
+       300
+      ],
+      [
+       890,
+       265
+      ],
+      [
+       420,
+       422
+      ],
+      [
+       68,
+       440
+      ],
+      [
+       255,
+       420
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "젖은 돌길 발소리",
+    "sound_en": "footsteps on wet cobblestones",
+    "ground_phrase_en": "person walking",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      560,
+      800
+     ],
+     [
+      370,
+      620
+     ],
+     [
+      40,
+      650
+     ],
+     [
+      250,
+      480
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "젖은 길을 걷는 발걸음 소리",
+     "sound_en": "pedestrians' footsteps on wet cobblestones and sidewalk",
+     "ground_phrase_en": "walking pedestrians",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       595,
+       700
+      ],
+      [
+       775,
+       700
+      ],
+      [
+       945,
+       680
+      ],
+      [
+       375,
+       565
+      ],
+      [
+       45,
+       580
+      ],
+      [
+       270,
+       488
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "멀리 지나가는 말",
+     "sound_en": "distant horse and cart",
+     "ground_phrase_en": "horse",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       330,
+       440
+      ]
+     ],
+     "by": "claude-v2"
+    },
+    {
+     "label_ko": "먼 도시의 웅성임",
+     "sound_en": "distant city murmur",
+     "ground_phrase_en": "",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": [],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "마차 바퀴와 말발굽",
+      "sound_en": "horse-drawn carriage wheels and hooves on cobblestones",
+      "ground_phrase_en": "horse-drawn carriage",
+      "source_type": "point",
+      "grade": "required",
+      "points": [
+       [
+        110,
+        500
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "마차 바퀴와 말발굽 소리",
+      "sound_en": "horse hooves and carriage wheels rattling on cobblestones",
+      "ground_phrase_en": "horse-drawn carriages",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        108,
+        495
+       ],
+       [
+        345,
+        442
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "03_wave": {
+  "title": "가나가와 앞바다의 거대한 파도",
+  "confirmed": [
+   {
+    "label_ko": "거대한 파도 부서지는 소리",
+    "sound_en": "giant wave crest crashing, roaring white water",
+    "ground_phrase_en": "great wave",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      330,
+      250
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "거센 파도가 부서지는 소리",
+     "sound_en": "roaring and crashing ocean waves with heavy spray",
+     "ground_phrase_en": "giant breaking ocean waves",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "거친 바다",
+    "sound_en": "rough open sea, swells and spray",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "나무배가 파도에 부딪히고 삐걱거리는 소리",
+     "sound_en": "wooden boats creaking and slapping against the waves",
+     "ground_phrase_en": "wooden fishing boats in the waves",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       150,
+       665
+      ],
+      [
+       600,
+       905
+      ],
+      [
+       760,
+       680
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "바닷바람",
+    "sound_en": "strong sea wind",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "거센 바닷바람 소리",
+     "sound_en": "strong howling sea wind",
+     "ground_phrase_en": "stormy open sea and sky",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "배 삐걱임과 뱃사람 외침",
+      "sound_en": "wooden boats creaking, oars splashing, rowers shouting",
+      "ground_phrase_en": "boat",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        130,
+        600
+       ],
+       [
+        560,
+        860
+       ],
+       [
+        620,
+        700
+       ],
+       [
+        790,
+        420
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "배 위 어부들의 외침 소리",
+      "sound_en": "fishermen shouting over the storm",
+      "ground_phrase_en": "huddled rowers inside the wooden boats",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        207,
+        690
+       ],
+       [
+        745,
+        895
+       ],
+       [
+        835,
+        615
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "04_beach": {
+  "title": "트루빌 해변",
+  "confirmed": [
+   {
+    "label_ko": "파도 소리",
+    "sound_en": "waves breaking on the shore",
+    "ground_phrase_en": "sea waves",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "파도 소리",
+     "sound_en": "ocean waves breaking and washing onto the shore",
+     "ground_phrase_en": "ocean surf along the shoreline",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "바닷바람",
+    "sound_en": "strong wind on the beach, fabric flapping",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "바닷바람 소리",
+     "sound_en": "brisk coastal wind blowing across the open beach",
+     "ground_phrase_en": "windy coastal sky and blowing clothing",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "해변 사람들의 대화",
+    "sound_en": "groups of people chatting on the beach",
+    "ground_phrase_en": "group of people",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      240,
+      740
+     ],
+     [
+      410,
+      740
+     ],
+     [
+      580,
+      740
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "사람들의 대화 소리",
+     "sound_en": "groups of beachgoers chatting and murmuring on the sand",
+     "ground_phrase_en": "groups of beachgoers standing on the beach",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       295,
+       780
+      ],
+      [
+       435,
+       780
+      ],
+      [
+       635,
+       780
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "말 울음과 말발굽",
+    "sound_en": "horses snorting, hooves on sand",
+    "ground_phrase_en": "horse",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      760,
+      760
+     ],
+     [
+      800,
+      750
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "말발굽과 마구 소리",
+     "sound_en": "horses snorting, hooves shifting in the sand, and harness jingling",
+     "ground_phrase_en": "two horses standing beside bathing machines",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       855,
+       795
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "개 짖는 소리",
+    "sound_en": "small dogs barking",
+    "ground_phrase_en": "dog",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      510,
+      830
+     ],
+     [
+      770,
+      870
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "개 짖는 소리",
+     "sound_en": "dogs barking and scampering on the beach",
+     "ground_phrase_en": "dogs on the sandy beach",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       510,
+       848
+      ],
+      [
+       772,
+       875
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "우산 펄럭임",
+     "sound_en": "parasol flapping in the wind",
+     "ground_phrase_en": "parasol",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       330,
+       700
+      ]
+     ],
+     "by": "claude-v2"
+    },
+    {
+     "label_ko": "탈의차 바퀴",
+     "sound_en": "bathing machine wheels creaking",
+     "ground_phrase_en": "bathing machine",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       670,
+       770
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "물놀이하는 소리",
+     "sound_en": "distant bathers splashing and calling out in the surf",
+     "ground_phrase_en": "bathers in the ocean water",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       510,
+       790
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "05_boulevard": {
+  "title": "몽마르트르 대로",
+  "confirmed": [
+   {
+    "label_ko": "신문팔이 외침",
+    "sound_en": "newspaper seller calling out",
+    "ground_phrase_en": "newspaper seller",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      790,
+      620
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "신문팔이의 외침 소리",
+     "sound_en": "newspaper vendor calling out papers to passersby",
+     "ground_phrase_en": "newspaper vendor holding newspapers",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       778,
+       615
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "자전거 소리",
+    "sound_en": "bicycle wheels and bell",
+    "ground_phrase_en": "bicycle",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      950,
+      620
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "노천 카페 테이블 정리 소리",
+     "sound_en": "clatter of a waiter tending a sidewalk café table",
+     "ground_phrase_en": "waiter leaning over a sidewalk café table",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       950,
+       595
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "가로수 잎 바람",
+     "sound_en": "wind in tree leaves",
+     "ground_phrase_en": "tree",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       100,
+       150
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "인도를 걷는 사람들의 발소리",
+     "sound_en": "footsteps of pedestrians walking along the boulevard sidewalk",
+     "ground_phrase_en": "pedestrians strolling on the sidewalk",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       452,
+       635
+      ],
+      [
+       282,
+       620
+      ],
+      [
+       348,
+       605
+      ],
+      [
+       185,
+       605
+      ],
+      [
+       512,
+       585
+      ]
+     ]
+    },
+    {
+     "label_ko": "거리에서 대화하는 사람들의 말소리",
+     "sound_en": "men conversing on the sidewalk in front of the theater",
+     "ground_phrase_en": "men in hats standing and talking",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       578,
+       575
+      ],
+      [
+       632,
+       580
+      ],
+      [
+       698,
+       555
+      ],
+      [
+       740,
+       560
+      ]
+     ]
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "거리 사람들의 대화와 발소리",
+      "sound_en": "crowd chatter and footsteps on a busy boulevard",
+      "ground_phrase_en": "group of men in top hats",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        540,
+        500
+       ],
+       [
+        700,
+        520
+       ],
+       [
+        330,
+        560
+       ],
+       [
+        450,
+        650
+       ],
+       [
+        190,
+        600
+       ],
+       [
+        260,
+        620
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "파리 대로의 웅성거리는 소음",
+      "sound_en": "ambient murmur and bustle of a Parisian boulevard",
+      "ground_phrase_en": "Parisian boulevard street scene",
+      "source_type": "ambient",
+      "grade": "allowed",
+      "points": []
+     }
+    }
+   ]
+  }
+ },
+ "06_ssireum": {
+  "title": "씨름",
+  "confirmed": [
+   {
+    "label_ko": "씨름꾼 몸싸움과 기합",
+    "sound_en": "two wrestlers grappling, grunting, feet shuffling on dirt",
+    "ground_phrase_en": "two wrestlers",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      530,
+      450
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "씨름꾼들의 기합과 몸싸움 소리",
+     "sound_en": "grunts and scuffling of wrestlers grappling",
+     "ground_phrase_en": "two wrestlers grappling in the center",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       570,
+       505
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "구경꾼 환호와 웃음",
+    "sound_en": "crowd of spectators cheering and laughing",
+    "ground_phrase_en": "spectators",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      150,
+      150
+     ],
+     [
+      400,
+      60
+     ],
+     [
+      830,
+      150
+     ],
+     [
+      100,
+      820
+     ],
+     [
+      820,
+      780
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "구경꾼들의 환호와 웃음소리",
+     "sound_en": "cheering, laughter, and chatter of spectators",
+     "ground_phrase_en": "crowd of spectators sitting around the ring",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       230,
+       170
+      ],
+      [
+       800,
+       110
+      ],
+      [
+       180,
+       880
+      ],
+      [
+       860,
+       820
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "엿장수 외침",
+    "sound_en": "taffy seller calling out",
+    "ground_phrase_en": "boy selling taffy with a tray",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      150,
+      530
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "엿장수 외치는 소리",
+     "sound_en": "taffy vendor calling out to the crowd",
+     "ground_phrase_en": "taffy vendor carrying a wooden tray",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       175,
+       580
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "07_seodang": {
+  "title": "서당",
+  "confirmed": [
+   {
+    "label_ko": "훈장에게 혼난 아이의 훌쩍임",
+    "sound_en": "a boy sobbing and sniffling",
+    "ground_phrase_en": "crying boy",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      370,
+      420
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "아이 울음소리",
+     "sound_en": "boy crying and sobbing",
+     "ground_phrase_en": "crying boy",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       360,
+       465
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "아이들의 킥킥 웃음",
+    "sound_en": "children giggling",
+    "ground_phrase_en": "laughing children",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      200,
+      300
+     ],
+     [
+      110,
+      370
+     ],
+     [
+      720,
+      520
+     ],
+     [
+      820,
+      560
+     ],
+     [
+      580,
+      620
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "학동들 웃음소리",
+     "sound_en": "students giggling and snickering",
+     "ground_phrase_en": "smiling students",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       260,
+       290
+      ],
+      [
+       175,
+       340
+      ],
+      [
+       95,
+       405
+      ],
+      [
+       875,
+       520
+      ],
+      [
+       850,
+       600
+      ],
+      [
+       785,
+       660
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "훈장의 말소리",
+    "sound_en": "old teacher speaking",
+    "ground_phrase_en": "teacher",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      640,
+      220
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "훈장님 꾸짖는 소리",
+     "sound_en": "teacher sternly scolding",
+     "ground_phrase_en": "seated teacher behind desk",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       665,
+       255
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "08_mudong": {
+  "title": "무동",
+  "confirmed": [
+   {
+    "label_ko": "북 소리",
+    "sound_en": "Korean barrel drum beats",
+    "ground_phrase_en": "drum",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      120,
+      170
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "북 소리",
+     "sound_en": "deep hanging barrel drum beats",
+     "ground_phrase_en": "hanging barrel drum",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       155,
+       205
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "장구 소리",
+    "sound_en": "janggu hourglass drum rhythm",
+    "ground_phrase_en": "hourglass drum",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      420,
+      370
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "장구 소리",
+     "sound_en": "rhythmic hourglass drum (janggu) beats",
+     "ground_phrase_en": "hourglass drum (janggu)",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       450,
+       345
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "피리 소리",
+    "sound_en": "Korean piri reed pipes",
+    "ground_phrase_en": "man playing pipe",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      690,
+      250
+     ],
+     [
+      820,
+      300
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "피리 소리",
+     "sound_en": "reedy bamboo oboe (piri) melodies",
+     "ground_phrase_en": "bamboo oboes (piri)",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       735,
+       270
+      ],
+      [
+       850,
+       295
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "대금 소리",
+    "sound_en": "daegeum bamboo transverse flute",
+    "ground_phrase_en": "man playing transverse flute",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      900,
+      560
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "대금 소리",
+     "sound_en": "transverse bamboo flute (daegeum) playing",
+     "ground_phrase_en": "transverse bamboo flute",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       885,
+       550
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "해금 소리",
+    "sound_en": "haegeum two-string fiddle",
+    "ground_phrase_en": "man playing fiddle",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      650,
+      650
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "해금 소리",
+     "sound_en": "bowed two-stringed fiddle (haegeum) playing",
+     "ground_phrase_en": "two-stringed vertical fiddle",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       660,
+       665
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "춤추는 아이의 소매 휘날림과 발 구름",
+    "sound_en": "dancer's sleeves swishing and feet stamping",
+    "ground_phrase_en": "dancing boy",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      260,
+      650
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "춤추는 발소리",
+     "sound_en": "lively dancing footsteps",
+     "ground_phrase_en": "dancing boy",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       280,
+       740
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "09_danopungjeong": {
+  "title": "단오풍정",
+  "confirmed": [
+   {
+    "label_ko": "그네 삐걱임",
+    "sound_en": "swing ropes creaking",
+    "ground_phrase_en": "woman on a swing",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      650,
+      330
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "그네 타는 소리",
+     "sound_en": "creaking ropes and whooshing air of a woman riding a high swing",
+     "ground_phrase_en": "woman riding a rope swing",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       640,
+       350
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "개울물 소리",
+    "sound_en": "small stream flowing",
+    "ground_phrase_en": "stream",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      300,
+      900
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "시냇물 흐르는 소리",
+     "sound_en": "gentle babbling stream flowing along the valley",
+     "ground_phrase_en": "flowing stream",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "여인들의 웃음과 물장구",
+    "sound_en": "women laughing and splashing water",
+    "ground_phrase_en": "women bathing",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      230,
+      780
+     ],
+     [
+      420,
+      780
+     ],
+     [
+      140,
+      560
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "냇가에서 목욕하며 물장구치는 소리",
+     "sound_en": "women splashing water and chatting while bathing in the stream",
+     "ground_phrase_en": "women bathing in the stream",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       105,
+       675
+      ],
+      [
+       175,
+       815
+      ],
+      [
+       310,
+       885
+      ],
+      [
+       415,
+       830
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "보따리 이고 가는 발소리",
+    "sound_en": "footsteps of a woman carrying a bundle",
+    "ground_phrase_en": "woman carrying bundle on head",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      900,
+      630
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "흙길을 걷는 발걸음 소리",
+     "sound_en": "footsteps of a woman walking up the dirt slope carrying a bundle",
+     "ground_phrase_en": "woman carrying a bundle on her head",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       880,
+       625
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "나뭇잎 바람",
+    "sound_en": "breeze in leaves",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "바람에 나뭇잎 스치는 소리",
+     "sound_en": "gentle breeze rustling through the tree leaves",
+     "ground_phrase_en": "leafy trees",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "몰래 엿보는 아이들의 킥킥거림",
+     "sound_en": "two boys giggling while peeking",
+     "ground_phrase_en": "boys hiding behind rock",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       190,
+       250
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "언덕 위 여인들의 대화 소리",
+     "sound_en": "two women chatting softly while fixing their hair",
+     "ground_phrase_en": "two women sitting on the hillside",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       795,
+       215
+      ],
+      [
+       910,
+       260
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "10_inwang": {
+  "title": "인왕제색도",
+  "confirmed": [],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "비 갠 뒤 폭포 소리",
+     "sound_en": "waterfalls pouring after rain",
+     "ground_phrase_en": "waterfall",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       240,
+       340
+      ],
+      [
+       640,
+       230
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "소나무 숲 바람",
+      "sound_en": "wind through pine forest",
+      "ground_phrase_en": "pine trees",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        450,
+        700
+       ],
+       [
+        800,
+        700
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "소나무 숲을 스치는 산바람 소리",
+      "sound_en": "mountain breeze rustling through pine trees",
+      "ground_phrase_en": "misty pine forest and mountain slopes",
+      "source_type": "ambient",
+      "grade": "required",
+      "points": []
+     }
+    },
+    {
+     "claude": {
+      "label_ko": "비 갠 산의 물방울과 안개",
+      "sound_en": "dripping water and misty mountain air after rain",
+      "ground_phrase_en": "",
+      "source_type": "ambient",
+      "grade": "allowed",
+      "points": [],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "산골짜기 폭포 소리",
+      "sound_en": "mountain waterfalls cascading down rocky cliffs",
+      "ground_phrase_en": "waterfalls on the rocky mountainside",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        243,
+        345
+       ],
+       [
+        648,
+        268
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "11_shower": {
+  "title": "오하시 아타케의 소나기",
+  "confirmed": [
+   {
+    "label_ko": "소나기 빗소리",
+    "sound_en": "sudden heavy rain shower",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "장대비 쏟아지는 소리",
+     "sound_en": "heavy rain pouring down",
+     "ground_phrase_en": "heavy rain",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "다리 위를 뛰는 발소리",
+    "sound_en": "people hurrying across a wooden bridge in the rain",
+    "ground_phrase_en": "person on bridge",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      430,
+      620
+     ],
+     [
+      260,
+      650
+     ],
+     [
+      600,
+      560
+     ],
+     [
+      720,
+      540
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "나무 다리 위 급한 발걸음 소리",
+     "sound_en": "hurried footsteps on wet wooden bridge",
+     "ground_phrase_en": "people hurrying across the wooden bridge",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       260,
+       700
+      ],
+      [
+       295,
+       710
+      ],
+      [
+       425,
+       655
+      ],
+      [
+       590,
+       615
+      ],
+      [
+       625,
+       615
+      ],
+      [
+       725,
+       588
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "강물 흐르는 소리",
+    "sound_en": "river flowing under the bridge",
+    "ground_phrase_en": "river",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "강물 흐르는 소리",
+     "sound_en": "river water flowing against wooden bridge pilings",
+     "ground_phrase_en": "river water",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "삿갓과 우산에 떨어지는 빗방울",
+     "sound_en": "rain drumming on straw hats and umbrella",
+     "ground_phrase_en": "straw hat",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       230,
+       670
+      ],
+      [
+       400,
+       620
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "뗏목 사공의 장대와 물소리",
+      "sound_en": "raftsman poling, water splashing",
+      "ground_phrase_en": "raft",
+      "source_type": "point",
+      "grade": "required",
+      "points": [
+       [
+        180,
+        480
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "뗏목 삿대질 소리",
+      "sound_en": "raft pole splashing in river water",
+      "ground_phrase_en": "boatman poling a log raft",
+      "source_type": "point",
+      "grade": "allowed",
+      "points": [
+       [
+        205,
+        520
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "12_kambara": {
+  "title": "가바라 밤의 눈",
+  "confirmed": [
+   {
+    "label_ko": "눈 밟는 발소리",
+    "sound_en": "footsteps crunching in deep snow",
+    "ground_phrase_en": "traveler walking in snow",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      390,
+      760
+     ],
+     [
+      710,
+      700
+     ],
+     [
+      770,
+      650
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "눈 밟는 발소리",
+     "sound_en": "footsteps crunching in deep snow",
+     "ground_phrase_en": "travelers walking in the snow",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       395,
+       745
+      ],
+      [
+       712,
+       725
+      ],
+      [
+       755,
+       685
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "고요한 눈 내리는 밤",
+    "sound_en": "quiet snowy night, faint wind",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "겨울 밤바람 소리",
+     "sound_en": "soft cold winter night wind",
+     "ground_phrase_en": "snowy winter night landscape",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "13_qingming": {
+  "title": "청명상하도 (무지개다리 부분)",
+  "confirmed": [
+   {
+    "label_ko": "다리 위 군중의 웅성임",
+    "sound_en": "dense crowd chatter on a bridge",
+    "ground_phrase_en": "crowd on bridge",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      580,
+      130
+     ],
+     [
+      440,
+      250
+     ],
+     [
+      400,
+      450
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "다리 위 인파의 웅성거림과 발소리",
+     "sound_en": "crowd shouting, chatter, and footsteps on the wooden bridge",
+     "ground_phrase_en": "crowds of people on the arched bridge and street",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       635,
+       145
+      ],
+      [
+       510,
+       245
+      ],
+      [
+       430,
+       450
+      ],
+      [
+       485,
+       625
+      ],
+      [
+       350,
+       605
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "다리 밑 배의 사공들 외침",
+    "sound_en": "boatmen shouting as a boat passes under the bridge, ropes and oars",
+    "ground_phrase_en": "large boat with crew",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      720,
+      350
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "뱃사공 외침과 노 젓는 소리",
+     "sound_en": "boatmen shouting, oars splashing, and wooden mast creaking",
+     "ground_phrase_en": "large wooden boat passing under the bridge",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       815,
+       320
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "강물 소리",
+    "sound_en": "river flowing",
+    "ground_phrase_en": "river",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "강물 흐르는 소리",
+     "sound_en": "flowing river water swirling and lapping",
+     "ground_phrase_en": "wide flowing river",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [
+    {
+     "label_ko": "말과 당나귀 발굽 소리",
+     "sound_en": "donkey and horse hooves clattering",
+     "ground_phrase_en": "pack donkeys and horse",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       440,
+       690
+      ],
+      [
+       460,
+       420
+      ],
+      [
+       65,
+       925
+      ]
+     ]
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "시장 상인들의 호객",
+      "sound_en": "market vendors calling out",
+      "ground_phrase_en": "market stalls",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        250,
+        600
+       ],
+       [
+        450,
+        600
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "시장 노점과 찻집의 떠들썩한 소리",
+      "sound_en": "market vendors hawking and teahouse chatter",
+      "ground_phrase_en": "market stalls and riverside shops",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        220,
+        635
+       ],
+       [
+        395,
+        365
+       ],
+       [
+        605,
+        635
+       ],
+       [
+        885,
+        900
+       ],
+       [
+        275,
+        55
+       ]
+      ]
+     }
+    },
+    {
+     "claude": {
+      "label_ko": "수레와 짐승 소리",
+      "sound_en": "carts creaking, donkeys and oxen",
+      "ground_phrase_en": "cart",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        150,
+        720
+       ],
+       [
+        250,
+        830
+       ],
+       [
+        400,
+        720
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "나무 수레 덜컹거리는 소리",
+      "sound_en": "wooden cart wheels rumbling and creaking",
+      "ground_phrase_en": "loaded wooden carts in the foreground",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        305,
+        765
+       ],
+       [
+        165,
+        795
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "14_tage": {
+  "title": "답가도 (부분)",
+  "confirmed": [
+   {
+    "label_ko": "농부들의 노래·웃음과 발 구르기",
+    "sound_en": "peasants singing, laughing and stamping feet",
+    "ground_phrase_en": "old peasant",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      70,
+      640
+     ],
+     [
+      200,
+      680
+     ],
+     [
+      430,
+      620
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "흥겹게 노래하며 발 구르는 소리",
+     "sound_en": "men singing, laughing, and stomping along the path",
+     "ground_phrase_en": "three men dancing and walking on the path",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       110,
+       700
+      ],
+      [
+       295,
+       745
+      ],
+      [
+       610,
+       695
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "대나무 잎 바람",
+    "sound_en": "wind rustling bamboo leaves",
+    "ground_phrase_en": "bamboo",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      300,
+      300
+     ],
+     [
+      600,
+      400
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "바람에 대나무 잎 스치는 소리",
+     "sound_en": "breeze rustling through bamboo and willow leaves",
+     "ground_phrase_en": "bamboo grove and overhanging willow tree",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [
+    {
+     "label_ko": "개울물 흐르는 소리",
+     "sound_en": "gentle stream flowing along the bank",
+     "ground_phrase_en": "small stream at the bottom left",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       180,
+       930
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "15_galette": {
+  "title": "물랭 드 라 갈레트의 무도회",
+  "confirmed": [
+   {
+    "label_ko": "사람들의 대화와 웃음",
+    "sound_en": "lively crowd chatter and laughter",
+    "ground_phrase_en": "people at table",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      500,
+      450
+     ],
+     [
+      800,
+      400
+     ],
+     [
+      300,
+      250
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "정원을 메운 군중의 웅성거림과 말소리",
+     "sound_en": "bustling chatter and murmur of the garden crowd",
+     "ground_phrase_en": "crowd of people mingling across the garden",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       130,
+       290
+      ],
+      [
+       460,
+       240
+      ],
+      [
+       650,
+       330
+      ],
+      [
+       820,
+       330
+      ],
+      [
+       950,
+       310
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "춤추는 발소리",
+    "sound_en": "couples dancing, shoes on gravel",
+    "ground_phrase_en": "dancing couple",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      200,
+      400
+     ],
+     [
+      330,
+      300
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "춤추는 커플들의 발소리와 흥겨운 움직임",
+     "sound_en": "footsteps and lively movement of dancing couples",
+     "ground_phrase_en": "dancing couples on the dance floor",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       50,
+       380
+      ],
+      [
+       205,
+       470
+      ],
+      [
+       335,
+       370
+      ],
+      [
+       525,
+       335
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "잔 부딪히는 소리",
+    "sound_en": "glasses clinking on a table",
+    "ground_phrase_en": "glasses on table",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      760,
+      640
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "앞쪽 테이블과 벤치 사람들의 대화와 웃음소리",
+     "sound_en": "lively conversation and laughter at the foreground table and bench",
+     "ground_phrase_en": "seated people talking in the foreground",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       465,
+       540
+      ],
+      [
+       715,
+       620
+      ],
+      [
+       910,
+       510
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "나뭇잎 바람",
+     "sound_en": "breeze in trees",
+     "ground_phrase_en": "tree",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": [],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "바람에 나뭇잎 스치는 소리",
+     "sound_en": "gentle rustling of tree leaves overhead",
+     "ground_phrase_en": "overhead tree canopy",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "야외 무도회 음악",
+      "sound_en": "outdoor dance hall band music in the distance",
+      "ground_phrase_en": "",
+      "source_type": "ambient",
+      "grade": "allowed",
+      "points": [],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "무도회장 악단의 춤곡 연주 소리",
+      "sound_en": "live dance band music from the pavilion",
+      "ground_phrase_en": "bandstand under the pavilion",
+      "source_type": "point",
+      "grade": "required",
+      "points": [
+       [
+        310,
+        195
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "16_horsefair": {
+  "title": "말 시장",
+  "confirmed": [
+   {
+    "label_ko": "말발굽과 말 울음",
+    "sound_en": "many horses pounding hooves, neighing and snorting",
+    "ground_phrase_en": "horse",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      150,
+      630
+     ],
+     [
+      420,
+      500
+     ],
+     [
+      600,
+      560
+     ],
+     [
+      730,
+      520
+     ],
+     [
+      900,
+      620
+     ],
+     [
+      400,
+      430
+     ],
+     [
+      700,
+      420
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "말발굽과 말 울음소리",
+     "sound_en": "horses galloping, hooves pounding on dirt, neighing and snorting",
+     "ground_phrase_en": "herd of running and rearing horses",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       140,
+       580
+      ],
+      [
+       305,
+       620
+      ],
+      [
+       415,
+       470
+      ],
+      [
+       465,
+       535
+      ],
+      [
+       715,
+       595
+      ],
+      [
+       920,
+       665
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "마부들의 고함",
+    "sound_en": "handlers shouting and whistling",
+    "ground_phrase_en": "horse handler",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      230,
+      560
+     ],
+     [
+      500,
+      470
+     ],
+     [
+      620,
+      400
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "마부들의 고함과 말 모는 소리",
+     "sound_en": "horse handlers shouting, calling out, and snapping reins",
+     "ground_phrase_en": "horse handlers and riders",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       42,
+       540
+      ],
+      [
+       212,
+       600
+      ],
+      [
+       365,
+       415
+      ],
+      [
+       538,
+       550
+      ],
+      [
+       638,
+       460
+      ],
+      [
+       925,
+       515
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "장터 사람들 웅성임",
+    "sound_en": "distant market crowd",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "구경꾼들의 웅성거림",
+     "sound_en": "spectator crowd murmuring and chattering",
+     "ground_phrase_en": "spectators watching from the hillside and roadside",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       895,
+       360
+      ],
+      [
+       810,
+       415
+      ],
+      [
+       980,
+       550
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [
+    {
+     "label_ko": "나뭇잎 흔들리는 바람 소리",
+     "sound_en": "wind rustling through tree leaves",
+     "ground_phrase_en": "leafy trees and cloudy sky",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "17_rainsteam": {
+  "title": "비, 증기, 속도",
+  "confirmed": [
+   {
+    "label_ko": "증기기관차 소리와 기적",
+    "sound_en": "steam locomotive chugging and whistle",
+    "ground_phrase_en": "steam locomotive",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      630,
+      580
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "증기기관차 달리는 소리",
+     "sound_en": "steam locomotive chugging, hissing steam, and rumbling along the tracks",
+     "ground_phrase_en": "steam locomotive and train on the railway bridge",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       660,
+       615
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "비바람",
+    "sound_en": "driving rain and wind",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "빗소리와 바람 소리",
+     "sound_en": "heavy driving rain and rushing wind",
+     "ground_phrase_en": "rainstorm and stormy sky",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "강 위 작은 배",
+    "sound_en": "small boat on the river, oars",
+    "ground_phrase_en": "small boat",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      140,
+      780
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "나룻배 노 젓는 소리",
+     "sound_en": "oars splashing from a small rowboat on the river",
+     "ground_phrase_en": "small rowboat with passengers on the river",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       144,
+       790
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [
+    {
+     "label_ko": "강물 흐르는 소리",
+     "sound_en": "river water flowing beneath the bridge",
+     "ground_phrase_en": "river on the lower left",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       120,
+       840
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "18_milkmaid": {
+  "title": "우유 따르는 여인 (함정: 조용한 실내)",
+  "confirmed": [
+   {
+    "label_ko": "우유 따르는 소리",
+    "sound_en": "thin stream of milk pouring into an earthenware bowl",
+    "ground_phrase_en": "milk jug",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      340,
+      580
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "우유 따르는 소리",
+     "sound_en": "milk pouring into an earthenware bowl",
+     "ground_phrase_en": "stream of milk pouring into a bowl",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       337,
+       600
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "19_peasantwedding": {
+  "title": "농민의 결혼식",
+  "confirmed": [
+   {
+    "label_ko": "잔치 사람들의 대화와 웃음",
+    "sound_en": "rowdy wedding feast chatter and laughter",
+    "ground_phrase_en": "guests at table",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      420,
+      300
+     ],
+     [
+      650,
+      280
+     ],
+     [
+      900,
+      330
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "하객들의 왁자지껄한 대화와 식사 소리",
+     "sound_en": "lively chatter, laughter, and eating of wedding guests",
+     "ground_phrase_en": "crowd of peasant wedding guests seated at the banquet table and gathered at the doorway",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       55,
+       290
+      ],
+      [
+       345,
+       350
+      ],
+      [
+       475,
+       355
+      ],
+      [
+       665,
+       370
+      ],
+      [
+       935,
+       415
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "술 따르는 소리",
+    "sound_en": "beer pouring from a jug",
+    "ground_phrase_en": "man pouring from jug",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      60,
+      580
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "항아리에서 술 따르는 소리",
+     "sound_en": "ale pouring from a large jug into a smaller pitcher",
+     "ground_phrase_en": "man pouring drink from a large jug into a pitcher",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       95,
+       710
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "백파이프 연주",
+     "sound_en": "bagpipe playing",
+     "ground_phrase_en": "bagpipe player",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       260,
+       320
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "백파이프 연주 소리",
+     "sound_en": "droning folk melody played on bagpipes",
+     "ground_phrase_en": "bagpiper in a red jacket holding bagpipes",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       275,
+       395
+      ]
+     ]
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "그릇과 숟가락 소리",
+      "sound_en": "wooden bowls and spoons clattering",
+      "ground_phrase_en": "bowls on a board",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        680,
+        600
+       ],
+       [
+        600,
+        330
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "음식 나르는 발걸음과 그릇 부딪히는 소리",
+      "sound_en": "heavy footsteps and clattering earthenware bowls on a wooden tray",
+      "ground_phrase_en": "servers carrying a makeshift wooden tray loaded with bowls",
+      "source_type": "point",
+      "grade": "allowed",
+      "points": [
+       [
+        715,
+        650
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "20_pearl": {
+  "title": "진주 귀고리를 한 소녀 (함정: 초상)",
+  "confirmed": [],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "21_snapwhip": {
+  "title": "채찍 놀이",
+  "confirmed": [
+   {
+    "label_ko": "아이들 함성과 달리는 발소리",
+    "sound_en": "boys shouting and laughing, bare feet running on grass",
+    "ground_phrase_en": "boys holding hands",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      300,
+      560
+     ],
+     [
+      450,
+      520
+     ],
+     [
+      650,
+      560
+     ],
+     [
+      880,
+      520
+     ],
+     [
+      260,
+      780
+     ],
+     [
+      420,
+      800
+     ],
+     [
+      640,
+      780
+     ],
+     [
+      820,
+      800
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "뛰어노는 소년들의 함성과 발소리",
+     "sound_en": "boys shouting, laughing, running barefoot, and tumbling in the grass",
+     "ground_phrase_en": "line of barefoot boys playing Snap the Whip",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       145,
+       650
+      ],
+      [
+       275,
+       620
+      ],
+      [
+       460,
+       600
+      ],
+      [
+       660,
+       620
+      ],
+      [
+       860,
+       620
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "산골 바람과 새소리",
+    "sound_en": "countryside breeze, birds in the hills",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "숲과 들판에 부는 바람 소리",
+     "sound_en": "gentle breeze rustling through the hillside woods and grassy field",
+     "ground_phrase_en": "wooded hillside and grassy meadow",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "넘어진 아이들",
+     "sound_en": "boys tumbling on the grass",
+     "ground_phrase_en": "fallen boy",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       150,
+       670
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "멀리서 노는 아이들의 목소리",
+     "sound_en": "distant children playing, chattering, and cheering",
+     "ground_phrase_en": "distant children playing in the left background",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       68,
+       570
+      ],
+      [
+       112,
+       540
+      ],
+      [
+       218,
+       548
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "22_liverpool": {
+  "title": "달빛 속 리버풀 부두",
+  "confirmed": [
+   {
+    "label_ko": "마차 바퀴와 말발굽",
+    "sound_en": "horse-drawn omnibus wheels and hooves on wet cobblestones",
+    "ground_phrase_en": "horse-drawn carriage",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      475,
+      750
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "젖은 자갈길 위 마차 바퀴와 말발굽 소리",
+     "sound_en": "horse-drawn carriages clattering and hooves splashing on wet cobblestones",
+     "ground_phrase_en": "horse-drawn omnibus and carriage on the street",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       475,
+       755
+      ],
+      [
+       409,
+       762
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "젖은 보도의 발소리",
+    "sound_en": "footsteps on wet pavement at night",
+    "ground_phrase_en": "pedestrian",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      730,
+      810
+     ],
+     [
+      660,
+      840
+     ],
+     [
+      170,
+      810
+     ],
+     [
+      410,
+      770
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "젖은 보도 위 보행자 발걸음과 웅성거림",
+     "sound_en": "pedestrian footsteps on wet pavement and muffled street chatter",
+     "ground_phrase_en": "pedestrians walking along the sidewalks",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       180,
+       810
+      ],
+      [
+       660,
+       815
+      ],
+      [
+       735,
+       825
+      ],
+      [
+       808,
+       822
+      ],
+      [
+       902,
+       830
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "항구의 배 삐걱임과 밧줄",
+      "sound_en": "moored sailing ships creaking, rigging",
+      "ground_phrase_en": "ship masts",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        60,
+        550
+       ],
+       [
+        200,
+        550
+       ],
+       [
+        330,
+        600
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "정박한 범선의 삐걱거림과 항구 물결 소리",
+      "sound_en": "creaking ship rigging and harbor water lapping against moored hulls",
+      "ground_phrase_en": "masts of sailing ships moored at the docks",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        45,
+        520
+       ],
+       [
+        195,
+        570
+       ],
+       [
+        305,
+        610
+       ]
+      ]
+     }
+    },
+    {
+     "claude": {
+      "label_ko": "밤거리 비 내린 뒤 물소리",
+      "sound_en": "damp night street, drips, distant harbor",
+      "ground_phrase_en": "",
+      "source_type": "ambient",
+      "grade": "allowed",
+      "points": [],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "보슬비 내리는 소리",
+      "sound_en": "light rain falling on wet cobblestones and roofs",
+      "ground_phrase_en": "rainy misty night sky and glistening wet street",
+      "source_type": "ambient",
+      "grade": "required",
+      "points": []
+     }
+    }
+   ]
+  }
+ },
+ "23_tuileries": {
+  "title": "튈르리 공원의 음악회",
+  "confirmed": [
+   {
+    "label_ko": "공원의 사람들 대화",
+    "sound_en": "fashionable crowd chatting in a park",
+    "ground_phrase_en": "crowd of people",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      200,
+      500
+     ],
+     [
+      500,
+      480
+     ],
+     [
+      800,
+      520
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "군중의 웅성거림과 대화 소리",
+     "sound_en": "lively crowd chatter and murmuring in the park",
+     "ground_phrase_en": "crowd of park visitors",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       110,
+       480
+      ],
+      [
+       290,
+       480
+      ],
+      [
+       500,
+       470
+      ],
+      [
+       720,
+       520
+      ],
+      [
+       860,
+       520
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "나뭇잎 바람",
+    "sound_en": "breeze in tall trees",
+    "ground_phrase_en": "tree",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "공원 나무 사이로 부는 바람과 나뭇잎 소리",
+     "sound_en": "gentle breeze rustling through the dense park trees",
+     "ground_phrase_en": "dense canopy of park trees",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "야외 음악회",
+     "sound_en": "outdoor band concert in the park",
+     "ground_phrase_en": "",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": [],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "가까이 앉은 여인들의 대화 소리",
+     "sound_en": "two women conversing closely in the foreground",
+     "ground_phrase_en": "two seated women in yellow dresses",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       290,
+       635
+      ]
+     ]
+    },
+    {
+     "label_ko": "자갈길을 걷는 발걸음 소리",
+     "sound_en": "footsteps crunching on the gravel park path",
+     "ground_phrase_en": "man walking in white trousers",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       630,
+       720
+      ]
+     ]
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "아이들 노는 소리",
+      "sound_en": "children playing",
+      "ground_phrase_en": "little girl",
+      "source_type": "clustered",
+      "grade": "allowed",
+      "points": [
+       [
+        450,
+        790
+       ],
+       [
+        510,
+        880
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "아이들이 놀며 떠드는 소리",
+      "sound_en": "young children chattering and playing with buckets in the sand",
+      "ground_phrase_en": "two young girls playing on the ground",
+      "source_type": "point",
+      "grade": "required",
+      "points": [
+       [
+        490,
+        860
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "24_avercamp": {
+  "title": "스케이트 타는 사람들이 있는 겨울 풍경 (부분)",
+  "confirmed": [
+   {
+    "label_ko": "스케이트와 얼음 소리",
+    "sound_en": "skates scraping on ice",
+    "ground_phrase_en": "ice skater",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      960,
+      810
+     ],
+     [
+      830,
+      830
+     ],
+     [
+      920,
+      600
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "스케이트 지치는 소리와 마을 사람들의 웅성거림",
+     "sound_en": "ice skates scraping and villagers chattering on the frozen canal",
+     "ground_phrase_en": "skaters and villagers on the frozen canal",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       970,
+       820
+      ],
+      [
+       775,
+       825
+      ],
+      [
+       600,
+       810
+      ],
+      [
+       508,
+       888
+      ],
+      [
+       355,
+       878
+      ],
+      [
+       815,
+       902
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "새소리",
+    "sound_en": "birds flying and calling in winter",
+    "ground_phrase_en": "bird",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      230,
+      80
+     ],
+     [
+      450,
+      150
+     ],
+     [
+      680,
+      240
+     ],
+     [
+      130,
+      170
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "까마귀 울음소리와 날갯짓 소리",
+     "sound_en": "crows cawing and flapping their wings",
+     "ground_phrase_en": "crows in the sky, bare trees, and on the roof",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       217,
+       10
+      ],
+      [
+       234,
+       83
+      ],
+      [
+       456,
+       154
+      ],
+      [
+       135,
+       172
+      ],
+      [
+       528,
+       553
+      ],
+      [
+       688,
+       244
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "얼음 구멍에서 물 긷는 소리",
+    "sound_en": "bucket and water at an ice hole",
+    "ground_phrase_en": "person at ice hole",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      430,
+      820
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "도르래 삐걱거리는 소리와 물 긷는 소리",
+     "sound_en": "wooden pulley creaking and water splashing from a bucket",
+     "ground_phrase_en": "hanging bucket and pulley over the ice hole",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       506,
+       768
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "교회 종소리",
+     "sound_en": "distant church bell",
+     "ground_phrase_en": "church tower",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       270,
+       370
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "차가운 겨울바람 소리",
+     "sound_en": "cold winter wind blowing through bare tree branches",
+     "ground_phrase_en": "wintry sky and bare trees",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "마을 사람들 소리",
+      "sound_en": "villagers talking on the ice",
+      "ground_phrase_en": "group of people",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        600,
+        840
+       ],
+       [
+        780,
+        830
+       ],
+       [
+        340,
+        870
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "강아지 짖는 소리",
+      "sound_en": "small dog barking on the snow",
+      "ground_phrase_en": "small dog running on the snow",
+      "source_type": "point",
+      "grade": "allowed",
+      "points": [
+       [
+        580,
+        910
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "25_bargehaulers": {
+  "title": "볼가강의 배 끄는 인부들",
+  "confirmed": [
+   {
+    "label_ko": "인부들의 신음과 무거운 발소리",
+    "sound_en": "barge haulers groaning, heavy feet dragging on sand",
+    "ground_phrase_en": "barge hauler",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      170,
+      520
+     ],
+     [
+      350,
+      520
+     ],
+     [
+      500,
+      540
+     ],
+     [
+      620,
+      500
+     ],
+     [
+      230,
+      800
+     ],
+     [
+      450,
+      720
+     ],
+     [
+      600,
+      690
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "배를 끄는 인부들의 발걸음과 밧줄 소리",
+     "sound_en": "heavy trudging footsteps in sand, straining towropes, and weary groans of barge haulers",
+     "ground_phrase_en": "group of barge haulers",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       220,
+       560
+      ],
+      [
+       340,
+       580
+      ],
+      [
+       430,
+       500
+      ],
+      [
+       540,
+       530
+      ],
+      [
+       650,
+       520
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "강물과 바람",
+    "sound_en": "wide river water and wind",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "강물이 강변에 철썩이는 소리",
+     "sound_en": "river water gently lapping against the sandy shore",
+     "ground_phrase_en": "wide river and sandy shore",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "밧줄 당기는 삐걱임",
+     "sound_en": "taut ropes and harness creaking",
+     "ground_phrase_en": "rope",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       300,
+       420
+      ],
+      [
+       550,
+       440
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "강변에 부는 바람 소리",
+     "sound_en": "steady wind blowing across the open riverbank",
+     "ground_phrase_en": "open riverbank and fluttering flag",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": []
+    },
+    {
+     "label_ko": "멀리서 들리는 증기선 엔진 소리",
+     "sound_en": "faint chugging of a distant steamboat on the river",
+     "ground_phrase_en": "distant steamboat",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       921,
+       462
+      ]
+     ]
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "범선 삐걱임",
+      "sound_en": "sailing barge creaking",
+      "ground_phrase_en": "sailing barge",
+      "source_type": "point",
+      "grade": "allowed",
+      "points": [
+       [
+        770,
+        430
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "물살을 가르는 목선의 삐걱거리는 소리",
+      "sound_en": "wooden barge hull creaking, rigging straining, and water sloshing against the bow",
+      "ground_phrase_en": "large wooden barge",
+      "source_type": "point",
+      "grade": "required",
+      "points": [
+       [
+        765,
+        445
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "26_ironmill": {
+  "title": "철 압연 공장",
+  "confirmed": [
+   {
+    "label_ko": "달군 쇠를 끄는 금속 소리와 지글거림",
+    "sound_en": "glowing iron dragged with tongs, clanging and hissing",
+    "ground_phrase_en": "glowing red-hot iron",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      560,
+      520
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "노동자 고함과 쇠집게 부딪히는 소리",
+     "sound_en": "steelworkers shouting, grunting, and clanging long iron tongs",
+     "ground_phrase_en": "steelworkers wielding long iron tongs",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       240,
+       530
+      ],
+      [
+       315,
+       620
+      ],
+      [
+       430,
+       565
+      ],
+      [
+       405,
+       450
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "기계 바퀴와 압연기 굉음",
+    "sound_en": "rolling mill machinery roaring, flywheels and belts",
+    "ground_phrase_en": "large flywheel",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      350,
+      180
+     ],
+     [
+      900,
+      120
+     ],
+     [
+      620,
+      420
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "거대한 톱니바퀴와 기계 돌아가는 소리",
+     "sound_en": "massive flywheels, gears, and overhead drive shafts rumbling and clanking",
+     "ground_phrase_en": "large factory flywheels, gears, and overhead shafts",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       365,
+       290
+      ],
+      [
+       905,
+       170
+      ],
+      [
+       910,
+       300
+      ],
+      [
+       520,
+       95
+      ],
+      [
+       745,
+       480
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "노동자들의 고함",
+    "sound_en": "workers shouting over the noise",
+    "ground_phrase_en": "worker",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      250,
+      450
+     ],
+     [
+      400,
+      400
+     ],
+     [
+      750,
+      420
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "용광로 불길 타오르는 소리",
+     "sound_en": "roaring flames from smelting furnaces",
+     "ground_phrase_en": "glowing smelting furnaces in the background",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       100,
+       385
+      ],
+      [
+       215,
+       385
+      ],
+      [
+       465,
+       415
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [
+    {
+     "label_ko": "압연기 쇠 압착과 불꽃 튀는 소리",
+     "sound_en": "heavy iron rolling mill grinding, crushing, and crackling sparks from incandescent metal",
+     "ground_phrase_en": "iron rolling mill pressing glowing hot metal slab",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       590,
+       560
+      ]
+     ]
+    },
+    {
+     "label_ko": "증기 새는 소리와 공장 울림",
+     "sound_en": "hissing steam and booming industrial reverberation throughout the mill",
+     "ground_phrase_en": "steamy, smoky ironworks interior",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    },
+    {
+     "label_ko": "철제 수레 바퀴 굴러가는 소리",
+     "sound_en": "heavy iron cart wheels creaking and rattling under the glowing slab",
+     "ground_phrase_en": "wheeled iron trolley beneath the hot metal",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       545,
+       705
+      ]
+     ]
+    },
+    {
+     "label_ko": "휴식하는 노동자 말소리와 식기 소리",
+     "sound_en": "resting workers murmuring and clinking metal lunch vessels",
+     "ground_phrase_en": "workers resting, eating, and drinking on the right",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       835,
+       735
+      ],
+      [
+       870,
+       605
+      ],
+      [
+       945,
+       765
+      ],
+      [
+       960,
+       490
+      ]
+     ]
+    },
+    {
+     "label_ko": "노동자들이 몸을 씻는 물소리",
+     "sound_en": "water splashing as workers wash themselves",
+     "ground_phrase_en": "shirtless workers washing up on the far left",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       35,
+       550
+      ],
+      [
+       75,
+       470
+      ]
+     ]
+    }
+   ],
+   "grade_diff": []
+  }
+ },
+ "27_merryfamily": {
+  "title": "즐거운 가족",
+  "confirmed": [
+   {
+    "label_ko": "바이올린 연주",
+    "sound_en": "old man playing violin",
+    "ground_phrase_en": "violin",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      310,
+      420
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "백파이프 연주 소리",
+     "sound_en": "reedy bagpipes playing loudly",
+     "ground_phrase_en": "man playing bagpipes",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       365,
+       315
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "피리 부는 아이들",
+    "sound_en": "children playing recorder and flute",
+    "ground_phrase_en": "boy playing pipe",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      90,
+      240
+     ],
+     [
+      660,
+      330
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "플루트 연주 소리",
+     "sound_en": "wooden flute playing a lively melody",
+     "ground_phrase_en": "young man playing a wooden flute",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       740,
+       372
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "가족의 노래",
+    "sound_en": "family singing from a song sheet",
+    "ground_phrase_en": "singing woman",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      400,
+      330
+     ],
+     [
+      510,
+      330
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "어르신들의 흥겨운 노래 소리",
+     "sound_en": "elderly man and woman singing merrily together",
+     "ground_phrase_en": "singing old man and woman at the table",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       290,
+       392
+      ],
+      [
+       452,
+       382
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "아기 소리",
+    "sound_en": "baby babbling",
+    "ground_phrase_en": "baby",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      580,
+      380
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "아기의 까르르 웃는 소리",
+     "sound_en": "baby giggling and laughing happily",
+     "ground_phrase_en": "laughing baby on mother's lap",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       638,
+       405
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "술 따르는 소리",
+    "sound_en": "wine poured from a jug",
+    "ground_phrase_en": "girl pouring",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      620,
+      640
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "주전자에서 술 따르는 소리",
+     "sound_en": "drink pouring from a metal pitcher into a cup",
+     "ground_phrase_en": "girl pouring drink from a pitcher",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       696,
+       655
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "백파이프 소리",
+     "sound_en": "bagpipe drone",
+     "ground_phrase_en": "bagpipe",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       320,
+       240
+      ]
+     ],
+     "by": "claude-v2"
+    },
+    {
+     "label_ko": "개 소리",
+     "sound_en": "dog sniffing and barking",
+     "ground_phrase_en": "dog",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       400,
+       560
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ },
+ "28_railwaystation": {
+  "title": "기차역",
+  "confirmed": [
+   {
+    "label_ko": "역 군중의 웅성임",
+    "sound_en": "crowded railway platform chatter",
+    "ground_phrase_en": "crowd on platform",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      300,
+      560
+     ],
+     [
+      550,
+      550
+     ],
+     [
+      800,
+      580
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "역 안 인파의 웅성거림과 발소리",
+     "sound_en": "bustling crowd chatter and footsteps echoing in the station",
+     "ground_phrase_en": "crowd of passengers on the railway platform",
+     "source_type": "clustered",
+     "grade": "required",
+     "points": [
+      [
+       225,
+       690
+      ],
+      [
+       380,
+       740
+      ],
+      [
+       525,
+       670
+      ],
+      [
+       710,
+       690
+      ],
+      [
+       865,
+       680
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "증기기관차",
+    "sound_en": "steam locomotive hissing and idling",
+    "ground_phrase_en": "steam locomotive",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      150,
+      530
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "증기기관차의 증기 뿜는 소리와 엔진음",
+     "sound_en": "steam locomotive hissing and chugging",
+     "ground_phrase_en": "steam locomotive in the left background",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       175,
+       525
+      ]
+     ]
+    }
+   },
+   {
+    "label_ko": "개 짖는 소리",
+    "sound_en": "dog barking",
+    "ground_phrase_en": "dog",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      40,
+      800
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "개가 짖거나 낑낑대는 소리",
+     "sound_en": "dogs barking and whining",
+     "ground_phrase_en": "two dogs in the lower left foreground",
+     "source_type": "clustered",
+     "grade": "allowed",
+     "points": [
+      [
+       28,
+       855
+      ],
+      [
+       65,
+       875
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "역 지붕 아래 울림",
+     "sound_en": "reverberant station hall",
+     "ground_phrase_en": "",
+     "source_type": "ambient",
+     "grade": "allowed",
+     "points": [],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "짐 싣는 소리",
+      "sound_en": "porters loading luggage onto carriage roof",
+      "ground_phrase_en": "porter loading luggage",
+      "source_type": "point",
+      "grade": "allowed",
+      "points": [
+       [
+        620,
+        400
+       ]
+      ],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "짐을 싣고 옮기는 둔탁한 소리",
+      "sound_en": "heavy luggage thudding and scraping as porters load it",
+      "ground_phrase_en": "porters loading trunks and luggage onto the train roof and platform",
+      "source_type": "clustered",
+      "grade": "required",
+      "points": [
+       [
+        700,
+        360
+       ],
+       [
+        655,
+        440
+       ],
+       [
+        625,
+        885
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "29_ninthwave": {
+  "title": "아홉 번째 파도",
+  "confirmed": [
+   {
+    "label_ko": "폭풍 바다",
+    "sound_en": "stormy sea, huge waves",
+    "ground_phrase_en": "",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": [],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "거센 파도가 몰아치고 부서지는 소리",
+     "sound_en": "roaring ocean waves crashing",
+     "ground_phrase_en": "stormy ocean waves",
+     "source_type": "ambient",
+     "grade": "required",
+     "points": []
+    }
+   },
+   {
+    "label_ko": "난파된 사람들의 외침",
+    "sound_en": "shipwreck survivors shouting on a mast",
+    "ground_phrase_en": "people clinging to mast",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      430,
+      850
+     ]
+    ],
+    "by": "claude-v2",
+    "matched_gemini": {
+     "label_ko": "조난자들의 외침 소리",
+     "sound_en": "shipwreck survivors shouting and calling out",
+     "ground_phrase_en": "group of shipwreck survivors",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       425,
+       850
+      ]
+     ]
+    }
+   }
+  ],
+  "pending": {
+   "only_claude": [
+    {
+     "label_ko": "거대한 파도 부서짐",
+     "sound_en": "massive wave crest breaking",
+     "ground_phrase_en": "giant wave",
+     "source_type": "point",
+     "grade": "required",
+     "points": [
+      [
+       300,
+       600
+      ]
+     ],
+     "by": "claude-v2"
+    }
+   ],
+   "only_gemini": [
+    {
+     "label_ko": "부서진 돛대가 물결에 부딪히며 삐걱거리는 소리",
+     "sound_en": "broken wooden mast creaking and slapping against the waves",
+     "ground_phrase_en": "floating wooden ship mast wreckage",
+     "source_type": "point",
+     "grade": "allowed",
+     "points": [
+      [
+       385,
+       910
+      ]
+     ]
+    }
+   ],
+   "grade_diff": [
+    {
+     "claude": {
+      "label_ko": "폭풍 바람",
+      "sound_en": "howling storm wind",
+      "ground_phrase_en": "",
+      "source_type": "ambient",
+      "grade": "allowed",
+      "points": [],
+      "by": "claude-v2"
+     },
+     "gemini": {
+      "label_ko": "휘몰아치는 폭풍 바람 소리",
+      "sound_en": "howling storm wind over the sea",
+      "ground_phrase_en": "wind-swept sea spray and stormy sky",
+      "source_type": "ambient",
+      "grade": "required",
+      "points": []
+     }
+    }
+   ]
+  }
+ },
+ "30_stilllife": {
+  "title": "금박 잔이 있는 정물 (함정: 정물)",
+  "confirmed": [],
+  "pending": {
+   "only_claude": [],
+   "only_gemini": [],
+   "grade_diff": []
+  }
+ }
+}

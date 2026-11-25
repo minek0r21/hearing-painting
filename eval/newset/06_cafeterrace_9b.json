@@ -1,0 +1,50 @@
+{
+ "painting": "06_cafeterrace",
+ "seconds": 34.1,
+ "parsed": {
+  "title_guess": "Café Terrace at Night",
+  "sources": [
+   {
+    "id": "people_talking_cafe",
+    "object_en": "people sitting and standing at outdoor café tables",
+    "x": 350,
+    "y": 650,
+    "label_ko": "카페 대화",
+    "type": "people",
+    "description_ko": "야외 카페에 앉아 있는 사람들이 서로 이야기하는 소리가 들린다.",
+    "prompt_en": "soft murmuring voices of people sitting at outdoor café tables at night, field recording"
+   },
+   {
+    "id": "people_walking_street",
+    "object_en": "people walking on cobblestone street",
+    "x": 750,
+    "y": 600,
+    "label_ko": "길 걷는 발소리",
+    "type": "people",
+    "description_ko": "자갈길 위를 걷는 사람들의 발걸음 소리가 들린다.",
+    "prompt_en": "crisp footsteps of people walking on cobblestone street at night, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees swaying in the night sky",
+    "x": 900,
+    "y": 200,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "밤하늘 아래 나무들이 바람에 흔들리는 소리가 들린다.",
+    "prompt_en": "gentle rustling of tree branches in night wind, field recording"
+   },
+   {
+    "id": "distant_bell_tower",
+    "object_en": "bell tower silhouette in background",
+    "x": 650,
+    "y": 300,
+    "label_ko": "종소리",
+    "type": "people",
+    "description_ko": "배경에 있는 종탑에서 멀리서 울리는 종소리가 들린다.",
+    "prompt_en": "distant church bell tolling softly in the night, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Café Terrace at Night\",\n  \"sources\": [\n    {\n      \"id\": \"people_talking_cafe\",\n      \"object_en\": \"people sitting and standing at outdoor café tables\",\n      \"x\": 350,\n      \"y\": 650,\n      \"label_ko\": \"카페 대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"야외 카페에 앉아 있는 사람들이 서로 이야기하는 소리가 들린다.\",\n      \"prompt_en\": \"soft murmuring voices of people sitting at outdoor café tables at night, field recording\"\n    },\n    {\n      \"id\": \"people_walking_street\",\n      \"object_en\": \"people walking on cobblestone street\",\n      \"x\": 750,\n      \"y\": 600,\n      \"label_ko\": \"길 걷는 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"자갈길 위를 걷는 사람들의 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"crisp footsteps of people walking on cobblestone street at night, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees swaying in the night sky\",\n      \"x\": 900,\n      \"y\": 200,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"밤하늘 아래 나무들이 바람에 흔들리는 소리가 들린다.\",\n      \"prompt_en\": \"gentle rustling of tree branches in night wind, field recording\"\n    },\n    {\n      \"id\": \"distant_bell_tower\",\n      \"object_en\": \"bell tower silhouette in background\",\n      \"x\": 650,\n      \"y\": 300,\n      \"label_ko\": \"종소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"배경에 있는 종탑에서 멀리서 울리는 종소리가 들린다.\",\n      \"prompt_en\": \"distant church bell tolling softly in the night, field recording\"\n    }\n  ]\n}\n"
+}

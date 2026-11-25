@@ -1,0 +1,129 @@
+{
+ "model": "gemini-4-neon",
+ "file": "08_mudong.jpg",
+ "seconds": 27.1,
+ "parsed": {
+  "title_guess": "Dancing Boy (Mudong) by Kim Hong-do",
+  "sources": [
+   {
+    "label_ko": "북(좌고) 두드리는 소리",
+    "sound_en": "rhythmic beats of a traditional hanging drum",
+    "ground_phrase_en": "hanging wooden drum",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      155,
+      205
+     ]
+    ]
+   },
+   {
+    "label_ko": "장구 소리",
+    "sound_en": "percussive beats of an hourglass drum",
+    "ground_phrase_en": "hourglass drum (janggu)",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      450,
+      350
+     ]
+    ]
+   },
+   {
+    "label_ko": "피리 부는 소리",
+    "sound_en": "reedy melody of two bamboo oboes",
+    "ground_phrase_en": "bamboo oboes (piri)",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      740,
+      280
+     ],
+     [
+      845,
+      305
+     ]
+    ]
+   },
+   {
+    "label_ko": "대금 부는 소리",
+    "sound_en": "clear melody of a transverse bamboo flute",
+    "ground_phrase_en": "transverse bamboo flute (daegeum)",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      885,
+      550
+     ]
+    ]
+   },
+   {
+    "label_ko": "해금 켜는 소리",
+    "sound_en": "bowed notes of a two-stringed fiddle",
+    "ground_phrase_en": "two-stringed fiddle (haegeum)",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      655,
+      660
+     ]
+    ]
+   },
+   {
+    "label_ko": "춤추는 옷자락 스치는 소리",
+    "sound_en": "rustling of fluttering sleeves and dancer's robes",
+    "ground_phrase_en": "dancing boy in flowing robes",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      260,
+      670
+     ]
+    ]
+   },
+   {
+    "label_ko": "춤추는 발걸음 소리",
+    "sound_en": "light rhythmic footsteps of the dancer",
+    "ground_phrase_en": "dancer's feet",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      300,
+      935
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Dancing Boy (Mudong) by Kim Hong-do\",\n  \"sources\": [\n    {\n      \"label_ko\": \"북(좌고) 두드리는 소리\",\n      \"sound_en\": \"rhythmic beats of a traditional hanging drum\",\n      \"ground_phrase_en\": \"hanging wooden drum\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[155, 205]]\n    },\n    {\n      \"label_ko\": \"장구 소리\",\n      \"sound_en\": \"percussive beats of an hourglass drum\",\n      \"ground_phrase_en\": \"hourglass drum (janggu)\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[450, 350]]\n    },\n    {\n      \"label_ko\": \"피리 부는 소리\",\n      \"sound_en\": \"reedy melody of two bamboo oboes\",\n      \"ground_phrase_en\": \"bamboo oboes (piri)\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[740, 280], [845, 305]]\n    },\n    {\n      \"label_ko\": \"대금 부는 소리\",\n      \"sound_en\": \"clear melody of a transverse bamboo flute\",\n      \"ground_phrase_en\": \"transverse bamboo flute (daegeum)\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[885, 550]]\n    },\n    {\n      \"label_ko\": \"해금 켜는 소리\",\n      \"sound_en\": \"bowed notes of a two-stringed fiddle\",\n      \"ground_phrase_en\": \"two-stringed fiddle (haegeum)\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[655, 660]]\n    },\n    {\n      \"label_ko\": \"춤추는 옷자락 스치는 소리\",\n      \"sound_en\": \"rustling of fluttering sleeves and dancer's robes\",\n      \"ground_phrase_en\": \"dancing boy in flowing robes\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[260, 670]]\n    },\n    {\n      \"label_ko\": \"춤추는 발걸음 소리\",\n      \"sound_en\": \"light rhythmic footsteps of the dancer\",\n      \"ground_phrase_en\": \"dancer's feet\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[300, 935]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 664,
+  "totalTokenCount": 4082,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 664
+   }
+  ],
+  "thoughtsTokenCount": 1833,
+  "serviceTier": "standard"
+ }
+}

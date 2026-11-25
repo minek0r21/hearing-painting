@@ -1,0 +1,185 @@
+{
+ "model": "gemini-4-neon",
+ "file": "26_ironmill.jpg",
+ "seconds": 51.7,
+ "parsed": {
+  "title_guess": "The Iron Rolling Mill (Modern Cyclopes) by Adolph Menzel",
+  "sources": [
+   {
+    "label_ko": "압연기 쇠 압착과 불꽃 튀는 소리",
+    "sound_en": "heavy iron rolling mill grinding, crushing, and crackling sparks from incandescent metal",
+    "ground_phrase_en": "iron rolling mill pressing glowing hot metal slab",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      590,
+      560
+     ]
+    ]
+   },
+   {
+    "label_ko": "노동자 고함과 쇠집게 부딪히는 소리",
+    "sound_en": "steelworkers shouting, grunting, and clanging long iron tongs",
+    "ground_phrase_en": "steelworkers wielding long iron tongs",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      240,
+      530
+     ],
+     [
+      315,
+      620
+     ],
+     [
+      430,
+      565
+     ],
+     [
+      405,
+      450
+     ]
+    ]
+   },
+   {
+    "label_ko": "거대한 톱니바퀴와 기계 돌아가는 소리",
+    "sound_en": "massive flywheels, gears, and overhead drive shafts rumbling and clanking",
+    "ground_phrase_en": "large factory flywheels, gears, and overhead shafts",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      365,
+      290
+     ],
+     [
+      905,
+      170
+     ],
+     [
+      910,
+      300
+     ],
+     [
+      520,
+      95
+     ],
+     [
+      745,
+      480
+     ]
+    ]
+   },
+   {
+    "label_ko": "용광로 불길 타오르는 소리",
+    "sound_en": "roaring flames from smelting furnaces",
+    "ground_phrase_en": "glowing smelting furnaces in the background",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      100,
+      385
+     ],
+     [
+      215,
+      385
+     ],
+     [
+      465,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "증기 새는 소리와 공장 울림",
+    "sound_en": "hissing steam and booming industrial reverberation throughout the mill",
+    "ground_phrase_en": "steamy, smoky ironworks interior",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "철제 수레 바퀴 굴러가는 소리",
+    "sound_en": "heavy iron cart wheels creaking and rattling under the glowing slab",
+    "ground_phrase_en": "wheeled iron trolley beneath the hot metal",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      545,
+      705
+     ]
+    ]
+   },
+   {
+    "label_ko": "휴식하는 노동자 말소리와 식기 소리",
+    "sound_en": "resting workers murmuring and clinking metal lunch vessels",
+    "ground_phrase_en": "workers resting, eating, and drinking on the right",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      835,
+      735
+     ],
+     [
+      870,
+      605
+     ],
+     [
+      945,
+      765
+     ],
+     [
+      960,
+      490
+     ]
+    ]
+   },
+   {
+    "label_ko": "노동자들이 몸을 씻는 물소리",
+    "sound_en": "water splashing as workers wash themselves",
+    "ground_phrase_en": "shirtless workers washing up on the far left",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      35,
+      550
+     ],
+     [
+      75,
+      470
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Iron Rolling Mill (Modern Cyclopes) by Adolph Menzel\",\n  \"sources\": [\n    {\n      \"label_ko\": \"압연기 쇠 압착과 불꽃 튀는 소리\",\n      \"sound_en\": \"heavy iron rolling mill grinding, crushing, and crackling sparks from incandescent metal\",\n      \"ground_phrase_en\": \"iron rolling mill pressing glowing hot metal slab\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[590, 560]]\n    },\n    {\n      \"label_ko\": \"노동자 고함과 쇠집게 부딪히는 소리\",\n      \"sound_en\": \"steelworkers shouting, grunting, and clanging long iron tongs\",\n      \"ground_phrase_en\": \"steelworkers wielding long iron tongs\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[240, 530], [315, 620], [430, 565], [405, 450]]\n    },\n    {\n      \"label_ko\": \"거대한 톱니바퀴와 기계 돌아가는 소리\",\n      \"sound_en\": \"massive flywheels, gears, and overhead drive shafts rumbling and clanking\",\n      \"ground_phrase_en\": \"large factory flywheels, gears, and overhead shafts\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[365, 290], [905, 170], [910, 300], [520, 95], [745, 480]]\n    },\n    {\n      \"label_ko\": \"용광로 불길 타오르는 소리\",\n      \"sound_en\": \"roaring flames from smelting furnaces\",\n      \"ground_phrase_en\": \"glowing smelting furnaces in the background\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[100, 385], [215, 385], [465, 415]]\n    },\n    {\n      \"label_ko\": \"증기 새는 소리와 공장 울림\",\n      \"sound_en\": \"hissing steam and booming industrial reverberation throughout the mill\",\n      \"ground_phrase_en\": \"steamy, smoky ironworks interior\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"철제 수레 바퀴 굴러가는 소리\",\n      \"sound_en\": \"heavy iron cart wheels creaking and rattling under the glowing slab\",\n      \"ground_phrase_en\": \"wheeled iron trolley beneath the hot metal\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[545, 705]]\n    },\n    {\n      \"label_ko\": \"휴식하는 노동자 말소리와 식기 소리\",\n      \"sound_en\": \"resting workers murmuring and clinking metal lunch vessels\",\n      \"ground_phrase_en\": \"workers resting, eating, and drinking on the right\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[835, 735], [870, 605], [945, 765], [960, 490]]\n    },\n    {\n      \"label_ko\": \"노동자들이 몸을 씻는 물소리\",\n      \"sound_en\": \"water splashing as workers wash themselves\",\n      \"ground_phrase_en\": \"shirtless workers washing up on the far left\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[35, 550], [75, 470]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1827,
+  "candidatesTokenCount": 933,
+  "totalTokenCount": 7880,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1092
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 933
+   }
+  ],
+  "thoughtsTokenCount": 5120,
+  "serviceTier": "standard"
+ }
+}

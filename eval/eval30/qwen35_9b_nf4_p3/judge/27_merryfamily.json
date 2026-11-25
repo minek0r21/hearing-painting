@@ -1,0 +1,33 @@
+{
+ "hash": "083c5f5095d7",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 7
+   },
+   {
+    "model": 5,
+    "answer": 6
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "not_visible",
+    "why": "Shown instrument is a violin, not a lute."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Boy holds a horn at the window, though not actively blowing it."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 3}, {\"model\": 4, \"answer\": 7}, {\"model\": 5, \"answer\": 6}], \"unpaired\": [{\"model\": 1, \"verdict\": \"not_visible\", \"why\": \"Shown instrument is a violin, not a lute.\"}, {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Boy holds a horn at the window, though not actively blowing it.\"}]}"
+}

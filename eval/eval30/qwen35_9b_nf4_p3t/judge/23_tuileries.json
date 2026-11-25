@@ -1,0 +1,20 @@
+{
+ "hash": "a24e4bfd3e40",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "No musician or string instrument appears in the painting."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}], \"unpaired\": [{\"model\": 2, \"verdict\": \"not_visible\", \"why\": \"No musician or string instrument appears in the painting.\"}]}"
+}

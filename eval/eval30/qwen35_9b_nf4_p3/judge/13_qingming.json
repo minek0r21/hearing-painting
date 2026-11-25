@@ -1,0 +1,33 @@
+{
+ "hash": "5af31e361a43",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 5
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Crowd walking produces footsteps, distinct from chatter."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Stationary parasols are still objects."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}, {\"model\": 5, \"answer\": 5}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Crowd walking produces footsteps, distinct from chatter.\"}, {\"model\": 4, \"verdict\": \"silent\", \"why\": \"Stationary parasols are still objects.\"}]}"
+}

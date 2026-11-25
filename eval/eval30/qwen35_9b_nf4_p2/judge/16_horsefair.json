@@ -1,0 +1,28 @@
+{
+ "hash": "f50fde24d3fb",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Trees are visible and can rustle."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Trees are visible and can rustle.\"}]}"
+}

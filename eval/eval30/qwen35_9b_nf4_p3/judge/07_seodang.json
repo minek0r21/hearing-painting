@@ -1,0 +1,29 @@
+{
+ "hash": "0a6261137de3",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Students with open books are visible."
+   },
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Students are visible and can yawn."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 3\n    },\n    {\n      \"model\": 4,\n      \"answer\": 2\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 2,\n      \"verdict\": \"plausible\",\n      \"why\": \"Students with open books are visible.\"\n    },\n    {\n      \"model\": 3,\n      \"verdict\": \"plausible\",\n      \"why\": \"Students are visible and can yawn.\"\n    }\n  ]\n}"
+}

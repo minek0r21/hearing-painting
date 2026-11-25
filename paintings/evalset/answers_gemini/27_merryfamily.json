@@ -1,0 +1,154 @@
+{
+ "model": "gemini-4-neon",
+ "file": "27_merryfamily.jpg",
+ "seconds": 54.0,
+ "parsed": {
+  "title_guess": "As the Old Sing, So Pipe the Young (Jan Steen)",
+  "sources": [
+   {
+    "label_ko": "흥겨운 노랫소리",
+    "sound_en": "boisterous singing voices of the elderly man and woman",
+    "ground_phrase_en": "singing old man and woman",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      295,
+      395
+     ],
+     [
+      450,
+      385
+     ]
+    ]
+   },
+   {
+    "label_ko": "백파이프 연주 소리",
+    "sound_en": "bagpipes playing a lively tune",
+    "ground_phrase_en": "man playing bagpipes",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      375,
+      325
+     ]
+    ]
+   },
+   {
+    "label_ko": "피리 연주 소리",
+    "sound_en": "wooden flute playing a melody",
+    "ground_phrase_en": "young man playing a wooden flute",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      740,
+      375
+     ]
+    ]
+   },
+   {
+    "label_ko": "주전자에서 음료 따르는 소리",
+    "sound_en": "liquid pouring from a metal pitcher into a cup",
+    "ground_phrase_en": "girl pouring from a metal pitcher",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      695,
+      665
+     ]
+    ]
+   },
+   {
+    "label_ko": "가족들의 웃음과 대화 소리",
+    "sound_en": "merry family laughter and chatter",
+    "ground_phrase_en": "smiling family members",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      530,
+      370
+     ],
+     [
+      665,
+      520
+     ],
+     [
+      830,
+      310
+     ],
+     [
+      925,
+      380
+     ]
+    ]
+   },
+   {
+    "label_ko": "아기 웃음소리",
+    "sound_en": "baby giggling and babbling happily",
+    "ground_phrase_en": "laughing baby on mother's lap",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      637,
+      410
+     ]
+    ]
+   },
+   {
+    "label_ko": "개 낑낑거리는 소리",
+    "sound_en": "dog panting or whining softly for food",
+    "ground_phrase_en": "spaniel dog looking up at the table",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      445,
+      745
+     ]
+    ]
+   },
+   {
+    "label_ko": "벽난로 불 타닥거리는 소리",
+    "sound_en": "soft crackling of a fire in the hearth",
+    "ground_phrase_en": "glowing fireplace on the far right",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      985,
+      470
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\"title_guess\": \"As the Old Sing, So Pipe the Young (Jan Steen)\", \"sources\": [{\"label_ko\": \"흥겨운 노랫소리\", \"sound_en\": \"boisterous singing voices of the elderly man and woman\", \"ground_phrase_en\": \"singing old man and woman\", \"source_type\": \"clustered\", \"grade\": \"required\", \"points\": [[295, 395], [450, 385]]}, {\"label_ko\": \"백파이프 연주 소리\", \"sound_en\": \"bagpipes playing a lively tune\", \"ground_phrase_en\": \"man playing bagpipes\", \"source_type\": \"point\", \"grade\": \"required\", \"points\": [[375, 325]]}, {\"label_ko\": \"피리 연주 소리\", \"sound_en\": \"wooden flute playing a melody\", \"ground_phrase_en\": \"young man playing a wooden flute\", \"source_type\": \"point\", \"grade\": \"required\", \"points\": [[740, 375]]}, {\"label_ko\": \"주전자에서 음료 따르는 소리\", \"sound_en\": \"liquid pouring from a metal pitcher into a cup\", \"ground_phrase_en\": \"girl pouring from a metal pitcher\", \"source_type\": \"point\", \"grade\": \"allowed\", \"points\": [[695, 665]]}, {\"label_ko\": \"가족들의 웃음과 대화 소리\", \"sound_en\": \"merry family laughter and chatter\", \"ground_phrase_en\": \"smiling family members\", \"source_type\": \"clustered\", \"grade\": \"allowed\", \"points\": [[530, 370], [665, 520], [830, 310], [925, 380]]}, {\"label_ko\": \"아기 웃음소리\", \"sound_en\": \"baby giggling and babbling happily\", \"ground_phrase_en\": \"laughing baby on mother's lap\", \"source_type\": \"point\", \"grade\": \"allowed\", \"points\": [[637, 410]]}, {\"label_ko\": \"개 낑낑거리는 소리\", \"sound_en\": \"dog panting or whining softly for food\", \"ground_phrase_en\": \"spaniel dog looking up at the table\", \"source_type\": \"point\", \"grade\": \"allowed\", \"points\": [[445, 745]]}, {\"label_ko\": \"벽난로 불 타닥거리는 소리\", \"sound_en\": \"soft crackling of a fire in the hearth\", \"ground_phrase_en\": \"glowing fireplace on the far right\", \"source_type\": \"point\", \"grade\": \"allowed\", \"points\": [[985, 470]]}]}",
+ "usage": {
+  "promptTokenCount": 1578,
+  "candidatesTokenCount": 630,
+  "totalTokenCount": 6780,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1073
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 630
+   }
+  ],
+  "thoughtsTokenCount": 4572,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,160 @@
+{
+ "model": "gemini-4-neon",
+ "file": "04_beach.jpg",
+ "seconds": 30.9,
+ "parsed": {
+  "title_guess": "Beach at Trouville by Eugène Boudin",
+  "sources": [
+   {
+    "label_ko": "파도 소리",
+    "sound_en": "ocean waves crashing and rolling onto the sandy shore",
+    "ground_phrase_en": "ocean waves along the shoreline",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "바닷바람 소리",
+    "sound_en": "brisk coastal wind blowing across the open beach",
+    "ground_phrase_en": "windswept beach and sky",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "사람들의 대화 소리",
+    "sound_en": "beachgoers chatting and murmuring in groups",
+    "ground_phrase_en": "groups of people on the beach",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      295,
+      775
+     ],
+     [
+      435,
+      775
+     ],
+     [
+      640,
+      775
+     ]
+    ]
+   },
+   {
+    "label_ko": "물놀이하며 첨벙거리는 소리",
+    "sound_en": "bathers splashing and calling out in the surf",
+    "ground_phrase_en": "bathers in the shallow waves",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      508,
+      785
+     ]
+    ]
+   },
+   {
+    "label_ko": "개 짖고 뛰어다니는 소리",
+    "sound_en": "dogs barking and scampering across the sand",
+    "ground_phrase_en": "dogs on the beach",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      510,
+      845
+     ],
+     [
+      770,
+      870
+     ]
+    ]
+   },
+   {
+    "label_ko": "말 숨소리와 발굽 소리",
+    "sound_en": "horses snorting, shifting hooves in the sand, and harness jingling",
+    "ground_phrase_en": "horses hitched to bathing machines",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      842,
+      790
+     ],
+     [
+      896,
+      785
+     ]
+    ]
+   },
+   {
+    "label_ko": "탈의 마차 천막 펄럭이는 소리",
+    "sound_en": "canvas flapping and wooden frames creaking on bathing machines",
+    "ground_phrase_en": "wheeled bathing machines",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      722,
+      745
+     ],
+     [
+      792,
+      735
+     ]
+    ]
+   },
+   {
+    "label_ko": "바람에 옷자락 펄럭이는 소리",
+    "sound_en": "skirts, ribbons, and cloths rustling and flapping in the sea breeze",
+    "ground_phrase_en": "people with windblown clothing",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      145,
+      800
+     ],
+     [
+      265,
+      805
+     ],
+     [
+      562,
+      775
+     ],
+     [
+      605,
+      765
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Beach at Trouville by Eugène Boudin\",\n  \"sources\": [\n    {\n      \"label_ko\": \"파도 소리\",\n      \"sound_en\": \"ocean waves crashing and rolling onto the sandy shore\",\n      \"ground_phrase_en\": \"ocean waves along the shoreline\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"바닷바람 소리\",\n      \"sound_en\": \"brisk coastal wind blowing across the open beach\",\n      \"ground_phrase_en\": \"windswept beach and sky\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"사람들의 대화 소리\",\n      \"sound_en\": \"beachgoers chatting and murmuring in groups\",\n      \"ground_phrase_en\": \"groups of people on the beach\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [295, 775],\n        [435, 775],\n        [640, 775]\n      ]\n    },\n    {\n      \"label_ko\": \"물놀이하며 첨벙거리는 소리\",\n      \"sound_en\": \"bathers splashing and calling out in the surf\",\n      \"ground_phrase_en\": \"bathers in the shallow waves\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [508, 785]\n      ]\n    },\n    {\n      \"label_ko\": \"개 짖고 뛰어다니는 소리\",\n      \"sound_en\": \"dogs barking and scampering across the sand\",\n      \"ground_phrase_en\": \"dogs on the beach\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [510, 845],\n        [770, 870]\n      ]\n    },\n    {\n      \"label_ko\": \"말 숨소리와 발굽 소리\",\n      \"sound_en\": \"horses snorting, shifting hooves in the sand, and harness jingling\",\n      \"ground_phrase_en\": \"horses hitched to bathing machines\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [842, 790],\n        [896, 785]\n      ]\n    },\n    {\n      \"label_ko\": \"탈의 마차 천막 펄럭이는 소리\",\n      \"sound_en\": \"canvas flapping and wooden frames creaking on bathing machines\",\n      \"ground_phrase_en\": \"wheeled bathing machines\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [722, 745],\n        [792, 735]\n      ]\n    },\n    {\n      \"label_ko\": \"바람에 옷자락 펄럭이는 소리\",\n      \"sound_en\": \"skirts, ribbons, and cloths rustling and flapping in the sea breeze\",\n      \"ground_phrase_en\": \"people with windblown clothing\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [145, 800],\n        [265, 805],\n        [562, 775],\n        [605, 765]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1580,
+  "candidatesTokenCount": 873,
+  "totalTokenCount": 4903,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1075
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 873
+   }
+  ],
+  "thoughtsTokenCount": 2450,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "18_milkmaid",
+ "seconds": 76.5,
+ "peak_vram_gb": 8.74,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Milkmaid",
+  "sources": [
+   {
+    "id": "woman_pouring_milk",
+    "object_en": "woman",
+    "x": 580,
+    "y": 450,
+    "label_ko": "우유 부는 여인",
+    "type": "people",
+    "description_ko": "여인이 항아리에서 우유를 부어 그릇에 담고 있다.",
+    "prompt_en": "soft liquid pouring sound from ceramic jug into bowl, gentle splash, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "basket_on_wall",
+    "object_en": "woven basket",
+    "x": 210,
+    "y": 220,
+    "label_ko": "벽에 걸린 바구니",
+    "type": "nature",
+    "description_ko": "벽에 걸린 짚바구니가 바람에 살짝 흔들리는 소리.",
+    "prompt_en": "rustling sound of woven straw basket gently swaying in breeze, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "bread_in_basket",
+    "object_en": "bread basket",
+    "x": 180,
+    "y": 700,
+    "label_ko": "빵 바구니",
+    "type": "nature",
+    "description_ko": "바구니 속 빵들이 살짝 움직이는 미세한 소리.",
+    "prompt_en": "soft creaking or rustling sound from bread shifting slightly in woven basket, field recording",
+    "volume": 0.3
+   },
+   {
+    "id": "blue_jug_on_table",
+    "object_en": "blue ceramic jug",
+    "x": 190,
+    "y": 600,
+    "label_ko": "파란 항아리",
+    "type": "nature",
+    "description_ko": "파란 도자기 항아리가 테이블 위에 안정적으로 놓여 있어 소리는 거의 없다.",
+    "prompt_en": "quiet ceramic jug sitting still on table, no sound, field recording",
+    "volume": 0.1
+   },
+   {
+    "id": "wooden_box_on_floor",
+    "object_en": "wooden box",
+    "x": 840,
+    "y": 880,
+    "label_ko": "나무 상자",
+    "type": "nature",
+    "description_ko": "바닥에 놓인 나무 상자가 약간 흔들리는 소리.",
+    "prompt_en": "light wooden box creaking slightly as it rests on floor, field recording",
+    "volume": 0.2
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Milkmaid\",\n  \"sources\": [\n    {\n      \"id\": \"woman_pouring_milk\",\n      \"object_en\": \"woman\",\n      \"x\": 580,\n      \"y\": 450,\n      \"label_ko\": \"우유 부는 여인\",\n      \"type\": \"people\",\n      \"description_ko\": \"여인이 항아리에서 우유를 부어 그릇에 담고 있다.\",\n      \"prompt_en\": \"soft liquid pouring sound from ceramic jug into bowl, gentle splash, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"basket_on_wall\",\n      \"object_en\": \"woven basket\",\n      \"x\": 210,\n      \"y\": 220,\n      \"label_ko\": \"벽에 걸린 바구니\",\n      \"type\": \"nature\",\n      \"description_ko\": \"벽에 걸린 짚바구니가 바람에 살짝 흔들리는 소리.\",\n      \"prompt_en\": \"rustling sound of woven straw basket gently swaying in breeze, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"bread_in_basket\",\n      \"object_en\": \"bread basket\",\n      \"x\": 180,\n      \"y\": 700,\n      \"label_ko\": \"빵 바구니\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바구니 속 빵들이 살짝 움직이는 미세한 소리.\",\n      \"prompt_en\": \"soft creaking or rustling sound from bread shifting slightly in woven basket, field recording\",\n      \"volume\": 0.3\n    },\n    {\n      \"id\": \"blue_jug_on_table\",\n      \"object_en\": \"blue ceramic jug\",\n      \"x\": 190,\n      \"y\": 600,\n      \"label_ko\": \"파란 항아리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"파란 도자기 항아리가 테이블 위에 안정적으로 놓여 있어 소리는 거의 없다.\",\n      \"prompt_en\": \"quiet ceramic jug sitting still on table, no sound, field recording\",\n      \"volume\": 0.1\n    },\n    {\n      \"id\": \"wooden_box_on_floor\",\n      \"object_en\": \"wooden box\",\n      \"x\": 840,\n      \"y\": 880,\n      \"label_ko\": \"나무 상자\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바닥에 놓인 나무 상자가 약간 흔들리는 소리.\",\n      \"prompt_en\": \"light wooden box creaking slightly as it rests on floor, field recording\",\n      \"volume\": 0.2\n    }\n  ]\n}\n"
+}

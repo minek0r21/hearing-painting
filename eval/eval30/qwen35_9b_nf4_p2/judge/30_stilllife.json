@@ -1,0 +1,25 @@
+{
+ "hash": "4c6d331aa3b6",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "silent",
+    "why": "Still objects resting on a table."
+   },
+   {
+    "model": 2,
+    "verdict": "silent",
+    "why": "Static wine glass with no motion."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Still peeled lemon with no action."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [],\n  \"unpaired\": [\n    {\n      \"model\": 1,\n      \"verdict\": \"silent\",\n      \"why\": \"Still objects resting on a table.\"\n    },\n    {\n      \"model\": 2,\n      \"verdict\": \"silent\",\n      \"why\": \"Static wine glass with no motion.\"\n    },\n    {\n      \"model\": 3,\n      \"verdict\": \"silent\",\n      \"why\": \"Still peeled lemon with no action.\"\n    }\n  ]\n}"
+}

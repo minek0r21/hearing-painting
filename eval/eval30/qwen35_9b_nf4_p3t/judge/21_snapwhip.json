@@ -1,0 +1,59 @@
+{
+ "hash": "a46b5b2718dc",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Running boy is visible."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   },
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   },
+   {
+    "model": 7,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   },
+   {
+    "model": 8,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   },
+   {
+    "model": 9,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   },
+   {
+    "model": 10,
+    "verdict": "plausible",
+    "why": "Running boys visible; duplicate."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 2}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Running boy is visible.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}, {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}, {\"model\": 7, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}, {\"model\": 8, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}, {\"model\": 9, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}, {\"model\": 10, \"verdict\": \"plausible\", \"why\": \"Running boys visible; duplicate.\"}]}"
+}

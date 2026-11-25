@@ -1,0 +1,83 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "08_mudong",
+ "seconds": 48.1,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "",
+  "sources": [
+   {
+    "id": "drum_beat",
+    "object_en": "drum",
+    "x": 150,
+    "y": 200,
+    "label_ko": "북소리",
+    "type": "music",
+    "description_ko": "왼쪽 위에서 북을 치는 소리가 울려 퍼진다.",
+    "prompt_en": "deep resonant drum beat struck with a mallet, field recording"
+   },
+   {
+    "id": "flute_play",
+    "object_en": "flute",
+    "x": 850,
+    "y": 550,
+    "label_ko": "피리소리",
+    "type": "music",
+    "description_ko": "오른쪽 아래에서 피리를 불며 선율 흐른다.",
+    "prompt_en": "soft melodic flute playing, field recording"
+   },
+   {
+    "id": "guitar_strum",
+    "object_en": "guitar",
+    "x": 700,
+    "y": 750,
+    "label_ko": "기타소리",
+    "type": "music",
+    "description_ko": "오른쪽 아래에서 기타를 치는拨弦 소리가 들린다.",
+    "prompt_en": "plucked string sound from a traditional lute or guitar, field recording"
+   },
+   {
+    "id": "double_bass",
+    "object_en": "double bass",
+    "x": 450,
+    "y": 300,
+    "label_ko": "대금소리",
+    "type": "music",
+    "description_ko": "중앙에서 대금을 불며 낮은 음이 울린다.",
+    "prompt_en": "deep breathy sound of a double bass being played, field recording"
+   },
+   {
+    "id": "dance_steps",
+    "object_en": "dancing figure",
+    "x": 250,
+    "y": 700,
+    "label_ko": "춤추는 소리",
+    "type": "people",
+    "description_ko": "왼쪽 아래에서 춤추는 사람의 발걸음 소리가 들린다.",
+    "prompt_en": "rhythmic footstep sounds from a dancer moving energetically, field recording"
+   },
+   {
+    "id": "ambient_murmur",
+    "object_en": "group of people",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람들 소리",
+    "type": "people",
+    "description_ko": "중앙에 모여 있는 사람들이 조용히 대화하는 소리가 배경으로 흐른다.",
+    "prompt_en": "soft low murmur of voices from a small group of people sitting together, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"\",\n  \"sources\": [\n    {\n      \"id\": \"drum_beat\",\n      \"object_en\": \"drum\",\n      \"x\": 150,\n      \"y\": 200,\n      \"label_ko\": \"북소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"왼쪽 위에서 북을 치는 소리가 울려 퍼진다.\",\n      \"prompt_en\": \"deep resonant drum beat struck with a mallet, field recording\"\n    },\n    {\n      \"id\": \"flute_play\",\n      \"object_en\": \"flute\",\n      \"x\": 850,\n      \"y\": 550,\n      \"label_ko\": \"피리소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽 아래에서 피리를 불며 선율 흐른다.\",\n      \"prompt_en\": \"soft melodic flute playing, field recording\"\n    },\n    {\n      \"id\": \"guitar_strum\",\n      \"object_en\": \"guitar\",\n      \"x\": 700,\n      \"y\": 750,\n      \"label_ko\": \"기타소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"오른쪽 아래에서 기타를 치는拨弦 소리가 들린다.\",\n      \"prompt_en\": \"plucked string sound from a traditional lute or guitar, field recording\"\n    },\n    {\n      \"id\": \"double_bass\",\n      \"object_en\": \"double bass\",\n      \"x\": 450,\n      \"y\": 300,\n      \"label_ko\": \"대금소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"중앙에서 대금을 불며 낮은 음이 울린다.\",\n      \"prompt_en\": \"deep breathy sound of a double bass being played, field recording\"\n    },\n    {\n      \"id\": \"dance_steps\",\n      \"object_en\": \"dancing figure\",\n      \"x\": 250,\n      \"y\": 700,\n      \"label_ko\": \"춤추는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽 아래에서 춤추는 사람의 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"rhythmic footstep sounds from a dancer moving energetically, field recording\"\n    },\n    {\n      \"id\": \"ambient_murmur\",\n      \"object_en\": \"group of people\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람들 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에 모여 있는 사람들이 조용히 대화하는 소리가 배경으로 흐른다.\",\n      \"prompt_en\": \"soft low murmur of voices from a small group of people sitting together, field recording\"\n    }\n  ]\n}\n"
+}

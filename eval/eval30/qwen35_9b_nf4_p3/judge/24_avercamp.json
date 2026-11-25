@@ -1,0 +1,34 @@
+{
+ "hash": "a1b23b8b7860",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "not_visible",
+    "why": "No men casting nets or trapped birds are shown."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Rising chimney smoke makes no audible sound."
+   },
+   {
+    "model": 5,
+    "verdict": "silent",
+    "why": "The boat sits still and unattended on the shore."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\n      \"model\": 1,\n      \"answer\": 1\n    },\n    {\n      \"model\": 3,\n      \"answer\": 3\n    }\n  ],\n  \"unpaired\": [\n    {\n      \"model\": 2,\n      \"verdict\": \"not_visible\",\n      \"why\": \"No men casting nets or trapped birds are shown.\"\n    },\n    {\n      \"model\": 4,\n      \"verdict\": \"silent\",\n      \"why\": \"Rising chimney smoke makes no audible sound.\"\n    },\n    {\n      \"model\": 5,\n      \"verdict\": \"silent\",\n      \"why\": \"The boat sits still and unattended on the shore.\"\n    }\n  ]\n}"
+}

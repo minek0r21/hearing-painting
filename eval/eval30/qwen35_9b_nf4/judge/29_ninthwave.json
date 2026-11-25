@@ -1,0 +1,32 @@
+{
+ "hash": "8e34b3f462d2",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 4
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Storm clouds are visible and can produce thunder."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 1},\n    {\"model\": 2, \"answer\": 4},\n    {\"model\": 3, \"answer\": 3},\n    {\"model\": 4, \"answer\": 2}\n  ],\n  \"unpaired\": [\n    {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Storm clouds are visible and can produce thunder.\"}\n  ]\n}"
+}

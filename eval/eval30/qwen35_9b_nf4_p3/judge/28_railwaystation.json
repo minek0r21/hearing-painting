@@ -1,0 +1,33 @@
+{
+ "hash": "25ec01618982",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   },
+   {
+    "model": 5,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Man handles luggage on the floor."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Women in white dresses embrace."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 1},\n    {\"model\": 2, \"answer\": 2},\n    {\"model\": 5, \"answer\": 4}\n  ],\n  \"unpaired\": [\n    {\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Man handles luggage on the floor.\"},\n    {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Women in white dresses embrace.\"}\n  ]\n}"
+}

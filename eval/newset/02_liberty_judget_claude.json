@@ -1,0 +1,23 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 2,
+   "answer": 5
+  },
+  {
+   "model": 4,
+   "answer": 2
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Guns are visible and can fire."
+  }
+ ]
+}

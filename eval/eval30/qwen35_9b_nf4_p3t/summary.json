@@ -1,0 +1,21 @@
+{
+ "model": "qwen35_9b_nf4",
+ "prompt": "v3t",
+ "judge": "gemini-4-neon",
+ "paintings": 30,
+ "json_ok": "30/30",
+ "required_found": 0.707,
+ "required": "53/75",
+ "allowed_found": 13,
+ "invented": 0.081,
+ "invented_n": "9/111",
+ "plausible_extra": 36,
+ "silent": 2,
+ "not_visible": 7,
+ "loc_within_10pct": 0.893,
+ "loc_n": "50/56",
+ "word_required_found": 0.787,
+ "word_unpaired": 0.306,
+ "avg_sec": 31.5,
+ "peak_vram_gb": 9.11
+}

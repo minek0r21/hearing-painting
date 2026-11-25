@@ -1,0 +1,50 @@
+{
+ "painting": "02_liberty",
+ "seconds": 36.3,
+ "parsed": {
+  "title_guess": "민중을 이끄는 자유의 여신",
+  "sources": [
+   {
+    "id": "revolution_crowd_shouting",
+    "object_en": "group of revolutionaries shouting and marching",
+    "x": 250,
+    "y": 400,
+    "label_ko": "혁명의 외침",
+    "type": "people",
+    "description_ko": "군중이 외치고 싸우는 소리가 난다.",
+    "prompt_en": "a loud, chaotic crowd of people shouting and marching in a revolutionary scene, field recording"
+   },
+   {
+    "id": "marching_footsteps",
+    "object_en": "feet of marching people on rubble",
+    "x": 300,
+    "y": 750,
+    "label_ko": "걸음소리",
+    "type": "people",
+    "description_ko": "군중이 돌무지거리를 밟으며 걷는 발걸음 소리가 들린다.",
+    "prompt_en": "heavy footsteps of people marching over rubble and debris, field recording"
+   },
+   {
+    "id": "gunfire_clatter",
+    "object_en": "guns being raised and fired",
+    "x": 700,
+    "y": 300,
+    "label_ko": "총소리",
+    "type": "people",
+    "description_ko": "총을 들고 있는 사람들이 발사하는 총소리가 울린다.",
+    "prompt_en": "sharp gunshot sounds from rifles being raised and fired in a battle scene, field recording"
+   },
+   {
+    "id": "battlefield_chaos",
+    "object_en": "smoky battlefield with fallen bodies",
+    "x": 500,
+    "y": 600,
+    "label_ko": "전장 소음",
+    "type": "nature",
+    "description_ko": "연기와 죽은 시체 사이에서 나는 혼란스러운 전장 소리가 퍼진다.",
+    "prompt_en": "ambient battlefield sounds including distant explosions, wind, and general chaos in a war scene, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"민중을 이끄는 자유의 여신\",\n  \"sources\": [\n    {\n      \"id\": \"revolution_crowd_shouting\",\n      \"object_en\": \"group of revolutionaries shouting and marching\",\n      \"x\": 250,\n      \"y\": 400,\n      \"label_ko\": \"혁명의 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"군중이 외치고 싸우는 소리가 난다.\",\n      \"prompt_en\": \"a loud, chaotic crowd of people shouting and marching in a revolutionary scene, field recording\"\n    },\n    {\n      \"id\": \"marching_footsteps\",\n      \"object_en\": \"feet of marching people on rubble\",\n      \"x\": 300,\n      \"y\": 750,\n      \"label_ko\": \"걸음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"군중이 돌무지거리를 밟으며 걷는 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"heavy footsteps of people marching over rubble and debris, field recording\"\n    },\n    {\n      \"id\": \"gunfire_clatter\",\n      \"object_en\": \"guns being raised and fired\",\n      \"x\": 700,\n      \"y\": 300,\n      \"label_ko\": \"총소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"총을 들고 있는 사람들이 발사하는 총소리가 울린다.\",\n      \"prompt_en\": \"sharp gunshot sounds from rifles being raised and fired in a battle scene, field recording\"\n    },\n    {\n      \"id\": \"battlefield_chaos\",\n      \"object_en\": \"smoky battlefield with fallen bodies\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"전장 소음\",\n      \"type\": \"nature\",\n      \"description_ko\": \"연기와 죽은 시체 사이에서 나는 혼란스러운 전장 소리가 퍼진다.\",\n      \"prompt_en\": \"ambient battlefield sounds including distant explosions, wind, and general chaos in a war scene, field recording\"\n    }\n  ]\n}\n"
+}

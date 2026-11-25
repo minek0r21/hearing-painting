@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "13_qingming",
+ "seconds": 43.1,
+ "peak_vram_gb": 8.82,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "청명상하도 (무지개다리 부분)",
+  "sources": [
+   {
+    "id": "crowd_footsteps",
+    "object_en": "crowd of people walking on the bridge and street",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람 발소리",
+    "type": "people",
+    "description_ko": "무지개다리와 거리를 가득 채운 수많은 사람들이 걸어다니며 발소리를 낸다.",
+    "prompt_en": "crowd of people walking on a busy street and bridge, footsteps, bustling atmosphere, field recording"
+   },
+   {
+    "id": "boat_water",
+    "object_en": "boats on the river",
+    "x": 800,
+    "y": 250,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "강을 항해하는 배들이 물결을 가르며 흐르는 강물의 소리가 들린다.",
+    "prompt_en": "river water flowing with boats, gentle splashing and ripples, field recording"
+   },
+   {
+    "id": "cart_wheel",
+    "object_en": "ox cart wheels",
+    "x": 200,
+    "y": 750,
+    "label_ko": "수레 바퀴 소리",
+    "type": "vehicle",
+    "description_ko": "소 끄는 수레 바퀴가 돌며 마루 바닥을 비비는 소리가 들린다.",
+    "prompt_en": "wooden cart wheels rolling on cobblestone street, creaking and clacking sounds, field recording"
+   },
+   {
+    "id": "umbrella_wind",
+    "object_en": "umbrellas",
+    "x": 300,
+    "y": 550,
+    "label_ko": "우산 바람 소리",
+    "type": "nature",
+    "description_ko": "바람에 흔들리는 우산들이 바람 소리를 낸다.",
+    "prompt_en": "umbrellas flapping in the wind, rustling fabric sounds, field recording"
+   },
+   {
+    "id": "crowd_voice",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람 목소리",
+    "type": "people",
+    "description_ko": "사람들이 모여서 떠드는 소리가 섞여 들린다.",
+    "prompt_en": "crowd of people talking and chatting in a busy market, murmuring voices, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"청명상하도 (무지개다리 부분)\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_footsteps\",\n      \"object_en\": \"crowd of people walking on the bridge and street\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람 발소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"무지개다리와 거리를 가득 채운 수많은 사람들이 걸어다니며 발소리를 낸다.\",\n      \"prompt_en\": \"crowd of people walking on a busy street and bridge, footsteps, bustling atmosphere, field recording\"\n    },\n    {\n      \"id\": \"boat_water\",\n      \"object_en\": \"boats on the river\",\n      \"x\": 800,\n      \"y\": 250,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"강을 항해하는 배들이 물결을 가르며 흐르는 강물의 소리가 들린다.\",\n      \"prompt_en\": \"river water flowing with boats, gentle splashing and ripples, field recording\"\n    },\n    {\n      \"id\": \"cart_wheel\",\n      \"object_en\": \"ox cart wheels\",\n      \"x\": 200,\n      \"y\": 750,\n      \"label_ko\": \"수레 바퀴 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"소 끄는 수레 바퀴가 돌며 마루 바닥을 비비는 소리가 들린다.\",\n      \"prompt_en\": \"wooden cart wheels rolling on cobblestone street, creaking and clacking sounds, field recording\"\n    },\n    {\n      \"id\": \"umbrella_wind\",\n      \"object_en\": \"umbrellas\",\n      \"x\": 300,\n      \"y\": 550,\n      \"label_ko\": \"우산 바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람에 흔들리는 우산들이 바람 소리를 낸다.\",\n      \"prompt_en\": \"umbrellas flapping in the wind, rustling fabric sounds, field recording\"\n    },\n    {\n      \"id\": \"crowd_voice\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람 목소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"사람들이 모여서 떠드는 소리가 섞여 들린다.\",\n      \"prompt_en\": \"crowd of people talking and chatting in a busy market, murmuring voices, field recording\"\n    }\n  ]\n}\n```\n"
+}

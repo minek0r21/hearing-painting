@@ -1,0 +1,30 @@
+{
+ "painting": "04_saintlazare",
+ "seconds": 20.3,
+ "parsed": {
+  "title_guess": "생라자르 역",
+  "sources": [
+   {
+    "id": "train_steam",
+    "object_en": "steam train",
+    "x": 480,
+    "y": 700,
+    "label_ko": "기차 증기",
+    "type": "vehicle",
+    "description_ko": "기차에서 뿜어져 나오는 증기 소리와 기관차의 증기 기관 작동 소리가 난다.",
+    "prompt_en": "loud hissing steam and mechanical chugging sound of a steam train, field recording"
+   },
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 850,
+    "y": 820,
+    "label_ko": "사람들 소란",
+    "type": "people",
+    "description_ko": "역사 바닥에 서 있는 많은 사람들이 모여서 떠드는 소리와 발걸음 소리가 섞여 있다.",
+    "prompt_en": "murmuring voices and footsteps of a crowd of people standing in a train station, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"생라자르 역\",\n\"sources\": [\n  {\n    \"id\": \"train_steam\",\n    \"object_en\": \"steam train\",\n    \"x\": 480,\n    \"y\": 700,\n    \"label_ko\": \"기차 증기\",\n    \"type\": \"vehicle\",\n    \"description_ko\": \"기차에서 뿜어져 나오는 증기 소리와 기관차의 증기 기관 작동 소리가 난다.\",\n    \"prompt_en\": \"loud hissing steam and mechanical chugging sound of a steam train, field recording\"\n  },\n  {\n    \"id\": \"crowd_murmur\",\n    \"object_en\": \"crowd of people\",\n    \"x\": 850,\n    \"y\": 820,\n    \"label_ko\": \"사람들 소란\",\n    \"type\": \"people\",\n    \"description_ko\": \"역사 바닥에 서 있는 많은 사람들이 모여서 떠드는 소리와 발걸음 소리가 섞여 있다.\",\n    \"prompt_en\": \"murmuring voices and footsteps of a crowd of people standing in a train station, field recording\"\n  }\n]\n}\n```\n"
+}

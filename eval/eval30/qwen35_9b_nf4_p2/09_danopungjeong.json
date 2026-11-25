@@ -1,0 +1,84 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "09_danopungjeong",
+ "seconds": 45.7,
+ "peak_vram_gb": 8.77,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Hwangdo (황도)",
+  "sources": [
+   {
+    "id": "swinging_girl",
+    "object_en": "girl on swing",
+    "x": 630,
+    "y": 280,
+    "label_ko": "진자 놀이",
+    "type": "people",
+    "description_ko": "진자에 매달린 소녀가 흔들리며 웃고 있는 소리",
+    "prompt_en": "soft rhythmic creaking of a wooden swing with gentle laughter, field recording"
+   },
+   {
+    "id": "stream_flow",
+    "object_en": "stream",
+    "x": 300,
+    "y": 700,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "작은 강물이 흐르는 잔잔한 물소리",
+    "prompt_en": "gentle flowing stream sound with light splashing, field recording"
+   },
+   {
+    "id": "bathing_women",
+    "object_en": "women bathing",
+    "x": 250,
+    "y": 750,
+    "label_ko": "목욕 소리",
+    "type": "people",
+    "description_ko": "물에서 목욕하는 여성들의 은은한 대화와 물소리",
+    "prompt_en": "soft murmuring voices of women bathing in water, field recording"
+   },
+   {
+    "id": "climbing_boys",
+    "object_en": "boys climbing",
+    "x": 180,
+    "y": 240,
+    "label_ko": "등반 소리",
+    "type": "people",
+    "description_ko": "바위 위에 올라가는 소년들의 숨소리와 발소리",
+    "prompt_en": "light footsteps and shallow breathing of boys climbing rocks, field recording"
+   },
+   {
+    "id": "walking_child",
+    "object_en": "child walking",
+    "x": 880,
+    "y": 600,
+    "label_ko": "걸음소리",
+    "type": "people",
+    "description_ko": "모자를 쓴 아이가 천천히 걷는 발걸음 소리",
+    "prompt_en": "soft shuffling footsteps of a child walking slowly, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees",
+    "x": 450,
+    "y": 100,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "나무 사이로 불어오는 바람의 살랑거림",
+    "prompt_en": "gentle rustling of leaves in a breeze, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Hwangdo (황도)\",\n  \"sources\": [\n    {\n      \"id\": \"swinging_girl\",\n      \"object_en\": \"girl on swing\",\n      \"x\": 630,\n      \"y\": 280,\n      \"label_ko\": \"진자 놀이\",\n      \"type\": \"people\",\n      \"description_ko\": \"진자에 매달린 소녀가 흔들리며 웃고 있는 소리\",\n      \"prompt_en\": \"soft rhythmic creaking of a wooden swing with gentle laughter, field recording\"\n    },\n    {\n      \"id\": \"stream_flow\",\n      \"object_en\": \"stream\",\n      \"x\": 300,\n      \"y\": 700,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"작은 강물이 흐르는 잔잔한 물소리\",\n      \"prompt_en\": \"gentle flowing stream sound with light splashing, field recording\"\n    },\n    {\n      \"id\": \"bathing_women\",\n      \"object_en\": \"women bathing\",\n      \"x\": 250,\n      \"y\": 750,\n      \"label_ko\": \"목욕 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"물에서 목욕하는 여성들의 은은한 대화와 물소리\",\n      \"prompt_en\": \"soft murmuring voices of women bathing in water, field recording\"\n    },\n    {\n      \"id\": \"climbing_boys\",\n      \"object_en\": \"boys climbing\",\n      \"x\": 180,\n      \"y\": 240,\n      \"label_ko\": \"등반 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"바위 위에 올라가는 소년들의 숨소리와 발소리\",\n      \"prompt_en\": \"light footsteps and shallow breathing of boys climbing rocks, field recording\"\n    },\n    {\n      \"id\": \"walking_child\",\n      \"object_en\": \"child walking\",\n      \"x\": 880,\n      \"y\": 600,\n      \"label_ko\": \"걸음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"모자를 쓴 아이가 천천히 걷는 발걸음 소리\",\n      \"prompt_en\": \"soft shuffling footsteps of a child walking slowly, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees\",\n      \"x\": 450,\n      \"y\": 100,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무 사이로 불어오는 바람의 살랑거림\",\n      \"prompt_en\": \"gentle rustling of leaves in a breeze, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,257 @@
+{
+ "model": "gemini-4-neon",
+ "file": "26_ironmill.jpg",
+ "seconds": 33.4,
+ "parsed": {
+  "title_guess": "The Iron Rolling Mill (Modern Cyclopes)",
+  "sources": [
+   {
+    "label_ko": "압연기 돌아가는 굉음과 쇳소리",
+    "sound_en": "heavy grinding and rumbling of the iron rolling mill",
+    "ground_phrase_en": "iron rolling mill machine",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      640,
+      500
+     ]
+    ]
+   },
+   {
+    "label_ko": "달궈진 쇳덩이 치익거리는 소리와 불꽃 튀는 소리",
+    "sound_en": "hissing and crackling of white-hot molten iron",
+    "ground_phrase_en": "glowing white-hot iron on cart",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      575,
+      575
+     ]
+    ]
+   },
+   {
+    "label_ko": "쇠집게와 철제 도구가 부딪히는 쨍그랑 소리",
+    "sound_en": "clanging and scraping of heavy iron tongs and tools",
+    "ground_phrase_en": "workers' long iron tongs and tools",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      490,
+      485
+     ],
+     [
+      510,
+      560
+     ],
+     [
+      420,
+      720
+     ],
+     [
+      340,
+      455
+     ]
+    ]
+   },
+   {
+    "label_ko": "노동자들의 기합과 외침 소리",
+    "sound_en": "shouts, grunts, and strained voices of ironworkers",
+    "ground_phrase_en": "ironworkers pulling and guiding hot metal",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      260,
+      470
+     ],
+     [
+      325,
+      525
+     ],
+     [
+      400,
+      445
+     ],
+     [
+      430,
+      540
+     ]
+    ]
+   },
+   {
+    "label_ko": "거대한 톱니바퀴와 도르래 돌아가는 소리",
+    "sound_en": "rumbling and whirring of large flywheels, gears, and overhead shafts",
+    "ground_phrase_en": "large industrial flywheels, gears, and overhead drive shafts",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      365,
+      295
+     ],
+     [
+      550,
+      110
+     ],
+     [
+      900,
+      170
+     ],
+     [
+      910,
+      305
+     ]
+    ]
+   },
+   {
+    "label_ko": "제철소 내부의 웅웅거리는 기계 소음과 열기",
+    "sound_en": "continuous industrial rumble and reverberating factory din",
+    "ground_phrase_en": "ironworks factory interior",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "용광로 불길 타오르는 소리",
+    "sound_en": "roaring of glowing furnaces in the background",
+    "ground_phrase_en": "glowing background furnaces",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      105,
+      390
+     ],
+     [
+      200,
+      395
+     ],
+     [
+      470,
+      415
+     ]
+    ]
+   },
+   {
+    "label_ko": "철제 수레 바퀴 굴러가는 삐걱 소리",
+    "sound_en": "creaking and rattling of heavy iron cart wheels",
+    "ground_phrase_en": "iron-wheeled cart under molten metal",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      545,
+      705
+     ]
+    ]
+   },
+   {
+    "label_ko": "거친 바닥을 딛는 무거운 발소리",
+    "sound_en": "heavy boots shuffling and stomping on the factory floor",
+    "ground_phrase_en": "workers' boots on the factory floor",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      220,
+      760
+     ],
+     [
+      300,
+      830
+     ],
+     [
+      410,
+      790
+     ],
+     [
+      115,
+      860
+     ]
+    ]
+   },
+   {
+    "label_ko": "식사하고 음료를 마시는 소리",
+    "sound_en": "eating, drinking, and clinking of meal pots and bottles",
+    "ground_phrase_en": "workers eating and drinking on the right",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      830,
+      750
+     ],
+     [
+      935,
+      815
+     ],
+     [
+      965,
+      480
+     ]
+    ]
+   },
+   {
+    "label_ko": "몸을 씻으며 물 첨벙이는 소리",
+    "sound_en": "splashing water of shirtless workers washing up",
+    "ground_phrase_en": "bare-chested workers washing on the far left",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      75,
+      465
+     ],
+     [
+      30,
+      540
+     ]
+    ]
+   },
+   {
+    "label_ko": "쇠사슬과 도르래 흔들리는 소리",
+    "sound_en": "rattling of hanging iron chains and hooks",
+    "ground_phrase_en": "hanging vertical chains and rods",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      600,
+      280
+     ],
+     [
+      710,
+      175
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Iron Rolling Mill (Modern Cyclopes)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"압연기 돌아가는 굉음과 쇳소리\",\n      \"sound_en\": \"heavy grinding and rumbling of the iron rolling mill\",\n      \"ground_phrase_en\": \"iron rolling mill machine\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[640, 500]]\n    },\n    {\n      \"label_ko\": \"달궈진 쇳덩이 치익거리는 소리와 불꽃 튀는 소리\",\n      \"sound_en\": \"hissing and crackling of white-hot molten iron\",\n      \"ground_phrase_en\": \"glowing white-hot iron on cart\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [[575, 575]]\n    },\n    {\n      \"label_ko\": \"쇠집게와 철제 도구가 부딪히는 쨍그랑 소리\",\n      \"sound_en\": \"clanging and scraping of heavy iron tongs and tools\",\n      \"ground_phrase_en\": \"workers' long iron tongs and tools\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[490, 485], [510, 560], [420, 720], [340, 455]]\n    },\n    {\n      \"label_ko\": \"노동자들의 기합과 외침 소리\",\n      \"sound_en\": \"shouts, grunts, and strained voices of ironworkers\",\n      \"ground_phrase_en\": \"ironworkers pulling and guiding hot metal\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[260, 470], [325, 525], [400, 445], [430, 540]]\n    },\n    {\n      \"label_ko\": \"거대한 톱니바퀴와 도르래 돌아가는 소리\",\n      \"sound_en\": \"rumbling and whirring of large flywheels, gears, and overhead shafts\",\n      \"ground_phrase_en\": \"large industrial flywheels, gears, and overhead drive shafts\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [[365, 295], [550, 110], [900, 170], [910, 305]]\n    },\n    {\n      \"label_ko\": \"제철소 내부의 웅웅거리는 기계 소음과 열기\",\n      \"sound_en\": \"continuous industrial rumble and reverberating factory din\",\n      \"ground_phrase_en\": \"ironworks factory interior\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"용광로 불길 타오르는 소리\",\n      \"sound_en\": \"roaring of glowing furnaces in the background\",\n      \"ground_phrase_en\": \"glowing background furnaces\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[105, 390], [200, 395], [470, 415]]\n    },\n    {\n      \"label_ko\": \"철제 수레 바퀴 굴러가는 삐걱 소리\",\n      \"sound_en\": \"creaking and rattling of heavy iron cart wheels\",\n      \"ground_phrase_en\": \"iron-wheeled cart under molten metal\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [[545, 705]]\n    },\n    {\n      \"label_ko\": \"거친 바닥을 딛는 무거운 발소리\",\n      \"sound_en\": \"heavy boots shuffling and stomping on the factory floor\",\n      \"ground_phrase_en\": \"workers' boots on the factory floor\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[220, 760], [300, 830], [410, 790], [115, 860]]\n    },\n    {\n      \"label_ko\": \"식사하고 음료를 마시는 소리\",\n      \"sound_en\": \"eating, drinking, and clinking of meal pots and bottles\",\n      \"ground_phrase_en\": \"workers eating and drinking on the right\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[830, 750], [935, 815], [965, 480]]\n    },\n    {\n      \"label_ko\": \"몸을 씻으며 물 첨벙이는 소리\",\n      \"sound_en\": \"splashing water of shirtless workers washing up\",\n      \"ground_phrase_en\": \"bare-chested workers washing on the far left\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[75, 465], [30, 540]]\n    },\n    {\n      \"label_ko\": \"쇠사슬과 도르래 흔들리는 소리\",\n      \"sound_en\": \"rattling of hanging iron chains and hooks\",\n      \"ground_phrase_en\": \"hanging vertical chains and rods\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [[600, 280], [710, 175]]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1597,
+  "candidatesTokenCount": 1362,
+  "totalTokenCount": 5060,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1092
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1362
+   }
+  ],
+  "thoughtsTokenCount": 2101,
+  "serviceTier": "standard"
+ }
+}

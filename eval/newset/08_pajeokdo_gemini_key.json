@@ -1,0 +1,95 @@
+{
+ "title_guess": "Pajeokdo (Breaking the Silence) by Kim Deuk-sin",
+ "sources": [
+  {
+   "label_ko": "암탉의 날갯짓과 다급한 울음소리",
+   "sound_en": "frantic hen squawking and flapping wings",
+   "ground_phrase_en": "frantic flapping hen",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     285,
+     780
+    ]
+   ]
+  },
+  {
+   "label_ko": "놀란 병아리들이 삐약거리는 소리",
+   "sound_en": "frightened chicks chirping frantically",
+   "ground_phrase_en": "scattering chicks",
+   "source_type": "clustered",
+   "grade": "required",
+   "points": [
+    [
+     110,
+     928
+    ],
+    [
+     430,
+     846
+    ],
+    [
+     384,
+     938
+    ],
+    [
+     437,
+     925
+    ]
+   ]
+  },
+  {
+   "label_ko": "남자가 마루에서 넘어지며 고함치는 소리",
+   "sound_en": "man shouting and tumbling off wooden porch",
+   "ground_phrase_en": "man tumbling off porch",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     585,
+     525
+    ]
+   ]
+  },
+  {
+   "label_ko": "여자가 마루로 뛰어나오며 놀라 외치는 소리",
+   "sound_en": "woman exclaiming and rushing across wooden porch",
+   "ground_phrase_en": "woman rushing onto porch",
+   "source_type": "point",
+   "grade": "required",
+   "points": [
+    [
+     805,
+     315
+    ]
+   ]
+  },
+  {
+   "label_ko": "넘어진 자리틀과 고드랫돌이 달그락거리는 소리",
+   "sound_en": "overturned mat loom and stone weights clattering",
+   "ground_phrase_en": "overturned mat loom with stone weights",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     640,
+     795
+    ]
+   ]
+  },
+  {
+   "label_ko": "고양이가 병아리를 물고 달아나는 소리",
+   "sound_en": "cat scurrying away with a captured chick",
+   "ground_phrase_en": "running black-and-white cat",
+   "source_type": "point",
+   "grade": "allowed",
+   "points": [
+    [
+     115,
+     618
+    ]
+   ]
+  }
+ ]
+}

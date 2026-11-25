@@ -1,0 +1,20 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 2,
+   "verdict": "plausible",
+   "why": "Swirling sky suggests outdoor wind."
+  },
+  {
+   "model": 3,
+   "verdict": "plausible",
+   "why": "Small boats are visible on the fjord."
+  }
+ ]
+}

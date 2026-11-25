@@ -1,0 +1,36 @@
+{
+ "hash": "76f5bfaf62fd",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 2
+   },
+   {
+    "model": 2,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 5
+   },
+   {
+    "model": 5,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 6,
+    "verdict": "plausible",
+    "why": "Donkeys and a horse are visible; A5 is already paired with M4."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 2},\n    {\"model\": 2, \"answer\": 1},\n    {\"model\": 3, \"answer\": 3},\n    {\"model\": 4, \"answer\": 5},\n    {\"model\": 5, \"answer\": 4}\n  ],\n  \"unpaired\": [\n    {\"model\": 6, \"verdict\": \"plausible\", \"why\": \"Donkeys and a horse are visible; A5 is already paired with M4.\"}\n  ]\n}"
+}

@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "19_peasantwedding",
+ "seconds": 44.8,
+ "peak_vram_gb": 8.9,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Feast of the Asses",
+  "sources": [
+   {
+    "id": "crowd_talking",
+    "object_en": "group of people eating and talking at long tables",
+    "x": 450,
+    "y": 400,
+    "label_ko": "사람들 대화",
+    "type": "people",
+    "description_ko": "장식된 식탁에 둘러앉아 음식을 먹으며 떠드는 사람들의 목소리",
+    "prompt_en": "low murmuring voices of a large group of people eating and talking at a crowded feast, field recording"
+   },
+   {
+    "id": "man_pouring_wine",
+    "object_en": "man pouring wine from a jug into a cup",
+    "x": 100,
+    "y": 650,
+    "label_ko": "포도주 부어",
+    "type": "people",
+    "description_ko": "남자가 항아리에서 잔에 포도주를 부을 때 나는 소리와 액체 흐르는 소리",
+    "prompt_en": "liquid wine pouring from a ceramic jug into a cup, soft clinking sound, field recording"
+   },
+   {
+    "id": "man_beating_pancakes",
+    "object_en": "man beating dough on a wooden board with a rolling pin",
+    "x": 550,
+    "y": 600,
+    "label_ko": "반죽 두드림",
+    "type": "people",
+    "description_ko": "남자가 나무 판子上에서 반죽을 밀대로 두드리는 리듬감 있는 타는 소리",
+    "prompt_en": "rhythmic thumping sound of dough being beaten with a rolling pin on a wooden board, field recording"
+   },
+   {
+    "id": "man_serving_pies",
+    "object_en": "man arranging pies on a tray",
+    "x": 750,
+    "y": 600,
+    "label_ko": "파이 나열",
+    "type": "people",
+    "description_ko": "남자가 여러 개의 파이 접시에 조심스럽게 배열하는 발걸음과 접시 두드리는 소리",
+    "prompt_en": "soft footsteps and light clinking sounds as a man arranges round pies on a wooden tray, field recording"
+   },
+   {
+    "id": "man_sitting_eating",
+    "object_en": "child sitting on floor eating bread",
+    "x": 300,
+    "y": 850,
+    "label_ko": "아이 먹음",
+    "type": "people",
+    "description_ko": "바닥에 앉아 빵을 먹는 아이의 씹는 소리",
+    "prompt_en": "soft chewing sound of a child eating bread while sitting on the floor, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Feast of the Asses\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_talking\",\n      \"object_en\": \"group of people eating and talking at long tables\",\n      \"x\": 450,\n      \"y\": 400,\n      \"label_ko\": \"사람들 대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"장식된 식탁에 둘러앉아 음식을 먹으며 떠드는 사람들의 목소리\",\n      \"prompt_en\": \"low murmuring voices of a large group of people eating and talking at a crowded feast, field recording\"\n    },\n    {\n      \"id\": \"man_pouring_wine\",\n      \"object_en\": \"man pouring wine from a jug into a cup\",\n      \"x\": 100,\n      \"y\": 650,\n      \"label_ko\": \"포도주 부어\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 항아리에서 잔에 포도주를 부을 때 나는 소리와 액체 흐르는 소리\",\n      \"prompt_en\": \"liquid wine pouring from a ceramic jug into a cup, soft clinking sound, field recording\"\n    },\n    {\n      \"id\": \"man_beating_pancakes\",\n      \"object_en\": \"man beating dough on a wooden board with a rolling pin\",\n      \"x\": 550,\n      \"y\": 600,\n      \"label_ko\": \"반죽 두드림\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 나무 판子上에서 반죽을 밀대로 두드리는 리듬감 있는 타는 소리\",\n      \"prompt_en\": \"rhythmic thumping sound of dough being beaten with a rolling pin on a wooden board, field recording\"\n    },\n    {\n      \"id\": \"man_serving_pies\",\n      \"object_en\": \"man arranging pies on a tray\",\n      \"x\": 750,\n      \"y\": 600,\n      \"label_ko\": \"파이 나열\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 여러 개의 파이 접시에 조심스럽게 배열하는 발걸음과 접시 두드리는 소리\",\n      \"prompt_en\": \"soft footsteps and light clinking sounds as a man arranges round pies on a wooden tray, field recording\"\n    },\n    {\n      \"id\": \"man_sitting_eating\",\n      \"object_en\": \"child sitting on floor eating bread\",\n      \"x\": 300,\n      \"y\": 850,\n      \"label_ko\": \"아이 먹음\",\n      \"type\": \"people\",\n      \"description_ko\": \"바닥에 앉아 빵을 먹는 아이의 씹는 소리\",\n      \"prompt_en\": \"soft chewing sound of a child eating bread while sitting on the floor, field recording\"\n    }\n  ]\n}\n"
+}

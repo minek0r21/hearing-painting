@@ -1,0 +1,29 @@
+{
+ "pairs": [
+  {
+   "model": 1,
+   "answer": 1
+  },
+  {
+   "model": 2,
+   "answer": 2
+  }
+ ],
+ "unpaired": [
+  {
+   "model": 3,
+   "verdict": "silent",
+   "why": "Dead bodies cannot make breathing sounds."
+  },
+  {
+   "model": 4,
+   "verdict": "not_visible",
+   "why": "No drum appears in the painting."
+  },
+  {
+   "model": 5,
+   "verdict": "plausible",
+   "why": "Wind is plausible with swirling smoke."
+  }
+ ]
+}

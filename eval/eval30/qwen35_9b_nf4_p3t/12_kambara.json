@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "12_kambara",
+ "seconds": 23.9,
+ "peak_vram_gb": 8.92,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "가바라 밤의 눈",
+  "sources": [
+   {
+    "id": "snow_fall",
+    "object_en": "falling snow",
+    "x": 500,
+    "y": 200,
+    "label_ko": "눈",
+    "type": "nature",
+    "description_ko": "하늘에서 내리는 눈 소리가 들린다.",
+    "prompt_en": "soft falling snow sound, winter night, field recording"
+   },
+   {
+    "id": "walking_footsteps",
+    "object_en": "walking people",
+    "x": 400,
+    "y": 800,
+    "label_ko": "걸음소리",
+    "type": "people",
+    "description_ko": "눈 덮인 땅을 걷는 발걸음 소리가 들린다.",
+    "prompt_en": "footsteps walking on snow, winter, field recording"
+   },
+   {
+    "id": "wind_blowing",
+    "object_en": "wind",
+    "x": 500,
+    "y": 200,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "바람이 불어오는 소리가 들린다.",
+    "prompt_en": "wind blowing sound, winter night, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"가바라 밤의 눈\",\n\"sources\": [\n  {\n    \"id\": \"snow_fall\",\n    \"object_en\": \"falling snow\",\n    \"x\": 500,\n    \"y\": 200,\n    \"label_ko\": \"눈\",\n    \"type\": \"nature\",\n    \"description_ko\": \"하늘에서 내리는 눈 소리가 들린다.\",\n    \"prompt_en\": \"soft falling snow sound, winter night, field recording\"\n  },\n  {\n    \"id\": \"walking_footsteps\",\n    \"object_en\": \"walking people\",\n    \"x\": 400,\n    \"y\": 800,\n    \"label_ko\": \"걸음소리\",\n    \"type\": \"people\",\n    \"description_ko\": \"눈 덮인 땅을 걷는 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"footsteps walking on snow, winter, field recording\"\n  },\n  {\n    \"id\": \"wind_blowing\",\n    \"object_en\": \"wind\",\n    \"x\": 500,\n    \"y\": 200,\n    \"label_ko\": \"바람\",\n    \"type\": \"nature\",\n    \"description_ko\": \"바람이 불어오는 소리가 들린다.\",\n    \"prompt_en\": \"wind blowing sound, winter night, field recording\"\n  }\n]\n}\n```\n"
+}

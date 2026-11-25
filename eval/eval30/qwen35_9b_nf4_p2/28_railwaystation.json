@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "28_railwaystation",
+ "seconds": 41.3,
+ "peak_vram_gb": 8.58,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Great Train Departure",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people",
+    "x": 500,
+    "y": 600,
+    "label_ko": "인파 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 떠들며 떠나는 역장면에서 발생하는 집단적인 대화와 발걸음 소리",
+    "prompt_en": "loud bustling crowd murmuring and shuffling in a busy train station hall, field recording"
+   },
+   {
+    "id": "train_departure",
+    "object_en": "steam train",
+    "x": 150,
+    "y": 550,
+    "label_ko": "기차 소리",
+    "type": "vehicle",
+    "description_ko": "역 밖에서 멀어지는 증기 기관차의 증기 분사 및 철길 소리",
+    "prompt_en": "distant steam train whistle and chugging sound on tracks, field recording"
+   },
+   {
+    "id": "luggage_drop",
+    "object_en": "man dropping suitcase",
+    "x": 620,
+    "y": 850,
+    "label_ko": "가방 떨어지는 소리",
+    "type": "people",
+    "description_ko": "남자가 바닥에 가방을 떨어뜨리는 묵직한 타격음",
+    "prompt_en": "heavy suitcase thudding onto stone floor, field recording"
+   },
+   {
+    "id": "child_crying",
+    "object_en": "crying child",
+    "x": 780,
+    "y": 700,
+    "label_ko": "아이 울음소리",
+    "type": "people",
+    "description_ko": "어린 아이가 부모를 붙잡으며 울고 있는 소리",
+    "prompt_en": "small child crying loudly while holding parent's hand, field recording"
+   },
+   {
+    "id": "dog_barking",
+    "object_en": "dog",
+    "x": 30,
+    "y": 800,
+    "label_ko": "개 짖는 소리",
+    "type": "animal",
+    "description_ko": "왼쪽 아래에서 개가 짖는 날카로운 소리",
+    "prompt_en": "dog barking sharply in a crowded indoor space, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Great Train Departure\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"인파 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 떠들며 떠나는 역장면에서 발생하는 집단적인 대화와 발걸음 소리\",\n      \"prompt_en\": \"loud bustling crowd murmuring and shuffling in a busy train station hall, field recording\"\n    },\n    {\n      \"id\": \"train_departure\",\n      \"object_en\": \"steam train\",\n      \"x\": 150,\n      \"y\": 550,\n      \"label_ko\": \"기차 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"역 밖에서 멀어지는 증기 기관차의 증기 분사 및 철길 소리\",\n      \"prompt_en\": \"distant steam train whistle and chugging sound on tracks, field recording\"\n    },\n    {\n      \"id\": \"luggage_drop\",\n      \"object_en\": \"man dropping suitcase\",\n      \"x\": 620,\n      \"y\": 850,\n      \"label_ko\": \"가방 떨어지는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 바닥에 가방을 떨어뜨리는 묵직한 타격음\",\n      \"prompt_en\": \"heavy suitcase thudding onto stone floor, field recording\"\n    },\n    {\n      \"id\": \"child_crying\",\n      \"object_en\": \"crying child\",\n      \"x\": 780,\n      \"y\": 700,\n      \"label_ko\": \"아이 울음소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"어린 아이가 부모를 붙잡으며 울고 있는 소리\",\n      \"prompt_en\": \"small child crying loudly while holding parent's hand, field recording\"\n    },\n    {\n      \"id\": \"dog_barking\",\n      \"object_en\": \"dog\",\n      \"x\": 30,\n      \"y\": 800,\n      \"label_ko\": \"개 짖는 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"왼쪽 아래에서 개가 짖는 날카로운 소리\",\n      \"prompt_en\": \"dog barking sharply in a crowded indoor space, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,131 @@
+{
+ "model": "gemini-4-neon",
+ "file": "07_seodang.jpg",
+ "seconds": 30.1,
+ "parsed": {
+  "title_guess": "Seodang (Village School) by Kim Hong-do",
+  "sources": [
+   {
+    "label_ko": "우는 아이의 훌쩍임과 울음소리",
+    "sound_en": "boy sobbing and sniffling",
+    "ground_phrase_en": "crying boy wiping his eyes",
+    "source_type": "point",
+    "grade": "required",
+    "points": [
+     [
+      365,
+      475
+     ]
+    ]
+   },
+   {
+    "label_ko": "학동들의 킥킥거리는 웃음소리",
+    "sound_en": "students giggling and snickering",
+    "ground_phrase_en": "smiling and giggling students",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      255,
+      305
+     ],
+     [
+      175,
+      360
+     ],
+     [
+      90,
+      425
+     ],
+     [
+      885,
+      550
+     ],
+     [
+      795,
+      685
+     ],
+     [
+      725,
+      760
+     ]
+    ]
+   },
+   {
+    "label_ko": "훈장님의 엄한 꾸짖음과 헛기침 소리",
+    "sound_en": "teacher scolding sternly or clearing his throat",
+    "ground_phrase_en": "bearded teacher sitting behind a low desk",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      675,
+      255
+     ]
+    ]
+   },
+   {
+    "label_ko": "책장 넘기는 소리",
+    "sound_en": "rustling and turning of paper book pages",
+    "ground_phrase_en": "open traditional paper books",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      155,
+      545
+     ],
+     [
+      225,
+      475
+     ],
+     [
+      425,
+      875
+     ],
+     [
+      615,
+      785
+     ]
+    ]
+   },
+   {
+    "label_ko": "낮게 글 읽는 소리",
+    "sound_en": "student quietly reciting from a book",
+    "ground_phrase_en": "student seated with back turned reading a book",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      535,
+      855
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Seodang (Village School) by Kim Hong-do\",\n  \"sources\": [\n    {\n      \"label_ko\": \"우는 아이의 훌쩍임과 울음소리\",\n      \"sound_en\": \"boy sobbing and sniffling\",\n      \"ground_phrase_en\": \"crying boy wiping his eyes\",\n      \"source_type\": \"point\",\n      \"grade\": \"required\",\n      \"points\": [\n        [365, 475]\n      ]\n    },\n    {\n      \"label_ko\": \"학동들의 킥킥거리는 웃음소리\",\n      \"sound_en\": \"students giggling and snickering\",\n      \"ground_phrase_en\": \"smiling and giggling students\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [255, 305],\n        [175, 360],\n        [90, 425],\n        [885, 550],\n        [795, 685],\n        [725, 760]\n      ]\n    },\n    {\n      \"label_ko\": \"훈장님의 엄한 꾸짖음과 헛기침 소리\",\n      \"sound_en\": \"teacher scolding sternly or clearing his throat\",\n      \"ground_phrase_en\": \"bearded teacher sitting behind a low desk\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [675, 255]\n      ]\n    },\n    {\n      \"label_ko\": \"책장 넘기는 소리\",\n      \"sound_en\": \"rustling and turning of paper book pages\",\n      \"ground_phrase_en\": \"open traditional paper books\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [155, 545],\n        [225, 475],\n        [425, 875],\n        [615, 785]\n      ]\n    },\n    {\n      \"label_ko\": \"낮게 글 읽는 소리\",\n      \"sound_en\": \"student quietly reciting from a book\",\n      \"ground_phrase_en\": \"student seated with back turned reading a book\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [535, 855]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 618,
+  "totalTokenCount": 4515,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 618
+   }
+  ],
+  "thoughtsTokenCount": 2312,
+  "serviceTier": "standard"
+ }
+}

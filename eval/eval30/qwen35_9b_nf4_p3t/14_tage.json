@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "14_tage",
+ "seconds": 26.0,
+ "peak_vram_gb": 8.94,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "답가도",
+  "sources": [
+   {
+    "id": "bamboo_rustle",
+    "object_en": "bamboo leaves swaying in wind",
+    "x": 450,
+    "y": 200,
+    "label_ko": "대나무 바람",
+    "type": "nature",
+    "description_ko": "대나무 잎들이 바람에 흔들리며 살랑거리는 소리",
+    "prompt_en": "rustling bamboo leaves in a gentle breeze, field recording"
+   },
+   {
+    "id": "men_climbing",
+    "object_en": "three men climbing a slope",
+    "x": 200,
+    "y": 700,
+    "label_ko": "등산자 발걸음",
+    "type": "people",
+    "description_ko": "산길에 올라가는 세 사람의 발걸음 소리와 숨소리",
+    "prompt_en": "footsteps of three men climbing a rocky slope, heavy breathing, field recording"
+   },
+   {
+    "id": "man_with_staff",
+    "object_en": "man holding a staff walking uphill",
+    "x": 600,
+    "y": 650,
+    "label_ko": "장사꾼 걸음",
+    "type": "people",
+    "description_ko": "장사꾼이 지팡이를 짚고 산을 오르는 걸음걸이 소리",
+    "prompt_en": "man walking uphill with a staff, creaking steps, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"답가도\",\n  \"sources\": [\n    {\n      \"id\": \"bamboo_rustle\",\n      \"object_en\": \"bamboo leaves swaying in wind\",\n      \"x\": 450,\n      \"y\": 200,\n      \"label_ko\": \"대나무 바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"대나무 잎들이 바람에 흔들리며 살랑거리는 소리\",\n      \"prompt_en\": \"rustling bamboo leaves in a gentle breeze, field recording\"\n    },\n    {\n      \"id\": \"men_climbing\",\n      \"object_en\": \"three men climbing a slope\",\n      \"x\": 200,\n      \"y\": 700,\n      \"label_ko\": \"등산자 발걸음\",\n      \"type\": \"people\",\n      \"description_ko\": \"산길에 올라가는 세 사람의 발걸음 소리와 숨소리\",\n      \"prompt_en\": \"footsteps of three men climbing a rocky slope, heavy breathing, field recording\"\n    },\n    {\n      \"id\": \"man_with_staff\",\n      \"object_en\": \"man holding a staff walking uphill\",\n      \"x\": 600,\n      \"y\": 650,\n      \"label_ko\": \"장사꾼 걸음\",\n      \"type\": \"people\",\n      \"description_ko\": \"장사꾼이 지팡이를 짚고 산을 오르는 걸음걸이 소리\",\n      \"prompt_en\": \"man walking uphill with a staff, creaking steps, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "06_ssireum",
+ "seconds": 34.8,
+ "peak_vram_gb": 9.05,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "씨름",
+  "sources": [
+   {
+    "id": "wrestling_match",
+    "object_en": "two men wrestling in the center",
+    "x": 500,
+    "y": 500,
+    "label_ko": "씨름 소리",
+    "type": "people",
+    "description_ko": "중앙에서 씨름을 하는 두 남자의 격렬한 몸짓과 숨소리",
+    "prompt_en": "intense physical struggle sounds of two men wrestling, grunts and heavy breathing, field recording"
+   },
+   {
+    "id": "spectator_laughter",
+    "object_en": "group of seated spectators on the left",
+    "x": 150,
+    "y": 200,
+    "label_ko": "관객 웃음",
+    "type": "people",
+    "description_ko": "좌측에 앉아 있는 관중들의 웃음소리와 대화",
+    "prompt_en": "soft laughter and murmuring from a group of seated spectators, field recording"
+   },
+   {
+    "id": "spectator_groans",
+    "object_en": "group of seated spectators on the right",
+    "x": 850,
+    "y": 800,
+    "label_ko": "관객 탄식",
+    "type": "people",
+    "description_ko": "우측에 앉아 있는 관중들의 탄식과 감탄사",
+    "prompt_en": "gasps and exclamations from a group of seated spectators watching a wrestling match, field recording"
+   },
+   {
+    "id": "tray_carrier_steps",
+    "object_en": "man carrying a tray on the left",
+    "x": 150,
+    "y": 600,
+    "label_ko": "반찬 소리",
+    "type": "people",
+    "description_ko": "왼쪽에서 반찬을 들고 서 있는 남자의 발걸음과 옷자락 소리",
+    "prompt_en": "soft footsteps and fabric rustling of a man standing while carrying a tray, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"씨름\",\n  \"sources\": [\n    {\n      \"id\": \"wrestling_match\",\n      \"object_en\": \"two men wrestling in the center\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"씨름 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"중앙에서 씨름을 하는 두 남자의 격렬한 몸짓과 숨소리\",\n      \"prompt_en\": \"intense physical struggle sounds of two men wrestling, grunts and heavy breathing, field recording\"\n    },\n    {\n      \"id\": \"spectator_laughter\",\n      \"object_en\": \"group of seated spectators on the left\",\n      \"x\": 150,\n      \"y\": 200,\n      \"label_ko\": \"관객 웃음\",\n      \"type\": \"people\",\n      \"description_ko\": \"좌측에 앉아 있는 관중들의 웃음소리와 대화\",\n      \"prompt_en\": \"soft laughter and murmuring from a group of seated spectators, field recording\"\n    },\n    {\n      \"id\": \"spectator_groans\",\n      \"object_en\": \"group of seated spectators on the right\",\n      \"x\": 850,\n      \"y\": 800,\n      \"label_ko\": \"관객 탄식\",\n      \"type\": \"people\",\n      \"description_ko\": \"우측에 앉아 있는 관중들의 탄식과 감탄사\",\n      \"prompt_en\": \"gasps and exclamations from a group of seated spectators watching a wrestling match, field recording\"\n    },\n    {\n      \"id\": \"tray_carrier_steps\",\n      \"object_en\": \"man carrying a tray on the left\",\n      \"x\": 150,\n      \"y\": 600,\n      \"label_ko\": \"반찬 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"왼쪽에서 반찬을 들고 서 있는 남자의 발걸음과 옷자락 소리\",\n      \"prompt_en\": \"soft footsteps and fabric rustling of a man standing while carrying a tray, field recording\"\n    }\n  ]\n}\n"
+}

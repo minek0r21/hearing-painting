@@ -1,0 +1,45 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "28_railwaystation",
+ "seconds": 52.0,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "역 안 인파의 웅성거림과 발소리",
+    "prompt_en": "bustling crowd chatter and footsteps echoing in the station",
+    "object_en": "crowd of passengers on the railway platform",
+    "x": 225,
+    "y": 690
+   },
+   {
+    "label_ko": "증기기관차의 증기 뿜는 소리와 엔진음",
+    "prompt_en": "steam locomotive hissing and chugging",
+    "object_en": "steam locomotive in the left background",
+    "x": 175,
+    "y": 525
+   },
+   {
+    "label_ko": "짐을 싣고 옮기는 둔탁한 소리",
+    "prompt_en": "heavy luggage thudding and scraping as porters load it",
+    "object_en": "porters loading trunks and luggage onto the train roof and platform",
+    "x": 700,
+    "y": 360
+   },
+   {
+    "label_ko": "개가 짖거나 낑낑대는 소리",
+    "prompt_en": "dogs barking and whining",
+    "object_en": "two dogs in the lower left foreground",
+    "x": 28,
+    "y": 855
+   }
+  ]
+ },
+ "raw": ""
+}

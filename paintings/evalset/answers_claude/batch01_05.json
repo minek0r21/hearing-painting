@@ -1,0 +1,44 @@
+{
+ "01_hunters": {"title": "눈 속의 사냥꾼", "sources": [
+  {"label_ko": "사냥개 발소리와 헐떡임", "sound_en": "tired hunting dogs panting and paws in deep snow", "ground_phrase_en": "hunting dog", "source_type": "clustered", "grade": "required", "points": [[90,720],[150,770],[120,830],[70,920],[140,900]]},
+  {"label_ko": "사냥꾼의 눈 밟는 발소리", "sound_en": "hunters trudging through deep snow", "ground_phrase_en": "hunter", "source_type": "clustered", "grade": "required", "points": [[270,620],[330,810],[410,660]]},
+  {"label_ko": "모닥불 타는 소리", "sound_en": "crackling outdoor bonfire", "ground_phrase_en": "bonfire", "source_type": "point", "grade": "required", "points": [[120,600]]},
+  {"label_ko": "까마귀 울음", "sound_en": "crows cawing in bare trees", "ground_phrase_en": "crow", "source_type": "clustered", "grade": "required", "points": [[230,70],[570,190],[705,260]]},
+  {"label_ko": "스케이트 날과 아이들 웃음", "sound_en": "distant ice skating, blades scraping, children laughing", "ground_phrase_en": "people skating on ice", "source_type": "clustered", "grade": "required", "points": [[700,580],[800,580],[730,670]]},
+  {"label_ko": "모닥불 곁 사람들 소리", "sound_en": "people working by the fire, murmuring", "ground_phrase_en": "people by the fire", "source_type": "point", "grade": "allowed", "points": [[70,600]]},
+  {"label_ko": "겨울바람", "sound_en": "cold winter wind over the valley", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "02_rainy_day": {"title": "파리의 거리, 비 오는 날", "sources": [
+  {"label_ko": "빗소리", "sound_en": "steady light rain on a city street", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "우산에 떨어지는 빗방울", "sound_en": "rain tapping on umbrellas", "ground_phrase_en": "umbrella", "source_type": "clustered", "grade": "required", "points": [[580,240],[870,220],[390,320],[60,440]]},
+  {"label_ko": "젖은 돌길 발소리", "sound_en": "footsteps on wet cobblestones", "ground_phrase_en": "person walking", "source_type": "clustered", "grade": "required", "points": [[560,800],[370,620],[40,650],[250,480]]},
+  {"label_ko": "마차 바퀴와 말발굽", "sound_en": "horse-drawn carriage wheels and hooves on cobblestones", "ground_phrase_en": "horse-drawn carriage", "source_type": "point", "grade": "required", "points": [[110,500]]},
+  {"label_ko": "멀리 지나가는 말", "sound_en": "distant horse and cart", "ground_phrase_en": "horse", "source_type": "point", "grade": "allowed", "points": [[330,440]]},
+  {"label_ko": "두 사람의 대화", "sound_en": "couple talking quietly", "ground_phrase_en": "man and woman under umbrella", "source_type": "point", "grade": "allowed", "points": [[650,450]]},
+  {"label_ko": "먼 도시의 웅성임", "sound_en": "distant city murmur", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "03_wave": {"title": "가나가와 앞바다의 거대한 파도", "sources": [
+  {"label_ko": "거대한 파도 부서지는 소리", "sound_en": "giant wave crest crashing, roaring white water", "ground_phrase_en": "great wave", "source_type": "point", "grade": "required", "points": [[330,250]]},
+  {"label_ko": "거친 바다", "sound_en": "rough open sea, swells and spray", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "배 삐걱임과 노 젓는 소리", "sound_en": "wooden boats creaking, oars splashing", "ground_phrase_en": "boat", "source_type": "clustered", "grade": "required", "points": [[130,600],[560,860],[620,700],[790,420]]},
+  {"label_ko": "뱃사람들의 외침", "sound_en": "rowers shouting", "ground_phrase_en": "rowers", "source_type": "clustered", "grade": "allowed", "points": [[600,850],[720,640]]},
+  {"label_ko": "바닷바람", "sound_en": "strong sea wind", "ground_phrase_en": "", "source_type": "ambient", "grade": "allowed", "points": []}
+ ]},
+ "04_beach": {"title": "트루빌 해변", "sources": [
+  {"label_ko": "파도 소리", "sound_en": "waves breaking on the shore", "ground_phrase_en": "sea waves", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "바닷바람", "sound_en": "strong wind on the beach, fabric flapping", "ground_phrase_en": "", "source_type": "ambient", "grade": "required", "points": []},
+  {"label_ko": "해변 사람들의 대화", "sound_en": "groups of people chatting on the beach", "ground_phrase_en": "group of people", "source_type": "clustered", "grade": "required", "points": [[240,740],[410,740],[580,740]]},
+  {"label_ko": "말 울음과 말발굽", "sound_en": "horses snorting, hooves on sand", "ground_phrase_en": "horse", "source_type": "clustered", "grade": "required", "points": [[760,760],[800,750]]},
+  {"label_ko": "개 짖는 소리", "sound_en": "small dogs barking", "ground_phrase_en": "dog", "source_type": "clustered", "grade": "allowed", "points": [[510,830],[770,870]]},
+  {"label_ko": "우산 펄럭임", "sound_en": "parasol flapping in the wind", "ground_phrase_en": "parasol", "source_type": "point", "grade": "allowed", "points": [[330,700]]},
+  {"label_ko": "탈의차 바퀴", "sound_en": "bathing machine wheels creaking", "ground_phrase_en": "bathing machine", "source_type": "point", "grade": "allowed", "points": [[670,770]]}
+ ]},
+ "05_boulevard": {"title": "몽마르트르 대로", "sources": [
+  {"label_ko": "거리 사람들의 대화", "sound_en": "crowd chatter on a busy boulevard", "ground_phrase_en": "group of men in top hats", "source_type": "clustered", "grade": "required", "points": [[540,500],[700,520],[330,560]]},
+  {"label_ko": "보도 발소리", "sound_en": "footsteps on the pavement", "ground_phrase_en": "person walking", "source_type": "clustered", "grade": "required", "points": [[450,650],[190,600],[260,620]]},
+  {"label_ko": "신문팔이 외침", "sound_en": "newspaper seller calling out", "ground_phrase_en": "newspaper seller", "source_type": "point", "grade": "required", "points": [[790,620]]},
+  {"label_ko": "신문 넘기는 소리", "sound_en": "rustling newspapers", "ground_phrase_en": "man reading newspaper", "source_type": "point", "grade": "allowed", "points": [[290,560]]},
+  {"label_ko": "자전거 소리", "sound_en": "bicycle wheels and bell", "ground_phrase_en": "bicycle", "source_type": "point", "grade": "allowed", "points": [[950,620]]},
+  {"label_ko": "가로수 잎 바람", "sound_en": "wind in tree leaves", "ground_phrase_en": "tree", "source_type": "point", "grade": "allowed", "points": [[100,150]]}
+ ]}
+}

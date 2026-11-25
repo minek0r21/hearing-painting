@@ -1,0 +1,73 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "11_shower",
+ "seconds": 41.6,
+ "peak_vram_gb": 8.6,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 0,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Rainy Evening at Ohashi Bridge",
+  "sources": [
+   {
+    "id": "rain_heavy",
+    "object_en": "rain",
+    "x": 500,
+    "y": 300,
+    "label_ko": "비",
+    "description_ko": "강하게 내리는 비 소리가 전체 장면을 감싸고 있다.",
+    "prompt_en": "heavy rain falling on wooden bridge and water surface, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "people_walking",
+    "object_en": "people walking on bridge",
+    "x": 500,
+    "y": 700,
+    "label_ko": "걷는 사람들",
+    "description_ko": "우산을 쓴 사람들이 다리를 건너며 발걸음 소리가 들린다.",
+    "prompt_en": "soft footsteps of people walking across wooden bridge in rain, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "fisherman_pole",
+    "object_en": "fisherman with pole",
+    "x": 250,
+    "y": 520,
+    "label_ko": "낚시하는 사람",
+    "description_ko": "낚싯대를 들고 있는 어부가 물 위를 걷는 소리가 희미하게 들린다.",
+    "prompt_en": "quiet footsteps of fisherman walking on water surface with pole, field recording",
+    "volume": 0.4
+   },
+   {
+    "id": "wooden_bridge_creak",
+    "object_en": "wooden bridge structure",
+    "x": 500,
+    "y": 850,
+    "label_ko": "나무 다리",
+    "description_ko": "사람들이 걸을 때 나무 다리가 삐걱거리는 소리가 난다.",
+    "prompt_en": "creaking sound of wooden bridge underfoot as people walk, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "umbrella_rustle",
+    "object_en": "umbrellas",
+    "x": 600,
+    "y": 650,
+    "label_ko": "우산",
+    "description_ko": "비바람에 우산이 흔들리며 바람 소리가 나고 있다.",
+    "prompt_en": "rustling sound of umbrellas flapping in wind during heavy rain, field recording",
+    "volume": 0.55
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Rainy Evening at Ohashi Bridge\",\n  \"sources\": [\n    {\n      \"id\": \"rain_heavy\",\n      \"object_en\": \"rain\",\n      \"x\": 500,\n      \"y\": 300,\n      \"label_ko\": \"비\",\n      \"description_ko\": \"강하게 내리는 비 소리가 전체 장면을 감싸고 있다.\",\n      \"prompt_en\": \"heavy rain falling on wooden bridge and water surface, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"people_walking\",\n      \"object_en\": \"people walking on bridge\",\n      \"x\": 500,\n      \"y\": 700,\n      \"label_ko\": \"걷는 사람들\",\n      \"description_ko\": \"우산을 쓴 사람들이 다리를 건너며 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"soft footsteps of people walking across wooden bridge in rain, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"fisherman_pole\",\n      \"object_en\": \"fisherman with pole\",\n      \"x\": 250,\n      \"y\": 520,\n      \"label_ko\": \"낚시하는 사람\",\n      \"description_ko\": \"낚싯대를 들고 있는 어부가 물 위를 걷는 소리가 희미하게 들린다.\",\n      \"prompt_en\": \"quiet footsteps of fisherman walking on water surface with pole, field recording\",\n      \"volume\": 0.4\n    },\n    {\n      \"id\": \"wooden_bridge_creak\",\n      \"object_en\": \"wooden bridge structure\",\n      \"x\": 500,\n      \"y\": 850,\n      \"label_ko\": \"나무 다리\",\n      \"description_ko\": \"사람들이 걸을 때 나무 다리가 삐걱거리는 소리가 난다.\",\n      \"prompt_en\": \"creaking sound of wooden bridge underfoot as people walk, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"umbrella_rustle\",\n      \"object_en\": \"umbrellas\",\n      \"x\": 600,\n      \"y\": 650,\n      \"label_ko\": \"우산\",\n      \"description_ko\": \"비바람에 우산이 흔들리며 바람 소리가 나고 있다.\",\n      \"prompt_en\": \"rustling sound of umbrellas flapping in wind during heavy rain, field recording\",\n      \"volume\": 0.55\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,34 @@
+{
+ "hash": "7ea8dcc148c2",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "not_visible",
+    "why": "Shows a raftsman on a raft, not a fisherman walking on water."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Wooden bridge is visible and could creak underfoot."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Umbrellas are visible and could rustle in the storm, distinct from rain drumming."
+   }
+  ]
+ },
+ "raw": "{\n  \"pairs\": [\n    {\"model\": 1, \"answer\": 1},\n    {\"model\": 2, \"answer\": 2}\n  ],\n  \"unpaired\": [\n    {\"model\": 3, \"verdict\": \"not_visible\", \"why\": \"Shows a raftsman on a raft, not a fisherman walking on water.\"},\n    {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Wooden bridge is visible and could creak underfoot.\"},\n    {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Umbrellas are visible and could rustle in the storm, distinct from rain drumming.\"}\n  ]\n}"
+}

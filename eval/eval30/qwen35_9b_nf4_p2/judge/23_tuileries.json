@@ -1,0 +1,28 @@
+{
+ "hash": "ef9a52ee5085",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 3
+   },
+   {
+    "model": 4,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Seated woman holds a visible fan that can rustle."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 3}, {\"model\": 4, \"answer\": 4}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Seated woman holds a visible fan that can rustle.\"}]}"
+}

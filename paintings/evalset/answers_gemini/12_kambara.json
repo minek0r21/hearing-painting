@@ -1,0 +1,118 @@
+{
+ "model": "gemini-4-neon",
+ "file": "12_kambara.jpg",
+ "seconds": 25.4,
+ "parsed": {
+  "title_guess": "Night Snow at Kambara (from The Fifty-three Stations of the Tōkaidō) by Utagawa Hiroshige",
+  "sources": [
+   {
+    "label_ko": "눈길 밟는 발소리",
+    "sound_en": "footsteps crunching through deep snow",
+    "ground_phrase_en": "travelers walking through deep snow",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      403,
+      840
+     ],
+     [
+      712,
+      795
+     ],
+     [
+      752,
+      748
+     ]
+    ]
+   },
+   {
+    "label_ko": "차가운 겨울 밤바람 소리",
+    "sound_en": "soft cold winter night wind in heavy snow",
+    "ground_phrase_en": "snowy night sky and mountain village",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "지팡이로 눈을 짚는 소리",
+    "sound_en": "wooden walking stick prodding into snow",
+    "ground_phrase_en": "traveler's wooden walking stick in the snow",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      385,
+      825
+     ]
+    ]
+   },
+   {
+    "label_ko": "도롱이와 옷자락 스치는 소리",
+    "sound_en": "soft rustling of straw raincoats and winter garments",
+    "ground_phrase_en": "travelers in straw raincoats and winter cloaks",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      402,
+      755
+     ],
+     [
+      712,
+      712
+     ],
+     [
+      756,
+      682
+     ]
+    ]
+   },
+   {
+    "label_ko": "눈 쌓인 대나무와 나뭇가지 흔들리는 소리",
+    "sound_en": "faint rustling of snow-laden bamboo and trees in the breeze",
+    "ground_phrase_en": "snow-covered bamboo and trees",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      940,
+      480
+     ],
+     [
+      675,
+      435
+     ],
+     [
+      100,
+      320
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Night Snow at Kambara (from The Fifty-three Stations of the Tōkaidō) by Utagawa Hiroshige\",\n  \"sources\": [\n    {\n      \"label_ko\": \"눈길 밟는 발소리\",\n      \"sound_en\": \"footsteps crunching through deep snow\",\n      \"ground_phrase_en\": \"travelers walking through deep snow\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [403, 840],\n        [712, 795],\n        [752, 748]\n      ]\n    },\n    {\n      \"label_ko\": \"차가운 겨울 밤바람 소리\",\n      \"sound_en\": \"soft cold winter night wind in heavy snow\",\n      \"ground_phrase_en\": \"snowy night sky and mountain village\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"지팡이로 눈을 짚는 소리\",\n      \"sound_en\": \"wooden walking stick prodding into snow\",\n      \"ground_phrase_en\": \"traveler's wooden walking stick in the snow\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [385, 825]\n      ]\n    },\n    {\n      \"label_ko\": \"도롱이와 옷자락 스치는 소리\",\n      \"sound_en\": \"soft rustling of straw raincoats and winter garments\",\n      \"ground_phrase_en\": \"travelers in straw raincoats and winter cloaks\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [402, 755],\n        [712, 712],\n        [756, 682]\n      ]\n    },\n    {\n      \"label_ko\": \"눈 쌓인 대나무와 나뭇가지 흔들리는 소리\",\n      \"sound_en\": \"faint rustling of snow-laden bamboo and trees in the breeze\",\n      \"ground_phrase_en\": \"snow-covered bamboo and trees\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [940, 480],\n        [675, 435],\n        [100, 320]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1585,
+  "candidatesTokenCount": 611,
+  "totalTokenCount": 4146,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 611
+   }
+  ],
+  "thoughtsTokenCount": 1950,
+  "serviceTier": "standard"
+ }
+}

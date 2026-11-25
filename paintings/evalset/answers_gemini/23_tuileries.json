@@ -1,0 +1,139 @@
+{
+ "model": "gemini-4-neon",
+ "file": "23_tuileries.jpg",
+ "seconds": 32.8,
+ "parsed": {
+  "title_guess": "Music in the Tuileries",
+  "sources": [
+   {
+    "label_ko": "사람들의 웅성거림과 대화 소리",
+    "sound_en": "murmur of crowd chatter and overlapping conversations",
+    "ground_phrase_en": "crowded park visitors conversing",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      140,
+      500
+     ],
+     [
+      290,
+      610
+     ],
+     [
+      480,
+      480
+     ],
+     [
+      630,
+      520
+     ],
+     [
+      815,
+      495
+     ],
+     [
+      935,
+      550
+     ]
+    ]
+   },
+   {
+    "label_ko": "아이들의 재잘거림과 웃음소리",
+    "sound_en": "young children chattering and giggling while playing",
+    "ground_phrase_en": "two young girls in white dresses",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      455,
+      785
+     ],
+     [
+      520,
+      860
+     ]
+    ]
+   },
+   {
+    "label_ko": "모래 장난과 작은 양동이 소리",
+    "sound_en": "scraping dirt and tapping small metal toy buckets",
+    "ground_phrase_en": "small toy buckets on the ground",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      478,
+      958
+     ]
+    ]
+   },
+   {
+    "label_ko": "흙길 위의 발걸음 소리",
+    "sound_en": "soft footsteps and walking cane taps on the dirt park path",
+    "ground_phrase_en": "strolling park visitors' feet",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      75,
+      895
+     ],
+     [
+      625,
+      820
+     ],
+     [
+      800,
+      660
+     ]
+    ]
+   },
+   {
+    "label_ko": "부채질 소리",
+    "sound_en": "gentle rustle of a folding hand fan",
+    "ground_phrase_en": "green folding fan",
+    "source_type": "point",
+    "grade": "allowed",
+    "points": [
+     [
+      280,
+      655
+     ]
+    ]
+   },
+   {
+    "label_ko": "나뭇잎 스치는 바람 소리",
+    "sound_en": "gentle rustling of leaves in the park trees",
+    "ground_phrase_en": "tall leafy trees overhead",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Music in the Tuileries\",\n  \"sources\": [\n    {\n      \"label_ko\": \"사람들의 웅성거림과 대화 소리\",\n      \"sound_en\": \"murmur of crowd chatter and overlapping conversations\",\n      \"ground_phrase_en\": \"crowded park visitors conversing\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [140, 500],\n        [290, 610],\n        [480, 480],\n        [630, 520],\n        [815, 495],\n        [935, 550]\n      ]\n    },\n    {\n      \"label_ko\": \"아이들의 재잘거림과 웃음소리\",\n      \"sound_en\": \"young children chattering and giggling while playing\",\n      \"ground_phrase_en\": \"two young girls in white dresses\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [455, 785],\n        [520, 860]\n      ]\n    },\n    {\n      \"label_ko\": \"모래 장난과 작은 양동이 소리\",\n      \"sound_en\": \"scraping dirt and tapping small metal toy buckets\",\n      \"ground_phrase_en\": \"small toy buckets on the ground\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [478, 958]\n      ]\n    },\n    {\n      \"label_ko\": \"흙길 위의 발걸음 소리\",\n      \"sound_en\": \"soft footsteps and walking cane taps on the dirt park path\",\n      \"ground_phrase_en\": \"strolling park visitors' feet\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [75, 895],\n        [625, 820],\n        [800, 660]\n      ]\n    },\n    {\n      \"label_ko\": \"부채질 소리\",\n      \"sound_en\": \"gentle rustle of a folding hand fan\",\n      \"ground_phrase_en\": \"green folding fan\",\n      \"source_type\": \"point\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [280, 655]\n      ]\n    },\n    {\n      \"label_ko\": \"나뭇잎 스치는 바람 소리\",\n      \"sound_en\": \"gentle rustling of leaves in the park trees\",\n      \"ground_phrase_en\": \"tall leafy trees overhead\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1571,
+  "candidatesTokenCount": 688,
+  "totalTokenCount": 4640,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 505
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1066
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 688
+   }
+  ],
+  "thoughtsTokenCount": 2381,
+  "serviceTier": "standard"
+ }
+}

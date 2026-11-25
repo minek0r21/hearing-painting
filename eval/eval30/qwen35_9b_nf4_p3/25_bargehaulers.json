@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "25_bargehaulers",
+ "seconds": 26.0,
+ "peak_vram_gb": 8.76,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Return of the Fishermen",
+  "sources": [
+   {
+    "id": "fishermen_struggling",
+    "object_en": "group of fishermen dragging a net",
+    "x": 350,
+    "y": 500,
+    "label_ko": "어부들의 고역",
+    "type": "people",
+    "description_ko": "바다에서 돌아온 어부들이 힘겹게 그물을 끌고 해변을 걷는 소리",
+    "prompt_en": "heavy footsteps of exhausted fishermen dragging a heavy fishing net on wet sand, field recording"
+   },
+   {
+    "id": "sea_waves",
+    "object_en": "calm sea surface",
+    "x": 800,
+    "y": 400,
+    "label_ko": "바다 파도",
+    "type": "nature",
+    "description_ko": "잔잔한 바다에서 물결이 부서지는 부드러운 소리",
+    "prompt_en": "gentle lapping of calm sea waves against shore, field recording"
+   },
+   {
+    "id": "ship_hull",
+    "object_en": "sailboat hull in water",
+    "x": 750,
+    "y": 350,
+    "label_ko": "배의 물소리",
+    "type": "vehicle",
+    "description_ko": "배가 물에 떠서 만들어내는 낮은 웅웅거리는 소리",
+    "prompt_en": "low creaking sound of a wooden sailboat hull floating on water, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Return of the Fishermen\",\n  \"sources\": [\n    {\n      \"id\": \"fishermen_struggling\",\n      \"object_en\": \"group of fishermen dragging a net\",\n      \"x\": 350,\n      \"y\": 500,\n      \"label_ko\": \"어부들의 고역\",\n      \"type\": \"people\",\n      \"description_ko\": \"바다에서 돌아온 어부들이 힘겹게 그물을 끌고 해변을 걷는 소리\",\n      \"prompt_en\": \"heavy footsteps of exhausted fishermen dragging a heavy fishing net on wet sand, field recording\"\n    },\n    {\n      \"id\": \"sea_waves\",\n      \"object_en\": \"calm sea surface\",\n      \"x\": 800,\n      \"y\": 400,\n      \"label_ko\": \"바다 파도\",\n      \"type\": \"nature\",\n      \"description_ko\": \"잔잔한 바다에서 물결이 부서지는 부드러운 소리\",\n      \"prompt_en\": \"gentle lapping of calm sea waves against shore, field recording\"\n    },\n    {\n      \"id\": \"ship_hull\",\n      \"object_en\": \"sailboat hull in water\",\n      \"x\": 750,\n      \"y\": 350,\n      \"label_ko\": \"배의 물소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"배가 물에 떠서 만들어내는 낮은 웅웅거리는 소리\",\n      \"prompt_en\": \"low creaking sound of a wooden sailboat hull floating on water, field recording\"\n    }\n  ]\n}\n"
+}

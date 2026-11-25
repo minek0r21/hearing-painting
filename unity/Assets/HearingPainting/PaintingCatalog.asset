@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51be9e414a10bb648a1ab2b336ef0617, type: 3}
+  m_Name: PaintingCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::PaintingCatalog
+  paintings:
+  - {fileID: 4420000000000000003, guid: ac8f157bda224529a8d5bed6592dcfc7, type: 3}
+  - {fileID: 4410000000000000003, guid: e3bd06b01dcc4b3690a46f445867e4aa, type: 3}
+  - {fileID: 7780526743504968560, guid: 52a46a67b9368494994db6997f400789, type: 3}
+  - {fileID: 8790197384386465080, guid: 312b1e82170a2a544a961da90e224666, type: 3}
+  - {fileID: 4327707720829544518, guid: 3952b645f760e8f4a920ba7f5542d8df, type: 3}

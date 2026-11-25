@@ -1,0 +1,24 @@
+{
+ "hash": "1b31f51add23",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 3,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "River is visible and can make flowing water sounds."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 3, \"answer\": 2}], \"unpaired\": [{\"model\": 2, \"verdict\": \"plausible\", \"why\": \"River is visible and can make flowing water sounds.\"}]}"
+}

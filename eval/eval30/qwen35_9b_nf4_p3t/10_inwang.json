@@ -1,0 +1,44 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3t",
+ "painting": "10_inwang",
+ "seconds": 17.7,
+ "peak_vram_gb": 8.88,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 2,
+  "count_ok": false,
+  "korean_label": 2,
+  "korean_desc": 2,
+  "type_ok": 2,
+  "prompt_ok": 2,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "인왕제색도",
+  "sources": [
+   {
+    "id": "waterfall_cascade",
+    "object_en": "waterfall",
+    "x": 630,
+    "y": 220,
+    "label_ko": "폭포소리",
+    "type": "nature",
+    "description_ko": "산비탈에서 떨어지는 폭포의 물소리가 들린다.",
+    "prompt_en": "sound of water cascading down a rocky mountain cliff, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "pine trees",
+    "x": 750,
+    "y": 600,
+    "label_ko": "바람소리",
+    "type": "nature",
+    "description_ko": "바람이 나무 사이를 스치는 소리가 들린다.",
+    "prompt_en": "sound of wind blowing through pine trees, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n  \"title_guess\": \"인왕제색도\",\n  \"sources\": [\n    {\n      \"id\": \"waterfall_cascade\",\n      \"object_en\": \"waterfall\",\n      \"x\": 630,\n      \"y\": 220,\n      \"label_ko\": \"폭포소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"산비탈에서 떨어지는 폭포의 물소리가 들린다.\",\n      \"prompt_en\": \"sound of water cascading down a rocky mountain cliff, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"pine trees\",\n      \"x\": 750,\n      \"y\": 600,\n      \"label_ko\": \"바람소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 나무 사이를 스치는 소리가 들린다.\",\n      \"prompt_en\": \"sound of wind blowing through pine trees, field recording\"\n    }\n  ]\n}\n```\n"
+}

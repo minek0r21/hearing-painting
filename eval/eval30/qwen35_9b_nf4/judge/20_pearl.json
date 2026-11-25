@@ -1,0 +1,30 @@
+{
+ "hash": "50a3f4b31ed6",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "silent",
+    "why": "Static jewelry makes no sound."
+   },
+   {
+    "model": 2,
+    "verdict": "silent",
+    "why": "Static headwear makes no sound."
+   },
+   {
+    "model": 3,
+    "verdict": "silent",
+    "why": "Static clothing makes no sound."
+   },
+   {
+    "model": 4,
+    "verdict": "silent",
+    "why": "Dark background makes no sound."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [], \"unpaired\": [{\"model\": 1, \"verdict\": \"silent\", \"why\": \"Static jewelry makes no sound.\"}, {\"model\": 2, \"verdict\": \"silent\", \"why\": \"Static headwear makes no sound.\"}, {\"model\": 3, \"verdict\": \"silent\", \"why\": \"Static clothing makes no sound.\"}, {\"model\": 4, \"verdict\": \"silent\", \"why\": \"Dark background makes no sound.\"}]}"
+}

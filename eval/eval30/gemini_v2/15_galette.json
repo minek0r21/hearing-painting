@@ -1,0 +1,50 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "15_galette",
+ "seconds": 40.1,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "무도회장 악단의 춤곡 연주 소리",
+    "prompt_en": "live dance band music from the pavilion",
+    "object_en": "bandstand under the pavilion",
+    "x": 310,
+    "y": 195
+   },
+   {
+    "label_ko": "춤추는 커플들의 발소리와 흥겨운 움직임",
+    "prompt_en": "footsteps and lively movement of dancing couples",
+    "object_en": "dancing couples on the dance floor",
+    "x": 50,
+    "y": 380
+   },
+   {
+    "label_ko": "앞쪽 테이블과 벤치 사람들의 대화와 웃음소리",
+    "prompt_en": "lively conversation and laughter at the foreground table and bench",
+    "object_en": "seated people talking in the foreground",
+    "x": 465,
+    "y": 540
+   },
+   {
+    "label_ko": "정원을 메운 군중의 웅성거림과 말소리",
+    "prompt_en": "bustling chatter and murmur of the garden crowd",
+    "object_en": "crowd of people mingling across the garden",
+    "x": 130,
+    "y": 290
+   },
+   {
+    "label_ko": "바람에 나뭇잎 스치는 소리",
+    "prompt_en": "gentle rustling of tree leaves overhead",
+    "object_en": "overhead tree canopy"
+   }
+  ]
+ },
+ "raw": ""
+}

@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "10_inwang",
+ "seconds": 33.5,
+ "peak_vram_gb": 8.66,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Hwang Ho's 'Autumn View of Mount Geumgang'",
+  "sources": [
+   {
+    "id": "waterfall_cascade",
+    "object_en": "waterfall",
+    "x": 620,
+    "y": 280,
+    "label_ko": "폭포",
+    "type": "nature",
+    "description_ko": "산비탈에서 떨어지는 폭포의 물소리가 들립니다.",
+    "prompt_en": "gentle flowing water sound of a waterfall cascading down a rocky mountain slope, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "pine trees",
+    "x": 750,
+    "y": 650,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "바람이 소나무 사이를 스쳐 지나가는 소리입니다.",
+    "prompt_en": "soft rustling sound of wind blowing through pine tree branches, field recording"
+   },
+   {
+    "id": "distant_bird_call",
+    "object_en": "bird",
+    "x": 400,
+    "y": 550,
+    "label_ko": "새소리",
+    "type": "animal",
+    "description_ko": "산속에서 멀리서 새가 울고 있는 소리가 들립니다.",
+    "prompt_en": "distant bird chirping sound in a mountain forest, field recording"
+   },
+   {
+    "id": "ambient_mountain_air",
+    "object_en": "mountain air",
+    "x": 500,
+    "y": 500,
+    "label_ko": "산바람",
+    "type": "nature",
+    "description_ko": "고요한 산속의 차분한 바람 소리가 배경으로 깔립니다.",
+    "prompt_en": "quiet ambient sound of cool mountain air with subtle breeze, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Hwang Ho's 'Autumn View of Mount Geumgang'\",\n  \"sources\": [\n    {\n      \"id\": \"waterfall_cascade\",\n      \"object_en\": \"waterfall\",\n      \"x\": 620,\n      \"y\": 280,\n      \"label_ko\": \"폭포\",\n      \"type\": \"nature\",\n      \"description_ko\": \"산비탈에서 떨어지는 폭포의 물소리가 들립니다.\",\n      \"prompt_en\": \"gentle flowing water sound of a waterfall cascading down a rocky mountain slope, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"pine trees\",\n      \"x\": 750,\n      \"y\": 650,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"바람이 소나무 사이를 스쳐 지나가는 소리입니다.\",\n      \"prompt_en\": \"soft rustling sound of wind blowing through pine tree branches, field recording\"\n    },\n    {\n      \"id\": \"distant_bird_call\",\n      \"object_en\": \"bird\",\n      \"x\": 400,\n      \"y\": 550,\n      \"label_ko\": \"새소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"산속에서 멀리서 새가 울고 있는 소리가 들립니다.\",\n      \"prompt_en\": \"distant bird chirping sound in a mountain forest, field recording\"\n    },\n    {\n      \"id\": \"ambient_mountain_air\",\n      \"object_en\": \"mountain air\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"산바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"고요한 산속의 차분한 바람 소리가 배경으로 깔립니다.\",\n      \"prompt_en\": \"quiet ambient sound of cool mountain air with subtle breeze, field recording\"\n    }\n  ]\n}\n"
+}

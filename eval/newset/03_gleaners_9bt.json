@@ -1,0 +1,30 @@
+{
+ "painting": "03_gleaners",
+ "seconds": 22.5,
+ "parsed": {
+  "title_guess": "이삭 줍는 여인들",
+  "sources": [
+   {
+    "id": "women_gathering_sheaves",
+    "object_en": "three women bending over and gathering wheat sheaves",
+    "x": 450,
+    "y": 600,
+    "label_ko": "이삭 줍는 소리",
+    "type": "people",
+    "description_ko": "여인들이 무릎을 꿇고 이삭을 줍는 소리가 들린다.",
+    "prompt_en": "rustling sound of wheat sheaves being gathered by hand in a field, soft and rhythmic, field recording"
+   },
+   {
+    "id": "oxen_in_distance",
+    "object_en": "oxen pulling a cart in the background",
+    "x": 350,
+    "y": 300,
+    "label_ko": "소 끄는 소리",
+    "type": "animal",
+    "description_ko": "멀리 있는 소들이 쟁기를 끄는 걸음걸이 소리가 들린다.",
+    "prompt_en": "slow creaking and hoof sounds of oxen pulling a wooden cart across a field, distant, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"이삭 줍는 여인들\",\n  \"sources\": [\n    {\n      \"id\": \"women_gathering_sheaves\",\n      \"object_en\": \"three women bending over and gathering wheat sheaves\",\n      \"x\": 450,\n      \"y\": 600,\n      \"label_ko\": \"이삭 줍는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"여인들이 무릎을 꿇고 이삭을 줍는 소리가 들린다.\",\n      \"prompt_en\": \"rustling sound of wheat sheaves being gathered by hand in a field, soft and rhythmic, field recording\"\n    },\n    {\n      \"id\": \"oxen_in_distance\",\n      \"object_en\": \"oxen pulling a cart in the background\",\n      \"x\": 350,\n      \"y\": 300,\n      \"label_ko\": \"소 끄는 소리\",\n      \"type\": \"animal\",\n      \"description_ko\": \"멀리 있는 소들이 쟁기를 끄는 걸음걸이 소리가 들린다.\",\n      \"prompt_en\": \"slow creaking and hoof sounds of oxen pulling a wooden cart across a field, distant, field recording\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,20 @@
+{
+ "hash": "c0dc15fcbae4",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 2,
+    "verdict": "silent",
+    "why": "Room tone represents silence."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}], \"unpaired\": [{\"model\": 2, \"verdict\": \"silent\", \"why\": \"Room tone represents silence.\"}]}"
+}

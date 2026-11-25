@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "24_avercamp",
+ "seconds": 44.6,
+ "peak_vram_gb": 8.81,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Winter Landscape with Skaters and Bird Catchers",
+  "sources": [
+   {
+    "id": "skaters_on_ice",
+    "object_en": "people skating on frozen canal",
+    "x": 850,
+    "y": 800,
+    "label_ko": "얼음 스케이트",
+    "type": "people",
+    "description_ko": "얼어붙은 강 위에서 스케이트를 타는 사람들의 발걸음과 빙판 소리",
+    "prompt_en": "crunching footsteps on thin ice, rhythmic scraping sounds of skates gliding, field recording"
+   },
+   {
+    "id": "bird_catcher_net",
+    "object_en": "man holding net near water",
+    "x": 350,
+    "y": 750,
+    "label_ko": "새 잡는 그물",
+    "type": "people",
+    "description_ko": "새를 잡으려는 남자가 그물을 흔드는 바람과 새들의 날개 소리",
+    "prompt_en": "rustling net fabric, flapping wings of trapped birds, quiet tension in air, field recording"
+   },
+   {
+    "id": "church_bell_tower",
+    "object_en": "church bell tower",
+    "x": 200,
+    "y": 300,
+    "label_ko": "종소리",
+    "type": "nature",
+    "description_ko": "먼 곳에서 울리는 교회 종소리, 차분하고 고요한 겨울 오후",
+    "prompt_en": "distant church bell tolling softly, echoing through cold winter air, field recording"
+   },
+   {
+    "id": "wind_in_trees",
+    "object_en": "bare winter trees",
+    "x": 100,
+    "y": 400,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "잎이 없는 나무 사이로 부는 차가운 바람의 소리와 가지 흔들림",
+    "prompt_en": "whispering wind through bare branches, creaking twigs, cold air movement, field recording"
+   },
+   {
+    "id": "fireplace_smoke",
+    "object_en": "chimney with smoke rising",
+    "x": 450,
+    "y": 500,
+    "label_ko": "불길 소리",
+    "type": "nature",
+    "description_ko": "난로에서 피어오르는 불길의 크르르거리는 소리와 연기 냄새",
+    "prompt_en": "crackling fire inside chimney, subtle hiss of smoke rising, cozy warmth contrast, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Winter Landscape with Skaters and Bird Catchers\",\n  \"sources\": [\n    {\n      \"id\": \"skaters_on_ice\",\n      \"object_en\": \"people skating on frozen canal\",\n      \"x\": 850,\n      \"y\": 800,\n      \"label_ko\": \"얼음 스케이트\",\n      \"type\": \"people\",\n      \"description_ko\": \"얼어붙은 강 위에서 스케이트를 타는 사람들의 발걸음과 빙판 소리\",\n      \"prompt_en\": \"crunching footsteps on thin ice, rhythmic scraping sounds of skates gliding, field recording\"\n    },\n    {\n      \"id\": \"bird_catcher_net\",\n      \"object_en\": \"man holding net near water\",\n      \"x\": 350,\n      \"y\": 750,\n      \"label_ko\": \"새 잡는 그물\",\n      \"type\": \"people\",\n      \"description_ko\": \"새를 잡으려는 남자가 그물을 흔드는 바람과 새들의 날개 소리\",\n      \"prompt_en\": \"rustling net fabric, flapping wings of trapped birds, quiet tension in air, field recording\"\n    },\n    {\n      \"id\": \"church_bell_tower\",\n      \"object_en\": \"church bell tower\",\n      \"x\": 200,\n      \"y\": 300,\n      \"label_ko\": \"종소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"먼 곳에서 울리는 교회 종소리, 차분하고 고요한 겨울 오후\",\n      \"prompt_en\": \"distant church bell tolling softly, echoing through cold winter air, field recording\"\n    },\n    {\n      \"id\": \"wind_in_trees\",\n      \"object_en\": \"bare winter trees\",\n      \"x\": 100,\n      \"y\": 400,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"잎이 없는 나무 사이로 부는 차가운 바람의 소리와 가지 흔들림\",\n      \"prompt_en\": \"whispering wind through bare branches, creaking twigs, cold air movement, field recording\"\n    },\n    {\n      \"id\": \"fireplace_smoke\",\n      \"object_en\": \"chimney with smoke rising\",\n      \"x\": 450,\n      \"y\": 500,\n      \"label_ko\": \"불길 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"난로에서 피어오르는 불길의 크르르거리는 소리와 연기 냄새\",\n      \"prompt_en\": \"crackling fire inside chimney, subtle hiss of smoke rising, cozy warmth contrast, field recording\"\n    }\n  ]\n}\n"
+}

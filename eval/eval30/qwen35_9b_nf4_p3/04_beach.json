@@ -1,0 +1,104 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "04_beach",
+ "seconds": 58.8,
+ "peak_vram_gb": 8.84,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 8,
+  "count_ok": false,
+  "korean_label": 8,
+  "korean_desc": 8,
+  "type_ok": 8,
+  "prompt_ok": 8,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Beach at Trouville",
+  "sources": [
+   {
+    "id": "people_talking",
+    "object_en": "group of people standing and talking",
+    "x": 250,
+    "y": 750,
+    "label_ko": "사람들 대화",
+    "type": "people",
+    "description_ko": "여러 사람이 모여서 서로 이야기를 나누는 소리가 들린다.",
+    "prompt_en": "people talking and chatting in a group, casual conversation, field recording"
+   },
+   {
+    "id": "people_walking",
+    "object_en": "woman walking on the beach",
+    "x": 140,
+    "y": 800,
+    "label_ko": "걸음걸이",
+    "type": "people",
+    "description_ko": "여자가 모래사장 위를 걸어가는 발걸음 소리가 들린다.",
+    "prompt_en": "woman walking on sand, footsteps on beach, field recording"
+   },
+   {
+    "id": "people_standing",
+    "object_en": "men standing on the beach",
+    "x": 430,
+    "y": 750,
+    "label_ko": "사람들 서기",
+    "type": "people",
+    "description_ko": "남자들이 해변에 서서 대기하는 소리가 들린다.",
+    "prompt_en": "men standing still on the beach, silence, field recording"
+   },
+   {
+    "id": "people_sitting",
+    "object_en": "people sitting on the beach",
+    "x": 620,
+    "y": 800,
+    "label_ko": "사람들 앉기",
+    "type": "people",
+    "description_ko": "사람들이 해변에 앉아 있는 소리가 들린다.",
+    "prompt_en": "people sitting on the beach, quiet atmosphere, field recording"
+   },
+   {
+    "id": "sea_waves",
+    "object_en": "sea waves",
+    "x": 200,
+    "y": 700,
+    "label_ko": "물결 소리",
+    "type": "nature",
+    "description_ko": "바다 물결이 해변으로 밀려오는 파도 소리가 들린다.",
+    "prompt_en": "ocean waves crashing on the shore, seagulls, field recording"
+   },
+   {
+    "id": "dog_running",
+    "object_en": "dog running on the beach",
+    "x": 510,
+    "y": 820,
+    "label_ko": "개 달리기",
+    "type": "animal",
+    "description_ko": "개가 모래 위를 뛰어다니는 발걸음 소리가 들린다.",
+    "prompt_en": "dog running on sand, paws on beach, field recording"
+   },
+   {
+    "id": "dog_laying",
+    "object_en": "dog lying on the beach",
+    "x": 770,
+    "y": 850,
+    "label_ko": "개 누우기",
+    "type": "animal",
+    "description_ko": "개가 해변에 누워 있는 소리가 들린다.",
+    "prompt_en": "dog lying on sand, quiet, field recording"
+   },
+   {
+    "id": "horses_standing",
+    "object_en": "horses standing",
+    "x": 850,
+    "y": 780,
+    "label_ko": "말 서기",
+    "type": "animal",
+    "description_ko": "말들이 해변에 서 있는 소리가 들린다.",
+    "prompt_en": "horses standing on the beach, hooves on sand, field recording"
+   }
+  ]
+ },
+ "raw": "```json\n{\n\"title_guess\": \"The Beach at Trouville\",\n\"sources\": [\n  {\n    \"id\": \"people_talking\",\n    \"object_en\": \"group of people standing and talking\",\n    \"x\": 250,\n    \"y\": 750,\n    \"label_ko\": \"사람들 대화\",\n    \"type\": \"people\",\n    \"description_ko\": \"여러 사람이 모여서 서로 이야기를 나누는 소리가 들린다.\",\n    \"prompt_en\": \"people talking and chatting in a group, casual conversation, field recording\"\n  },\n  {\n    \"id\": \"people_walking\",\n    \"object_en\": \"woman walking on the beach\",\n    \"x\": 140,\n    \"y\": 800,\n    \"label_ko\": \"걸음걸이\",\n    \"type\": \"people\",\n    \"description_ko\": \"여자가 모래사장 위를 걸어가는 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"woman walking on sand, footsteps on beach, field recording\"\n  },\n  {\n    \"id\": \"people_standing\",\n    \"object_en\": \"men standing on the beach\",\n    \"x\": 430,\n    \"y\": 750,\n    \"label_ko\": \"사람들 서기\",\n    \"type\": \"people\",\n    \"description_ko\": \"남자들이 해변에 서서 대기하는 소리가 들린다.\",\n    \"prompt_en\": \"men standing still on the beach, silence, field recording\"\n  },\n  {\n    \"id\": \"people_sitting\",\n    \"object_en\": \"people sitting on the beach\",\n    \"x\": 620,\n    \"y\": 800,\n    \"label_ko\": \"사람들 앉기\",\n    \"type\": \"people\",\n    \"description_ko\": \"사람들이 해변에 앉아 있는 소리가 들린다.\",\n    \"prompt_en\": \"people sitting on the beach, quiet atmosphere, field recording\"\n  },\n  {\n    \"id\": \"sea_waves\",\n    \"object_en\": \"sea waves\",\n    \"x\": 200,\n    \"y\": 700,\n    \"label_ko\": \"물결 소리\",\n    \"type\": \"nature\",\n    \"description_ko\": \"바다 물결이 해변으로 밀려오는 파도 소리가 들린다.\",\n    \"prompt_en\": \"ocean waves crashing on the shore, seagulls, field recording\"\n  },\n  {\n    \"id\": \"dog_running\",\n    \"object_en\": \"dog running on the beach\",\n    \"x\": 510,\n    \"y\": 820,\n    \"label_ko\": \"개 달리기\",\n    \"type\": \"animal\",\n    \"description_ko\": \"개가 모래 위를 뛰어다니는 발걸음 소리가 들린다.\",\n    \"prompt_en\": \"dog running on sand, paws on beach, field recording\"\n  },\n  {\n    \"id\": \"dog_laying\",\n    \"object_en\": \"dog lying on the beach\",\n    \"x\": 770,\n    \"y\": 850,\n    \"label_ko\": \"개 누우기\",\n    \"type\": \"animal\",\n    \"description_ko\": \"개가 해변에 누워 있는 소리가 들린다.\",\n    \"prompt_en\": \"dog lying on sand, quiet, field recording\"\n  },\n  {\n    \"id\": \"horses_standing\",\n    \"object_en\": \"horses standing\",\n    \"x\": 850,\n    \"y\": 780,\n    \"label_ko\": \"말 서기\",\n    \"type\": \"animal\",\n    \"description_ko\": \"말들이 해변에 서 있는 소리가 들린다.\",\n    \"prompt_en\": \"horses standing on the beach, hooves on sand, field recording\"\n  }\n]\n}\n```\n"
+}

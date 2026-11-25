@@ -1,0 +1,34 @@
+{
+ "hash": "a4c5f54ab0e4",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 3,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "plausible",
+    "why": "Bamboo is present and can snap in wind."
+   },
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Men are present and can cough."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Men are walking on a dirt path."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 3, \"answer\": 1}, {\"model\": 5, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"plausible\", \"why\": \"Bamboo is present and can snap in wind.\"}, {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Men are present and can cough.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Men are walking on a dirt path.\"}]}"
+}

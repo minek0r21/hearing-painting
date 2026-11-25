@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "21_snapwhip",
+ "seconds": 25.9,
+ "peak_vram_gb": 8.84,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Barefoot Boys",
+  "sources": [
+   {
+    "id": "boys_running",
+    "object_en": "group of barefoot boys running hand-in-hand",
+    "x": 500,
+    "y": 600,
+    "label_ko": "달리는 소년들",
+    "type": "people",
+    "description_ko": "발이 맨 소년들이 손을 잡고 달리는 소리가 들린다.",
+    "prompt_en": "barefoot boys running hand-in-hand on grass, footsteps and light laughter, field recording"
+   },
+   {
+    "id": "boy_falling",
+    "object_en": "boy falling on the grass",
+    "x": 120,
+    "y": 650,
+    "label_ko": "넘어가는 소년",
+    "type": "people",
+    "description_ko": "한 소년이 넘어지며 땅에 떨어지는 소리가 들린다.",
+    "prompt_en": "boy falling onto grass, soft thud and rustle, field recording"
+   },
+   {
+    "id": "boys_playing",
+    "object_en": "boys playing in the background",
+    "x": 80,
+    "y": 550,
+    "label_ko": "놀고 있는 소년들",
+    "type": "people",
+    "description_ko": "배경에서 다른 소년들이 놀며 웃는 소리가 들린다.",
+    "prompt_en": "children playing in distance, faint laughter and movement, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Barefoot Boys\",\n  \"sources\": [\n    {\n      \"id\": \"boys_running\",\n      \"object_en\": \"group of barefoot boys running hand-in-hand\",\n      \"x\": 500,\n      \"y\": 600,\n      \"label_ko\": \"달리는 소년들\",\n      \"type\": \"people\",\n      \"description_ko\": \"발이 맨 소년들이 손을 잡고 달리는 소리가 들린다.\",\n      \"prompt_en\": \"barefoot boys running hand-in-hand on grass, footsteps and light laughter, field recording\"\n    },\n    {\n      \"id\": \"boy_falling\",\n      \"object_en\": \"boy falling on the grass\",\n      \"x\": 120,\n      \"y\": 650,\n      \"label_ko\": \"넘어가는 소년\",\n      \"type\": \"people\",\n      \"description_ko\": \"한 소년이 넘어지며 땅에 떨어지는 소리가 들린다.\",\n      \"prompt_en\": \"boy falling onto grass, soft thud and rustle, field recording\"\n    },\n    {\n      \"id\": \"boys_playing\",\n      \"object_en\": \"boys playing in the background\",\n      \"x\": 80,\n      \"y\": 550,\n      \"label_ko\": \"놀고 있는 소년들\",\n      \"type\": \"people\",\n      \"description_ko\": \"배경에서 다른 소년들이 놀며 웃는 소리가 들린다.\",\n      \"prompt_en\": \"children playing in distance, faint laughter and movement, field recording\"\n    }\n  ]\n}\n"
+}

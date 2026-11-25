@@ -1,0 +1,54 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "30_stilllife",
+ "seconds": 25.8,
+ "peak_vram_gb": 8.77,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 3,
+  "count_ok": false,
+  "korean_label": 3,
+  "korean_desc": 3,
+  "type_ok": 3,
+  "prompt_ok": 3,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Still Life with Oysters and Wine",
+  "sources": [
+   {
+    "id": "oyster_platter_crack",
+    "object_en": "oyster platter",
+    "x": 300,
+    "y": 600,
+    "label_ko": "굴 쾅",
+    "type": "nature",
+    "description_ko": "굴이 접시에 놓이는 소리가 들린다.",
+    "prompt_en": "crackling sound of oysters being placed on a metal platter, field recording"
+   },
+   {
+    "id": "wine_glass_clink",
+    "object_en": "wine glass",
+    "x": 570,
+    "y": 350,
+    "label_ko": "잔 부딪치기",
+    "type": "people",
+    "description_ko": "술잔이 테이블 위에 살짝 부딪히는 소리가 나다.",
+    "prompt_en": "soft clink of a wine glass being set down on a table, field recording"
+   },
+   {
+    "id": "lemon_peel_squeeze",
+    "object_en": "lemon peel",
+    "x": 880,
+    "y": 650,
+    "label_ko": "레몬 짜기",
+    "type": "people",
+    "description_ko": "레몬 껍질을 짜는 소리가 들린다.",
+    "prompt_en": "squeezing sound of a lemon peel, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Still Life with Oysters and Wine\",\n  \"sources\": [\n    {\n      \"id\": \"oyster_platter_crack\",\n      \"object_en\": \"oyster platter\",\n      \"x\": 300,\n      \"y\": 600,\n      \"label_ko\": \"굴 쾅\",\n      \"type\": \"nature\",\n      \"description_ko\": \"굴이 접시에 놓이는 소리가 들린다.\",\n      \"prompt_en\": \"crackling sound of oysters being placed on a metal platter, field recording\"\n    },\n    {\n      \"id\": \"wine_glass_clink\",\n      \"object_en\": \"wine glass\",\n      \"x\": 570,\n      \"y\": 350,\n      \"label_ko\": \"잔 부딪치기\",\n      \"type\": \"people\",\n      \"description_ko\": \"술잔이 테이블 위에 살짝 부딪히는 소리가 나다.\",\n      \"prompt_en\": \"soft clink of a wine glass being set down on a table, field recording\"\n    },\n    {\n      \"id\": \"lemon_peel_squeeze\",\n      \"object_en\": \"lemon peel\",\n      \"x\": 880,\n      \"y\": 650,\n      \"label_ko\": \"레몬 짜기\",\n      \"type\": \"people\",\n      \"description_ko\": \"레몬 껍질을 짜는 소리가 들린다.\",\n      \"prompt_en\": \"squeezing sound of a lemon peel, field recording\"\n    }\n  ]\n}\n"
+}

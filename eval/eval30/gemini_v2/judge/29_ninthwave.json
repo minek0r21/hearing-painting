@@ -1,0 +1,28 @@
+{
+ "hash": "899dfeb71f31",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 4
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Floating wooden mast is visible in rough sea and can creak and slap against waves."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 4}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Floating wooden mast is visible in rough sea and can creak and slap against waves.\"}]}"
+}

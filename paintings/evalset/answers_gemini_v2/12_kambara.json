@@ -1,0 +1,63 @@
+{
+ "model": "gemini-4-neon",
+ "file": "12_kambara.jpg",
+ "seconds": 26.1,
+ "parsed": {
+  "title_guess": "Kambara: Night Snow (from The Fifty-three Stations of the Tōkaidō) by Utagawa Hiroshige",
+  "sources": [
+   {
+    "label_ko": "눈 밟는 발소리",
+    "sound_en": "footsteps crunching in deep snow",
+    "ground_phrase_en": "travelers walking in the snow",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      395,
+      745
+     ],
+     [
+      712,
+      725
+     ],
+     [
+      755,
+      685
+     ]
+    ]
+   },
+   {
+    "label_ko": "겨울 밤바람 소리",
+    "sound_en": "soft cold winter night wind",
+    "ground_phrase_en": "snowy winter night landscape",
+    "source_type": "ambient",
+    "grade": "allowed",
+    "points": []
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Kambara: Night Snow (from The Fifty-three Stations of the Tōkaidō) by Utagawa Hiroshige\",\n  \"sources\": [\n    {\n      \"label_ko\": \"눈 밟는 발소리\",\n      \"sound_en\": \"footsteps crunching in deep snow\",\n      \"ground_phrase_en\": \"travelers walking in the snow\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [395, 745],\n        [712, 725],\n        [755, 685]\n      ]\n    },\n    {\n      \"label_ko\": \"겨울 밤바람 소리\",\n      \"sound_en\": \"soft cold winter night wind\",\n      \"ground_phrase_en\": \"snowy winter night landscape\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"allowed\",\n      \"points\": []\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 241,
+  "totalTokenCount": 4278,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 241
+   }
+  ],
+  "thoughtsTokenCount": 2222,
+  "serviceTier": "standard"
+ }
+}

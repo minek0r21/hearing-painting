@@ -1,0 +1,89 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "09_danopungjeong",
+ "seconds": 52.3,
+ "peak_vram_gb": 8.67,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 6,
+  "count_ok": true,
+  "korean_label": 6,
+  "korean_desc": 6,
+  "type_ok": 6,
+  "prompt_ok": 6,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Hwangdo",
+  "sources": [
+   {
+    "id": "swinging_girl",
+    "object_en": "girl on swing",
+    "x": 630,
+    "y": 280,
+    "label_ko": "진자",
+    "type": "people",
+    "description_ko": "진자에 매달린 소녀가 흔들리며 웃고 있다.",
+    "prompt_en": "soft rhythmic creaking of wooden swing with gentle whoosh of fabric, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "climbing_boys",
+    "object_en": "two boys peeking from rock",
+    "x": 160,
+    "y": 240,
+    "label_ko": "바위",
+    "type": "people",
+    "description_ko": "바위 위에 숨어 있는 두 소년이 조용히 웃고 있다.",
+    "prompt_en": "soft giggles and hushed whispers from behind rock, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "stream_babbling",
+    "object_en": "stream",
+    "x": 300,
+    "y": 800,
+    "label_ko": "물소리",
+    "type": "nature",
+    "description_ko": "작은 강물이 흐르는 소리가 들린다.",
+    "prompt_en": "gentle babbling of shallow stream over stones, field recording",
+    "volume": 0.6
+   },
+   {
+    "id": "bathing_women",
+    "object_en": "women bathing in stream",
+    "x": 320,
+    "y": 850,
+    "label_ko": "물놀이",
+    "type": "people",
+    "description_ko": "물에 들어간 여자들이 물에 젖은 옷을 털며 웃는다.",
+    "prompt_en": "soft splashing and laughter of women bathing in stream, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "walking_woman",
+    "object_en": "woman walking with basket",
+    "x": 880,
+    "y": 600,
+    "label_ko": "보통",
+    "type": "people",
+    "description_ko": "바구니를 들고 걷는 여자의 발걸음 소리가 들린다.",
+    "prompt_en": "light footsteps on grassy path, soft rustle of skirt, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "trees",
+    "x": 450,
+    "y": 100,
+    "label_ko": "바람",
+    "type": "nature",
+    "description_ko": "나무 사이로 불어오는 바람 소리가 들린다.",
+    "prompt_en": "gentle rustling of leaves in breeze, field recording",
+    "volume": 0.4
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Hwangdo\",\n  \"sources\": [\n    {\n      \"id\": \"swinging_girl\",\n      \"object_en\": \"girl on swing\",\n      \"x\": 630,\n      \"y\": 280,\n      \"label_ko\": \"진자\",\n      \"type\": \"people\",\n      \"description_ko\": \"진자에 매달린 소녀가 흔들리며 웃고 있다.\",\n      \"prompt_en\": \"soft rhythmic creaking of wooden swing with gentle whoosh of fabric, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"climbing_boys\",\n      \"object_en\": \"two boys peeking from rock\",\n      \"x\": 160,\n      \"y\": 240,\n      \"label_ko\": \"바위\",\n      \"type\": \"people\",\n      \"description_ko\": \"바위 위에 숨어 있는 두 소년이 조용히 웃고 있다.\",\n      \"prompt_en\": \"soft giggles and hushed whispers from behind rock, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"stream_babbling\",\n      \"object_en\": \"stream\",\n      \"x\": 300,\n      \"y\": 800,\n      \"label_ko\": \"물소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"작은 강물이 흐르는 소리가 들린다.\",\n      \"prompt_en\": \"gentle babbling of shallow stream over stones, field recording\",\n      \"volume\": 0.6\n    },\n    {\n      \"id\": \"bathing_women\",\n      \"object_en\": \"women bathing in stream\",\n      \"x\": 320,\n      \"y\": 850,\n      \"label_ko\": \"물놀이\",\n      \"type\": \"people\",\n      \"description_ko\": \"물에 들어간 여자들이 물에 젖은 옷을 털며 웃는다.\",\n      \"prompt_en\": \"soft splashing and laughter of women bathing in stream, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"walking_woman\",\n      \"object_en\": \"woman walking with basket\",\n      \"x\": 880,\n      \"y\": 600,\n      \"label_ko\": \"보통\",\n      \"type\": \"people\",\n      \"description_ko\": \"바구니를 들고 걷는 여자의 발걸음 소리가 들린다.\",\n      \"prompt_en\": \"light footsteps on grassy path, soft rustle of skirt, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"trees\",\n      \"x\": 450,\n      \"y\": 100,\n      \"label_ko\": \"바람\",\n      \"type\": \"nature\",\n      \"description_ko\": \"나무 사이로 불어오는 바람 소리가 들린다.\",\n      \"prompt_en\": \"gentle rustling of leaves in breeze, field recording\",\n      \"volume\": 0.4\n    }\n  ]\n}\n"
+}

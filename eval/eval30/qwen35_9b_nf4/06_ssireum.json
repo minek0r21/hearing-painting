@@ -1,0 +1,78 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "painting": "06_ssireum",
+ "seconds": 49.4,
+ "peak_vram_gb": 8.71,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "The Game of Go",
+  "sources": [
+   {
+    "id": "go_board_sound",
+    "object_en": "Go board",
+    "x": 190,
+    "y": 350,
+    "label_ko": "바둑판 소리",
+    "type": "music",
+    "description_ko": "바둑돌이 판에 떨어지는 소리가 들립니다.",
+    "prompt_en": "wooden board clacking sound as stones are placed, field recording",
+    "volume": 0.7
+   },
+   {
+    "id": "fan_flap_sound",
+    "object_en": "Fan",
+    "x": 260,
+    "y": 130,
+    "label_ko": "부채 소리",
+    "type": "nature",
+    "description_ko": "부채를 펴고 접는 소리가 나옵니다.",
+    "prompt_en": "paper fan unfolding and folding sound, field recording",
+    "volume": 0.5
+   },
+   {
+    "id": "man_fighting_sound",
+    "object_en": "Two men wrestling",
+    "x": 550,
+    "y": 500,
+    "label_ko": "싸우는 소리",
+    "type": "people",
+    "description_ko": "두 남자가 싸우며 옷소매가 찢어지는 소리가 납니다.",
+    "prompt_en": "fabric tearing and body collision sounds during fight, field recording",
+    "volume": 0.9
+   },
+   {
+    "id": "man_falling_sound",
+    "object_en": "Man falling",
+    "x": 850,
+    "y": 850,
+    "label_ko": "넘어가는 소리",
+    "type": "people",
+    "description_ko": "남자가 넘어지며 옷이 찢어지는 소리가 납니다.",
+    "prompt_en": "cloth tearing and body hitting ground sound, field recording",
+    "volume": 0.8
+   },
+   {
+    "id": "crowd_murmur_sound",
+    "object_en": "Crowd of people",
+    "x": 500,
+    "y": 200,
+    "label_ko": "사람들 소란",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 떠드는 소리가 들립니다.",
+    "prompt_en": "crowd murmuring and laughing sounds, field recording",
+    "volume": 0.6
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"The Game of Go\",\n  \"sources\": [\n    {\n      \"id\": \"go_board_sound\",\n      \"object_en\": \"Go board\",\n      \"x\": 190,\n      \"y\": 350,\n      \"label_ko\": \"바둑판 소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"바둑돌이 판에 떨어지는 소리가 들립니다.\",\n      \"prompt_en\": \"wooden board clacking sound as stones are placed, field recording\",\n      \"volume\": 0.7\n    },\n    {\n      \"id\": \"fan_flap_sound\",\n      \"object_en\": \"Fan\",\n      \"x\": 260,\n      \"y\": 130,\n      \"label_ko\": \"부채 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"부채를 펴고 접는 소리가 나옵니다.\",\n      \"prompt_en\": \"paper fan unfolding and folding sound, field recording\",\n      \"volume\": 0.5\n    },\n    {\n      \"id\": \"man_fighting_sound\",\n      \"object_en\": \"Two men wrestling\",\n      \"x\": 550,\n      \"y\": 500,\n      \"label_ko\": \"싸우는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"두 남자가 싸우며 옷소매가 찢어지는 소리가 납니다.\",\n      \"prompt_en\": \"fabric tearing and body collision sounds during fight, field recording\",\n      \"volume\": 0.9\n    },\n    {\n      \"id\": \"man_falling_sound\",\n      \"object_en\": \"Man falling\",\n      \"x\": 850,\n      \"y\": 850,\n      \"label_ko\": \"넘어가는 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"남자가 넘어지며 옷이 찢어지는 소리가 납니다.\",\n      \"prompt_en\": \"cloth tearing and body hitting ground sound, field recording\",\n      \"volume\": 0.8\n    },\n    {\n      \"id\": \"crowd_murmur_sound\",\n      \"object_en\": \"Crowd of people\",\n      \"x\": 500,\n      \"y\": 200,\n      \"label_ko\": \"사람들 소란\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 떠드는 소리가 들립니다.\",\n      \"prompt_en\": \"crowd murmuring and laughing sounds, field recording\",\n      \"volume\": 0.6\n    }\n  ]\n}\n"
+}

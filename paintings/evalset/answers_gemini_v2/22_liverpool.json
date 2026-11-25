@@ -1,0 +1,109 @@
+{
+ "model": "gemini-4-neon",
+ "file": "22_liverpool.jpg",
+ "seconds": 27.6,
+ "parsed": {
+  "title_guess": "Shipping on the Clyde (John Atkinson Grimshaw)",
+  "sources": [
+   {
+    "label_ko": "젖은 자갈길 위 마차 바퀴와 말발굽 소리",
+    "sound_en": "horse-drawn carriages clattering and hooves splashing on wet cobblestones",
+    "ground_phrase_en": "horse-drawn omnibus and carriage on the street",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      475,
+      755
+     ],
+     [
+      409,
+      762
+     ]
+    ]
+   },
+   {
+    "label_ko": "젖은 보도 위 보행자 발걸음과 웅성거림",
+    "sound_en": "pedestrian footsteps on wet pavement and muffled street chatter",
+    "ground_phrase_en": "pedestrians walking along the sidewalks",
+    "source_type": "clustered",
+    "grade": "required",
+    "points": [
+     [
+      180,
+      810
+     ],
+     [
+      660,
+      815
+     ],
+     [
+      735,
+      825
+     ],
+     [
+      808,
+      822
+     ],
+     [
+      902,
+      830
+     ]
+    ]
+   },
+   {
+    "label_ko": "보슬비 내리는 소리",
+    "sound_en": "light rain falling on wet cobblestones and roofs",
+    "ground_phrase_en": "rainy misty night sky and glistening wet street",
+    "source_type": "ambient",
+    "grade": "required",
+    "points": []
+   },
+   {
+    "label_ko": "정박한 범선의 삐걱거림과 항구 물결 소리",
+    "sound_en": "creaking ship rigging and harbor water lapping against moored hulls",
+    "ground_phrase_en": "masts of sailing ships moored at the docks",
+    "source_type": "clustered",
+    "grade": "allowed",
+    "points": [
+     [
+      45,
+      520
+     ],
+     [
+      195,
+      570
+     ],
+     [
+      305,
+      610
+     ]
+    ]
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Shipping on the Clyde (John Atkinson Grimshaw)\",\n  \"sources\": [\n    {\n      \"label_ko\": \"젖은 자갈길 위 마차 바퀴와 말발굽 소리\",\n      \"sound_en\": \"horse-drawn carriages clattering and hooves splashing on wet cobblestones\",\n      \"ground_phrase_en\": \"horse-drawn omnibus and carriage on the street\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [475, 755],\n        [409, 762]\n      ]\n    },\n    {\n      \"label_ko\": \"젖은 보도 위 보행자 발걸음과 웅성거림\",\n      \"sound_en\": \"pedestrian footsteps on wet pavement and muffled street chatter\",\n      \"ground_phrase_en\": \"pedestrians walking along the sidewalks\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"required\",\n      \"points\": [\n        [180, 810],\n        [660, 815],\n        [735, 825],\n        [808, 822],\n        [902, 830]\n      ]\n    },\n    {\n      \"label_ko\": \"보슬비 내리는 소리\",\n      \"sound_en\": \"light rain falling on wet cobblestones and roofs\",\n      \"ground_phrase_en\": \"rainy misty night sky and glistening wet street\",\n      \"source_type\": \"ambient\",\n      \"grade\": \"required\",\n      \"points\": []\n    },\n    {\n      \"label_ko\": \"정박한 범선의 삐걱거림과 항구 물결 소리\",\n      \"sound_en\": \"creaking ship rigging and harbor water lapping against moored hulls\",\n      \"ground_phrase_en\": \"masts of sailing ships moored at the docks\",\n      \"source_type\": \"clustered\",\n      \"grade\": \"allowed\",\n      \"points\": [\n        [45, 520],\n        [195, 570],\n        [305, 610]\n      ]\n    }\n  ]\n}",
+ "usage": {
+  "promptTokenCount": 1815,
+  "candidatesTokenCount": 527,
+  "totalTokenCount": 4494,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 735
+   },
+   {
+    "modality": "IMAGE",
+    "tokenCount": 1080
+   }
+  ],
+  "candidatesTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 527
+   }
+  ],
+  "thoughtsTokenCount": 2152,
+  "serviceTier": "standard"
+ }
+}

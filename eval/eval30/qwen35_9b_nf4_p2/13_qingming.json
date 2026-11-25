@@ -1,0 +1,74 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v2",
+ "painting": "13_qingming",
+ "seconds": 43.3,
+ "peak_vram_gb": 8.61,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 5,
+  "count_ok": true,
+  "korean_label": 5,
+  "korean_desc": 5,
+  "type_ok": 5,
+  "prompt_ok": 5,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Along the River During the Qingming Festival",
+  "sources": [
+   {
+    "id": "crowd_murmur",
+    "object_en": "crowd of people walking and gathering",
+    "x": 500,
+    "y": 400,
+    "label_ko": "사람 소음",
+    "type": "people",
+    "description_ko": "많은 사람들이 모여서 걸어다니며 대화하는 소리가 난다.",
+    "prompt_en": "dense crowd murmuring and walking in a bustling ancient Chinese market scene, field recording"
+   },
+   {
+    "id": "boat_movement",
+    "object_en": "boats on the river",
+    "x": 750,
+    "y": 300,
+    "label_ko": "배 소리",
+    "type": "vehicle",
+    "description_ko": "강 위를 떠다니는 배들이 물결을 가르며 움직이는 소리가 들린다.",
+    "prompt_en": "wooden boats gently moving on calm river water with oars dipping, field recording"
+   },
+   {
+    "id": "bridge_traffic",
+    "object_en": "people crossing the arched bridge",
+    "x": 600,
+    "y": 250,
+    "label_ko": "다리 사람 소리",
+    "type": "people",
+    "description_ko": "아치형 다리를 건너는 사람들이 발걸음 소리와 옷자락 바람 소리를 낸다.",
+    "prompt_en": "many people walking across a curved stone bridge in an ancient city, footsteps and rustling clothes, field recording"
+   },
+   {
+    "id": "market_activity",
+    "object_en": "stalls and vendors in the foreground",
+    "x": 200,
+    "y": 700,
+    "label_ko": "시장 소리",
+    "type": "people",
+    "description_ko": "시장에서 장사치들이 물건을 팔고 손님이 사며 소란스러운 대화와 물건 다루는 소리가 난다.",
+    "prompt_en": "bustling market stalls with vendors shouting and handling goods, customers buying, field recording"
+   },
+   {
+    "id": "wind_through_trees",
+    "object_en": "bare trees on the right",
+    "x": 950,
+    "y": 500,
+    "label_ko": "바람 소리",
+    "type": "nature",
+    "description_ko": "가을 바람이 나뭇가지 사이를 스치며 살랑거리는 소리가 들린다.",
+    "prompt_en": "gentle wind rustling through bare autumn tree branches, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Along the River During the Qingming Festival\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_murmur\",\n      \"object_en\": \"crowd of people walking and gathering\",\n      \"x\": 500,\n      \"y\": 400,\n      \"label_ko\": \"사람 소음\",\n      \"type\": \"people\",\n      \"description_ko\": \"많은 사람들이 모여서 걸어다니며 대화하는 소리가 난다.\",\n      \"prompt_en\": \"dense crowd murmuring and walking in a bustling ancient Chinese market scene, field recording\"\n    },\n    {\n      \"id\": \"boat_movement\",\n      \"object_en\": \"boats on the river\",\n      \"x\": 750,\n      \"y\": 300,\n      \"label_ko\": \"배 소리\",\n      \"type\": \"vehicle\",\n      \"description_ko\": \"강 위를 떠다니는 배들이 물결을 가르며 움직이는 소리가 들린다.\",\n      \"prompt_en\": \"wooden boats gently moving on calm river water with oars dipping, field recording\"\n    },\n    {\n      \"id\": \"bridge_traffic\",\n      \"object_en\": \"people crossing the arched bridge\",\n      \"x\": 600,\n      \"y\": 250,\n      \"label_ko\": \"다리 사람 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"아치형 다리를 건너는 사람들이 발걸음 소리와 옷자락 바람 소리를 낸다.\",\n      \"prompt_en\": \"many people walking across a curved stone bridge in an ancient city, footsteps and rustling clothes, field recording\"\n    },\n    {\n      \"id\": \"market_activity\",\n      \"object_en\": \"stalls and vendors in the foreground\",\n      \"x\": 200,\n      \"y\": 700,\n      \"label_ko\": \"시장 소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"시장에서 장사치들이 물건을 팔고 손님이 사며 소란스러운 대화와 물건 다루는 소리가 난다.\",\n      \"prompt_en\": \"bustling market stalls with vendors shouting and handling goods, customers buying, field recording\"\n    },\n    {\n      \"id\": \"wind_through_trees\",\n      \"object_en\": \"bare trees on the right\",\n      \"x\": 950,\n      \"y\": 500,\n      \"label_ko\": \"바람 소리\",\n      \"type\": \"nature\",\n      \"description_ko\": \"가을 바람이 나뭇가지 사이를 스치며 살랑거리는 소리가 들린다.\",\n      \"prompt_en\": \"gentle wind rustling through bare autumn tree branches, field recording\"\n    }\n  ]\n}\n"
+}

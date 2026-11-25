@@ -1,0 +1,24 @@
+{
+ "hash": "893a1bec416c",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Rowers are visible in the boats and could shout; A3 is already paired."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Rowers are visible in the boats and could shout; A3 is already paired.\"}]}"
+}

@@ -1,0 +1,33 @@
+{
+ "hash": "d5c65e4b9429",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 3
+   },
+   {
+    "model": 5,
+    "answer": 4
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 3,
+    "verdict": "plausible",
+    "why": "Duplicate of visible boat creaking."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Duplicate of visible boat creaking."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 3}, {\"model\": 5, \"answer\": 4}], \"unpaired\": [{\"model\": 3, \"verdict\": \"plausible\", \"why\": \"Duplicate of visible boat creaking.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Duplicate of visible boat creaking.\"}]}"
+}

@@ -1,0 +1,64 @@
+{
+ "model": "Qwen/Qwen3.5-9B",
+ "prompt": "v3",
+ "painting": "23_tuileries",
+ "seconds": 35.6,
+ "peak_vram_gb": 8.86,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4,
+  "count_ok": true,
+  "korean_label": 4,
+  "korean_desc": 4,
+  "type_ok": 4,
+  "prompt_ok": 4,
+  "bad_position": 0
+ },
+ "parsed": {
+  "title_guess": "Le Déjeuner sur l'herbe",
+  "sources": [
+   {
+    "id": "crowd_talking",
+    "object_en": "group of people in the park",
+    "x": 500,
+    "y": 500,
+    "label_ko": "사람들 대화",
+    "type": "people",
+    "description_ko": "공원에 모인 많은 사람들이 서로 이야기하고 웃는 소리가 난다.",
+    "prompt_en": "soft murmuring voices of a large crowd of people talking and laughing in a park, field recording"
+   },
+   {
+    "id": "children_playing",
+    "object_en": "two small children in the foreground",
+    "x": 480,
+    "y": 850,
+    "label_ko": "아이들 놀음",
+    "type": "people",
+    "description_ko": "앞쪽에서 두 아이가 서로 놀고 웃는 소리가 들린다.",
+    "prompt_en": "light giggles and playful movements of two small children playing together on grass, field recording"
+   },
+   {
+    "id": "man_standing",
+    "object_en": "man in top hat standing near center",
+    "x": 620,
+    "y": 500,
+    "label_ko": "남자 서다",
+    "type": "people",
+    "description_ko": "중간에 서 있는 남자의 발걸음과 옷자락 소리가 약간 들린다.",
+    "prompt_en": "soft footsteps and rustling of clothing from a man standing still in a park, field recording"
+   },
+   {
+    "id": "women_sitting",
+    "object_en": "two women seated in yellow dresses",
+    "x": 280,
+    "y": 700,
+    "label_ko": "여자 앉아",
+    "type": "people",
+    "description_ko": "좌측에 앉아 있는 두 여자의 옷자락과扇子 소리가 매우 작게 들린다.",
+    "prompt_en": "very faint rustling of fabric and fan from two women sitting quietly in a park, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Le Déjeuner sur l'herbe\",\n  \"sources\": [\n    {\n      \"id\": \"crowd_talking\",\n      \"object_en\": \"group of people in the park\",\n      \"x\": 500,\n      \"y\": 500,\n      \"label_ko\": \"사람들 대화\",\n      \"type\": \"people\",\n      \"description_ko\": \"공원에 모인 많은 사람들이 서로 이야기하고 웃는 소리가 난다.\",\n      \"prompt_en\": \"soft murmuring voices of a large crowd of people talking and laughing in a park, field recording\"\n    },\n    {\n      \"id\": \"children_playing\",\n      \"object_en\": \"two small children in the foreground\",\n      \"x\": 480,\n      \"y\": 850,\n      \"label_ko\": \"아이들 놀음\",\n      \"type\": \"people\",\n      \"description_ko\": \"앞쪽에서 두 아이가 서로 놀고 웃는 소리가 들린다.\",\n      \"prompt_en\": \"light giggles and playful movements of two small children playing together on grass, field recording\"\n    },\n    {\n      \"id\": \"man_standing\",\n      \"object_en\": \"man in top hat standing near center\",\n      \"x\": 620,\n      \"y\": 500,\n      \"label_ko\": \"남자 서다\",\n      \"type\": \"people\",\n      \"description_ko\": \"중간에 서 있는 남자의 발걸음과 옷자락 소리가 약간 들린다.\",\n      \"prompt_en\": \"soft footsteps and rustling of clothing from a man standing still in a park, field recording\"\n    },\n    {\n      \"id\": \"women_sitting\",\n      \"object_en\": \"two women seated in yellow dresses\",\n      \"x\": 280,\n      \"y\": 700,\n      \"label_ko\": \"여자 앉아\",\n      \"type\": \"people\",\n      \"description_ko\": \"좌측에 앉아 있는 두 여자의 옷자락과扇子 소리가 매우 작게 들린다.\",\n      \"prompt_en\": \"very faint rustling of fabric and fan from two women sitting quietly in a park, field recording\"\n    }\n  ]\n}\n"
+}

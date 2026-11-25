@@ -1,0 +1,34 @@
+{
+ "hash": "08b8d4201e00",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 3,
+    "answer": 1
+   },
+   {
+    "model": 5,
+    "answer": 2
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 1,
+    "verdict": "not_visible",
+    "why": "No Go board or stones appear in the painting."
+   },
+   {
+    "model": 2,
+    "verdict": "plausible",
+    "why": "Man carrying a tray is visible and could make footsteps."
+   },
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Man leaning back at bottom right could make this sound."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 3, \"answer\": 1}, {\"model\": 5, \"answer\": 2}], \"unpaired\": [{\"model\": 1, \"verdict\": \"not_visible\", \"why\": \"No Go board or stones appear in the painting.\"}, {\"model\": 2, \"verdict\": \"plausible\", \"why\": \"Man carrying a tray is visible and could make footsteps.\"}, {\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Man leaning back at bottom right could make this sound.\"}]}"
+}

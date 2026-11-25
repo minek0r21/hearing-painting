@@ -1,0 +1,60 @@
+{
+ "painting": "02_liberty",
+ "seconds": 43.4,
+ "parsed": {
+  "title_guess": "Liberty Leading the People",
+  "sources": [
+   {
+    "id": "revolutionary_crowd_shouting",
+    "object_en": "group of revolutionaries shouting and marching",
+    "x": 250,
+    "y": 400,
+    "label_ko": "혁명의 외침",
+    "type": "people",
+    "description_ko": "혁명을 외치는 군중들의 목소리가 울려 퍼진다.",
+    "prompt_en": "a loud, passionate crowd of revolutionaries shouting and marching forward in a chaotic battle scene, field recording"
+   },
+   {
+    "id": "musket_fire_crack",
+    "object_en": "man firing a musket",
+    "x": 750,
+    "y": 350,
+    "label_ko": "총소리",
+    "type": "people",
+    "description_ko": "무장한 남자가 총을 쏘는 순간의 폭발적인 소리가 들린다.",
+    "prompt_en": "a loud musket shot crack echoing in a battlefield, field recording"
+   },
+   {
+    "id": "gunshot_thud",
+    "object_en": "dead bodies lying on ground",
+    "x": 300,
+    "y": 800,
+    "label_ko": "무거운 숨소리",
+    "type": "people",
+    "description_ko": "바닥에 쓰러진 시체들의 무거운 숨소리와 고요함이 느껴진다.",
+    "prompt_en": "heavy, labored breathing of fallen soldiers lying motionless on cobblestones, field recording"
+   },
+   {
+    "id": "drum_beat",
+    "object_en": "drum being played by a figure in background",
+    "x": 150,
+    "y": 300,
+    "label_ko": "북소리",
+    "type": "music",
+    "description_ko": "배경에서 북을 치는 소리가 리듬감 있게 울린다.",
+    "prompt_en": "a deep, rhythmic drumbeat being played by a figure in the background of a revolutionary scene, field recording"
+   },
+   {
+    "id": "wind_and_smoke",
+    "object_en": "smoke and clouds in sky",
+    "x": 500,
+    "y": 100,
+    "label_ko": "바람과 연기",
+    "type": "nature",
+    "description_ko": "폭풍우 같은 바람과 전쟁의 연기가 하늘을 가득 채운다.",
+    "prompt_en": "howling wind and thick smoke swirling across a stormy sky during a revolution, field recording"
+   }
+  ]
+ },
+ "raw": "{\n  \"title_guess\": \"Liberty Leading the People\",\n  \"sources\": [\n    {\n      \"id\": \"revolutionary_crowd_shouting\",\n      \"object_en\": \"group of revolutionaries shouting and marching\",\n      \"x\": 250,\n      \"y\": 400,\n      \"label_ko\": \"혁명의 외침\",\n      \"type\": \"people\",\n      \"description_ko\": \"혁명을 외치는 군중들의 목소리가 울려 퍼진다.\",\n      \"prompt_en\": \"a loud, passionate crowd of revolutionaries shouting and marching forward in a chaotic battle scene, field recording\"\n    },\n    {\n      \"id\": \"musket_fire_crack\",\n      \"object_en\": \"man firing a musket\",\n      \"x\": 750,\n      \"y\": 350,\n      \"label_ko\": \"총소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"무장한 남자가 총을 쏘는 순간의 폭발적인 소리가 들린다.\",\n      \"prompt_en\": \"a loud musket shot crack echoing in a battlefield, field recording\"\n    },\n    {\n      \"id\": \"gunshot_thud\",\n      \"object_en\": \"dead bodies lying on ground\",\n      \"x\": 300,\n      \"y\": 800,\n      \"label_ko\": \"무거운 숨소리\",\n      \"type\": \"people\",\n      \"description_ko\": \"바닥에 쓰러진 시체들의 무거운 숨소리와 고요함이 느껴진다.\",\n      \"prompt_en\": \"heavy, labored breathing of fallen soldiers lying motionless on cobblestones, field recording\"\n    },\n    {\n      \"id\": \"drum_beat\",\n      \"object_en\": \"drum being played by a figure in background\",\n      \"x\": 150,\n      \"y\": 300,\n      \"label_ko\": \"북소리\",\n      \"type\": \"music\",\n      \"description_ko\": \"배경에서 북을 치는 소리가 리듬감 있게 울린다.\",\n      \"prompt_en\": \"a deep, rhythmic drumbeat being played by a figure in the background of a revolutionary scene, field recording\"\n    },\n    {\n      \"id\": \"wind_and_smoke\",\n      \"object_en\": \"smoke and clouds in sky\",\n      \"x\": 500,\n      \"y\": 100,\n      \"label_ko\": \"바람과 연기\",\n      \"type\": \"nature\",\n      \"description_ko\": \"폭풍우 같은 바람과 전쟁의 연기가 하늘을 가득 채운다.\",\n      \"prompt_en\": \"howling wind and thick smoke swirling across a stormy sky during a revolution, field recording\"\n    }\n  ]\n}\n"
+}

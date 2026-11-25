@@ -1,0 +1,33 @@
+{
+ "hash": "73b975acba37",
+ "model": "gemini-4-neon",
+ "parsed": {
+  "pairs": [
+   {
+    "model": 1,
+    "answer": 1
+   },
+   {
+    "model": 2,
+    "answer": 4
+   },
+   {
+    "model": 3,
+    "answer": 3
+   }
+  ],
+  "unpaired": [
+   {
+    "model": 4,
+    "verdict": "plausible",
+    "why": "Visible men walking on sand can make crunching sounds."
+   },
+   {
+    "model": 5,
+    "verdict": "plausible",
+    "why": "Visible tired men can breathe heavily and murmur."
+   }
+  ]
+ },
+ "raw": "{\"pairs\": [{\"model\": 1, \"answer\": 1}, {\"model\": 2, \"answer\": 4}, {\"model\": 3, \"answer\": 3}], \"unpaired\": [{\"model\": 4, \"verdict\": \"plausible\", \"why\": \"Visible men walking on sand can make crunching sounds.\"}, {\"model\": 5, \"verdict\": \"plausible\", \"why\": \"Visible tired men can breathe heavily and murmur.\"}]}"
+}

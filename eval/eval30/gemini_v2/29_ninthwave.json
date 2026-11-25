@@ -1,0 +1,41 @@
+{
+ "model": "gemini-4-neon (정답지 v2를 모델 출력처럼)",
+ "prompt": "answers_gemini_v2",
+ "painting": "29_ninthwave",
+ "seconds": 24.4,
+ "peak_vram_gb": 0,
+ "error": null,
+ "checks": {
+  "json_ok": true,
+  "n_sources": 4
+ },
+ "parsed": {
+  "sources": [
+   {
+    "label_ko": "거센 파도가 몰아치고 부서지는 소리",
+    "prompt_en": "roaring ocean waves crashing",
+    "object_en": "stormy ocean waves"
+   },
+   {
+    "label_ko": "휘몰아치는 폭풍 바람 소리",
+    "prompt_en": "howling storm wind over the sea",
+    "object_en": "wind-swept sea spray and stormy sky"
+   },
+   {
+    "label_ko": "조난자들의 외침 소리",
+    "prompt_en": "shipwreck survivors shouting and calling out",
+    "object_en": "group of shipwreck survivors",
+    "x": 425,
+    "y": 850
+   },
+   {
+    "label_ko": "부서진 돛대가 물결에 부딪히며 삐걱거리는 소리",
+    "prompt_en": "broken wooden mast creaking and slapping against the waves",
+    "object_en": "floating wooden ship mast wreckage",
+    "x": 385,
+    "y": 910
+   }
+  ]
+ },
+ "raw": ""
+}
